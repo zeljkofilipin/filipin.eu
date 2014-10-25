@@ -4,8 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+![Željko Filipin]({{ site.url }}/{{ site.baseurl }}/assets/zeljko_240_240.jpg)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Željko is pronounced similar to zhel-ko or jell-ko, in case your Croatian is a bit rusty.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+_All Work and No Play – Current_
+
+**Filipin.eu** (Croatia)  
+Founder  
+June 2012 – Present
+
+**Wikimedia Foundation** (United States of America)  
+Software Tester, Browser Automation Specialist  
+October 2012 – Present

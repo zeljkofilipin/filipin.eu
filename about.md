@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Željko Filipin]({{ site.url }}/{{ site.baseurl }}/assets/zeljko_240_240.jpg)
+![Željko Filipin](/assets/zeljko_240_240.jpg)
 
 Željko is pronounced similar to zhel-ko or jell-ko, in case your Croatian is a bit rusty.
 

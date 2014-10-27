@@ -3,8 +3,8 @@ title: Filipin dot eu
 email: zeljko.filipin@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Željko Filipin's blog.
-baseurl: "/filipin" # the subpath of your site, e.g. /blog/
-url: "http://zeljkofilipin.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://filipin.eu/" # the base hostname & protocol for your site
 twitter_username: zeljkofilipin
 github_username:  zeljkofilipin
 

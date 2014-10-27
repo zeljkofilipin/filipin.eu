@@ -3,7 +3,7 @@ layout: post
 title:  "Reload"
 date:   2014-10-26 01:19:08
 ---
-I can not beleive it that it was almost a year since I have blogged. I am sorry. It was not you. It was me. There are several reasons for that.
+I can not beleive it that it was almost a year since I have blogged. I am sorry. It was not you. _It was me._ There are several reasons for that.
 
 # Reason #1
 
@@ -19,8 +19,8 @@ Jekyll. I have heard about it. Probably on a podcast. (I listen to a lot of podc
 
 I have tried it several times, but since my time is really limited lately (see #1), I have ran out of time every time before I could ship. Long story short, today I finally got some time and managed to ship _something_.
 
-I have such a huge blog post backlog, if I write a blog post _a day_ I will not run out of blog posts in a day. Maybe even a week. No, make it a month. Or, even better, a year.
+I have such a huge blog post backlog, if I write a blog post _a week_ I will not run out of blog posts in a week. Maybe even two. No, make it a month. Or, even better, a year.
 
 What!? You do not think I can make it!? Neither do I. But, let's make it happen.
 
-And thank you for reading. I promise my blog posts will not waste your time. I wish I could promise more. World peace, for example. Wouldn't that be nice? Sorry. I can promise a blog post a day. And not wasting your time.
+And thank you for reading. I promise my blog posts will not waste your time. I wish I could promise more. World peace, for example. Wouldn't that be nice? Sorry. I can promise a blog post a week. And not wasting your time.

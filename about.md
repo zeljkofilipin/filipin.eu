@@ -17,3 +17,8 @@ June 2012 – Present
 **Wikimedia Foundation** (United States of America)  
 Software Tester, Browser Automation Specialist  
 October 2012 – Present
+
+_My old blogs_
+
+- [zeljkofilipin.com](http://zeljkofilipin.com/)
+- [filipin.zeljkofilipin.com](http://filipin.zeljkofilipin.com/)

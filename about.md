@@ -8,15 +8,11 @@ permalink: /about/
 
 Željko is pronounced similar to zhel-ko or jell-ko, in case your Croatian is a bit rusty.
 
-_Work_
-
-**Wikimedia Foundation** (United States of America)  
-QA Engineer  
-October 2012 – Present
+QA Engineer at [Wikimedia Foundation](https://wikimediafoundation.org/).
 
 More at [LinkedIn](https://www.linkedin.com/in/zeljkofilipin).
 
-_My old blogs_
+Old blogs:
 
 - [zeljkofilipin.com](http://zeljkofilipin.com/)
 - [filipin.zeljkofilipin.com](http://filipin.zeljkofilipin.com/)

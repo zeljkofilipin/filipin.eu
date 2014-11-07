@@ -24,7 +24,7 @@ I have met Péter Zsoldos at CITCON (pronounced kit-kon) Europe 2012 in [Budapes
 
 One day, I have stumbled upon his Twitter account ([@zsepi](https://twitter.com/zsepi)). It said "...volunteers for @citcon & @coderetreat...". I knew about CITCON, but Coderetreat? After some investigation, I have found out that the closest Coderetreat in space and time is [Budapest](http://coderetreat.org/events/gdcr-budapest) in November. My initial plan was to go there.
 
-I do not remember when I met [Aljoša Mohorović](https://twitter.com/maljosa). The last two events where I remember talking with him was at [eurucamp 2013](http://2013.eurucamp.org/) in Berlin, Germany (blog post coming soon) and [WebCamp Zagreb 2014](/2014/10/31/webcamp-zagreb-2014.html). He helped organize WebCamp. One day during WebCamp, the two of us were talking over a beer and I have mentioned Coderetreat.
+I do not remember when I met [Aljoša Mohorović](https://twitter.com/maljosa). The last two events where I remember talking with him were [eurucamp 2013](http://2013.eurucamp.org/) in Berlin, Germany (blog post coming soon) and [WebCamp Zagreb 2014](/2014/10/31/webcamp-zagreb-2014.html). He helped organize WebCamp. One day during WebCamp, the two of us were talking over a beer and I have mentioned Coderetreat.
 
 The three of us are organizing the event and [Croatian Chamber of Commerce](http://en.hgk.hr/) provided free venue.
 

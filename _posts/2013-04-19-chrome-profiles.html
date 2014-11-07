@@ -1,0 +1,46 @@
+---
+layout: post
+title: Chrome Profiles
+date: 2013-04-19 12:04:35.000000000 +02:00
+categories:
+- blog
+tags:
+- code
+- watir
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  _syntaxhighlighter_encoded: '1'
+  _thumbnail_id: '887'
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p>[caption id="attachment_798" align="alignnone" width="512"]<a title="By Zeljko.filipin (Own work) [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="http://commons.wikimedia.org/wiki/File%3ATrees_in_bloom.jpg"><img width="512" alt="Trees in bloom" src="assets/512px-Trees_in_bloom.jpg" /></a> Random photo: Spring in Zagreb, Croatia.[/caption]</p>
+<p>This will open <a href="http://sandbox.translatewiki.net/">sandbox.translatewiki.net</a> in English using Firefox. The top link at the left hand side will be <code>Main page</code>.</p>
+<p>[code language="ruby"]<br />
+require &quot;watir-webdriver&quot;<br />
+browser = Watir::Browser.new :firefox<br />
+browser.goto &quot;http://sandbox.translatewiki.net/&quot;<br />
+[/code]</p>
+<p>This will open the same page in the same browser, but in German. The link will be <code>Hauptseite</code>.</p>
+<p>[code language="ruby"]<br />
+require &quot;watir-webdriver&quot;<br />
+profile = Selenium::WebDriver::Firefox::Profile.new<br />
+profile[&quot;intl.accept_languages&quot;] = &quot;de&quot;<br />
+browser = Watir::Browser.new :firefox, :profile =&gt; profile<br />
+browser.goto &quot;http://sandbox.translatewiki.net/&quot;<br />
+[/code]</p>
+<p>I want to open the site in German using Chrome. I was able to find the solution using <a href="http://watirwebdriver.com/chrome/">Watir documentation on Chrome</a> and <a href="http://src.chromium.org/svn/trunk/src/chrome/common/pref_names.cc">Chromium source code</a>. Now that I look at it, the solution is trivial and really similar to Firefox.</p>
+<p>[code language="ruby"]<br />
+require &quot;watir-webdriver&quot;<br />
+profile = Selenium::WebDriver::Chrome::Profile.new<br />
+profile[&quot;intl.accept_languages&quot;] = &quot;de&quot;<br />
+browser = Watir::Browser.new :chrome, :profile =&gt; profile<br />
+browser.goto &quot;http://sandbox.translatewiki.net/&quot;<br />
+[/code]</p>

@@ -1,0 +1,266 @@
+---
+layout: post
+title: How MediaWiki, software that runs Wikipedia, is tested
+date: 2013-05-18 01:12:40.000000000 +02:00
+categories:
+- blog
+tags:
+- code
+- conference
+- event
+- selenium
+- speaker
+status: publish
+type: post
+published: true
+meta:
+  _syntaxhighlighter_encoded: '1'
+  _edit_last: '1'
+  _thumbnail_id: '1167'
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p>[caption id="attachment_798" align="alignnone" width="512"]<a title="By Zeljko.filipin (Own work) [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="http://commons.wikimedia.org/wiki/File%3ADORS_CLUC_2013_9.jpg"><img width="512" alt="DORS CLUC 2013 9" src="assets/512px-DORS_CLUC_2013_9.jpg" /></a> The audience just before my talk. <em>(<a href="http://commons.wikimedia.org/wiki/Category:DORS/CLUC_2013">DORS/CLUC 2013</a> photo gallery hosted at <a href="http://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a>.)</em>[/caption]</p>
+<p>Yesterday I gave a talk titled <em>How MediaWiki, software that runs Wikipedia, is tested</em> at <a href="http://2013.dorscluc.org/en/">DORS/CLUC 2013</a> conference. The talk consisted of a few parts, each lasting a few minutes. The video of the talk (in Croatian) is available at <a href="http://youtu.be/BFbtLJL5by4?t=32m25s">youtu.be/BFbtLJL5by4?t=32m25s</a>.</p>
+<p><strong>Part One</strong></p>
+<p>A few words about myself. I have showed this web site, <a href="http://filipin.eu/contact/">contact page</a> and <a href="http://filipin.eu/dorscluc-2013/">DORS/CLUC 2013</a> article (I was <a href="http://en.wikipedia.org/wiki/Liveblogging">liveblogging</a>).</p>
+<p><strong>Part Two</strong></p>
+<p>Short version of Quim Gil's <em>How to hack on Wikipedia</em> talk (sources: <a href="https://fosdem.org/2013/schedule/event/how_to_hack_on_wikipedia/">FOSDEM 2013</a>, <a href="http://www.mediawiki.org/wiki/Events/FOSDEM/2013_-_Lightning_-_Qgil">MediaWiki</a>).</p>
+<p><strong>Part Three</strong></p>
+<p>Short <a href="http://docs.seleniumhq.org/">Selenium</a> + <a href="http://www.ruby-lang.org/en/">Ruby</a> live coding demo. The example at the talk was slightly different.</p>
+<p>I have first opened <a href="http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page">a test site</a> manually, clicked <code>Print/export</code> link (sidebar at the left hand side) so <code>Download as PDF</code> link appears.</p>
+<p>[caption id="attachment_1181" align="alignnone" width="720"]<a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/pdf1.png"><img src="assets/pdf1.png" alt="Print/export" width="720" height="875" class="size-full wp-image-1181" /></a> Print/export[/caption]</p>
+<p>[caption id="attachment_1182" align="alignnone" width="719"]<a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/pdf2.png"><img src="assets/pdf2.png" alt="Download as PDF" width="719" height="873" class="size-full wp-image-1182" /></a> Download as PDF[/caption]</p>
+<p>I have then click <code>Download as PDF</code> link and showed that <code>Download the file</code> link should appear (after a while) at the page that opens.</p>
+<p>[caption id="attachment_1183" align="alignnone" width="720"]<a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/pdf3.png"><img src="assets/pdf3.png" alt="Please wait while the document is being generated." width="720" height="874" class="size-full wp-image-1183" /></a> Please wait while the document is being generated.[/caption]</p>
+<p>[caption id="attachment_1184" align="alignnone" width="719"]<a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/pdf4.png"><img src="assets/pdf4.png" alt="Download the file" width="719" height="875" class="size-full wp-image-1184" /></a> Download the file[/caption]</p>
+<p>Next we did the same with Selenium. I like <a href="http://en.wikipedia.org/wiki/Interactive_Ruby_Shell">irb</a> for live coding, so the first step is to open it.</p>
+<p>[code language="bash"]<br />
+$ irb<br />
+[/code]</p>
+<p>I like <a href="http://watir.com/">Watir</a> API better than the official <a href="https://code.google.com/p/selenium/wiki/RubyBindings">Selenium Ruby bindings</a> (<a href="http://rubygems.org/gems/selenium-webdriver">selenium-webdriver</a> gem) so the examples use <a href="http://watirwebdriver.com/">watir-webdriver</a> gem.</p>
+<p>[code language="ruby"]<br />
+&gt; require &quot;watir-webdriver&quot;<br />
+=&gt; true<br />
+[/code]</p>
+<p>Open Firefox browser.</p>
+<p>[code language="ruby"]<br />
+&gt; browser = Watir::Browser.new :firefox<br />
+=&gt; #&lt;Watir::Browser:0x..fb91ac5c833bf0a86 url=&quot;about:blank&quot; title=&quot;&quot;&gt;<br />
+[/code]</p>
+<p>Go to the test site.</p>
+<p>[code language="ruby"]<br />
+&gt; browser.goto &quot;http://en.wikipedia.beta.wmflabs.org/&quot;<br />
+=&gt; &quot;http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page&quot;<br />
+[/code]</p>
+<p>Click <code>Print/export</code> and <code>Download as PDF</code> links.</p>
+<p>[code language="ruby"]<br />
+&gt; browser.a(text: &quot;Print/export&quot;).click<br />
+=&gt; [] </p>
+<p>&gt; browser.a(text: &quot;Download as PDF&quot;).click<br />
+=&gt; []<br />
+[/code]</p>
+<p>Check if <code>Download the file</code> link appeared.</p>
+<p>[code language="ruby"]<br />
+&gt; browser.a(text: &quot;Download the file&quot;).exists?<br />
+=&gt; true<br />
+[/code]</p>
+<p>Close the browser.</p>
+<p>[code language="ruby"]<br />
+&gt; browser.close<br />
+=&gt; true<br />
+[/code]</p>
+<p>Now, do the same thing in Chrome, just because we can.</p>
+<p>[code language="ruby"]<br />
+&gt; browser = Watir::Browser.new :chrome<br />
+=&gt; #&lt;Watir::Browser:0x..f91396bcbed26c69e url=&quot;about:blank&quot; title=&quot;about:blank&quot;&gt; </p>
+<p>&gt; browser.goto &quot;http://en.wikipedia.beta.wmflabs.org/&quot;<br />
+=&gt; &quot;http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page&quot;</p>
+<p>&gt; browser.a(text: &quot;Print/export&quot;).click<br />
+=&gt; [] </p>
+<p>&gt; browser.a(text: &quot;Download as PDF&quot;).click<br />
+=&gt; [] </p>
+<p>&gt; browser.a(text: &quot;Download the file&quot;).exists?<br />
+=&gt; true </p>
+<p>&gt; browser.close<br />
+=&gt; true<br />
+[/code]</p>
+<p>Please notice that except the line that opens the browser, everything else is the same.</p>
+<p>Just for fun, let's do the same thing in <a href="http://phantomjs.org/">PhantomJS</a>.</p>
+<p>[code language="ruby"]<br />
+&gt; browser = Watir::Browser.new :phantomjs<br />
+=&gt; #&lt;Watir::Browser:0x..fbff7276034352be4 url=&quot;about:blank&quot; title=&quot;&quot;&gt;</p>
+<p>&gt; browser.goto &quot;http://en.wikipedia.beta.wmflabs.org/&quot;<br />
+=&gt; &quot;http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page&quot;</p>
+<p>&gt; browser.a(text: &quot;Print/export&quot;).click<br />
+=&gt; [] </p>
+<p>&gt; browser.a(text: &quot;Download as PDF&quot;).click<br />
+=&gt; [] </p>
+<p>&gt; browser.a(text: &quot;Download the file&quot;).exists?<br />
+=&gt; true<br />
+[/code]</p>
+<p>Before closing the browser, let's take a screenshot. Screenshot of a headless browser? There is a joke here somewhere. If only I could find it.</p>
+<p>[code language="ruby"]<br />
+&gt; browser.screenshot.save &quot;phantomjs.png&quot;<br />
+ =&gt; #&lt;File:phantomjs.png (closed)&gt;</p>
+<p>&gt; browser.close<br />
+=&gt; true<br />
+[/code]</p>
+<p>[caption id="attachment_1145" align="alignnone" width="400"]<a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/phantomjs.png"><img src="assets/phantomjs.png" alt="PhantomJS" width="400" height="534" class="size-full wp-image-1145" /></a> PhantomJS screenshot[/caption]</p>
+<p>It would be crazy to type this stuff all the time, so let's create a script that we can just run. I have executed <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature#L9-L12">Click on Download as PDF link</a> scenario.</p>
+<p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature">pdf_readonly.feature</a> file.</p>
+<p>[code]<br />
+Scenario: Click on Download as PDF link<br />
+  Given I am at random page<br />
+  When I click on Download as PDF<br />
+  Then Download the file link should be present<br />
+[/code]</p>
+<p>The scenario failed.</p>
+<p>[code language="bash"]<br />
+$ bundle exec cucumber features/pdf_readonly.feature:9<br />
+Using the default profile...<br />
+..F</p>
+<p>(::) failed steps (::)</p>
+<p>timed out after 15 seconds, waiting for {:text=&gt;&quot;Download the file&quot;, :tag_name=&gt;&quot;a&quot;} to become present (Watir::Wait::TimeoutError)<br />
+./features/step_definitions/pdf_steps.rb:15:in `block (2 levels) in &lt;top (required)&gt;'<br />
+./features/step_definitions/pdf_steps.rb:14:in `/^Download the file link should be present$/'<br />
+features/pdf_readonly.feature:12:in `Then Download the file link should be present'</p>
+<p>Failing Scenarios:<br />
+cucumber features/pdf_readonly.feature:9 # Scenario: Click on Download as PDF link</p>
+<p>1 scenario (1 failed)<br />
+3 steps (1 failed, 2 passed)<br />
+0m48.241s<br />
+[/code]</p>
+<p>The problem is that the test waits 15 seconds for <code>Download the file</code> link to appear, and sometimes it takes longer. This time it took longer and the test failed.</p>
+<p><strong>Part Four</strong></p>
+<p>A short overview of the complete browser test automation solution that we have developed. The code is hosted at Gerrit (<a href="https://gerrit.wikimedia.org/r/#/admin/projects/qa/browsertests">qa/browsertests</a>) and there is Github mirror (<a href="https://github.com/wikimedia/qa-browsertests">wikimedia/qa-browsertests</a>).</p>
+<p>We use <a href="https://rvm.io/">RVM</a> to manage Ruby versions and <a href="https://rvm.io/gemsets/">gemsets</a>.</p>
+<p><a href="https://github.com/wikimedia/qa-browsertests/blob/master/.ruby-version">.ruby-version</a> file.</p>
+<p>[code]<br />
+ruby-2.0.0-p0<br />
+[/code]</p>
+<p><a href="https://github.com/wikimedia/qa-browsertests/blob/master/.ruby-gemset">.ruby-gemset</a> file.</p>
+<p>[code]<br />
+browsertests<br />
+[/code]</p>
+<p>We use <a href="http://gembundler.com/">Bundler</a> to manage project dependencies.</p>
+<p><a href="https://github.com/wikimedia/qa-browsertests/blob/master/Gemfile">Gemfile</a> file.</p>
+<p>[code]<br />
+source 'https://rubygems.org'</p>
+<p>gem 'chunky_png'<br />
+gem 'cucumber'<br />
+gem 'net-http-persistent'<br />
+gem 'page-object'<br />
+gem 'parallel_tests'<br />
+gem 'rake'<br />
+gem 'rspec-expectations'<br />
+gem 'syntax'<br />
+[/code]</p>
+<p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/Gemfile.lock">Gemfile.lock</a> file.</p>
+<p>[code]<br />
+GEM<br />
+  remote: https://rubygems.org/<br />
+  specs:<br />
+    builder (3.2.0)<br />
+    childprocess (0.3.9)<br />
+      ffi (~&gt; 1.0, &gt;= 1.0.11)<br />
+    chunky_png (1.2.8)<br />
+    cucumber (1.3.1)<br />
+      builder (&gt;= 2.1.2)<br />
+      diff-lcs (&gt;= 1.1.3)<br />
+      gherkin (~&gt; 2.12.0)<br />
+      multi_json (~&gt; 1.3)</p>
+<p>...</p>
+<p>PLATFORMS<br />
+  ruby<br />
+  x86-mingw32</p>
+<p>DEPENDENCIES<br />
+  chunky_png<br />
+  cucumber<br />
+  net-http-persistent<br />
+  page-object<br />
+  parallel_tests<br />
+  rake<br />
+  rspec-expectations<br />
+  syntax<br />
+[/code]</p>
+<p>We use <a href="http://cukes.info/">Cucumber</a> (<a href="https://github.com/wikimedia/qa-browsertests/tree/master/features">features</a> folder) as a tool for communication between people that know what needs to be tested and people that know how to write browser test automation code. Cucumber is one of the really important tools in our toolchain.</p>
+<p>I have showed Cucumber code for <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature#L9-L12">Click on Download as PDF link</a> scenario.</p>
+<p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature">pdf_readonly.feature</a> file.</p>
+<p>[code]<br />
+Scenario: Click on Download as PDF link<br />
+  Given I am at random page<br />
+  When I click on Download as PDF<br />
+  Then Download the file link should be present<br />
+[/code]</p>
+<p>Then I showed how <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature#L10">Given I am at random page</a> step is <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/step_definitions/search_steps.rb#L1-L3">implemented</a>.</p>
+<p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/step_definitions/search_steps.rb">search_steps.rb</a> file.</p>
+<p>[code language="ruby"]<br />
+Given /^I am at random page$/ do<br />
+  visit RandomPage<br />
+end<br />
+[/code]</p>
+<p>As you can see, the implementation is trivial. <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/pages/random_page.rb#L5">RandomPage</a> is also pretty simple.</p>
+<p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/pages/random_page.rb">random_page.rb</a> file.</p>
+<p>[code language="ruby"]<br />
+class RandomPage<br />
+  include PageObject</p>
+<p>  include URL<br />
+  page_url URL.url('Special:Random')</p>
+<p>...</p>
+<p>end<br />
+[/code]</p>
+<p><a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/modules/url_module.rb">URL module</a> is simple too.</p>
+<p><a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/modules/url_module.rb">url_module.rb</a> file.</p>
+<p>[code language="ruby"]<br />
+module URL<br />
+  def self.url(name)<br />
+    if ENV['MEDIAWIKI_URL']<br />
+      mediawiki_url = ENV['MEDIAWIKI_URL']<br />
+    else<br />
+      mediawiki_url = 'http://en.wikipedia.beta.wmflabs.org/wiki/'<br />
+    end<br />
+    &quot;#{mediawiki_url}#{name}&quot;<br />
+  end<br />
+end<br />
+[/code]</p>
+<p>I have explained that we use the <a href="https://code.google.com/p/selenium/wiki/PageObjects">Page Object pattern</a> and <a href="https://github.com/cheezy/page-object">page-object</a> gem. Page object pattern is another important tool. It allows us to write maintainable code.</p>
+<p>A slightly more complicated step is <code>When I click on Download as PDF</code>.</p>
+<p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/step_definitions/pdf_steps.rb">pdf_steps.rb</a> file.</p>
+<p>[code language="ruby"]<br />
+When(/^I click on Download as PDF$/) do<br />
+  @browser.driver.manage.add_cookie(:name =&gt; 'vector-nav-p-coll-print_export', :value =&gt; 'true')<br />
+  @browser.driver.navigate.refresh<br />
+  on(RandomPage).download_as_pdf<br />
+end<br />
+[/code]</p>
+<p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/pages/random_page.rb">random_page.rb</a> file.</p>
+<p>[code language="ruby"]<br />
+class RandomPage<br />
+  include PageObject</p>
+<p>  include URL<br />
+  page_url URL.url('Special:Random')</p>
+<p>...</p>
+<p>  a(:download_as_pdf, text: 'Download as PDF')</p>
+<p>...</p>
+<p>end<br />
+[/code]</p>
+<p>We use <a href="http://jenkins-ci.org/">Jenkins</a> <a href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a> server. It is also one of the important tools. Jenkins that runs our browser test automation is hosted by <a href="http://www.cloudbees.com/">CloudBees</a> at <a href="https://wmf.ci.cloudbees.com/">wmf.ci.cloudbees.com</a>.</p>
+<p>I have showed <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/">a job</a> that is sometimes failing because of the timeout problem that I have mentioned previously. I have showed a couple of nice Jenkins features, <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/test/?width=800&height=600">Test Result Trend</a> chart and <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/buildTimeTrend">Build Time Trend</a> chart.</p>
+<p>[caption id="attachment_1148" align="alignnone" width="800"]<a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/trt.png"><img src="assets/trt.png" alt="Test Result Trend" width="800" height="600" class="size-full wp-image-1148" /></a> Test Result Trend[/caption]</p>
+<p>[caption id="attachment_1147" align="alignnone" width="500"]<a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/btt.png"><img src="assets/btt.png" alt="Build Time Trend" width="500" height="400" class="size-full wp-image-1147" /></a> Build Time Trend[/caption]</p>
+<p>Then I showed <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/56/">a build that failed</a> and <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/56/testReport/junit/(root)/PDF/Click_on_Download_as_PDF_link/">test results</a> saying <code>timed out after 15 seconds, waiting for {:text=>"Download the file", :tag_name=>"a"} to become present</code>.</p>
+<p>I have ended the talk with showing <a href="https://saucelabs.com/">Sauce Labs</a> (Selenium in the cloud) <a href="https://saucelabs.com/jobs/8ab15dcf1b1e40d4864a50d508b928a5">job</a> for the failed Jenkins job. Sauce Labs job has logs, screens shots and video of the entire test.</p>
+<p><strong>Part Five</strong></p>
+<p>There were a few questions from the audience, and I did my best to answer them.</p>
+<p><strong>Part Six</strong></p>
+<p>At the next break I was handing out t-shirts, pens, stickers, badges and talking with people about my talk and related things.</p>
+<p><strong>Ideas for the next talk</strong></p>
+<p>A few ideas came to my mind after the talk. It would be fun to show how to run the test on my machine but instead of running the browser there too, run the browser at Sauce Labs.</p>
+<p>For those interested in playing with the code themselves, show <a href="http://www.mediawiki.org/wiki/Mediawiki-Vagrant">MediaWiki-Vagrant</a> and <a href="https://github.com/wikimedia/mediawiki-vagrant/tree/master/puppet/modules/browsertests">puppet/modules/browsertests</a>, the complete environment in a virtual machine. Setting everything up is as easy as installing a couple of applications and cloning a repository.</p>
+<p>If you want to get involved, join <a href="https://lists.wikimedia.org/mailman/listinfo/qa">qa@lists.wikimedia.org</a> mailing list and <a href="http://lists.wikimedia.org/pipermail/qa/2013-May/000003.html">introduce</a> yourself.</p>
+<p>[caption id="attachment_1189" align="alignnone" width="630"]<a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/vagrant.png"><img src="assets/vagrant-1024x640.png" alt="Vagrant" width="630" height="393" class="size-large wp-image-1189" /></a> The screen shot shows a Mac desktop. On the right hand side you can see two Mac windows (Terminal, VirtualBox). On the left hand side you can see Firefox window forwarded from a Linux virtual machine. Magic.[/caption]</p>

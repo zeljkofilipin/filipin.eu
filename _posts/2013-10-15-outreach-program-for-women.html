@@ -1,0 +1,34 @@
+---
+layout: post
+title: Outreach Program for Women
+date: 2013-10-15 15:49:24.000000000 +02:00
+categories:
+- blog
+tags:
+- selenium
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p><img src="assets/opw-cartoon-240x300.png" alt="OPW cartoon" width="240" height="300" class="size-medium wp-image-1314" /></p>
+<p><em><a href="https://wiki.gnome.org/OutreachProgramForWomen#Cartoon">Outreach Program for Women cartoon</a>, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a></em></p>
+<p>In the last year we have organized a few <a href="http://filipin.eu/tag/workshop/">workshops</a> as one of the ways of find new people that would help us test software that runs Wikipedia. During one of the first workshops (maybe even the first one) a new contributor appeared. At the time all I knew about her was her IRC nick, rachel99. After the workshop she continued to contribute Cucumber scenarios.</p>
+<p>Then, Wikimedia Foundation decided to join a few other free software projects in <a href="https://wiki.gnome.org/OutreachProgramForWomen">Outreach Program for Women</a> (OPW). (My colleague Quim Gil, our OPW coordinator, wrote more about <a href="https://blog.wikimedia.org/2013/09/30/foss-outreach-program-for-women-success-and-new-round/">this round of OPW</a>.) Rachel applied for the internship focused on <a href="http://www.mediawiki.org/wiki/User:Rachel99/proposal1">browser test automation for VisualEditor</a>.</p>
+<p>In a lucky coincidence, I was in Boston for <a href="http://filipin.eu/selenium-conference-2013/">Selenium Conference 2013</a> a few days before the internship started, so I had a chance to meet Rachel in person.</p>
+<p><strong>Is the project completed?</strong></p>
+<p>Yes.</p>
+<p>You can find all the details in the <a href="http://bleededge.blogspot.com/2013/09/wrap-up-of-my-outreach-program-for.html">blog post she wrote about the internship</a> and her <a href="http://www.mediawiki.org/wiki/User:Rachel99/proposal1#Monthly_Contributions">monthly reports</a>. I will just try to highlight a few things.</p>
+<p>Rachel wrote several <a href="https://gerrit.wikimedia.org/r/#/q/status:merged+owner:rachel,n,z">tests</a> for VisualEditor. At first they were in our "<a href="https://github.com/wikimedia/qa-browsertests">sandbox</a>" code repository but before the end of the internship, we have moved the test to VisualEditor repository (you can find them in <a href="https://github.com/wikimedia/mediawiki-extensions-VisualEditor/tree/master/modules/ve-mw/test/browser">modules/ve-mw/test/browser</a> folder).</p>
+<p><a href="https://wmf.ci.cloudbees.com/view/r-ve/">Jenkins</a> is running tests that she wrote at least twice a day. We plan to run the test more frequently at the future (<em>before</em> a commit is merged into master branch), but we are not there yet.</p>
+<p>She reported several <a href="https://bugzilla.wikimedia.org/buglist.cgi?emailreporter1=1&list_id=237491&emailtype1=substring&query_format=advanced&email1=rachelqa99%40gmail.com">bugs</a> in various products that she was using during the internship. She also participated in our <a href="https://lists.wikimedia.org/mailman/listinfo/qa">QA mailing list</a>, both asking and answering questions.</p>
+<p><strong>What have we learned?</strong></p>
+<p><a href="http://en.wikipedia.org/wiki/Pair_programming#Remote_pair_programming">Remote pair programming</a> works. We have used Google Hangouts, but I have previously used Skype and iChat and all of them worked just fine. I have paired with Rachel in one hour sessions several times a week, sometimes almost every day. <a href="http://chrismcmahonsblog.blogspot.com/">Chris</a> (my colleague and Rachel's other mentor) paired with her probably as much as I did, maybe even more.</p>
+<p>Every intern should have two mentors. The internship was over the summer when people take vacations, so if a mentor goes to vacation for a few days (or weeks), the intern could get stuck. Also, sometimes a mentor could be really busy or traveling. Having two mentors makes that situation less likely.</p>

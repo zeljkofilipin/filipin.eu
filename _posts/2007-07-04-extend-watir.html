@@ -1,0 +1,47 @@
+---
+layout: post
+title: Extend Watir
+date: 2007-07-04 11:42:24.000000000 +02:00
+categories:
+- Watir
+tags:
+- code
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '3'
+  syntaxhighlighter_encoded: '1'
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p><a href="http://picasaweb.google.com/fsrkaptol/Asiz2007/photo#5082553875201701618" title="p6210022.JPG"><img src="assets/p6210022.JPG" alt="p6210022.JPG" /></a></p>
+<p>I had to click a h4 headline.</p>
+<p>[html]<br />
+&lt;h4 id=&quot;addproject&quot;&gt;Create a new project&lt;/h4&gt;<br />
+[/html]</p>
+<p>This did not work.</p>
+<p>[ruby]<br />
+browser.h4(:id, &quot;addproject&quot;).click<br />
+[/ruby]</p>
+<p>I posted a question to <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg09457.html">wtr-general</a> mailing list and <a href="http://pettichord.com/">Bret Pettichord</a> suggested to extend Watir with this, so it would support h4 headlines.</p>
+<p>[sourcecode language="ruby"]<br />
+module Watir<br />
+  class H4 &lt; NonControlElement<br />
+    TAG = 'H4'<br />
+  end<br />
+  module Container<br />
+    def h4(how, what)<br />
+      return H4.new(self, how, what)<br />
+    end<br />
+  end<br />
+end<br />
+[/sourcecode]</p>
+<p>Now this works.</p>
+<p>[sourcecode language="ruby"]<br />
+browser.h4(:id, &quot;addproject&quot;).click<br />
+[/sourcecode]</p>

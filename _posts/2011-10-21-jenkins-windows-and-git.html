@@ -1,0 +1,57 @@
+---
+layout: post
+title: Jenkins, Windows and Git
+date: 2011-10-21 15:25:28.000000000 +02:00
+categories:
+- ".NET"
+- Software
+- Virtualization
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '3'
+  _podPressPostSpecific: a:6:{s:15:"itunes:subtitle";s:15:"##PostExcerpt##";s:14:"itunes:summary";s:15:"##PostExcerpt##";s:15:"itunes:keywords";s:17:"##WordPressCats##";s:13:"itunes:author";s:10:"##Global##";s:15:"itunes:explicit";s:7:"Default";s:12:"itunes:block";s:7:"Default";}
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p><img src="assets/jenkins_logo.png" alt="jenkins logo" title="jenkins logo" /></p>
+<p><strong>Update</strong>: managed to clone Git repository via Git/SSH.</p>
+<p>Recently I have successfully set up <a href="http://jenkins-ci.org/">Jenkins CI</a> (called <a href="http://hudson-ci.org/">Hudson CI</a> until recently) in Windows 2008 virtual machine. It was not hard once I figured all the stuff that needs to be done, but it was far from trivial. At one point I almost gave up on Jenkins because I could not get it to clone Git repository. But with help from <a href="https://twitter.com/#!/adamgoucher">Adam Goucher</a> I  was able to get it working. More about that later in the post.</p>
+<p>Since then I have been reading <a href="http://www.wakaleo.com/download-jenkins-the-definitive-guide">Jenkins: The Definitive Guide</a> book and playing with Jenkins in the virtual machine. (By the way, there is free pdf version of the book, and $34.99-$49.49 print and ebook versions.) I am almost done with the book and I plan to write a short review after I read it.</p>
+<p><a href="http://en.wikipedia.org/wiki/Continuous_integration">Continuous integration</a> server is not really useful when it is in a virtual machine on my laptop. Neither my laptop nor virtual machine work 24/7, and the point of continuous integration server is exactly that. Running 24/7.</p>
+<p>So, today the time was right to get Jenkins working on a server. I am writing this to have a reminder how to set up Jenkins and Git on Windows, so I do not have to repeat setup nightmare ever again.</p>
+<p><strong>Jenkins</strong></p>
+<p>Jenkins installation is pretty simple and it is covered pretty well, both on the Jenkins web site and in the book. I have installed it as Windows native package, and I made my first mistake there. By default, Jenkins installs in <code>C:\Program Files\Jenkins\</code> (on 32-bit Windows) or <code>C:\Program Files (x86)\Jenkins\</code> (on 64-bit). I am really surprised that they do that. I had so many problems with Jenkins because it was installed in a folder with spaces in name. Install Jenkins in <code>C:\Jenkins</code>. (Ruby installed is smarter. It installs by default in <code>C:\Ruby</code>. But that is another story.)</p>
+<p>After the installation, Jenkins will open your default web browser and go to it's home page, <code>http://localhost:8080/</code>. Another surprise. Since the server is in Switzerland, Internet Explorer language was set to French, and Jenkins was in French. Since I do not know any French, I had to change it to English. Go to <em>Internet Explorer > Tools > Internet Options > General > Languages</em> to change the default language.</p>
+<p><strong>Jenkins Build Job</strong></p>
+<p>With everything back to a language I know, it is the time to create a new job. Click link <em>New Job</em>. Another warning. Do not use spaces in job names. Jenkins creates folders for each job in <code>C:\Jenkins\jobs</code>, and if you name the job <em>build job</em>, it will create <code>C:\Jenkins\jobs\build job</code> folder. You already know spaces in folder names are a bad idea. Call your job something like <em>build</em>. After entering job name, select <em>Build a free-style software project</em> and click <em>OK</em>. <em>Configure job</em> page opens. Just click <em>Save</em> for now. That is it. You have created a job. It does not do anything for now, but we will get there. By the way, take a look at <code>C:\Jenkins\jobs\build</code>. There is just a <code>config.xml</code> file there for the moment. Do not change it.</p>
+<p><strong>Jenkins Git Plugin</strong></p>
+<p>The next thing we have to do is to get some source code on the machine. If you did not navigate away from the job page (<code>http://localhost:8080/job/build/</code>), click <em>Configure</em> link. You will notice that Git is not listed under <em>Source Code Management</em> at job configuration page. You have to install a plugin.</p>
+<p>Go to Jenkins home page (it is <code>http://localhost:8080/</code>, to get there click <em>Jenkins</em> link in the top-left part of the page) and then click <em>Manage Jenkins > Manage Plugins > Available</em>. Check <em>Git Plugin</em> checkbox and click <em>Install</em>. Check <em>Restart Jenkins when installation is complete and no jobs are running</em> checkbox and wait for Jenkins to restart. This restarting Jenkins step is the strangest part. I am never sure when it has restarted. When I get bored waiting, I just go to Jenkins home page and it usually just works.</p>
+<p>Go back to job configuration page, and you will see <em>Git</em> listed under <em>Source Code Management</em>. Click it and enter <em>URL of repository</em>. I will use Git read only URL from <a href="https://github.com/zeljkofilipin/watirbook">watirbook</a> project. So, I will use <code>git://github.com/zeljkofilipin/watirbook.git</code>. Click button <em>Save</em>.</p>
+<p>If you have Git installed, you are ready for the first build. It will actually just clone the repository, but it is a start. Click <em>Build Now</em> link. In <em>Build History</em> you will notice the first build. It failed for me. To debug the problem, click the build link (something like <em>Oct 20, 2011 7:57:19 PM</em>) and then <em>Console Output</em>. For me it said <code>Cannot run program "git.exe": CreateProcess error=2, The system cannot find the file specified</code>.</p>
+<p><strong>Git</strong></p>
+<p>Time to install Git. Download it from <a href="http://git-scm.com/">Git home page</a>. On download page select <em>Full installer for official Git for Windows</em>. I did not want to install it in <code>Program Files</code> folder, so I have installed it in <code>C:\Git</code>.</p>
+<p>Try building the job again. It failed for me again, with the same error message. To fix the problem, you have to let Jenkins know where to find Git. Go to Jenkins configuration (<em>Jenkins > Manage Jenkins</em>) and click <em>Configure System</em> (Do not confuse it with job configuration at <em>job > Configure</em>.)</p>
+<p>Under <em>Path to Git executable</em> you will see something like this: <code>There's no such executable git.exe in PATH...</code>. Replace <code>git.exe</code> with <code>C:\Git\cmd\git.cmd</code> and click button <em>Save</em>.</p>
+<p>Do not replace <code>git.exe</code> with <code>C:\Git\bin\git.exe</code>. <a href="http://stackoverflow.com/questions/7850395/jenkins-can-not-clone-git-repository-over-git-ssh-on-windows-2008-64-bit">Cloning repositories via Git/SSH will not work</a>. Do not ask. I have spent an entire day on that.</p>
+<p>Go back to <em>Configure System</em> page, and if you did everything right, there should not be any error message under <em>Path to Git executable</em>. Leave the page open for 5-10 seconds. I have noticed that sometimes the error message does not appear immediately.</p>
+<p>Go back to the job and build it again. It should work now. Finally. You will notice blue ball next to the newest build (instead of red ball for failing builds). I am not sure why they use blue for passing builds when green is a convention. But, there is a fix for that. Install <em>Green Balls</em> plugin (<em>Jenkins > Manage Jenkins > Manage Plugins > Available > Green Balls> Install > Restart Jenkins.</em>) If you do not see the green balls, click ctrl+f5 to refresh the page.</p>
+<p><strong>The Fun Starts Here</strong></p>
+<p>The fun starts if you want to clone Git repository that is not public. Change repository URL to <code>git@github.com:zeljkofilipin/watirbook.git</code>. Build again. <em>Console Output</em> page was stuck for me at <code>Cloning repository origin</code> for a long time. You can cancel the build by clicking red <em>x</em> button in the top-right corner of the <em>Console Output</em> page. You will get the whole error message then. It said <code>ERROR: Could not clone repository</code>. I am not surprised since I did not even set up this machine for Git/SSH authentication.</p>
+<p>Go to <em>Start > Git GUI > Help > Show SSH key > Generate Key</em>. When it asks for passphrase, leave it empty. Copy the key to clipboard and close Git GUI.</p>
+<p>At GitHub go to <em>Account Settings > SSH Public Keys > Add another public key</em>. Enter something in <em>Title</em>, paste the key in <em>Key</em> and click <em>Add key</em>.</p>
+<p>(If you are using Unfuddle go to <em>Personal Settings > Public Keys > New Public Key...</em>. Enter something in <em>Title</em>, paste the key in <em>Value</em> and click <em>Add</em>.)</p>
+<p>Sometimes it takes a couple of minutes for the key to become valid.</p>
+<p>Test the Git setup by opening Command Prompt and cloning the repository there. So, go to your <em>Desktop</em> folder in Command Prompt and clone the repository. Example for my watirbook repository would be:</p>
+<p><code>git clone git@github.com:zeljkofilipin/watirbook.git</code></p>
+<p>If Git complains that <code>The authenticity of host can't be established</code>, type <em>yes</em> when it asks <code>Are you sure you want to continue connecting (yes/no)</code>.</p>
+<p>Everything worked just fine from the command line. Now I have Git repository at my desktop. But I want it in Jenkins. Try to build the job from Jenkins again. It still does not work. The same error message as the last time. This is the part where I almost gave up. The problem is that you have set Git/SSH authentication to work for your user (<em>zfilipin</em> in my case). But Jenkins is using Git as <em>Local System Account</em> instead of using it as <em>zfilipin</em>.</p>
+<p>To fix this go to <em>Start > Services > Jenkins > right click > Properties > Log On > This account</em>, enter username and password and click <em>OK</em>. Restart Jenkins service (<em>right click > Restart</em>). When I was trying this in virtual machine, my user did not have any password, so this did not work. The workaround is to create a password for the user.</p>
+<p>Try building the job again. Everything should work just fine.</p>

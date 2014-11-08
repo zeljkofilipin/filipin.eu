@@ -1,0 +1,45 @@
+---
+layout: post
+title: Faster FileField#set
+date: 2006-12-01 16:41:10.000000000 +01:00
+categories:
+- Watir
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p>This is slightly edited conversation <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg05905.html">Is there a way to make file_field.set faster?</a> from <a href="http://rubyforge.org/mailman/listinfo/wtr-general">wtr-general</a> mailing list.</p>
+<p>Me:<br />
+<blockquote>Is there a way to make file_field.set faster?</p>
+<p>I have noticed that this is the slowest part of my tests. It takes about 10 seconds to set file field. I have read that it can not be set directly because that would be security issue, but I wonder what I could do to make it faster. I upload extremely small files (a few bytes), but I have to do it frequently, and every time it takes about 10 seconds just to set file field.</p></blockquote>
+<p>Mark Cain:<br />
+<blockquote>This works for me and it is much faster because it uses the handle of the object.</p></blockquote>
+<p>[source:ruby]<br />
+def startClicker(button, waitTime=5, user_input=nil)<br />
+  hwnd = @@ie.enabled_popup(waitTime)  # get a handle if one exists<br />
+  if (hwnd) # yes there is a popup<br />
+    w = WinClicker.new<br />
+    if (user_input)<br />
+      w.setTextValueForFileNameField(hwnd, "#{user_input}")<br />
+    end<br />
+    sleep 3 # I put this in to see the text being input it is not necessary to work<br />
+    w.clickWindowsButton_hwnd(hwnd, "#{button}")  # "OK" or whatever the name on the button is<br />
+    w = nil # this is just cleanup<br />
+  end<br />
+end<br />
+[/source]</p>
+<p>Me:<br />
+<blockquote>startClicker works double faster than file_field.set.</p></blockquote>
+<p>Then I removed line with "sleep 3".</p>
+<p>Me:<br />
+<blockquote>It is now even faster (for three seconds) after I removed line with "sleep 3" (when I noticed that comment says that it can be removed) .</p>
+<p>file_field.set needed approximately 10,6 seconds to set file field, startClicker 4,4, and when I removed "sleep 3", it is down to 1,4. That saved me approximately 9 seconds for each file upload (and I do it a lot).</p></blockquote>
+<p><a href="http://www.paulrogers.ca/">Paul Rogers</a> also suggested <a href="http://www.autoitscript.com/autoit3/">AutoIt</a>, but this works fast enough, so I did not even try it.</p>

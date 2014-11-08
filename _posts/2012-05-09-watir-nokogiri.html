@@ -1,0 +1,85 @@
+---
+layout: post
+title: watir-nokogiri
+date: 2012-05-09 14:39:26.000000000 +02:00
+categories:
+- Software
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '3'
+  _podPressPostSpecific: a:6:{s:15:"itunes:subtitle";s:15:"##PostExcerpt##";s:14:"itunes:summary";s:15:"##PostExcerpt##";s:15:"itunes:keywords";s:17:"##WordPressCats##";s:13:"itunes:author";s:10:"##Global##";s:15:"itunes:explicit";s:7:"Default";s:12:"itunes:block";s:7:"Default";}
+  _syntaxhighlighter_encoded: '1'
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p>[caption width="350" caption="Random Croatian Countryside"]<a href="http://zeljkofilipin.com/wp-content/uploads/2010/12/P6040019.jpg"><img src="assets/06dc5366979d11e19dc71231380fe523_6.jpg" alt="Random Croatian Countryside" /></a>[/caption]</p>
+<p>At <a href="http://watir.com/test-automation-bazaar/">Test Automation Bazaar</a> <a href="https://github.com/aikhelis">Aliaksandr Ikhelis</a> gave a lightning talk <a href="https://docs.google.com/presentation/d/1DnO8XUsF_tppTW_c15VAPe89R35z-ytAsIgWu69arho/present#slide=id.gaee207f_1_46">Watir-Webdriver is slow (did you know that?)</a>. He talked about the speed problem he had when <a href="http://watirwebdriver.com/">watir-webdriver</a> was locating elements via <a href="http://en.wikipedia.org/wiki/Regular_expression">regular expression</a> on big pages. (He also reported the <a href="https://github.com/watir/watir-webdriver/issues/108">issue</a> at GitHub.)</p>
+<p>Recently I have started working on a new project that had a similar speed problem, so I remembered Aliaksandr's talk. I found a solution using <a href="http://nokogiri.org/">Nokogiri</a>.</p>
+<p>For example, you have to iterate over all <code>div</code> elements that have <code>id</code> attribute starting with <code>id</code>. Then, you have to do something with the last element.</p>
+<p>The page that looks like this:</p>
+<p>[sourcecode language="html"]<br />
+...<br />
+&lt;div id='id0'&gt;0&lt;/div&gt;<br />
+&lt;div id='id1'&gt;1&lt;/div&gt;<br />
+...<br />
+&lt;div id='id999'&gt;999&lt;/div&gt;<br />
+...<br />
+[/sourcecode]</p>
+<p>Watir code for iterating over elements and clicking the last one could look something like this.</p>
+<p>[sourcecode language="ruby"]<br />
+browser.divs(id: /^id/).each do |div|<br />
+  div.click if div.id == &quot;id999&quot;<br />
+end<br />
+[/sourcecode]</p>
+<p>You could do exactly the same thing using Watir and Nokogiri.</p>
+<p>[sourcecode language="ruby"]<br />
+Nokogiri::HTML(browser.html).css(&quot;div[id ^= 'id']&quot;).each do |div|<br />
+  browser.element(css: div.css_path).click if div[&quot;id&quot;] == &quot;id999&quot;<br />
+end<br />
+[/sourcecode]</p>
+<p>The speed improvements is noticeable. For example, this script will click the last <code>div</code> using Nokogiri in about 0.2 seconds and using Watir in about 15 seconds.</p>
+<p>[sourcecode language="ruby"]<br />
+require &quot;watir-webdriver&quot;<br />
+browser = Watir::Browser.new :firefox</p>
+<p>folder = Dir.pwd<br />
+browser.goto &quot;file://#{folder}/div.html&quot;</p>
+<p>require &quot;benchmark&quot;<br />
+require &quot;nokogiri&quot;</p>
+<p>Benchmark.bm do |x|<br />
+  x.report(&quot;nokogiri&quot;) do<br />
+    Nokogiri::HTML(browser.html).css(&quot;div[id ^= 'id']&quot;).each do |div|<br />
+      if div[&quot;id&quot;] == &quot;id999&quot;<br />
+        css = div.css_path<br />
+        browser.element(css: css).wd.location_once_scrolled_into_view<br />
+        browser.element(css: css).flash<br />
+      end<br />
+    end<br />
+  end<br />
+end</p>
+<p>Benchmark.bm do |x|<br />
+  x.report(&quot;watir&quot;) do<br />
+    browser.divs(id: /^id/).each do |div|<br />
+      if div.id == &quot;id999&quot;<br />
+        div.wd.location_once_scrolled_into_view<br />
+        div.flash<br />
+      end<br />
+    end<br />
+  end<br />
+end</p>
+<p>browser.close<br />
+[/sourcecode]</p>
+<p>Output:</p>
+<p>[sourcecode]<br />
+          user       system     total    real<br />
+nokogiri  0.040000   0.010000   0.050000 (  0.219716)<br />
+watir     1.980000   0.310000   2.290000 ( 15.309858)<br />
+[/sourcecode]</p>
+<p>There is a way to speed things up using just the Watir API, but I wanted to provide an example code if Watir API is sometimes too slow for your taste.</p>
+<p>You can find more code at <a href="https://github.com/zeljkofilipin/watir-nokogiri">watir-nokogiri</a>.</p>

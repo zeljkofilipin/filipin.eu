@@ -1,0 +1,51 @@
+---
+layout: post
+title: Log Parser and Batch Files
+date: 2008-07-03 13:52:59.000000000 +02:00
+categories:
+- Software
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '3'
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p>I am using <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=890cd06b-abf8-4c25-91b2-f8d975cf8c07&displaylang=en">Log Parser</a> to parse log files. I parse a lot of files and I wanted to make a batch file that will do it for me.</p>
+<p>I pasted my commands to a batch file, executed it, and to my surprise, it would parse the files but would not find anything.</p>
+<p>This is content of my batch file:</p>
+<p><code>LogParser "SELECT text FROM errors.log WHERE text LIKE '2008-%'"</code></p>
+<p>When I execute it, it does not find anything:</p>
+<p><code>C:\&gt;parse_logs.cmd<br />
+C:\&gt;LogParser "SELECT text FROM errors.log WHERE text LIKE '2008-'"</code><br />
+<code><br />
+Statistics:<br />
+-----------<br />
+Elements processed: 34<br />
+Elements output:    0<br />
+Execution time:     0.02 seconds</code></p>
+<p>When I executed the command from command prompt, Log Parser would find what I was looking for:</p>
+<p><code>C:\&gt;LogParser "SELECT text FROM errors.log WHERE text LIKE '2008-%'"</code><br />
+<code><br />
+Statistics:<br />
+-----------<br />
+Elements processed: 34<br />
+Elements output:    24<br />
+Execution time:     0.02 seconds</code></p>
+<p>I looked around, asked a few people but no luck.</p>
+<p>I finally found the problem.</p>
+<p>There is <code>%</code> in Log Parser SQL query:</p>
+<p><code>LIKE '2008-%'</code></p>
+<p><code>%</code> represents variable in batch file, and if you take a closer look how batch file gets executed you will see that</p>
+<p><code>LIKE '2008-%'</code></p>
+<p>is executed as</p>
+<p><code>LIKE '2008-'</code></p>
+<p>I changed batch file to</p>
+<p><code>LIKE '2008-%%'</code></p>
+<p>and now it works.</p>

@@ -1,0 +1,50 @@
+---
+layout: post
+title: 'Watir: Select Element Using Multiple Attributes'
+date: 2007-02-06 14:21:18.000000000 +01:00
+categories:
+- Watir
+tags:
+- code
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '3'
+  syntaxhighlighter_encoded: '1'
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p>There are two links in a page that I am testing.</p>
+<p>[sourcecode language="html"]<br />
+&lt;a href=&quot;1&quot;&gt;reply&lt;/a&gt;<br />
+&lt;a href=&quot;2&quot;&gt;reply&lt;/a&gt;<br />
+[/sourcecode]</p>
+<p>I need to get value of href attribute for the second link.</p>
+<p>I can not use <code>:text</code>, because it will return <code>href</code> attribute for the first link.</p>
+<p>[sourcecode language="ruby"]<br />
+browser.link(:text, &quot;reply&quot;).href<br />
+=&gt; &quot;{site}1&quot;<br />
+[/sourcecode]</p>
+<p>I can use <code>:index</code>, but if anything on that page changes, it could break.</p>
+<p>[sourcecode language="ruby"]<br />
+browser.link(:index, 2).href<br />
+=&gt; &quot;{site}2&quot;<br />
+[/sourcecode]</p>
+<p><a href="http://www.pettichord.com/">Bret Pettichord</a> posted posted a solution for this at <a href="http://rubyforge.org/pipermail/wtr-general/2006-November/008001.html">wtr-general</a> a few months ago.</p>
+<blockquote><p>
+In 1.5, this syntax works:</p>
+<p>[sourcecode language="ruby"]<br />
+browser.div(:name =&gt; 'foo', :index =&gt; 2).click<br />
+[/sourcecode]</p>
+<p>This will find the second div with the name 'foo'.
+</p></blockquote>
+<p>And it really works.</p>
+<p>[sourcecode language="ruby"]<br />
+browser.link(:text =&gt; &quot;reply&quot;, :index =&gt; 2).href<br />
+=&gt; &quot;{site}2&quot;<br />
+[/sourcecode]</p>

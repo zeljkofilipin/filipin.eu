@@ -1,0 +1,57 @@
+---
+layout: post
+title: Enter Non-English Character in Text Field
+date: 2007-02-26 15:48:07.000000000 +01:00
+categories:
+- Watir
+tags:
+- code
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '3'
+  syntaxhighlighter_encoded: '1'
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p><img src="assets/google_zeljko.PNG" alt="google_zeljko.PNG" /></p>
+<p>I use <a href="http://watir.com">Watir</a> a lot. I wanted to set a text field to <code>željko</code>. I did not know it would not be an easy task. I tried this code.</p>
+<p>[sourcecode language="ruby"]<br />
+browser.text_field(:index, 1).set(&quot;željko&quot;)<br />
+[/sourcecode]</p>
+<p>But, text field was set to <code>§eljko</code>, <code>Ĺľeljko</code>, just <code>eljko</code> or some other string (depending if I try from irb, or from file that is saved in some encoding).</p>
+<p>I searched <a href="http://rubyforge.org/mailman/listinfo/wtr-general">wtr-general</a> and found different solutions.</p>
+<p>I added</p>
+<p>[sourcecode language="ruby"]<br />
+require &quot;win32ole&quot;<br />
+WIN32OLE.codepage = WIN32OLE::CP_UTF8<br />
+[/sourcecode]</p>
+<p>and</p>
+<p>[sourcecode language="ruby"]<br />
+$KCODE = 'utf8'<br />
+require 'jcode'<br />
+[/sourcecode]</p>
+<p>to the top of the file.</p>
+<p>I tried <code>TextField#value=</code> instead of <code>TextField#set</code>.</p>
+<p>[sourcecode language="ruby"]<br />
+browser.text_field(:index, 1).value=(&quot;željko&quot;)<br />
+[/sourcecode]</p>
+<p>I saved file as UTF-8.</p>
+<p>Nothing worked. I sent <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg07315.html">my question</a> to wtr-general and <a href="http://www.staqs.com/">Paul Carvalho</a> answered.</p>
+<blockquote><p>[...] I have a Watir script [...] It reads the inputs from an Excel file into an Array and then I use the array data to populate the text fields. [...] I didn't use any special 'require' lines or KCodes.  I just let Excel worry about holding the data [...]</p></blockquote>
+<p>I tried it, and it worked! It was simple, too. Just a few lines of code.</p>
+<p>[sourcecode language="ruby"]<br />
+require 'watir'<br />
+excel = WIN32OLE::new('excel.Application')<br />
+workbook = excel.Workbooks.Open('C:\data.xls') # open file<br />
+worksheet = workbook.Worksheets(1) # the first worksheet<br />
+cell = worksheet.Range('a1')['Value'] # value of single cell<br />
+browser = Watir::IE.start('http://www.google.com/') # start IE<br />
+browser.text_field(:index, 1).set(cell) # set text field to value from cell<br />
+[/sourcecode]</p>
+<p>There is a page about <a href="http://wiki.rubygarden.org/Ruby/page/show/ScriptingExcel">scripting Excell</a>, but it is unavailable at the moment. Fortunately, there is <a href="http://www.google.com/search?q=cache:tEaxL9sKYdQJ:wiki.rubygarden.org/ruby/page/show/ScriptingExcel+http://wiki.rubygarden.org/ruby/page/show/ScriptingExcel&hl=en&client=firefox-a&strip=1">Google cache version</a>.</p>

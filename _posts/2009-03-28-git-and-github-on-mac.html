@@ -1,0 +1,105 @@
+---
+layout: post
+title: Git and Github on Mac
+date: 2009-03-28 14:01:39.000000000 +01:00
+categories:
+- Software
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '3'
+  syntaxhighlighter_encoded: '1'
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p>Once upon a time, there was a tester. He knew his way around <a href="http://www.ruby-lang.org/en/">Ruby</a>, <a href="http://watir.com/">Watir</a>, <a href="http://subversion.tigris.org/">SVN</a>, <a href="http://en.wikipedia.org/wiki/Apple_Terminal">Terminal</a> and stuff like that. He heard people talk about <a href="http://git-scm.com/">Git</a>, and he decided to try it. But Git was strange. He was playing with it a bit, but did not have much luck with setting it up, so he decided to leave it for later.</p>
+<p>One day he decided to run his existing Watir tests on Internet Explorer 8 (IE8). He was already running them on IE6 and IE7, so he thought that it would be a piece of cake. He fired up one of his Windows virtual machines, installed IE8 and started the tests.</p>
+<p>One of the first things he noticed is that file uploads were not working. File upload pop up would appear, but Watir was not populating it with path to the file that should be uploaded. He thought:</p>
+<blockquote><p>I think I know what is the problem. I have already heard that file uploads are not working if user has Windows language set to anything than English. It was something about the title of the pop up window.</p></blockquote>
+<p>And really, IE6 and IE7 had <code>Choose file</code> and IE8 had <code>Choose File to Upload</code> as pop up title.</p>
+<p>IE6<br />
+<a href="http://zeljkofilipin.com/wp-content/uploads/2009/03/ie6.jpg"><img src="assets/ie6-300x256.jpg" alt="ie6" title="ie6" /></a></p>
+<p>IE7<br />
+<a href="http://zeljkofilipin.com/wp-content/uploads/2009/03/ie7.jpg"><img src="assets/ie7-300x263.jpg" alt="ie7" title="ie7" /></a></p>
+<p>IE8<br />
+<a href="http://zeljkofilipin.com/wp-content/uploads/2009/03/ie8.jpg"><img src="assets/ie8-299x261.jpg" alt="ie8" title="ie8" /></a></p>
+<p>He added <code>C:\ruby\lib\ruby\gems\1.8\gems\watir-1.6.2</code> folder (that is where Watir lived on his Windows machine) to his Watir project in <a href="http://www.netbeans.org/">NetBeans</a>, and made a search for <code>Choose file</code>. The search found 12 matches in 2 files. Both files were in <code>watir-1.6.2\lib\watir</code> folder. Files were <code>input_elements.rb</code> and <code>winClicker.rb</code>. He said (to himself):</p>
+<blockquote><p>I will try <code>input_elements.rb</code> first.</p></blockquote>
+<p>There he found an ugly long line that contained <code>Choose file</code> three times:</p>
+<p>[ruby]<br />
+system(&quot;rubyw -e \&quot;require 'win32ole'; @autoit=WIN32OLE.new('AutoItX3.Control'); waitresult=@autoit.WinWait 'Choose file', '', 15; sleep 1; if waitresult == 1\&quot; -e \&quot;@autoit.ControlSetText 'Choose file', '', 'Edit1', '#{setPath}'; @autoit.ControlSend 'Choose file', '', 'Button2', '{ENTER}';\&quot; -e \&quot;end\&quot;&quot;)<br />
+[/ruby]</p>
+<p>He replaced all three occurrences of <code>Choose file</code> with <code>Choose File to Upload</code>.</p>
+<p>[ruby]<br />
+system(&quot;rubyw -e \&quot;require 'win32ole'; @autoit=WIN32OLE.new('AutoItX3.Control'); waitresult=@autoit.WinWait 'Choose File to Upload', '', 15; sleep 1; if waitresult == 1\&quot; -e \&quot;@autoit.ControlSetText 'Choose File to Upload', '', 'Edit1', '#{setPath}'; @autoit.ControlSend 'Choose File to Upload', '', 'Button2', '{ENTER}';\&quot; -e \&quot;end\&quot;&quot;)<br />
+[/ruby]</p>
+<p>He tried file upload with Watir, and it worked! He was so proud, that he decided to share it with the world! Since Watir code recently moved from SVN to Git, it was also a perfect chance to try Git again. Watir code is hosted on <a href="http://github.com/">Github</a>, so he opened an account there.</p>
+<p><a href="http://zeljkofilipin.com/wp-content/uploads/2009/03/pricing-github.jpg"><img src="assets/pricing-github-300x145.jpg" alt="pricing-github" title="pricing-github" /></a></p>
+<p>He thought:</p>
+<blockquote><p>I will need to download the latest Watir code, make the change there and contribute back.</p></blockquote>
+<p>He found <a href="http://github.com/bret/watir/tree/master">Watir repository</a> and forked it. (It is polite to fork a repository on Github.)</p>
+<p><a href="http://zeljkofilipin.com/wp-content/uploads/2009/03/fork1.jpg"><img src="assets/fork1-300x228.jpg" alt="fork1" title="fork1" /></a></p>
+<p>He already had Git installed on his Mac. (Recently he became one of those cool people that use Macs.) He probably installed it a while ago when he tried Git for the first time.</p>
+<p>He likes to have the newest versions of any software, so he <a href="http://code.google.com/p/git-osx-installer/">updated Git</a>.</p>
+<p>Then he decided the time is right to download (or <a href="http://git-scm.com/">clone</a>, as Git calls it) his fork of Watir. Do not make the same mistake he did! He cloned the repository using <code>public clone URL</code> (<code>git://github.com/zeljkofilipin/watir.git</code>). No, no and NO! You should use <code>your clone URL</code> (<code>git@github.com:zeljkofilipin/watir.git</code>) (He wants to say thanks to <a href="http://pettichord.com/">Bret Pettichord</a> for teaching him that valuable lesson.) He found those links at Github after logging in and forking the Watir repository.</p>
+<p><a href="http://zeljkofilipin.com/wp-content/uploads/2009/03/your-dashboard-github.jpg"><img src="assets/your-dashboard-github-300x169.jpg" alt="your-dashboard-github" title="your-dashboard-github" width="300" height="169" class="alignnone size-medium wp-image-494" /></a></p>
+<p><a href="http://zeljkofilipin.com/wp-content/uploads/2009/03/zeljkofilipin_s-watir-at-master-github.jpg"><img src="assets/zeljkofilipin_s-watir-at-master-github-300x85.jpg" alt="zeljkofilipin_s-watir-at-master-github" title="zeljkofilipin_s-watir-at-master-github" /></a></p>
+<p>But, before cloning he had to create SSH keys. He found the instructions at <a href="https://github.com/account">Github account</a> page. There was a link with a friendly name: <a href="http://github.com/guides/providing-your-ssh-key">Need help with public keys?</a>. Oh, he needed help!</p>
+<p>He followed the instructions.  Do not name your files <code>github</code> and <code>github.pub</code>, like he did. Leave default file names, otherwise it will not work. You do not need a passphrase for now. Leave it blank. (He wants to say thanks to <a href="http://github.com/mislav">Mislav Marohnić</a> for teaching him all that SSH stuff.)</p>
+<p><code><br />
+$ cd .ssh<br />
+$ ssh-keygen<br />
+Generating public/private rsa key pair.<br />
+Enter file in which to save the key (/Users/zeljko/.ssh/id_rsa):<br />
+Enter passphrase (empty for no passphrase):<br />
+Enter same passphrase again:<br />
+Your identification has been saved in /Users/zeljko/.ssh/id_rsa.<br />
+Your public key has been saved in /Users/zeljko/.ssh/id_rsa.pub.<br />
+</code></p>
+<p>Now he had <code>id_rsa</code> and <code>id_rsa.pub</code> files. He gave contents of <code>id_rsa.pub</code> to <a href="https://github.com/account">Github</a>. (You should keep your <code>id_rsa</code> as a secret. Never show it to anybody. Not even your best friend. Seriously.)</p>
+<p><a href="http://zeljkofilipin.com/wp-content/uploads/2009/03/your-account-github.jpg"><img src="assets/your-account-github-300x86.jpg" alt="your-account-github" title="your-account-github" /></a></p>
+<p>Now that chain of trust was made, he got the repository to his machine.</p>
+<p><code>git clone git@github.com:zeljkofilipin/watir.git</code></p>
+<p>He saw something like this:</p>
+<p><code>$ git clone git@github.com:zeljkofilipin/watir.git<br />
+Initialized empty Git repository in /Users/zeljko/Documents/github/watir/.git/<br />
+The authenticity of host 'github.com (65.74.177.129)' can't be established.<br />
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.<br />
+Are you sure you want to continue connecting (yes/no)? yes<br />
+Warning: Permanently added 'github.com,65.74.177.129' (RSA) to the list of known hosts.<br />
+remote: Counting objects: 13296, done.<br />
+remote: Compressing objects: 100% (4837/4837), done.<br />
+remote: Total 13296 (delta 8584), reused 11936 (delta 8216)<br />
+Receiving objects: 100% (13296/13296), 7.50 MiB | 549 KiB/s, done.<br />
+Resolving deltas: 100% (8584/8584), done.</code></p>
+<p>He made the changes to the code with NetBeans. That was not such a good idea. But, I will talk about that later.</p>
+<p>Then he committed the change to the local repository.</p>
+<p><code>$ cd watir/<br />
+$ git add watir/lib/watir/input_elements.rb<br />
+$ git commit -m 'Fixed file uploads for IE8'</code></p>
+<p>Finally, he pushed the change back to Github:</p>
+<p><code>git push</code></p>
+<p>He saw something like this:</p>
+<p><code>$ git push<br />
+Counting objects: 11, done.<br />
+Compressing objects: 100% (6/6), done.<br />
+Writing objects: 100% (6/6), 530 bytes, done.<br />
+Total 6 (delta 5), reused 0 (delta 0)<br />
+To git@github.com:zeljkofilipin/watir.git<br />
+   2a244f9..038e96b  master -> master</code></p>
+<p>In a blink of eye, he was already at Github looking proudly at <a href="http://github.com/zeljkofilipin/watir/commit/038e96b52200a5d86b477654ef166c9a995ab9a7">his commit</a>.</p>
+<p><a href="http://zeljkofilipin.com/wp-content/uploads/2009/03/commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github.jpg"><img src="assets/commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github-300x168.jpg" alt="commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github" title="commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github" /></a></p>
+<p>But, he made one last mistake. (This is the last mistake. I promise. No more mistakes in this story. Enough is enough.) He did not know how to do a diff with Git, and NetBeans messed the whitespace, so his commit was a whitespace mess. Of course, he did not know how to undo. So, he just deleted his local and Github repositories and started over. (He had to wait a bit until he saw <code>fork</code> button again on Bret's Watir repository.)</p>
+<p>This time, he did everything right. After he pushed the change, he was so proud, that he decided to ask <a href="http://github.com/bret">Bret Pettichord</a>, the owner of the original Watir repository to merge his change with the original repository. That is called <code>pull request</code>.</p>
+<p><a href="http://zeljkofilipin.com/wp-content/uploads/2009/03/commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github-2.jpg"><img src="assets/commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github-2-300x82.jpg" alt="commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github-2" title="commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github-2" /></a></p>
+<p><a href="http://zeljkofilipin.com/wp-content/uploads/2009/03/commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github-1-1.jpg"><img src="assets/commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github-1-1-273x300.jpg" alt="commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github-1-1" title="commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github-1-1" /></a></p>
+<p>Don't just love happy ends?! :)</p>
+<p><strong>Update:</strong> Bret Pettichord <a href="http://groups.google.com/group/watir-general/browse_thread/thread/89dfd45bdca2d305">points out</a> that instead of deleting local and Github repositories after messing up the whitespace, our hero could undo the change with this:</p>
+<p><code>git reset HEAD~<br />
+git push</code></p>

@@ -1,0 +1,50 @@
+---
+layout: post
+title: watir-webdriver Tests Are Pretty Slow at Sauce Labs OnDemand
+date: 2012-05-26 19:45:04.000000000 +02:00
+categories:
+- Watir
+tags:
+- code
+- Sauce Labs OnDemand
+- watir
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '3'
+  _podPressPostSpecific: a:6:{s:15:"itunes:subtitle";s:15:"##PostExcerpt##";s:14:"itunes:summary";s:15:"##PostExcerpt##";s:15:"itunes:keywords";s:17:"##WordPressCats##";s:13:"itunes:author";s:10:"##Global##";s:15:"itunes:explicit";s:7:"Default";s:12:"itunes:block";s:7:"Default";}
+  _syntaxhighlighter_encoded: '1'
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p>[caption id="attachment_1672" align="alignnone" width="300" caption="Random Croatian Countryside"]<a href="http://zeljkofilipin.com/wp-content/uploads/2012/05/blowball.jpg"><img src="assets/blowball-300x300.jpg" alt="Random Croatian Countryside" title="Random Croatian Countryside" width="300" height="300" class="size-medium wp-image-1672" /></a>[/caption]</p>
+<p>That <a href="http://zeljkofilipin.com/watir-webdriver-and-sauce-labs-ondemand/">Sauce Labs OnDemand</a> thing is pretty nice, but I have noticed something strange. A test suite that takes about 20 minutes to run at my machine, takes 5 hours to run there! Uh-oh. Not what I have expected.</p>
+<p>After googling around, and I have found that you can speed up the tests by <a href="http://saucelabs.com/docs/ondemand/additional-config#performance">disabling video, screen shots and advisor</a>. So, I have decided to test how fast are the tests with default settings and with everything disabled.</p>
+<p>This simple script visits a few pages. In my test it visits 9 client sites. You can visit <a href="http://www.alexa.com/topsites">top 10 sites</a>, for example, if you want to run the test yourself.</p>
+<p>[sourcecode language="ruby"]<br />
+require &quot;rubygems&quot;<br />
+require &quot;watir-webdriver&quot;<br />
+browser = Watir::Browser.new<br />
+sites = [<br />
+  &quot;google.com&quot;,<br />
+  &quot;facebook.com&quot;,<br />
+  # add more sites<br />
+]<br />
+sites.each do |site|<br />
+  browser.goto site<br />
+end<br />
+browser.close<br />
+[/sourcecode]</p>
+<p>Run the script 10 times (or more, if you have the time) to make the results at least a bit statistically significant. Measure the time it takes to run the script at your machine and at Sauce Labs OnDemand, with various operating system and browser combinations.</p>
+<p>I got this results.</p>
+<p><iframe width="700" height="425" frameborder="0" src="https://docs.google.com/spreadsheet/pub?key=0AkEvoPk1PsafdDhDTTl6SDhTbERlbXdCVVlaT2Z1UUE&single=true&gid=2&output=html&widget=true"></iframe></p>
+<p>The script that just opens the browser, visits 9 pages and closes the browser takes 14 seconds on average at my machine. Exactly the same script at Sauce Labs OnDemand takes on average 55-69 seconds with default settings, and 48-64 seconds with everything disabled. So, the script <em>is</em> a bit faster when everything is disabled, but unfortunately, just a bit.</p>
+<p>The entire script is here:</p>
+<p><script src="https://gist.github.com/2794749.js?file=sauce.rb"></script></p>
+<p>You have to replace <code>username</code> and <code>api-key</code> with your username and API key.</p>
+<p>The only solution I have found so far is to run the tests in parallel. Report coming soon.</p>

@@ -1,0 +1,38 @@
+---
+layout: post
+title: MatchData
+date: 2007-06-11 16:56:04.000000000 +02:00
+categories:
+- Ruby
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p><a href="http://picasaweb.google.com/fsrkaptol/Trsat2007/photo#5074720573890929282"><img src="assets/p6090020.jpg" alt="p6090020.jpg" /></a></p>
+<p>Sapna asked <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg09099.html">how to extract id from this link</a>.</p>
+<p>[source:html]<br />
+<a href="MessageDetail.aspx?id=1303&messageToUser=True"><br />
+  RE: Check Copy Request<br />
+</a><br />
+[/source]</p>
+<p>The solution includes using <a href="http://phrogz.net/ProgrammingRuby/ref_c_matchdata.html">MatchData</a>. I use it rarely, and I always forget how it is used. So, every time I need it, I have to read documentation. I have decided to make a note here, so I could easily find it later.</p>
+<p>This is how you can get href attribute of that link. I will assumed that he knows text ("RE: Check Copy Request").</p>
+<p>[source:ruby]<br />
+ie.link(:text, "RE: Check Copy Request").href<br />
+=> "MessageDetail.aspx?id=1303&messageToUser=True"<br />
+[/source]</p>
+<p>This will extract 1303.</p>
+<p>[source:ruby]<br />
+m = /id=(1303)/.match(ie.link(:text, "RE: Check Copy Request").href)<br />
+=> #<matchdata :0x2d147b8></p>
+<p>m[1]<br />
+=> "1303"<br />
+[/source]</matchdata></p>

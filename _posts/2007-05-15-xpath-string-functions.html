@@ -1,0 +1,45 @@
+---
+layout: post
+title: XPath String Functions
+date: 2007-05-15 11:03:19.000000000 +02:00
+categories:
+- Ruby
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p>I have XML that looks like this.</p>
+<p>[source:xml]<br />
+<tokens><br />
+ <shorturl url="resetpassword.aspx?m=7fb83717-9606-4022-bd4e-67b6f6582ada&amp;code=2271ad0e-d627-4e6c-bdfb-2b11d354e9ac" hash="BF8E8F60E722E92C7ED8303916591AB4" /><br />
+</tokens><br />
+[/source]</p>
+<p>I need to get value of <em>hash</em> attribute (<em>BF8E8F60E722E92C7ED8303916591AB4</em>). I know the value of <em>m</em> url parameter (inside <em>url</em> attribute) (<em>7fb83717-9606-4022-bd4e-67b6f6582ada</em>), but I do not know the value of <em>code</em> url parameter.</p>
+<p>I know how to get attribute of a tag when I know another attribute of that tag. For example, if I knew <em>hash</em> attribute and needed <em>url</em> attribute, I would do it like this:</p>
+<p>[source:ruby]<br />
+e = REXML::Document.new(ie.text).root.elements<br />
+e["/tokens/ShortUrl[@hash='BF8E8F60E722E92C7ED8303916591AB4']"].attributes["url"]<br />
+=> "resetpassword.aspx?m=7fb83717-9606-4022-bd4e-67b6f6582ada&code=2271ad0e-d627-4e6c-bdfb-2b11d354e9ac"<br />
+[/source]</p>
+<p>But, I know only part of <em>url</em> attribute. Of course, this does not work (because e[...] returns <em>nil</em>).</p>
+<p>[source:ruby]<br />
+e["/tokens/ShortUrl[@url='resetpassword.aspx?m=7fb83717-9606-4022-bd4e-67b6f6582ada&code=']"].attributes["hash"]<br />
+=> NoMethodError: undefined method `attributes' for nil:NilClass<br />
+[/source]</p>
+<p>I have heard that there are <a href="http://www.w3.org/TR/xpath#section-String-Functions">XPath string functions</a>, but I did not understand how to use them, or would it even help in this case.</p>
+<p>I have solved this problem with regular expressions, but I guess there must be XPath solution.</p>
+<p>Also, I have already asked <a href="http://edge4dev.wordpress.com/">my developer</a> to simplify that XML, so I can use it, but that has low priority because I have already solved the problem.</p>
+<p><a href="http://angrez.blogspot.com/">Angrez Singh</a> was kind enough to help me. This is the solution.</p>
+<p>[source:ruby]<br />
+e["/tokens/ShortUrl[starts-with(@url, 'resetpassword.aspx?m=7fb83717-9606-4022-bd4e-67b6f6582ada&code=')]"].attributes["hash"]<br />
+=> "BF8E8F60E722E92C7ED8303916591AB4"<br />
+[/source]</p>
+<p>You can find <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg08521.html">this thread at wtr-general</a>.</p>

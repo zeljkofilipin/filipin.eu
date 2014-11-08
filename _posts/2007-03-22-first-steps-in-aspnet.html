@@ -1,0 +1,37 @@
+---
+layout: post
+title: First Steps in ASP.NET
+date: 2007-03-22 14:13:11.000000000 +01:00
+categories:
+- ".NET"
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p><a href="http://zeljkofilipin.com/wp-content/uploads/2007/03/asp.png"><img src="assets/asp.png" title="asp.png" alt="asp.png" /></a></p>
+<p><a href="http://edge4dev.wordpress.com/">My developer</a> is using <a href="http://msdn2.microsoft.com/en-us/asp.net/default.aspx">ASP.NET</a>. I decided to learn basics of it. After all, you have to <a href="http://www.youtube.com/watch?v=wzkGHoOp3AQ">know your enemy</a>. As it usually goes, pretty soon I got into trouble. <a href="http://www.microsoft.com/WindowsServer2003/iis/default.mspx">Internet Information Services</a> (IIS 5.1) at my machine (Windows XP Professional, Service Pack 2) was processing server code of asp pages, but not of aspx. Internet Explorer would show HTML portion of aspx page, but server code was ignored. Firefox was showing asp pages, but for aspx pages I was getting "open with" pop-up.</p>
+<p>What went wrong? <a href="http://msdn2.microsoft.com/en-us/netframework/default.aspx">.NET Framework</a> and IIS are installed.</p>
+<p>I started looking at Internet Information Services (Start > All Programs > Administrative Tools > Internet Information Services). At ASP.NET tab of Web Sites Properties window (Internet Information Services > local computer > Web Sites > right click > Properties ) I saw that ASP.NET version is not selected, so I selected 2.0.50727 (1.1.4322 was also available).</p>
+<p>No luck. I started getting this error page.</p>
+<blockquote><p>Server Application Unavailable</p></blockquote>
+<p>Time to ask my <a href="http://en.wikipedia.org/wiki/Artillery">developer</a> for help. He said I should create virtual directory.</p>
+<ul>
+<li>at C:\Inetpub\wwwroot\ create directory asp</li>
+<li>Internet Information Services > local computer > Web Sites > Default Web Site > right click > New > Virtual Directory... > enter alias ("asp" sounds good) > browse to directory > make sure "Read" and "Run scripts (such as ASP)" checkboxes are checked</li>
+<li>Internet Information Services > local computer > Web Sites > Default Web Site > virtual directory alias ("asp", remember) > right click > Properties > ASP.NET > ASP.NET version > 2.0.50727</li>
+</ul>
+<p>Then I got different error message.</p>
+<blockquote><p>Failed to access IIS metabase.</p></blockquote>
+<p>According to <a href="http://blog.devstone.com/Aaron/archive/2006/05/08/1586.aspx">Failed to access IIS metabase</a> blog post from R. Aaron Zupancic, the problem was:</p>
+<blockquote><p>You may have installed IIS after installing the .NET framework.</p></blockquote>
+<p>True. I installed .NET framework immediately after I installed Windows, and I installed IIS later when I needed it. Solution? Open command prompt, go to C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727 and execute</p>
+<blockquote><p>aspnet_regiis -i</p></blockquote>
+<p>Everything works fine now. Firefox needed some time to start recognizing aspx pages (I was still getting "open with" pop-up), but now it works.</p>

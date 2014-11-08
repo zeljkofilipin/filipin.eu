@@ -1,0 +1,112 @@
+---
+layout: post
+title: Nadomak objektno orijentiranom raju
+date: 2005-11-09 16:10:48.000000000 +01:00
+categories:
+- Hrvatski (Croatian)
+- Watir
+tags:
+- code
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '3'
+  syntaxhighlighter_encoded: '1'
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p><img src="assets/1620375911.jpg" alt="Sveti Đžogljavko, zaštitnik testera." /></p>
+<p>Ovih dana sam uspio srediti testove baš onako kako sam oduvijek želio. Jednostavno izgaram od želje prenijeti iskustvo mladim testerima.</p>
+<p>Legenda:<br />
+[sourcecode language="ruby"]<br />
+kod<br />
+# komentar<br />
+[/sourcecode]</p>
+<p>Možda se ova konfiguracijska datoteka čini nepotrebna, ako iznimno je korisna kad broj objekata poraste.</p>
+<p>-- config.yml početak --<br />
+[sourcecode language="ruby"]<br />
+# yaml čak dopušta komentare!<br />
+# naravno, ovo je adresa aplikacije<br />
+# koju testiram<br />
+http_host: http://zeljkofilipin.com/</p>
+<p># a ovo je korisnik koji će žariti<br />
+# i paliti po aplikaciji<br />
+user:<br />
+ name: Željko<br />
+ password: iskušivač<br />
+[/sourcecode]<br />
+-- config.yml kraj --</p>
+<p>-- test.rb početak --<br />
+[sourcecode language="ruby"]<br />
+# ovdje je skupljeno sve što treba<br />
+# za rad sa Internet Explorerom (IE)<br />
+require 'watir'</p>
+<p># ova dva reda omogućavaju upotrebu one simpatične<br />
+# assert(izraz_koji_treba_biti_istinit) metode<br />
+# (bit će još o tome riječi)<br />
+require 'test/unit/assertions'<br />
+include Test::Unit::Assertions</p>
+<p># ovdje je podrška za divne yaml konfiguracijske datoteke<br />
+require 'yaml'</p>
+<p>=begin<br />
+Ovo je isto komentar u Ruby-ju.<br />
+U ovoj klasi su samo dvije metode, ali iznimno korisne.<br />
+contains_text? mi štedi vrijeme koje bi provodio u tipkanju.<br />
+Item.open_ie je sasvim duga priča.<br />
+Trebalo mi je nekoliko mjeseci dok nije sazorila.<br />
+IE je utrpan u varijablu klase @@ie.<br />
+Znači, da bi neka klasa mogla raditi s IE-om,<br />
+dovoljno je da joj klasa Item bude roditelj.<br />
+=end</p>
+<p>class Item<br />
+  def contains_text?(text)<br />
+    assert(@@ie.contains_text(text),<br />
+      &quot;could not find text '#{text}'&quot;)<br />
+  end<br />
+  def Item.open_ie<br />
+    @@ie = Watir::IE.new<br />
+    @@ie.set_fast_speed<br />
+  end<br />
+end</p>
+<p># sve aplikacije koje sam testirao<br />
+# traže da se korisnik prvo prijavi<br />
+class User &lt; Item<br />
+  def initialize(user, http_host)<br />
+    @name = user['name']<br />
+    @password = user['password']<br />
+    @http_host = http_host<br />
+  end<br />
+  def go_to_log_in_page<br />
+    text = 'Please log in.'<br />
+    unless @@ie.contains_text(text)<br />
+      @@ie.goto(&quot;#{@http_host}login.aspx&quot;)<br />
+      contains_text?(text)<br />
+    end<br />
+  end<br />
+  def log_in<br />
+    go_to_log_in_page</p>
+<p>    @@ie.textField(:id, 'name').set(@name)<br />
+    @@ie.textField(:id, 'password').set(@password)<br />
+    @@ie.button(:value, 'Login').click<br />
+    contains_text?(&quot;Logged in as #{@name}.&quot;)<br />
+  end<br />
+end</p>
+<p># zgrabi one podatke iz konfiguracijske datoteke<br />
+config = YAML::load(File.open('config.yml'))</p>
+<p># napravi novog korisnika<br />
+user= User.new(config['user'], config['http_host'])</p>
+<p># do sad smo samo nešto konfigurirali<br />
+# idemo testirati!</p>
+<p># otvori IE!<br />
+Item.open_ie</p>
+<p># prijavi korisnika u aplikaciju!<br />
+user.log_in<br />
+[/sourcecode]<br />
+-- test.rb kraj --</p>
+<p>Što dalje?<br />
+Bit će ovih dana. :)</p>

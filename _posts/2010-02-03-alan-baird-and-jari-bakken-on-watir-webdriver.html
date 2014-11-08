@@ -1,0 +1,122 @@
+---
+layout: post
+title: Alan Baird and Jari Bakken on watir-webdriver
+date: 2010-02-03 12:25:09.000000000 +01:00
+categories:
+- Watir
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _syntaxhighlighter_encoded: '1'
+  _edit_last: '3'
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p>On January 28, 2010, <a href="http://twitter.com/bluegrasscoder">Alan Baird</a> (<em>&lt;alan_baird&gt;</em>) and <a href="http://github.com/jarib">Jari</a> <a href="http://twitter.com/jarib">Bakken</a> (<strong>&lt;jarib&gt;</strong>) had a chat about <a href="http://zeljkofilipin.com/2010/01/12/watir-on-webdriver/">watir-webdriver</a> on <a href="http://wiki.openqa.org/display/WTR/The+IRC+Channel">#watir IRC channel at freenode.net</a>. Published with permission.</p>
+<blockquote><p>
+[14:29] <em>&lt;alan_baird&gt;</em> jarib: if you are still around I have a follow up webdriver question for you<br />
+[14:36] <strong>&lt;jarib&gt;</strong> alan_baird: shoot<br />
+[14:36] <em>&lt;alan_baird&gt;</em> ok<br />
+[14:36] <em>&lt;alan_baird&gt;</em> so, in the podcast, Simon says that Webdriver is built on top of html unit<br />
+[14:37] <em>&lt;alan_baird&gt;</em> is that correct?<br />
+[14:38] <strong>&lt;jarib&gt;</strong> it has several backends<br />
+[14:39] <strong>&lt;jarib&gt;</strong> htmlunit being one of them<br />
+[14:39] <strong>&lt;jarib&gt;</strong> in addition it drives IE, Firefox, Chrome, with support for Opera, iPhone and Android on the way<br />
+[14:39] <em>&lt;alan_baird&gt;</em> ok<br />
+[14:40] <strong>&lt;jarib&gt;</strong> was the podcast that confusing? ouch :/<br />
+[14:40] <em>&lt;alan_baird&gt;</em> so, it seems kind of analagous to what a JVM does for different operating systems?<br />
+[14:40] <strong>&lt;jarib&gt;</strong> i guess we ended up talking too much about HtmlUnit<br />
+[14:40] <em>&lt;alan_baird&gt;</em> well, I don't know that it was all that confusing<br />
+[14:40] <strong>&lt;jarib&gt;</strong> you might say that<br />
+[14:40] <em>&lt;alan_baird&gt;</em> but, in trying to type up the show notes I've come up with my own questions<br />
+[14:41] <strong>&lt;jarib&gt;</strong> it gives you a common interface to the various browsers<br />
+[14:41] <em>&lt;alan_baird&gt;</em> ok<br />
+[14:41] <em>&lt;alan_baird&gt;</em> so, that common interface is written in Java right?<br />
+[14:41] <strong>&lt;jarib&gt;</strong> not really - there's bindings in java, ruby, c# and python<br />
+[14:42] <strong>&lt;jarib&gt;</strong> the java and ruby bindings are the most complete<br />
+[14:42] <em>&lt;alan_baird&gt;</em> ok<br />
+[14:42] <em>&lt;alan_baird&gt;</em> i guess I'm not real familiar with the bindings concept, but I guess I can get the gist of it<br />
+[14:43] <em>&lt;alan_baird&gt;</em> but basically there is this thing at the core (webdriver) which can talk to the browsers natively<br />
+[14:43] <strong>&lt;jarib&gt;</strong> alan_baird: these slides may be helpful: <a href="http://docs.google.com/present/view?id=dgpzbjs_33cxsxd9dd">http://docs.google.com/present/view?id=dgpzbjs_33cxsxd9dd</a><br />
+[14:43] <strong>&lt;jarib&gt;</strong> check slide 11+<br />
+[14:44] <em>&lt;alan_baird&gt;</em> k<br />
+[14:44] <em>&lt;alan_baird&gt;</em> looking...<br />
+[14:44] <strong>&lt;jarib&gt;</strong> also slide 27 is telling :)<br />
+[14:44] <strong>&lt;jarib&gt;</strong> although the c# side is mostly complete as well now<br />
+[14:45] <strong>&lt;jarib&gt;</strong> alan_baird: there's not really a "core" - webdriver speaks to each browser through the mechanism that fits that particular browser the best<br />
+[14:45] <strong>&lt;jarib&gt;</strong> so for firefox and chrome it's through their extension system<br />
+[14:45] <strong>&lt;jarib&gt;</strong> for IE it's C++<br />
+[14:46] <strong>&lt;jarib&gt;</strong> for opera (when it's released) it's using their scope protocol (which is also used by their built-in JS debugger)<br />
+[14:46] <strong>&lt;jarib&gt;</strong> etc.<br />
+[14:48] <em>&lt;alan_baird&gt;</em> seems like this webdriver.h is kind of at the core of all of this?<br />
+[14:48] <strong>&lt;jarib&gt;</strong> only for IE<br />
+[14:48] <em>&lt;alan_baird&gt;</em> ok<br />
+[14:49] <strong>&lt;jarib&gt;</strong> for FF, there's a firefox extension, for example<br />
+[14:49] <em>&lt;alan_baird&gt;</em> so, when you wrote selenium-webdriver, you didn't have to worry about all of the different browsers though did you?<br />
+[14:49] <em>&lt;alan_baird&gt;</em> (cause, that's what webdriver's supposed to do right?)<br />
+[14:50] <strong>&lt;jarib&gt;</strong> alan_baird: nope, i had to worry about them<br />
+[14:51] <em>&lt;alan_baird&gt;</em> hmm<br />
+[14:51] <em>&lt;alan_baird&gt;</em> well, how did having webdriver make things easier?<br />
+[14:52] <strong>&lt;jarib&gt;</strong> before i started, they had code that would bridge java-&gt;firefox extension, java-&gt;C++ IE driver, java-&gt;chrome extension etc.<br />
+[14:52] <em>&lt;alan_baird&gt;</em> (btw - I'm typing this in the middle of an ice storm, so if I suddenly disappear and don't come back it's probably cause the power went out)<br />
+[14:52] <strong>&lt;jarib&gt;</strong> so i basically ported the java parts to ruby<br />
+[14:52] <strong>&lt;jarib&gt;</strong> so now you also have ruby-&gt;firefox extension, ruby-&gt;C++ etc<br />
+[14:53] <em>&lt;alan_baird&gt;</em> ic<br />
+[14:53] <em>&lt;alan_baird&gt;</em> and that's what selenium-webdriver is right?<br />
+[14:53] <strong>&lt;jarib&gt;</strong> it made it easier since i could reuse those browser-specific parts<br />
+[14:53] <strong>&lt;jarib&gt;</strong> yes<br />
+[14:54] <em>&lt;alan_baird&gt;</em> so, i looked at some of the examples in selenium-webdriver, would it be correct to say that that gem's api follows selenium's existing api?<br />
+[14:54] <strong>&lt;jarib&gt;</strong> how the "language bindings" talk to the browser still differs somewhat from browser to browser<br />
+[14:54] <strong>&lt;jarib&gt;</strong> alan_baird: it's more correct to say the webdriver API<br />
+[14:54] <em>&lt;alan_baird&gt;</em> ok<br />
+[14:54] <strong>&lt;jarib&gt;</strong> although "webdriver API" =~ "selenium 2 api"<br />
+[14:54] <em>&lt;alan_baird&gt;</em> got it<br />
+[14:55] <strong>&lt;jarib&gt;</strong> however "webdriver API" != "selenium 1 api"<br />
+[14:55] <strong>&lt;jarib&gt;</strong> most people associate "selenium" with the selenium 1 api<br />
+[14:55] <em>&lt;alan_baird&gt;</em> cool...ok now how does webdriver remote come into the picture<br />
+[14:55] <em>&lt;alan_baird&gt;</em> is it required?<br />
+[14:55] <em>&lt;alan_baird&gt;</em> why would you use it?<br />
+[14:56] <strong>&lt;jarib&gt;</strong> the remote is basically two parts: a java web server, and a client driver<br />
+[14:57] <strong>&lt;jarib&gt;</strong> the server will accept commands like "click", "findElement" (using a REST-like JSON-over-HTTP interface)<br />
+[14:57] <strong>&lt;jarib&gt;</strong> before they had java client-&gt;java server<br />
+[14:57] <strong>&lt;jarib&gt;</strong> now we also have a ruby client for that server, so ruby client-&gt;java server<br />
+[14:57] <strong>&lt;jarib&gt;</strong> does that make sense?<br />
+[14:58] <strong>&lt;jarib&gt;</strong> it's not required, but it's useful if you want to run your tests launch the browser on another machine<br />
+[14:58] <em>&lt;alan_baird&gt;</em> is that kind of the replacement for Selenium Grid?<br />
+[14:59] <strong>&lt;jarib&gt;</strong> say, if you're developing on linux, you could easily run your tests on IE on windows, firefox on mac etc. using the remote driver<br />
+[14:59] <strong>&lt;jarib&gt;</strong> no, Selenium Grid is more than that<br />
+[14:59] <em>&lt;alan_baird&gt;</em> ok<br />
+[14:59] <strong>&lt;jarib&gt;</strong> but the webdriver remote stuff could be used to build a similar system<br />
+[14:59] <em>&lt;alan_baird&gt;</em> well, right now, I think I kind of have the same thign<br />
+[14:59] <em>&lt;alan_baird&gt;</em> i have a bunch of VMs that I execute tests on<br />
+[14:59] <em>&lt;alan_baird&gt;</em> and a system that tells the vms when to run the tests<br />
+[15:00] <em>&lt;alan_baird&gt;</em> but, it seems like the remote would be one computer telling the other computers what to do<br />
+[15:00] <em>&lt;alan_baird&gt;</em> as opposed to having it be independent the way I do it now<br />
+[15:00] <strong>&lt;jarib&gt;</strong> right - with the remote, you wouldn't need to distribute your test scripts - each command to the browser would go over the network<br />
+[15:00] <strong>&lt;jarib&gt;</strong> so it's a long-running server process<br />
+[15:01] <em>&lt;alan_baird&gt;</em> thats pretty nifty<br />
+[15:01] <em>&lt;alan_baird&gt;</em> is that the main way people would use that kind of feature for?<br />
+[15:02] <strong>&lt;jarib&gt;</strong> yeah - also makes it easier to test on various combinations of browsers/platforms<br />
+[15:03] <em>&lt;alan_baird&gt;</em> i'm just noticing the slide that says Webdriver has a "lovely API", but apparently we didn't consider it lovely enough so we made watir-webdriver<br />
+[15:03] <em>&lt;alan_baird&gt;</em> :)<br />
+[15:03] <strong>&lt;jarib&gt;</strong> haha<br />
+[15:04] <strong>&lt;jarib&gt;</strong> well, compare it to the selenium api<br />
+[15:04] <em>&lt;alan_baird&gt;</em> i guess that's mainly so people could backport their watir tests without a major rewrite<br />
+[15:04] <strong>&lt;jarib&gt;</strong> yeah, for my part it's mainly because we have a lot invested in the watir api<br />
+[15:04] <em>&lt;alan_baird&gt;</em> right<br />
+[15:04] <em>&lt;alan_baird&gt;</em> same here<br />
+[15:04] <em>&lt;alan_baird&gt;</em> :)<br />
+[15:05] <em>&lt;alan_baird&gt;</em> ok, well thank you very much for letting me bug you<br />
+[15:05] <strong>&lt;jarib&gt;</strong> if i were starting from scratch with experienced developers, i'd probably use the webdriver api directly<br />
+[15:05] <strong>&lt;jarib&gt;</strong> no problem<br />
+[15:05] <em>&lt;alan_baird&gt;</em> i'm going to forward this conversation to zeljko<br />
+[15:05] <strong>&lt;jarib&gt;</strong> yep<br />
+[15:05] <strong>&lt;jarib&gt;</strong> do that<br />
+[15:05] <em>&lt;alan_baird&gt;</em> maybe we might do a little follow up
+</p></blockquote>

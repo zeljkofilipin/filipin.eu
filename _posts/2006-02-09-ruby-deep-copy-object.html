@@ -1,0 +1,53 @@
+---
+layout: post
+title: 'Ruby: (Deep) Copy Object'
+date: 2006-02-09 13:24:46.000000000 +01:00
+categories:
+- Ruby
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p>I wanted to make an object. Then copy it. Then change that copy and leave original object intact. But I did not know how to do it. When I do not know how to do something, I always ask <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/">wtr-general</a> mailing list. I <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg02650.html">posted</a> my question. Then I though it would be nice if I explained why I want to copy an object. But it got pretty long, so I put it at my <a href="http://zeljkofilipin.com/2006/02/07/watir-ruby-objects-and-variables/">blog</a>.</p>
+<p>I got a reply. "Try Object#clone". Could it be that easy?! It could be. After all, this is Ruby. But no, it is not that easy. It did not work. Original object was changing with it's duplicate.</p>
+<p>[source:ruby]<br />
+class Page<br />
+  attr_accessor :texts<br />
+  def initialize(url, texts)<br />
+    @url, @texts = url, texts<br />
+  end<br />
+end</p>
+<p>page_view = Page.new("app.com/view.aspx", ["File > View"])</p>
+<p>page_view_after_add = page_view.clone<br />
+page_view_after_add.texts &lt;&lt; "File added."</p>
+<p>puts page_view.inspect<br />
+puts page_view_after_add.inspect<br />
+[/source]</p>
+<p>Output:</p>
+<p><code><br />
+#&lt;Page:0x2820ae0 @url="app.com/view.aspx", @texts=["File &gt; View", "File added."]&gt;<br />
+#&lt;Page:0x2820a98 @url="app.com/view.aspx", @texts=["File &gt; View", "File added."]&gt;</p>
+<p>But now I new where to look. So I typed "ri Object#clone" and "ri Object#dup" at Command Prompt (and even looked at <a href="http://www.ruby-doc.org/core/">http://www.ruby-doc.org/core/</a>). It said (at both places, for both Object#clone and Object#dup):</p>
+<p>"Produces a shallow copy of obj—the instance variables of obj are copied, but not the objects they reference."</p>
+<p>So, it creates a "shallow" copy. I do not need this. I need a "real" copy.</p>
+<p>Google helped me. I searched for "ruby copy object" and found <a href="http://www.rubygarden.org/ruby?Make_A_Deep_Copy_Of_An_Object">http://www.rubygarden.org/ruby?Make_A_Deep_Copy_Of_An_Object</a>. Secret word is "deep" copy.</p>
+<p>I added this to class Page (and replaced page_view.clone with page_view.deep_clone) and got what I needed!</p>
+<p>[source:ruby]<br />
+def deep_clone<br />
+  Marshal::load(Marshal.dump(self))<br />
+end<br />
+[/source]</p>
+<p>Output:</p>
+<p></code><code><br />
+#&lt;Page:0x4c1dd10 @url="app.com/view.aspx", @texts=["File &gt; View"]&gt;<br />
+#&lt;Page:0x4c1dc50 @url="app.com/view.aspx", @texts=["File &gt; View", "File added."]&gt;<br />
+</code></p>
+<p>I do not understand how it works, and I do not care, as long as it works.</p>

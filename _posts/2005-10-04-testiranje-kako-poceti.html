@@ -1,0 +1,60 @@
+---
+layout: post
+title: Testiranje. Kako početi?
+date: 2005-10-04 11:42:32.000000000 +02:00
+categories:
+- Hrvatski (Croatian)
+- Testing
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p><img src="assets/1620313089.jpg" alt="Moj kućni ljubimac Čarapko njuška po aplikaciji. Hranim ga samo testiranjem." /></p>
+<p>Sjećam se svojih prvih dana na ovom poslu. Testirao sam istu aplikaciju koju i sad testiram. Srećom, naslijedio sam popriličnu količinu testova (ali na žalost samo za tu aplikaciju).</p>
+<p>Posjeli su me za računalo, dali mi stotinjak testova napisanih u Wordu, url aplikacije (na stroju za testiranje, ne url gdje je sve "za pravo"), korisničko ime i lozinku administratora i rekli: "Testiraj".</p>
+<p>Nakon nekoliko minuta osjećao sam se kao riba u vodi.</p>
+<p>Testove sam poslije prebacio iz Worda u Excel (jako volim Excel), dodao koju kolonu, izbacio pokoju, popravio neke greščice koje sam našao (o da, i testeri rade greške)...</p>
+<p>Ovo je jedan od tih testova. Ime mu je Napravi-Korisnika, a prezime Test-Funkcionalnosti. O klanovima testova (prepoznaju se po prezimenu) će biti riječi ovih dana. Test-Funkcionalnosti, naravno, provjerava da li neka funkcionalnost aplikacije radi ono što bi trebala. Svako drugo testiranje odbija, pozivajući se na kolektivni ugovor koji je njegov klan potpisao.</p>
+<p>Svi testovi pretpostavljaju da je korisnik prijavljen u aplikaciju i da se nalazi na početnoj stranici (osim naravno testova za prijavu i odjavu).</p>
+<ul>
+<li>broj testa: 1</li>
+<li>korisnik: administrator</li>
+<li>naslov: napravi korisnika</li>
+<li>koraci:</li>
+</ul>
+<ol>
+<li>klikni link "napravi korisnika"</li>
+<li>popuni podatke, samo obavezna polja, označena * (zvjezdicom)</li>
+<li>klikni dugme "nastavi"</li>
+<li>postavi ovlasti pristupa za pojedine zajednice</li>
+<li>klikni dugme "spremi"</li>
+</ol>
+<ul>
+<li>ulazni podaci:</li>
+</ul>
+<ol>
+<li>titula</li>
+<li>ime</li>
+<li>prezime</li>
+<li>država</li>
+<li>e-pošta</li>
+<li>korisničko ime</li>
+<li>lozinka</li>
+<li>ponovi lozinku</li>
+<li>ovlasti pristupa za pojedine zajednice</li>
+</ol>
+<ul>
+<li>očekivani rezultati</li>
+</ul>
+<ol>
+<li>povratna informacija da je korisnik napravljen</li>
+<li>korisnik je napravljen</li>
+</ol>

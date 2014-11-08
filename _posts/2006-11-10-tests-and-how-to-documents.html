@@ -1,0 +1,42 @@
+---
+layout: post
+title: Tests and How-To Documents
+date: 2006-11-10 13:18:11.000000000 +01:00
+categories:
+- Watir
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p>You have a bunch of tests, right? With every build of your application under test, you run them all. If a test fails, application should be fixed, or you test should be fixed. Wouldn't it be nice to make how-to documents from that tests?</p>
+<p>Time for an example (Ruby, Watir):</p>
+<p>[source:ruby]<br />
+def login_as(username, password)<br />
+  ie.goto("my.app/login")<br />
+  ie.should_contain("please login")</p>
+<p>  ie.text_field(:id, "username").set(username)<br />
+  ie.text_field(:id, "password").set(password)<br />
+  ie.button(:value, "login").click<br />
+  ie.should_contain("logged in as #{username}")<br />
+end<br />
+[/source]</p>
+<p>You run that test, and you get output like this (this is real output from my test):</p>
+<p>log in<br />
+- go to '[application url]/login.aspx'<br />
+- (url should be '[application url]/login.aspx')<br />
+- (there should be text 'Please Login')<br />
+- at text field 'userName' enter '[userName]'<br />
+- at text field 'password' enter '[password]'<br />
+- click button 'Login'<br />
+- (url should be '[application url]/default.aspx')<br />
+- (there should be text 'Recent Contributions')<br />
+- (there should be text 'logged in as [first name] [last name]')</p>
+<p>I <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg05762.html">posted</a> this at wtr-general list and people recommended to take a look at rSpec and Systir.</p>

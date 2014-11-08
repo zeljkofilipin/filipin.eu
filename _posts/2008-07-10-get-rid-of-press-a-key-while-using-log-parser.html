@@ -1,0 +1,27 @@
+---
+layout: post
+title: Get rid Of "Press a key..." While Using Log Parser
+date: 2008-07-10 09:00:16.000000000 +02:00
+categories:
+- Software
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '3'
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p>As I said before, <a href="http://zeljkofilipin.com/2008/07/03/log-parser-and-batch-files/">I use Log Parser a lot</a>.</p>
+<p>One thing that really annoyed me is <code>Press a key...</code> that would appear after each screen of results.</p>
+<p><code>C:\>LogParser "SELECT text FROM errors.log"<br />
+[...]<br />
+Press a key...<br />
+[...]</code></p>
+<p>It took me some time to get rid of it, so maybe this helps somebody. Use <code>-rtp:-1</code> switch and there will be no more <code>Press a key...</code></p>
+<p><code>C:\>LogParser -rtp:-1 "SELECT text FROM errors.log"</code></p>

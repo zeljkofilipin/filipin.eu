@@ -1,0 +1,195 @@
+---
+layout: post
+title: Ruby Mail and benchmark.rb on CRuby, JRuby, IronRuby and RubyInstaller
+date: 2010-01-05 19:15:42.000000000 +01:00
+categories:
+- ".NET"
+- Ruby
+- Software
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _syntaxhighlighter_encoded: '1'
+  _edit_last: '3'
+  _wp_old_slug: ruby-mail-and-benchmark-rb-on-cruby-jruby-and-ironruby
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p><strong>Update: Steve suggested I should try the script also with <a href="http://rubyinstaller.org/">RubyInstaller</a>, and I did it.</strong></p>
+<p>This blog post is update of my recent <a href="http://zeljkofilipin.com/2009/12/24/ruby-mail-on-cruby-jruby-and-ironruby/">Ruby Mail on CRuby, JRuby and IronRuby</a> post. Mikel and Jimmy have commented on the post saying I did a poor job, and I would agree. I decided to do a better job this time. Please let me know if measurements can be further improved.</p>
+<p>So, I have an e-mail file called <code>1.eml</code>:</p>
+<p>[sourcecode language="text"]<br />
+Date: Thu, 24 Dec 2009 14:37:34 Central European Standard Time<br />
+From: from@test.com<br />
+To: to@test.com<br />
+Message-ID: &lt;4b336e9e762a0_a1014263a4689d3@2003-ie7.mail&gt;<br />
+Subject: This is a test email<br />
+Mime-Version: 1.0<br />
+Content-Type: text/plain;<br />
+	charset=&quot;US-ASCII&quot;;<br />
+Content-Transfer-Encoding: 7bit</p>
+<p>Some text for mail body<br />
+[/sourcecode]</p>
+<h2>The First Try</h2>
+<p>This is the test from the first post. (RubyInstaller was not included in the first post.) It is included here so all code and numbers are at the same page, I guess it is easier to compare that way. Read the file, display subject and total time elapsed (in seconds).</p>
+<p>[sourcecode language="ruby"]<br />
+time = Time.now<br />
+require &quot;rubygems&quot;<br />
+require &quot;mail&quot;<br />
+mail = Mail.read(&quot;1.eml&quot;)<br />
+puts mail.subject.to_s<br />
+puts Time.now - time<br />
+[/sourcecode]</p>
+<p>Executed the script three times for each Ruby implementation. RubyInstaller the fastest, CRuby and JRuby were similar in speed, IronRuby was way slower.</p>
+<table border="1">
+<tbody>
+<tr>
+<th>Test Run</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+<tr>
+<th>CRuby</th>
+<td>2.594</td>
+<td>2.109</td>
+<td>2.11</td>
+</tr>
+<tr>
+<th>JRuby</th>
+<td>3.0</td>
+<td>2.016</td>
+<td>2.0</td>
+</tr>
+<tr>
+<th>IronRuby</th>
+<td>9.8125</td>
+<td>7.796875</td>
+<td>7.6875</td>
+</tr>
+<tr>
+<th>RubyInstaller</th>
+<td>1.21875</td>
+<td>1.203125</td>
+<td>1.203125</td>
+</tr>
+</tbody>
+</table>
+<table>
+<h2>The Second Try</h2>
+<p>Since both Mikel and Jimmy said <code>require</code> could take the majority of the time, and I was not really interested in measuring that, I excluded it from the measurement. </p>
+<p>[sourcecode language="ruby"]<br />
+require &quot;rubygems&quot;<br />
+require &quot;mail&quot;</p>
+<p>time = Time.now<br />
+mail = Mail.read(&quot;1.eml&quot;)<br />
+puts mail.subject.to_s<br />
+puts Time.now - time<br />
+[/sourcecode]</p>
+<p>Times were way shorter. RubyInstaller the fastest (can not get much faster that 0.0 seconds), CRuby and JRuby in the same order of magnitude, IronRuby order of magnitude slower. JRuby has surprisingly the same numbers every time.</p>
+<table border="1">
+<tbody>
+<tr>
+<th>Test Run</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+<tr>
+<th>CRuby</th>
+<td>0.015</td>
+<td>0.016</td>
+<td>0.0</td>
+</tr>
+<tr>
+<th>JRuby</th>
+<td>0.047</td>
+<td>0.047</td>
+<td>0.047</td>
+</tr>
+<tr>
+<th>IronRuby</th>
+<td>0.5</td>
+<td>0.46875</td>
+<td>0.484375</td>
+</tr>
+<tr>
+<th>RubyInstaller</th>
+<td>0.0</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+</tbody>
+</table>
+<table>
+<h2>Benchmark</h2>
+<p>Mikel and Jimmy have suggested that I should use <a href="http://ruby-doc.org/stdlib/libdoc/benchmark/rdoc/index.html">benchmark.rb</a>, so I took a look. I have slightly modified the script. This time the file was read 1000 times.</p>
+<p>[sourcecode language="ruby"]<br />
+require &quot;rubygems&quot;<br />
+require &quot;mail&quot;<br />
+require &quot;benchmark&quot;</p>
+<p>Benchmark.bm do |x|<br />
+  x.report { 1000.times do; puts Mail.read(&quot;1.eml&quot;).subject.to_s; end }<br />
+end<br />
+[/sourcecode]</p>
+<p>This measurement said JRuby was the fastest, followed closely by RubyInstaller and CRuby, IronRuby again order of magnitude slower.</p>
+<table border="1">
+<tbody>
+<tr>
+<th>Test Run</th>
+<th>user</th>
+<th>system</th>
+<th>total</th>
+<th>real</th>
+</tr>
+<tr>
+<th>CRuby</th>
+<td>11.000000</td>
+<td>0.657000</td>
+<td>11.657000</td>
+<td>13.485000</td>
+</tr>
+<tr>
+<th>JRuby</th>
+<td>6.187000</td>
+<td>0.000000</td>
+<td>6.187000</td>
+<td>6.187000</td>
+</tr>
+<tr>
+<th>IronRuby</th>
+<td>69.984375</td>
+<td>7.140625</td>
+<td>77.125000</td>
+<td>60.656250</td>
+</tr>
+<tr>
+<th>RubyInstaller</th>
+<td>7.297000</td>
+<td>0.766000</td>
+<td>8.063000</td>
+<td>9.953125</td>
+</tr>
+</tbody>
+</table>
+<h2>Environment</h2>
+<p>Tests were run in VMware Fusion 2.0.6 virtual machine, 512 MB RAM, Microsoft Windows Sever 2003 R2 (Standard Edition, Service pack 2).<br />
+Host machine is MacBook Pro, 2.4 GHz Intel Core 2 Duo, Mac OS X 10.6.2, 4 GB RAM.</p>
+<p>[sourcecode language="bash"]<br />
+&gt;ruby -v<br />
+ruby 1.8.6 (2007-09-24 patchlevel 111) [i386-mswin32]</p>
+<p>&gt;jruby -v<br />
+jruby 1.4.0 (ruby 1.8.7 patchlevel 174) (2009-11-02 69fbfa3) (Java HotSpot(TM) Client VM 1.6.0_10) [x86-java]</p>
+<p>&gt;ir -v<br />
+IronRuby 0.9.3.0 on .NET 2.0.0.0</p>
+<p>&gt;ruby -v<br />
+ruby 1.8.6 (2009-08-04 patchlevel 383) [i386-mingw32]<br />
+[/sourcecode]</p>
+<p>Mail version 1.3.4 on all platforms.</table>
+</table>

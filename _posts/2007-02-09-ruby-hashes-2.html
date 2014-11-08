@@ -1,0 +1,68 @@
+---
+layout: post
+title: Ruby Hashes (2)
+date: 2007-02-09 12:31:03.000000000 +01:00
+categories:
+- Ruby
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+author:
+  login: zeljko.filipin
+  email: zeljko.filipin@gmail.com
+  display_name: "Željko Filipin"
+  first_name: "Željko"
+  last_name: Filipin
+---
+<p>Yesterday I wrote about <a href="http://zeljkofilipin.com/2007/02/08/ruby-hashes/">Ruby hashes</a>. Use it and you can write nice looking code.</p>
+<p>[source:ruby]<br />
+edit({"security" => "low"})</p>
+<p>def edit(properties)<br />
+  prepare_for_edit<br />
+  edit_title(properties["title"]) if properties["title"]<br />
+  # ...<br />
+  edit_security(properties["security"]) if properties["security"]<br />
+  check_after_edit<br />
+end<br />
+[/source]</p>
+<p>Instead of ugly code.</p>
+<p>[source:ruby]<br />
+edit(nil, nil, nil, nil, nil, nil, security)</p>
+<p>def edit(title = nil, url = nil, mail = nil,<br />
+           description = nil, membership = nil,<br />
+           status = nil, security = nil)<br />
+  prepare_for_edit<br />
+  edit_title(title) if title<br />
+  # ...<br />
+  edit_security(security) if security<br />
+  check_after_edit<br />
+end<br />
+[/source]</p>
+<p>I got interested when I saw this at wtr-general</p>
+<blockquote><p>
+[source:ruby]<br />
+ie.div(:name => 'foo', :index => 2).click<br />
+[/source]</p>
+<p>This will find the second div with the name 'foo'.
+</p></blockquote>
+<p>I tried to do something like that, but this was the best I could think of.</p>
+<p>[source:ruby]<br />
+div(:name => 'foo', :index => 2)</p>
+<p>def div(first, second)<br />
+  hash = {first, second}<br />
+  puts hash[:name]<br />
+  puts hash[:index]<br />
+end<br />
+[/source]</p>
+<p>And, of course, it did not work.</p>
+<p><code>ArgumentError: wrong number of arguments (1 for 2)</code></p>
+<p>I posted my problem to <a href="http://forums.openqa.org/thread.jspa?threadID=6479&tstart=0">wtr-general</a> and <a href="http://awta.wikispaces.com/Charley+Baker">Charley Baker</a> was kind enough to help me. A link to <a href="http://www.rubycentral.com/pickaxe/tut_methods.html">Collecting Hash Arguments</a> (at the bottom of the page) from Programming Ruby said it all.</p>
+<p>[source:ruby]<br />
+div(:name => 'foo', :index => 2)</p>
+<p>def div(properties)<br />
+  puts properties[:name]<br />
+  puts properties[:index]<br />
+end<br />
+[/source]</p>

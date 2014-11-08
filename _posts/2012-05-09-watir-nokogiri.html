@@ -3,7 +3,7 @@ layout: post
 title: watir-nokogiri
 date: 2012-05-09 14:39:26.000000000 +02:00
 ---
-<p>[caption width="350" caption="Random Croatian Countryside"]<a href="http://zeljkofilipin.com/wp-content/uploads/2010/12/P6040019.jpg"><img src="/assets/06dc5366979d11e19dc71231380fe523_6.jpg" alt="Random Croatian Countryside" /></a></p>
+<p><a href="http://zeljkofilipin.com/wp-content/uploads/2010/12/P6040019.jpg"><img src="/assets/06dc5366979d11e19dc71231380fe523_6.jpg" alt="Random Croatian Countryside" /></a></p>
 <p>At <a href="http://watir.com/test-automation-bazaar/">Test Automation Bazaar</a> <a href="https://github.com/aikhelis">Aliaksandr Ikhelis</a> gave a lightning talk <a href="https://docs.google.com/presentation/d/1DnO8XUsF_tppTW_c15VAPe89R35z-ytAsIgWu69arho/present#slide=id.gaee207f_1_46">Watir-Webdriver is slow (did you know that?)</a>. He talked about the speed problem he had when <a href="http://watirwebdriver.com/">watir-webdriver</a> was locating elements via <a href="http://en.wikipedia.org/wiki/Regular_expression">regular expression</a> on big pages. (He also reported the <a href="https://github.com/watir/watir-webdriver/issues/108">issue</a> at GitHub.)</p>
 <p>Recently I have started working on a new project that had a similar speed problem, so I remembered Aliaksandr's talk. I found a solution using <a href="http://nokogiri.org/">Nokogiri</a>.</p>
 <p>For example, you have to iterate over all <code>div</code> elements that have <code>id</code> attribute starting with <code>id</code>. Then, you have to do something with the last element.</p>

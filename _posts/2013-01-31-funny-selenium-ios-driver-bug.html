@@ -20,6 +20,6 @@ author:
   first_name: "Željko"
   last_name: Filipin
 ---
-<p>[caption id="attachment_737" align="alignnone" width="373"]<img src="/assets/iphone_send_keys.png" alt="Funny Selenium iOS driver bug" width="373" height="721" class="size-full wp-image-737" />Funny Selenium iOS driver bug[/caption]</p>
+<p><img src="/assets/iphone_send_keys.png" alt="Funny Selenium iOS driver bug" width="373" height="721" class="size-full wp-image-737" />Funny Selenium iOS driver bug[/caption]</p>
 <p>The other day I <a href="https://github.com/wikimedia/mediawiki-extensions-MobileFrontend/commit/930c722a6f645ef30476a35d2ad763e965b1b5bb">fixed</a> a couple of <a href="https://wmf.ci.cloudbees.com/job/MobileFrontend-mac-iphone/87/testReport/">failing</a> Selenium iOS tests. Looks like there is something wrong in the way Selenium sends <a href="http://watirwebdriver.com/sending-special-keys/">special</a> <a href="http://code.google.com/p/selenium/source/browse/rb/lib/selenium/webdriver/common/keys.rb">keys</a> (like <code>enter</code> or <code>shift</code>) to iOS devices.</p>
 <p>I made a script that sent all possible special keys to a textarea, and the <a href="https://saucelabs.com/tests/d5da310d6e9f44d7a117664edc5a6dac">results</a> were pretty funny. It is a <a href="http://code.google.com/p/selenium/issues/detail?id=2374">known bug</a>.</p>

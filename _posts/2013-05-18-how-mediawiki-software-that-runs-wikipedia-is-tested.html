@@ -24,7 +24,7 @@ author:
   first_name: "Željko"
   last_name: Filipin
 ---
-<p><a title="By Zeljko.filipin (Own work) [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="http://commons.wikimedia.org/wiki/File%3ADORS_CLUC_2013_9.jpg"><img width="512" alt="DORS CLUC 2013 9" src="/assets/512px-DORS_CLUC_2013_9.jpg" /></a> The audience just before my talk. <em>(<a href="http://commons.wikimedia.org/wiki/Category:DORS/CLUC_2013">DORS/CLUC 2013</a> photo gallery hosted at <a href="http://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a>.)</em>[/caption]</p>
+<p><a title="By Zeljko.filipin (Own work) [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="http://commons.wikimedia.org/wiki/File%3ADORS_CLUC_2013_9.jpg"><img width="512" alt="DORS CLUC 2013 9" src="/assets/512px-DORS_CLUC_2013_9.jpg" /></a> The audience just before my talk. <em>(<a href="http://commons.wikimedia.org/wiki/Category:DORS/CLUC_2013">DORS/CLUC 2013</a> photo gallery hosted at <a href="http://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a>.)</em></p>
 <p>Yesterday I gave a talk titled <em>How MediaWiki, software that runs Wikipedia, is tested</em> at <a href="http://2013.dorscluc.org/en/">DORS/CLUC 2013</a> conference. The talk consisted of a few parts, each lasting a few minutes. The video of the talk (in Croatian) is available at <a href="http://youtu.be/BFbtLJL5by4?t=32m25s">youtu.be/BFbtLJL5by4?t=32m25s</a>.</p>
 <p><strong>Part One</strong></p>
 <p>A few words about myself. I have showed this web site, <a href="http://filipin.eu/contact/">contact page</a> and <a href="http://filipin.eu/dorscluc-2013/">DORS/CLUC 2013</a> article (I was <a href="http://en.wikipedia.org/wiki/Liveblogging">liveblogging</a>).</p>
@@ -33,11 +33,11 @@ author:
 <p><strong>Part Three</strong></p>
 <p>Short <a href="http://docs.seleniumhq.org/">Selenium</a> + <a href="http://www.ruby-lang.org/en/">Ruby</a> live coding demo. The example at the talk was slightly different.</p>
 <p>I have first opened <a href="http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page">a test site</a> manually, clicked <code>Print/export</code> link (sidebar at the left hand side) so <code>Download as PDF</code> link appears.</p>
-<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/pdf1.png"><img src="/assets/pdf1.png" alt="Print/export" width="720" height="875" class="size-full wp-image-1181" /></a> Print/export[/caption]</p>
-<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/pdf2.png"><img src="/assets/pdf2.png" alt="Download as PDF" width="719" height="873" class="size-full wp-image-1182" /></a> Download as PDF[/caption]</p>
+<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/pdf1.png"><img src="/assets/pdf1.png" alt="Print/export" width="720" height="875" class="size-full wp-image-1181" /></a> Print/export</p>
+<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/pdf2.png"><img src="/assets/pdf2.png" alt="Download as PDF" width="719" height="873" class="size-full wp-image-1182" /></a> Download as PDF</p>
 <p>I have then click <code>Download as PDF</code> link and showed that <code>Download the file</code> link should appear (after a while) at the page that opens.</p>
-<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/pdf3.png"><img src="/assets/pdf3.png" alt="Please wait while the document is being generated." width="720" height="874" class="size-full wp-image-1183" /></a> Please wait while the document is being generated.[/caption]</p>
-<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/pdf4.png"><img src="/assets/pdf4.png" alt="Download the file" width="719" height="875" class="size-full wp-image-1184" /></a> Download the file[/caption]</p>
+<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/pdf3.png"><img src="/assets/pdf3.png" alt="Please wait while the document is being generated." width="720" height="874" class="size-full wp-image-1183" /></a> Please wait while the document is being generated.</p>
+<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/pdf4.png"><img src="/assets/pdf4.png" alt="Download the file" width="719" height="875" class="size-full wp-image-1184" /></a> Download the file</p>
 <p>Next we did the same with Selenium. I like <a href="http://en.wikipedia.org/wiki/Interactive_Ruby_Shell">irb</a> for live coding, so the first step is to open it.</p>
 <p>[code language="bash"]<br />
 $ irb<br />
@@ -110,7 +110,7 @@ $ irb<br />
 <p>&gt; browser.close<br />
 =&gt; true<br />
 [/code]</p>
-<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/phantomjs.png"><img src="/assets/phantomjs.png" alt="PhantomJS" width="400" height="534" class="size-full wp-image-1145" /></a> PhantomJS screenshot[/caption]</p>
+<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/phantomjs.png"><img src="/assets/phantomjs.png" alt="PhantomJS" width="400" height="534" class="size-full wp-image-1145" /></a> PhantomJS screenshot</p>
 <p>It would be crazy to type this stuff all the time, so let's create a script that we can just run. I have executed <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature#L9-L12">Click on Download as PDF link</a> scenario.</p>
 <p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature">pdf_readonly.feature</a> file.</p>
 <p>[code]<br />
@@ -251,8 +251,8 @@ class RandomPage<br />
 [/code]</p>
 <p>We use <a href="http://jenkins-ci.org/">Jenkins</a> <a href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a> server. It is also one of the important tools. Jenkins that runs our browser test automation is hosted by <a href="http://www.cloudbees.com/">CloudBees</a> at <a href="https://wmf.ci.cloudbees.com/">wmf.ci.cloudbees.com</a>.</p>
 <p>I have showed <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/">a job</a> that is sometimes failing because of the timeout problem that I have mentioned previously. I have showed a couple of nice Jenkins features, <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/test/?width=800&height=600">Test Result Trend</a> chart and <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/buildTimeTrend">Build Time Trend</a> chart.</p>
-<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/trt.png"><img src="/assets/trt.png" alt="Test Result Trend" width="800" height="600" class="size-full wp-image-1148" /></a> Test Result Trend[/caption]</p>
-<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/btt.png"><img src="/assets/btt.png" alt="Build Time Trend" width="500" height="400" class="size-full wp-image-1147" /></a> Build Time Trend[/caption]</p>
+<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/trt.png"><img src="/assets/trt.png" alt="Test Result Trend" width="800" height="600" class="size-full wp-image-1148" /></a> Test Result Trend</p>
+<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/btt.png"><img src="/assets/btt.png" alt="Build Time Trend" width="500" height="400" class="size-full wp-image-1147" /></a> Build Time Trend</p>
 <p>Then I showed <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/56/">a build that failed</a> and <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/56/testReport/junit/(root)/PDF/Click_on_Download_as_PDF_link/">test results</a> saying <code>timed out after 15 seconds, waiting for {:text=>"Download the file", :tag_name=>"a"} to become present</code>.</p>
 <p>I have ended the talk with showing <a href="https://saucelabs.com/">Sauce Labs</a> (Selenium in the cloud) <a href="https://saucelabs.com/jobs/8ab15dcf1b1e40d4864a50d508b928a5">job</a> for the failed Jenkins job. Sauce Labs job has logs, screens shots and video of the entire test.</p>
 <p><strong>Part Five</strong></p>
@@ -263,4 +263,4 @@ class RandomPage<br />
 <p>A few ideas came to my mind after the talk. It would be fun to show how to run the test on my machine but instead of running the browser there too, run the browser at Sauce Labs.</p>
 <p>For those interested in playing with the code themselves, show <a href="http://www.mediawiki.org/wiki/Mediawiki-Vagrant">MediaWiki-Vagrant</a> and <a href="https://github.com/wikimedia/mediawiki-vagrant/tree/master/puppet/modules/browsertests">puppet/modules/browsertests</a>, the complete environment in a virtual machine. Setting everything up is as easy as installing a couple of applications and cloning a repository.</p>
 <p>If you want to get involved, join <a href="https://lists.wikimedia.org/mailman/listinfo/qa">qa@lists.wikimedia.org</a> mailing list and <a href="http://lists.wikimedia.org/pipermail/qa/2013-May/000003.html">introduce</a> yourself.</p>
-<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/vagrant.png"><img src="/assets/vagrant-1024x640.png" alt="Vagrant" width="630" height="393" class="size-large wp-image-1189" /></a> The screen shot shows a Mac desktop. On the right hand side you can see two Mac windows (Terminal, VirtualBox). On the left hand side you can see Firefox window forwarded from a Linux virtual machine. Magic.[/caption]</p>
+<p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/vagrant.png"><img src="/assets/vagrant-1024x640.png" alt="Vagrant" width="630" height="393" class="size-large wp-image-1189" /></a> The screen shot shows a Mac desktop. On the right hand side you can see two Mac windows (Terminal, VirtualBox). On the left hand side you can see Firefox window forwarded from a Linux virtual machine. Magic.</p>

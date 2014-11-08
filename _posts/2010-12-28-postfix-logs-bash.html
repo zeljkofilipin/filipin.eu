@@ -207,5 +207,5 @@ Dec 19 12:25:09 cdn postfix/qmgr[11196]: 8D2632B8F9A: removed<br />
 <li>Get all lines with status <code>sent</code>. From each line grab Postfix ID. Get all lines with the ID. Get message-id, relay and VERP from lines with the ID. Ignore if VERP is in <code>to</code> header. (Those are bounces. We are interested only in VERPs in <code>from</code> header.)</li>
 <li>Get all lines with a VERP. From each line grab Postfix ID. Get all lines with the ID. Get message-id, relay and status from lines with the ID. Ignore if status is not <code>sent</code>.</li>
 </ul>
-<p><img src="/assets/pub?id=1VNMTg4Vqp_TVl9wXHo64ec1QNTE7nmz_qpMPcYCDJ1w&amp;w=960&amp;h=720" /></p>
+<p><img src="/assets/postfix-logs-bash.png" /></p>
 <p>Since I have no idea how would I do that in Bash, I will use <a href="http://en.wikipedia.org/wiki/Ruby_%28programming_language%29">Ruby</a> for that. This post got pretty long, that will be covered in another post.</p>

@@ -30,3 +30,13 @@ What you need to bring:
 
 - Laptop. It should be configured with all you need for coding. If you do not have a laptop, come anyway. All coding will be in pairs, so we need 1 laptop per 2 people.
 - Pen and paper, squared if possible.
+
+# Sponsors
+
+[![Tentamen](/assets/tentamen-logo.png "Tentamen")](https://www.tentamen.hr/)
+
+A big thank you to [Tentamen](https://www.tentamen.hr/) for sponsoring the event!
+
+# Misc
+
+- Baby Sign Language signs for [brother](http://www.babysignlanguage.com/dictionary/b/brother/) and [airplane](http://www.babysignlanguage.com/dictionary/a/airplane/) look really similar to [loser](https://en.wikipedia.org/wiki/Loser_(hand_gesture)) and [spiderman](https://commons.wikimedia.org/wiki/File:New_York_City_Mayor_Mike_Bloomberg_at_Midtown_Comics2.jpg).

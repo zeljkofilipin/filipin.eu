@@ -28,6 +28,12 @@ I do not remember when I met [Aljoša Mohorović](https://twitter.com/maljosa). 
 
 The three of us are organizing the event and [Croatian Chamber of Commerce](http://en.hgk.hr/) provided free venue.
 
+# Sponsors
+
+[![Tentamen](/assets/tentamen-logo.png "Tentamen")](https://www.tentamen.hr/)
+
+A big thank you to [Tentamen](https://www.tentamen.hr/) for sponsoring the event!
+
 # Misc
 
 <iframe src="//player.vimeo.com/video/18955165" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/18955165">Cleveland Code Retreat Introduction</a> from <a href="http://vimeo.com/coreyhaines">Corey Haines</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -35,4 +41,4 @@ The three of us are organizing the event and [Croatian Chamber of Commerce](http
 - Learn more about the event at their [web site](http://coderetreat.org/about).
 - Yesterday was [International Stout Day](http://blog.untappd.com/post/101842404606/international-stout-day-2014).
 - The only way to get things done is to loose sleep. (I am finishing this blog post at 1 am.)
-- **We are looking for sponsors to cover the costs of lunch. Starting at 100 EUR.** My e-mail address is at the bottom of the page. *Thank you.*
+- <del>We are looking for sponsors to cover the costs of lunch. Starting at 100 EUR. My e-mail address is at the bottom of the page. Thank you.</del>

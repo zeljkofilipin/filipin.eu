@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: "coderetreat-zagreb-reminder"
 title:  "Coderetreat Zagreb Reminder"
 ---
 

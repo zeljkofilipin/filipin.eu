@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Coderetreat Zagreb"
-date:   2014-11-06 23:00:00
+permalink: "coderetreat-zagreb-announcement"
+title:  "Coderetreat Zagreb Announcement"
 ---
 
 # TLDR

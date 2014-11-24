@@ -25,4 +25,8 @@
   - lunch
   - 2 ruby
   - 3 javascript
+    - http://www.jsfuck.com/
   - 3 ruby
+
+
+http://babinho.net/2014/11/i-attended-my-first-coderetreat/

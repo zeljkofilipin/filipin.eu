@@ -1,0 +1,28 @@
+- mailing list
+- help us organize the next coderetreat
+- sponsors
+  - hgk igor
+  - tentamen karlo
+  - filipin
+- thanks to
+  - webcamp aljoša
+  - peter
+
+- aha moment
+  - even small problems could be made smaller
+- what went well
+  - venue
+  - food
+  - the number or participants
+  - facilitator
+- what should be improved
+  - marketing
+  - the event should be announced more than just a few weeks ahead
+- pairing
+  - 2 ruby
+  - 2 ruby
+  - 2 ruby
+  - lunch
+  - 2 ruby
+  - 3 javascript
+  - 3 ruby

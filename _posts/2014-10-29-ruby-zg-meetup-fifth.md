@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: ruby-zg-meetup-fifth
 title:  "Ruby::ZG::Meetup.fifth"
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: terminal-zagreb-meetup-1
 title:  "Terminal Zagreb Meetup #1"
 ---
 

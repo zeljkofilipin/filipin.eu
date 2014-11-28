@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: webcamp-zagreb-2014
 title:  "WebCamp Zagreb 2014"
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: git-internals
 title:  "Git Internals"
 ---
 

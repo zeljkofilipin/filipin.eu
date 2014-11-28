@@ -1,7 +1,7 @@
 ---
-layout: post
-permalink: "coderetreat-zagreb-reminder"
-title:  "Coderetreat Zagreb Reminder"
+layout:    post
+permalink: coderetreat-zagreb-reminder
+title:     Coderetreat Zagreb Reminder
 ---
 
 # TLDR

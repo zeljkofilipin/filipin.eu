@@ -1,7 +1,7 @@
 ---
-layout: post
+layout:    post
 permalink: the-premature-baby-book
-title:  "The Premature Baby Book"
+title:     The Premature Baby Book
 ---
 
 # TLDR

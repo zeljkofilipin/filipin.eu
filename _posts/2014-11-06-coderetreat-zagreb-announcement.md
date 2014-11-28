@@ -10,8 +10,6 @@ Imagine a group of people gathering in a room and coding all day. Just for fun. 
 
 Interested? Read on, or [register](https://www.entrio.hr/event/coderetreat-zagreb-1875). 
 
-<script src="https://www.entrio.hr/en/widgets/single_event_widget/1153/dark"></script>
-
 # Code-what?
 
 Pick a person that you will [pair program](https://en.wikipedia.org/wiki/Pair_programming) on implementing [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway's_Game_of_Life). The pair picks the language. The session lasts for 45 minutes or so. After the session, the code is deleted. Old pairs are separated and new pairs are created. Rinse. Repeat. All day.

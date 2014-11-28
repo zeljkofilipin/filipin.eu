@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Ruby::ZG::Meetup.fifth"
-date:   2014-10-29 15:00:00
 ---
 
 <a title="By Zeljko.filipin (Own work) [CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ARuby_Zagreb_Meetup_5_Bruno_Sutic.jpg"><img width="512" alt="Ruby Zagreb Meetup 5 Bruno Sutic" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ruby_Zagreb_Meetup_5_Bruno_Sutic.jpg/512px-Ruby_Zagreb_Meetup_5_Bruno_Sutic.jpg"/></a>

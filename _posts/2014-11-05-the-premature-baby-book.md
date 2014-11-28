@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "The Premature Baby Book"
-date:   2014-11-05 12:00:00
 ---
 
 # TLDR

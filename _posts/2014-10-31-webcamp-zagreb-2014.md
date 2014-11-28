@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "WebCamp Zagreb 2014"
-date:   2014-10-31 17:00:00
 ---
 
 <a title="By Zeljko.filipin (Own work) [CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AUnicorn_at_WebCamp_Zagreb_2014.jpg"><img width="256" alt="Unicorn at WebCamp Zagreb 2014" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Unicorn_at_WebCamp_Zagreb_2014.jpg/256px-Unicorn_at_WebCamp_Zagreb_2014.jpg"/></a>

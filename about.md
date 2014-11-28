@@ -10,7 +10,3 @@ permalink: /about/
 
 QA Engineer at [Wikimedia Foundation](https://wikimediafoundation.org/). For more information take a look at my [LinkedIn](https://www.linkedin.com/in/zeljkofilipin) profile.
 
-Old blogs:
-
-- [zeljkofilipin.com](http://zeljkofilipin.com/)
-- [filipin.zeljkofilipin.com](http://filipin.zeljkofilipin.com/)

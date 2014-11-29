@@ -1,7 +1,7 @@
 ---
 layout:    post
 permalink: terminal-zagreb-meetup-1
-title:     Terminal Zagreb Meetup #1
+title:     "Terminal Zagreb Meetup #1"
 ---
 
 <a title="By Zeljko.filipin (Own work) [CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ATerminal_Zagreb_Meetup_1_Mislav_Marohni%C4%87.jpg"><img width="512" alt="Terminal Zagreb Meetup 1 Mislav Marohnić" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Terminal_Zagreb_Meetup_1_Mislav_Marohni%C4%87.jpg/512px-Terminal_Zagreb_Meetup_1_Mislav_Marohni%C4%87.jpg"/></a>

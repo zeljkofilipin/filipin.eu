@@ -1,0 +1,33 @@
+---
+layout:    post
+permalink: zagreb-stc-17
+title:     "Zagreb Software Testing Club #17"
+---
+
+<a title="By Zeljko.filipin (Own work) [CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AEvents_at_Mama.jpg"><img width="512" alt="Events at Mama" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/36/Events_at_Mama.jpg/512px-Events_at_Mama.jpg"/></a>
+
+*Photos from the meetup are hosted at Wikimedia Commons, in [Zagreb Software Testing Club #17](https://commons.wikimedia.org/wiki/Category:Zagreb_Software_Testing_Club_17) category.*
+
+# TLDR
+
+About three years since the first meetup and after a looong summer break, Zagreb software testing club [meets again](http://www.meetup.com/SoftwareTestingClub/events/218698771/)!
+
+# Details
+
+This time at a new venue, [Multimedijalni institut](http://www.mi2.hr/) (net.kulturni klub MaMa).
+
+Presentations:
+
+- [Boris Grginčić](https://twitter.com/bgrgincic): Start of my Watir journey and the problems along the way. (Slides coming soon.)
+- [Karlo Šmid](https://www.tentamen.hr/): [WHOSE](http://whose.associationforsoftwaretesting.org/), testing skills suported by examples.
+- Željko Filipin: Conferences, past ([CITCON Europe 2014](http://citconf.com/archive/zagreb2014/)) and future ([WebCamp Zagreb](http://webcampzg.org/), [viaqa](http://viaqa.mobi/)).
+
+About ten people attended the meetup. About half of the people are regulars, and the other half are first timers, as usual. A good mix.
+
+Our library is still going strong. I usually bring books that are gathering dust on my shelves and meeting participants seem to be happy to give them a good home. Information wants to be free.
+
+After the meetup we tried to have some food and drinks in a nearby pub. We even had the reservation, but we were 15-20 minutes late and our reservation was cancelled. We have decided to try [Advent on Zrinjevac](http://www.adventzagreb.com/index.php/en/events/56-advent-on-zrinjevac). It was a lot of fun, and a lot of really good unformal conversations over susages and really good beer.
+
+# Misc
+
+- [List of common misconceptions](https://en.wikipedia.org/wiki/List_of_common_misconceptions) is an iteresing read.

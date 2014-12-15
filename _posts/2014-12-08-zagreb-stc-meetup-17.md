@@ -18,11 +18,11 @@ This time at a new venue, [Multimedijalni institut](http://www.mi2.hr/) (net.kul
 
 Presentations:
 
-- [Boris Grginčić](https://twitter.com/bgrgincic): Start of my Watir journey and the problems along the way. (Slides coming soon.)
+- [Boris Grginčić](https://twitter.com/bgrgincic): Start of my Watir journey and the problems along the way ([slides](https://commons.wikimedia.org/wiki/File:Start_of_my_WATIR_journey_and_problems_along_the_way.pdf)).
 - [Karlo Šmid](https://www.tentamen.hr/): [WHOSE](http://whose.associationforsoftwaretesting.org/), testing skills suported by examples.
 - Željko Filipin: Conferences, past ([CITCON Europe 2014](http://citconf.com/archive/zagreb2014/)) and future ([WebCamp Zagreb](http://webcampzg.org/), [viaqa](http://viaqa.mobi/)).
 
-About ten people attended the meetup. About half of the people are regulars, and the other half are first timers, as usual. A good mix.
+About ten people attended the meetup. About half of the people regulars, the other half first timers, as usual. A good mix.
 
 Our library is still going strong. I usually bring books that are gathering dust on my shelves and meeting participants seem to be happy to give them a good home. Information wants to be free.
 

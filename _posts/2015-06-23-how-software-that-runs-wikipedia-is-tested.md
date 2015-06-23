@@ -1,34 +1,54 @@
 ---
-layout: post
-title: How to Fail at Test Automation
-date: 2013-11-07 08:37:45.000000000 +01:00
+layout:    post
+permalink: how-software-that-runs-wikipedia-is-tested
+title:     "How software that runs Wikipedia is tested"
 ---
-<p>About one month ago it was one year that I have started working for the Wikimedia Foundation. This blog post is a summary of what I did in the last year.</p>
-<p>This is a new and shiny version of my <a href="http://filipin.eu/how-mediawiki-software-that-runs-wikipedia-is-tested/">How MediaWiki, software that runs Wikipedia, is tested</a> blog post.</p>
-<p>I had several ideas how to name this blog post. On of them was <em>How not to fail at test automation</em>, but although more true to the content of this blog post, it was just too boring. Another one was <em>How me managed to get PHP and JavaScript developers to write Ruby code</em>. Similar one was <em>Why did we pick Ruby to run Selenium tests</em>.</p>
-<p>I gave this talk several times at various meetups and conferences, but I never had the time to sit down and document it. Do you think that a nice quiet Friday evening, the night before I will give this talk one more time at another conference is a good time to collect my thoughts and document the talk? I do.</p>
-<p><strong>Problems</strong></p>
-<p>The previous version of this talk (and blog post) was centered around tools. I would mention a tool and then talk about the problems it solves. The night before I went to <a href="http://filipin.eu/selenium-conference-2013/">Selenium conference</a> I had an idea to center the talk about the problems, and then mention the tools.</p>
-<p>What were the problems that we wanted to solve? Communication, maintainability, browser automation, browser/operating system/version combinatorial explosion, visibility/transparency, code reuse, speed, "Halp wanted!", "Works at my machine!". Let me say a few works about each problem and how we solved it.</p>
-<p><strong><a href="http://demotivationalpost.com/1338/communication">Communication</a></strong></p>
-<p>Anybody surprised that the biggest problem in a software project is communication? Exactly. It is hard to know what to test, it is hard to let other people know what is tested and what is the result.</p>
-<p><em>Solution</em></p>
-<p><a href="http://cukes.info/">Cucumber</a>. You can ask the people that know what needs to be tested to write examples in any natural language. When the test runs, Cucumber creates nice reports that anybody can read.</p>
-<p>[code]<br />
-Feature: Log in</p>
-<p>  Background:<br />
-    Given I am at Log in page</p>
-<p>  Scenario: Go to Log in page<br />
-    Then Log in page should open<br />
-      And Username element should be there<br />
-      And Password element should be there<br />
-      And Log in element should be there<br />
-[/code]</p>
-<p><strong>Maintainability</strong></p>
-<p>Were you a part of test automation project that failed because the test code was not maintainable? Exactly. Test code is like any other code, you have to make sure it easy to maintain.</p>
-<p><em>Solution</em></p>
-<p>The <a href="https://code.google.com/p/selenium/wiki/PageObjects">Page Object pattern</a>. It is a simple solution. Every page in the application is represented by one class.</p>
-<p>For the above example, this is how a login page could look like.</p>
+
+About one month ago it was one year that I have started working for the Wikimedia Foundation. This blog post is a summary of what I did in the last year.
+
+This is a new and shiny version of my <a href="http://filipin.eu/how-mediawiki-software-that-runs-wikipedia-is-tested/">How MediaWiki, software that runs Wikipedia, is tested</a> blog post.
+
+I had several ideas how to name this blog post. On of them was *How not to fail at test automation*, but although more true to the content of this blog post, it was just too boring. Another one was *How me managed to get PHP and JavaScript developers to write Ruby code*. Similar one was *Why did we pick Ruby to run Selenium tests.*
+I gave this talk several times at various meetups and conferences, but I never had the time to sit down and document it. Do you think that a nice quiet Friday evening, the night before I will give this talk one more time at another conference is a good time to collect my thoughts and document the talk? I do.
+
+# Problems
+
+The previous version of this talk (and blog post) was centered around tools. I would mention a tool and then talk about the problems it solves. The night before I went to <a href="http://filipin.eu/selenium-conference-2013/">Selenium conference</a> I had an idea to center the talk about the problems, and then mention the tools.
+
+What were the problems that we wanted to solve? Communication, maintainability, browser automation, browser/operating system/version combinatorial explosion, visibility/transparency, code reuse, speed, "Halp wanted!", "Works at my machine!". Let me say a few works about each problem and how we solved it.
+
+# Communication
+
+Anybody surprised that the biggest problem in a software project is communication? Exactly. It is hard to know what to test, it is hard to let other people know what is tested and what is the result.
+
+*Solution*
+
+<a href="http://cukes.info/">Cucumber</a>. You can ask the people that know what needs to be tested to write examples in any natural language. When the test runs, Cucumber creates nice reports that anybody can read.
+
+{% highlight gherkin %}
+Feature: Log in
+
+  Background:
+    Given I am at Log in page
+
+  Scenario: Go to Log in page
+    Then Username element should be there
+      And Password element should be there
+      And Log in element should be there
+{% endhighlight %}
+
+# Maintainability
+
+Were you a part of test automation project that failed because the test code was not maintainable? Exactly. Test code is like any other code, you have to make sure it easy to maintain.
+
+*Solution*
+
+The <a href="https://code.google.com/p/selenium/wiki/PageObjects">Page Object pattern</a>. It is a simple solution. Every page in the application is represented by one class.
+
+For the above example, this is how a login page could look like.
+
+{% endhighlight %}
+
 <p>[code language="ruby"]<br />
 class LoginPage<br />
   include PageObject</p>

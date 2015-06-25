@@ -47,7 +47,6 @@ The <a href="https://code.google.com/p/selenium/wiki/PageObjects">Page Object pa
 
 For the above example, this is how a login page could look like.
 
-{% endhighlight %}
 
 <p>[code language="ruby"]<br />
 class LoginPage<br />

@@ -7,7 +7,7 @@ title:     "How software that runs Wikipedia is tested"
 
 About one month ago it was one year that I have started working for the Wikimedia Foundation. This blog post is a summary of what I did in the last year.
 
-This is a new and shiny version of my <a href="http://filipin.eu/how-mediawiki-software-that-runs-wikipedia-is-tested/">How MediaWiki, software that runs Wikipedia, is tested</a> blog post.
+This is a new and shiny version of my <a href="/how-mediawiki-software-that-runs-wikipedia-is-tested/">How MediaWiki, software that runs Wikipedia, is tested</a> blog post.
 
 I had several ideas how to name this blog post. On of them was *How not to fail at test automation*, but although more true to the content of this blog post, it was just too boring. Another one was *How me managed to get PHP and JavaScript developers to write Ruby code*. Similar one was *Why did we pick Ruby to run Selenium tests.*
 I gave this talk several times at various meetups and conferences, but I never had the time to sit down and document it. Do you think that a nice quiet Friday evening, the night before I will give this talk one more time at another conference is a good time to collect my thoughts and document the talk? I do.

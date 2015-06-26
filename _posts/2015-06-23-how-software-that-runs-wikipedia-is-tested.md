@@ -3,7 +3,7 @@ layout:    post
 permalink: how-software-that-runs-wikipedia-is-tested
 title:     "How software that runs Wikipedia is tested"
 ---
-This is a new and shiny version of my [How MediaWiki, software that runs Wikipedia, is tested](https://commons.wikimedia.org/wiki/File:How_software_that_runs_Wikipedia_is_tested.pdf) blog post. I gave this talk several times at various meetups and conferences, but I never had the time to sit down and document it. There are some [slides](https://commons.wikimedia.org/wiki/File:How_software_that_runs_Wikipedia_is_tested.pdf) too.
+This is a new and shiny version of my [How MediaWiki, software that runs Wikipedia, is tested](/how-mediawiki-software-that-runs-wikipedia-is-tested/) blog post. I gave this talk several times at various meetups and conferences, but I never had the time to sit down and document it. There are some [slides](https://commons.wikimedia.org/wiki/File:How_software_that_runs_Wikipedia_is_tested.pdf) too.
 
 # Problems
 

@@ -1,6 +1,6 @@
 <div class="home">
   <ul class="post-list">
-    {% assign tag = page.title | downcase %}
+    {% assign tag = page.title | downcase | slugify %}
     {% for post in site.posts %}
       {% if post.tags contains tag %}
         <li>

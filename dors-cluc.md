@@ -1,6 +1,6 @@
 ---
 layout:    page
 permalink: dors-cluc
-title:     DORS-CLUC
+title:     DORS/CLUC
 ---
 {% include tag.html %}

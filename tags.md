@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Tags
-permalink: /tags/
+layout:    page
+permalink: tags
+tags:      page
+title:     Tags
 ---
 {% for tag in site.tags %}
   <a href="/{{ tag | first | slugize }}/">

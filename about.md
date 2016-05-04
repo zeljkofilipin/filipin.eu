@@ -1,9 +1,9 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout:    page
+permalink: about
+tags:      page
+title:     About
 ---
-
 ![Željko Filipin](/assets/zeljko_240_240.jpg)
 
 QA Engineer at [Wikimedia Foundation](https://wikimediafoundation.org/). For more information take a look at my [LinkedIn](https://www.linkedin.com/in/zeljkofilipin) profile.

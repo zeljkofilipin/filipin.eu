@@ -1,9 +1,9 @@
 ---
-layout: page
-title: Events
-permalink: /events/
+layout:    page
+permalink: events
+tags:      page
+title:     Events
 ---
-
 - [2016](/2016)
 - [2015](/2015)
 - [2014](/2014)

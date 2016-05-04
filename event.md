@@ -1,6 +1,5 @@
 ---
-layout:    page
-permalink: event
-title:     Event
+layout: page
+title:  Event
 ---
 {% include tag.html %}

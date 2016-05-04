@@ -1,6 +1,5 @@
 ---
-layout:    page
-permalink: year
-title:     Year
+layout: page
+title:  Year
 ---
 {% include tag.html %}

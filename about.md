@@ -1,8 +1,7 @@
 ---
-layout:    page
-permalink: about
-tags:      page
-title:     About
+layout: page
+tags:   page
+title:  About
 ---
 ![Željko Filipin](/assets/zeljko_240_240.jpg)
 

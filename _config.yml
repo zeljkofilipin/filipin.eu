@@ -1,12 +1,12 @@
 # Site settings
-title: Filipin dot eu
-email: zeljko.filipin@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Željko Filipin's blog.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://filipin.eu/" # the base hostname & protocol for your site
-twitter_username: zeljkofilipin
+description: Željko Filipin's blog.
+email: zeljko.filipin@gmail.com
 github_username:  zeljkofilipin
+permalink: /:title
+title: Filipin dot eu
+twitter_username: zeljkofilipin
+url: "http://filipin.eu/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

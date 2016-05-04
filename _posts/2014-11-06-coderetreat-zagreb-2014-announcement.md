@@ -1,9 +1,8 @@
 ---
-layout:    post
-permalink: coderetreat-zagreb-announcement
-title:     Coderetreat Zagreb Announcement
+layout: post
+tags:   event coderetreat-zagreb
+title:  Coderetreat Zagreb 2014 Announcement
 ---
-
 # TLDR
 
 Imagine a group of people gathering in a room and coding all day. Just for fun. For free, as in beer. (There will not be beer.) Free lunch will be provided. The event is limited to 30 people. Bring your laptop.

@@ -1,9 +1,8 @@
 ---
-layout:    post
-permalink: coderetreat-zagreb-reminder
-title:     Coderetreat Zagreb Reminder
+layout: post
+tags:   event coderetreat-zagreb
+title:  Coderetreat Zagreb Reminder
 ---
-
 # TLDR
 
 See you tomorrow at 9 am! :)

@@ -1,9 +1,8 @@
 ---
-layout:    post
-permalink: ruby-zg-meetup-fifth
-title:     Ruby::ZG::Meetup.fifth
+layout: post
+tags:   event ruby-zagreb
+title:  Ruby::ZG::Meetup.fifth
 ---
-
 <a title="By Zeljko.filipin (Own work) [CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ARuby_Zagreb_Meetup_5_Bruno_Sutic.jpg"><img width="512" alt="Ruby Zagreb Meetup 5 Bruno Sutic" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ruby_Zagreb_Meetup_5_Bruno_Sutic.jpg/512px-Ruby_Zagreb_Meetup_5_Bruno_Sutic.jpg"/></a>
 *Photos from the meetup are hosted at Wikimedia Commons, in [Ruby::ZG::Meetup.fifth](https://commons.wikimedia.org/wiki/Category:Ruby_ZG_Meetup_fifth) category.*
 

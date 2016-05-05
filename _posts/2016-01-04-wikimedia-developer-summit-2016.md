@@ -1,5 +1,4 @@
 ---
-layout: post
 tags:   event wikimedia
 title:  Wikimedia Developer Summit 2016
 ---

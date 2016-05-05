@@ -1,5 +1,4 @@
 ---
-layout: post
 tags:   event test-automation-bazaar
 title:  Test Automation Bazaar 2016
 ---

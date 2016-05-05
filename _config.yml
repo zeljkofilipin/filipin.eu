@@ -1,5 +1,11 @@
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog/
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "post"
 description: Željko Filipin's blog.
 email: zeljko.filipin@gmail.com
 github_username:  zeljkofilipin

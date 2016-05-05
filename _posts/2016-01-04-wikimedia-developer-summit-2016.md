@@ -1,6 +1,6 @@
 ---
-tags:   event wikimedia
-title:  Wikimedia Developer Summit 2016
+tags:  event wikimedia
+title: Wikimedia Developer Summit 2016
 ---
 # Wikimedia Developer Summit, San Francisco, California, USA
 

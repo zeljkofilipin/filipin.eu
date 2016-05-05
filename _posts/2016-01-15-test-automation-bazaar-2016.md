@@ -1,6 +1,6 @@
 ---
-tags:   event test-automation-bazaar
-title:  Test Automation Bazaar 2016
+tags:  event test-automation-bazaar
+title: Test Automation Bazaar 2016
 ---
 # Test Automation Bazaar, Austin, Texas, USA
 

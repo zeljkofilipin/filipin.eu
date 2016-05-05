@@ -1,9 +1,6 @@
 ---
-layout:    post
-permalink: "javascript"
-title:     "JavaScript"
+title: JavaScript
 ---
-
 # JavaScript
 
 For the last week or so I pretty much did nothing but JavaScript. It was something I wanted to do for a long time, and the time has finally come. The goal was to investigate how mature are JavaScript Selenium bindings and tooling around them. First I needed to learn some JavaScript. [Codecademy's JavaScript course](https://www.codecademy.com/learn/javascript) was recommended by a colleague, and it was a nice way to learn the basics. I have also stumbled upon [NodeSchool](http://nodeschool.io/) and finished a few workshops there.

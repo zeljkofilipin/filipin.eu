@@ -1,5 +1,5 @@
 ---
 layout: page
-title:  Coderetreat Zagreb
+title:  Terminal
 ---
 {% include tag.html %}

@@ -1,7 +1,6 @@
 ---
-layout: post
-event:  event terminal-zagreb
-title:  "Terminal Zagreb Meetup #2"
+tags:  event terminal
+title: "Terminal Zagreb Meetup #2"
 ---
 <a title="By Zeljko.filipin (Own work) [CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ATerminal_Zagreb_Meetup_2_2.jpg"><img width="512" alt="Terminal Zagreb Meetup 2 2" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Terminal_Zagreb_Meetup_2_2.jpg/512px-Terminal_Zagreb_Meetup_2_2.jpg"/></a>
 

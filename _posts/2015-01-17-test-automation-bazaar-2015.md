@@ -1,0 +1,5 @@
+---
+tags:  event test-automation-bazaar
+title: Test Automation Bazaar 2015
+---
+<div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/media/set/?set=a.534784523346365.1073741825.534781143346703&amp;type=3" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/media/set/?set=a.534784523346365.1073741825.534781143346703&amp;type=3">Posted by <a href="https://www.facebook.com/Test-Automation-Bazaar-534781143346703/">Test Automation Bazaar</a> on&nbsp;<a href="https://www.facebook.com/media/set/?set=a.534784523346365.1073741825.534781143346703&amp;type=3">Thursday, October 15, 2015</a></blockquote></div></div>

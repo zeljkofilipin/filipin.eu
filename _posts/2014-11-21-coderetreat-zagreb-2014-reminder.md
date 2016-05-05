@@ -1,7 +1,6 @@
 ---
-layout: post
-tags:   event coderetreat-zagreb
-title:  Coderetreat Zagreb Reminder
+tags:  coderetreat event
+title: Coderetreat Zagreb Reminder
 ---
 # TLDR
 

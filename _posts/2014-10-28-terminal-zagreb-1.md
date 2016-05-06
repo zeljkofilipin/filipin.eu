@@ -2,9 +2,7 @@
 tags:  event terminal
 title: "Terminal Zagreb Meetup #1"
 ---
-<a title="By Zeljko.filipin (Own work) [CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ATerminal_Zagreb_Meetup_1_Mislav_Marohni%C4%87.jpg"><img width="512" alt="Terminal Zagreb Meetup 1 Mislav Marohnić" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Terminal_Zagreb_Meetup_1_Mislav_Marohni%C4%87.jpg/512px-Terminal_Zagreb_Meetup_1_Mislav_Marohni%C4%87.jpg"/></a>
-
-*Photos from the meetup are hosted at Wikimedia Commons, in [Terminal Zagreb Meetup #1](https://commons.wikimedia.org/wiki/Category:Terminal_Zagreb_Meetup_1) category.*
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10153749316962290.1073741850.735252289%26type%3D3&width=500" width="500" height="597" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
 Last week I was at [Terminal Zagreb Meetup #1](http://www.meetup.com/terminal-zg/events/212502312). Since today I am going to another meetup, I have to document this one, before I forget what happened. :)
 

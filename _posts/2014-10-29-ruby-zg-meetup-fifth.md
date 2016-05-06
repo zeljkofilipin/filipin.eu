@@ -1,10 +1,8 @@
 ---
-layout: post
-tags:   event ruby-zagreb
-title:  Ruby::ZG::Meetup.fifth
+tags:  event ruby-zagreb
+title: Ruby::ZG::Meetup.fifth
 ---
-<a title="By Zeljko.filipin (Own work) [CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ARuby_Zagreb_Meetup_5_Bruno_Sutic.jpg"><img width="512" alt="Ruby Zagreb Meetup 5 Bruno Sutic" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ruby_Zagreb_Meetup_5_Bruno_Sutic.jpg/512px-Ruby_Zagreb_Meetup_5_Bruno_Sutic.jpg"/></a>
-*Photos from the meetup are hosted at Wikimedia Commons, in [Ruby::ZG::Meetup.fifth](https://commons.wikimedia.org/wiki/Category:Ruby_ZG_Meetup_fifth) category.*
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10153749310732290.1073741849.735252289%26type%3D3&width=500" width="500" height="597" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
 Yesterday I was at [Ruby::ZG::Meetup.fifth](http://www.meetup.com/rubyzg/events/212405822/). Radan Skoric talked about bussines logic ([photo](https://commons.wikimedia.org/wiki/File:Ruby_Zagreb_Meetup_5_Radan_Skoric.jpg), [slides](http://radanskoric.github.io/ror_business_logic_presentation/#/)) and Bruno Sutic about Arel ([photo](https://commons.wikimedia.org/wiki/File:Ruby_Zagreb_Meetup_5_Bruno_Sutic.jpg), [slides](https://speakerdeck.com/brunosutic/introduction-to-arel)).
 

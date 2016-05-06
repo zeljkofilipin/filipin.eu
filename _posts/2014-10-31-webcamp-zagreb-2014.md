@@ -1,11 +1,8 @@
 ---
-layout: post
-tags:   event webcamp-zagreb
-title:  WebCamp Zagreb 2014
+tags:  event webcamp-zagreb
+title: WebCamp Zagreb 2014
 ---
-<a title="By Zeljko.filipin (Own work) [CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AUnicorn_at_WebCamp_Zagreb_2014.jpg"><img width="256" alt="Unicorn at WebCamp Zagreb 2014" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Unicorn_at_WebCamp_Zagreb_2014.jpg/256px-Unicorn_at_WebCamp_Zagreb_2014.jpg"/></a>
-
-*Unicorn on a bycicle. Appropriate. Photos from the conference are hosted at Wikimedia Commons, in [WebCamp Zagreb 2014](https://commons.wikimedia.org/wiki/Category:WebCamp_Zagreb_2014) category.*
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10153749607942290.1073741851.735252289%26type%3D3&width=500" width="500" height="597" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
 Today is the last day I can say that earlier this month I was at [WebCamp Zagreb 2014](http://2014.webcampzg.org/) conference. Tomorrow that would not be true.
 

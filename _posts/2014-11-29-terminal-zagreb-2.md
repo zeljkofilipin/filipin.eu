@@ -2,9 +2,7 @@
 tags:  event terminal
 title: "Terminal Zagreb Meetup #2"
 ---
-<a title="By Zeljko.filipin (Own work) [CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ATerminal_Zagreb_Meetup_2_2.jpg"><img width="512" alt="Terminal Zagreb Meetup 2 2" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Terminal_Zagreb_Meetup_2_2.jpg/512px-Terminal_Zagreb_Meetup_2_2.jpg"/></a>
-
-*Photos from the meetup are hosted at Wikimedia Commons, in [Terminal Zagreb Meetup #2](https://commons.wikimedia.org/wiki/Category:Terminal_Zagreb_Meetup_2) category.*
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10153749300552290.1073741847.735252289%26type%3D3&width=500" width="500" height="597" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
 # TLDR
 

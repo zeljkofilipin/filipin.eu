@@ -1,12 +1,9 @@
 ---
-layout:    post
 permalink: share-it-meetup
 tags:      event
 title:     Securing Internet of Things - Varovanje interneta stvari
 ---
-<a title="By Zeljko.filipin (Own work) [CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AShareIT_Meetup_01.jpg"><img width="512" alt="ShareIT Meetup 01" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/75/ShareIT_Meetup_01.jpg/512px-ShareIT_Meetup_01.jpg"/></a>
-
-*Photos from the event are hosted at Wikimedia Commons, in [ShareIT Meetup](https://commons.wikimedia.org/wiki/Category:ShareIT_Meetup) category.*
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10153749306427290.1073741848.735252289%26type%3D3&width=500" width="500" height="597" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
 # TLDR
 

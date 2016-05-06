@@ -2,9 +2,7 @@
 tags:  coderetreat event
 title: Coderetreat Zagreb Report
 ---
-<a title="By Zeljko.filipin (Own work) [CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ACoderetreat_Zagreb_16.jpg"><img width="512" alt="Coderetreat Zagreb 16" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coderetreat_Zagreb_16.jpg/512px-Coderetreat_Zagreb_16.jpg"/></a>
-
-*Hrvoje showing me how [beautiful](http://www.jsfuck.com/) JavaScript can be. Photos from the event are hosted at Wikimedia Commons, in [Coderetreat Zagreb](https://commons.wikimedia.org/wiki/Category:Coderetreat_Zagreb) category.*
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.1706416389592081.1073741825.1706415746258812%26type%3D3&width=500" width="500" height="597" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
 # TLDR
 

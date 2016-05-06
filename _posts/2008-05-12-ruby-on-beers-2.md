@@ -1,11 +1,8 @@
 ---
-layout: post
-tags:   event ruby-zagreb
-title:  "Ruby on Beers #2"
+tags:  event ruby-zagreb
+title: "Ruby on Beers #2"
 ---
-<a title="By Zeljko.filipin (Own work) [CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ARuby_on_Beers_2_Photo_2.JPG"><img width="512" alt="Ruby on Beers 2 Photo 2" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Ruby_on_Beers_2_Photo_2.JPG/512px-Ruby_on_Beers_2_Photo_2.JPG"/></a>
-
-*Photos from the meetup are hosted at Wikimedia Commons, in [Ruby on Beers 2](https://commons.wikimedia.org/wiki/Category:Ruby_on_Beers_2) category.*
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10154148118237290.1073741891.735252289%26type%3D3&width=500" width="500" height="597" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
 The second Ruby on Beers happened yesterday. About 15 of us appeared, much more than I expected.
 

@@ -1,11 +1,8 @@
 ---
-layout: post
-tags:   event ruby-zagreb
-title:  "Ruby on Beers #1"
+tags:  event ruby-zagreb
+title: "Ruby on Beers #1"
 ---
-<a title="By Zeljko.filipin (Own work) [CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ARuby_on_Beers_1_Photo_1.JPG"><img width="512" alt="Ruby on Beers 1 Photo 1" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Ruby_on_Beers_1_Photo_1.JPG/512px-Ruby_on_Beers_1_Photo_1.JPG"/></a>
-
-*Photos from the meetup are hosted at Wikimedia Commons, in [Ruby on Beers 1](https://commons.wikimedia.org/wiki/Category:Ruby_on_Beers_1) category.*
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10154148096742290.1073741890.735252289%26type%3D3&width=500" width="500" height="597" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
 The first Ruby on Beers meeting happened last Saturday, April 5th, 2008 at lake Jarun, Zagreb, Croatia.
 

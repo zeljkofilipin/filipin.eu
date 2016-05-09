@@ -5,6 +5,7 @@
       {% if post.tags contains tag %}
         <li>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          {% include tags.html %}
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>

@@ -1,29 +1,17 @@
 ---
 layout: default
 ---
-
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <span class="post-meta">
-          {% for tag in post.tags %}
-            <a href="/{{ tag | slugize }}">
-               {{ tag }}
-            </a>
-          {% endfor %}
-        </span>
+        {% include tags.html %}
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
     {% endfor %}
   </ul>
-
   <p class="rss-subscribe">subscribe <a href="http://feeds.feedburner.com/zeljkofilipin">via RSS</a></p>
-
 </div>

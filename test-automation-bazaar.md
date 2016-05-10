@@ -2,4 +2,4 @@
 layout: page
 title:  Test Automation Bazaar
 ---
-{% include tag.html %}
+{% include posts_by_tag.html %}

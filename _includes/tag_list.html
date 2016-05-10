@@ -1,0 +1,9 @@
+<ul style="text-align: justify;">
+  {% for tag in site.tags | sort: 'key' %}
+    <li style="display: inline-block;">
+      <a href="/{{ tag | first | slugize }}">
+         {{ tag | first }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

@@ -2,4 +2,4 @@
 layout: page
 title:  WebCamp Ljubljana
 ---
-{% include tag.html %}
+{% include posts_by_tag.html %}

@@ -2,4 +2,4 @@
 layout: page
 title:  DORS/CLUC
 ---
-{% include tag.html %}
+{% include posts_by_tag.html %}

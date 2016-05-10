@@ -2,4 +2,4 @@
 layout: page
 title:  Software Testing Club
 ---
-{% include tag.html %}
+{% include posts_by_tag.html %}

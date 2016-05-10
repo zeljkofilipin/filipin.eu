@@ -2,4 +2,4 @@
 layout: page
 title:  FOSDEM
 ---
-{% include tag.html %}
+{% include posts_by_tag.html %}

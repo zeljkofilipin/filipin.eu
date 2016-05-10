@@ -2,4 +2,4 @@
 layout: page
 title:  Wikimedia
 ---
-{% include tag.html %}
+{% include posts_by_tag.html %}

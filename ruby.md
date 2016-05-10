@@ -2,4 +2,4 @@
 layout: page
 title:  Ruby
 ---
-{% include tag.html %}
+{% include posts_by_tag.html %}

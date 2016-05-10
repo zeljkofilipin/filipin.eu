@@ -1,5 +1,5 @@
 ---
 layout: page
-title:  Selenium Conference
+title:  Selenium
 ---
 {% include tag.html %}

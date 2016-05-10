@@ -1,5 +1,5 @@
 ---
 layout: page
-title:  Zagreb Software Testing Club
+title:  Software Testing Club
 ---
 {% include tag.html %}

@@ -1,5 +1,5 @@
 ---
 layout: page
-title:  Ruby Zagreb
+title:  Ruby
 ---
 {% include tag.html %}

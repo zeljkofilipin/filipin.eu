@@ -1,7 +1,11 @@
 <ul style="text-align: justify;">
   {% for tag in site.tags | sort: 'key' %}
-    <li style="display: inline-block;">
-      <a href="/{{ tag | first | slugize }}">
+    <li style="
+      display: inline-block;
+      font-size: {{ tag | last | size | times: 30 | divided_by: site.tags.size | plus: 80 }}%;">
+      <a
+        href="/{{ tag | first | slugize }}"
+        title="{{ tag | last | size }} {{ tag | last | size | times: 30 | divided_by: site.tags.size | plus: 80 }}%">
          {{ tag | first }}
       </a>
     </li>

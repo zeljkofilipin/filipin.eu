@@ -1,5 +1,5 @@
 <ul style="text-align: justify;">
-  {% for tag in site.tags | sort: 'key' %}
+  {% for tag in site.tags %}
     <li style="
       display: inline-block;
       font-size: {{ tag | last | size | times: 30 | divided_by: site.tags.size | plus: 80 }}%;">

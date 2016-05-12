@@ -1,5 +1,5 @@
 ---
-tags:  event webcamp-ljubljana
+tags:  camp event
 title: WebCamp Ljubljana 2016
 ---
 # WebCamp, Ljubljana, Slovenia

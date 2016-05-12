@@ -1,5 +1,5 @@
 ---
 layout: page
-title:  WebCamp Ljubljana
+title:  camp
 ---
 {% include posts_by_tag.html %}

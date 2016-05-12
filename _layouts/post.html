@@ -7,11 +7,8 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
       {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
-      {% for tag in page.tags %}
-        <a href="/{{ tag | slugize }}">
-           {{ tag }}
-        </a>
-      {% endfor %}
+      {% assign post = page %}
+      {% include post_tags.html %}
     </p>
   </header>
 

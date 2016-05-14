@@ -1,9 +1,7 @@
 ---
-layout:    post
-permalink: git-internals
-title:     Git Internals
+tags:  book
+title: Git Internals
 ---
-
 # TLDR
 
 If you are using Git, you should read [Git Internals](https://github.com/pluralsight/git-internals-pdf) book.

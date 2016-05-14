@@ -1,9 +1,7 @@
 ---
-layout:    post
-permalink: the-premature-baby-book
-title:     The Premature Baby Book
+tags:  book
+title: The Premature Baby Book
 ---
-
 # TLDR
 
 The book was a good read. I have learned some interesting facts, but I have a feeling I knew most of the stuff already. I might be biased because we already had one premature baby.

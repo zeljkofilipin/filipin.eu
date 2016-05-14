@@ -1,7 +1,6 @@
 ---
-layout: post
+tags:  code ruby
 title: 'warning: toplevel constant File referenced by IO::File'
-date: 2007-10-25 15:27:44.000000000 +02:00
 ---
 <p>I want to delete a file from <em>Application::Mail.download</em>. The problem is that inside <em>Application</em> module, <em>File.delete</em> calls <em>Application::File.delete</em>.</p>
 <p>[source:ruby]<br />

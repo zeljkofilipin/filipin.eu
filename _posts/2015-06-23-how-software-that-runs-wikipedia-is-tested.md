@@ -1,5 +1,5 @@
 ---
-tags:  camp citcon dors-cluc event selenium software-testing speaker testival wikimedia
+tags:  camp citcon code dors-cluc event ruby selenium software-testing speaker testival wikimedia
 title: How software that runs Wikipedia is tested
 ---
 This is a new and shiny version of my [How MediaWiki, software that runs Wikipedia, is tested](/how-mediawiki-software-that-runs-wikipedia-is-tested/) blog post. I gave this talk several times at various meetups and conferences, but I never had the time to sit down and document it. There are some [slides](https://commons.wikimedia.org/wiki/File:How_software_that_runs_Wikipedia_is_tested.pdf) too.

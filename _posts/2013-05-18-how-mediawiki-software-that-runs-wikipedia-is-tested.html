@@ -3,6 +3,7 @@ tags:  camp citcon code dors-cluc event selenium software-testing speaker testiv
 title: How MediaWiki, software that runs Wikipedia, is tested
 ---
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10154142127892290.1073741863.735252289%26type%3D3&width=500" width="500" height="518" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
 <p>Yesterday I gave a talk titled <em>How MediaWiki, software that runs Wikipedia, is tested</em> at <a href="http://2013.dorscluc.org/en/">DORS/CLUC 2013</a> conference. The talk consisted of a few parts, each lasting a few minutes. The video of the talk (in Croatian) is available at <a href="http://youtu.be/BFbtLJL5by4?t=32m25s">youtu.be/BFbtLJL5by4?t=32m25s</a>.</p>
 <p><strong>Part One</strong></p>
 <p>A few words about myself. I have showed this web site, <a href="http://filipin.eu/contact/">contact page</a> and <a href="http://filipin.eu/dorscluc-2013/">DORS/CLUC 2013</a> article (I was <a href="http://en.wikipedia.org/wiki/Liveblogging">liveblogging</a>).</p>
@@ -17,24 +18,32 @@ title: How MediaWiki, software that runs Wikipedia, is tested
 <p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/pdf3.png"><img src="/assets/pdf3.png" alt="Please wait while the document is being generated." width="720" height="874" class="size-full wp-image-1183" /></a> Please wait while the document is being generated.</p>
 <p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/pdf4.png"><img src="/assets/pdf4.png" alt="Download the file" width="719" height="875" class="size-full wp-image-1184" /></a> Download the file</p>
 <p>Next we did the same with Selenium. I like <a href="http://en.wikipedia.org/wiki/Interactive_Ruby_Shell">irb</a> for live coding, so the first step is to open it.</p>
-<p>[code language="bash"]<br />
-$ irb<br />
-[/code]</p>
+
+{% highlight shell %}
+$ irb
+{% endhighlight %}
+
 <p>I like <a href="http://watir.com/">Watir</a> API better than the official <a href="https://code.google.com/p/selenium/wiki/RubyBindings">Selenium Ruby bindings</a> (<a href="http://rubygems.org/gems/selenium-webdriver">selenium-webdriver</a> gem) so the examples use <a href="http://watirwebdriver.com/">watir-webdriver</a> gem.</p>
-<p>[code language="ruby"]<br />
-&gt; require &quot;watir-webdriver&quot;<br />
-=&gt; true<br />
-[/code]</p>
+
+{% highlight ruby %}
+> require "watir-webdriver"
+=> true
+{% endhighlight %}
+
 <p>Open Firefox browser.</p>
-<p>[code language="ruby"]<br />
-&gt; browser = Watir::Browser.new :firefox<br />
-=&gt; #&lt;Watir::Browser:0x..fb91ac5c833bf0a86 url=&quot;about:blank&quot; title=&quot;&quot;&gt;<br />
-[/code]</p>
+
+{% highlight ruby %}
+> browser = Watir::Browser.new :firefox
+=> #<Watir::Browser:0x..fb91ac5c833bf0a86 url="about:blank" title="">
+{% endhighlight %}
+
 <p>Go to the test site.</p>
-<p>[code language="ruby"]<br />
-&gt; browser.goto &quot;http://en.wikipedia.beta.wmflabs.org/&quot;<br />
-=&gt; &quot;http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page&quot;<br />
-[/code]</p>
+
+{% highlight ruby %}
+> browser.goto "http://en.wikipedia.beta.wmflabs.org/"
+=> "http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page"
+{% endhighlight %}
+
 <p>Click <code>Print/export</code> and <code>Download as PDF</code> links.</p>
 <p>[code language="ruby"]<br />
 &gt; browser.a(text: &quot;Print/export&quot;).click<br />

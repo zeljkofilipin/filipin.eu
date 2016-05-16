@@ -12,14 +12,16 @@ title: Increase the Backlog!
 <p>Why am I writing all this?</p>
 <p>As Wikipedia content is developed by volunteers, so is MediaWiki. A lot of people are helping us develop MediaWiki, but the number of people that help us test it is smaller by far. We need help.</p>
 <p>Every week we have an event as part of <a href="http://www.mediawiki.org/wiki/QA/Weekly_goals">Weekly goals</a> project. This week is <a href="https://www.mediawiki.org/wiki/QA/Browser_testing/Increase_the_backlog">Increase the backlog</a> week. What is the event about? The entire week Chris, <a href="https://wikimediafoundation.org/wiki/User:QGil">Quim Gil</a> and me are focused on helping volunteers in writing <a href="http://cukes.info/">Cucumber</a> scenarios. If you are not familiar with Cucumber, this is how a <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/search.feature#L1-L7">scenario</a> looks like:</p>
-<p>[code]<br />
-Feature: Search</p>
-<p>  Scenario: Search suggestions<br />
-    Given I am at random page<br />
-    When I search for: main<br />
-    Then a list of suggested pages should appear<br />
-      And Main Page should be the first result<br />
-[/code]</p>
+
+{% highlight gherkin %}
+Feature: Search
+  Scenario: Search suggestions
+    Given I am at random page
+    When I search for: main
+    Then a list of suggested pages should appear
+      And Main Page should be the first result
+{% endhighlight %}
+
 <p>If you are not familiar with given/when/then format, <a href="https://github.com/cucumber/cucumber/wiki/Given-When-Then">Given when then</a> page at Cucumber wiki has a short but good explanation of the concept.</p>
 <p>The goal of the event is to increase number of scenarios at <a href="https://www.mediawiki.org/wiki/QA/Browser_testing/Test_backlog">Test backlog</a> page. Scenarios from that page will soon be automated. </p>
 <p>Yesterday we had and interactive part of the event. We started at 17h UTC with a short <a href="http://youtu.be/Kad3EUM4GdM">10 minute presentation by Chris</a>.</p>

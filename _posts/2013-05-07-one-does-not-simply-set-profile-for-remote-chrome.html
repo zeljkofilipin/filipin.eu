@@ -6,31 +6,43 @@ title: One Does Not Simply Set Profile for Remote Chrome
 <p>Random photo: <a href="http://knowyourmeme.com/memes/one-does-not-simply-walk-into-mordor">One Does Not Simply</a> Get a Tour of <a href="http://21st-amendment.com/">21st Amendment Brewery</a></p>
 <p>Recently I have shared code how to <a href="http://filipin.eu/chrome-profiles/">set up a custom profile for <strong>local</strong> Firefox and Chrome</a>. Then I tried to do the same for <strong>remote</strong> Firefox and Chrome. As usual, I had no problems with Firefox, but Chrome was significantly harder.</p>
 <p><a href="http://watirwebdriver.com/chrome/">After</a> <a href="https://code.google.com/p/selenium/wiki/ChromeDriver">reading</a> <a href="https://code.google.com/p/selenium/wiki/RemoteWebDriver">the</a> <a href="https://code.google.com/p/selenium/wiki/RubyBindings">documentation</a> and <a href="http://src.chromium.org/svn/trunk/src/chrome/common/pref_names.cc">source</a> <a href="http://src.chromium.org/svn/trunk/src/chrome/common/chrome_switches.cc">code</a>, contacting <a href="http://support.saucelabs.com/home">Sauce Labs support</a>, asking at <a href="https://groups.google.com/d/msg/watir-general/spap9b1n0bU/dlmcHNOZ1HUJ">watir-general</a>, <a href="https://groups.google.com/d/msg/selenium-users/8l_joYi0jSM/MATvCkEfb94J">selenium-users</a> and <a href="http://stackoverflow.com/q/16218435/17469">Stack Overflow</a>, offering maximum bounty for the question (500 reputation) and poking <a href="https://github.com/jarib/">Jari</a> on <a href="https://twitter.com/zeljkofilipin/status/331402726955163650">Twitter</a>, I got <a href="http://stackoverflow.com/a/16416941/17469">the answer</a>. Jari, thanks again.</p>
+
 <p>Firefox:</p>
-<p>[code language="ruby"]<br />
-require &quot;watir-webdriver&quot;</p>
-<p>profile = Selenium::WebDriver::Firefox::Profile.new<br />
-profile[&quot;intl.accept_languages&quot;] = &quot;de&quot;</p>
-<p>caps = Selenium::WebDriver::Remote::Capabilities.firefox(firefox_profile: profile)<br />
-caps.platform = &quot;Linux&quot;<br />
-caps.version = 20</p>
-<p>browser = Watir::Browser.new(<br />
-  :remote,<br />
-  url: &quot;http://USERNAME:ACCESS-KEY@ondemand.saucelabs.com:80/wd/hub&quot;,<br />
-  desired_capabilities: caps)</p>
-<p>browser.goto &quot;http://sandbox.translatewiki.net/&quot;<br />
-[/code]</p>
+
+{% highlight ruby %}
+require "watir-webdriver"
+
+profile = Selenium::WebDriver::Firefox::Profile.new
+profile["intl.accept_languages"] = "de"
+
+caps = Selenium::WebDriver::Remote::Capabilities.firefox(firefox_profile: profile)
+caps.platform = "Linux"
+caps.version = 20
+
+browser = Watir::Browser.new(
+  :remote,
+  url: "http://USERNAME:ACCESS-KEY@ondemand.saucelabs.com:80/wd/hub",
+  desired_capabilities: caps)
+
+browser.goto "http://sandbox.translatewiki.net/"
+{% endhighlight %}
+
 <p>Chrome:</p>
-<p>[code language="ruby"]<br />
-require &quot;watir-webdriver&quot;</p>
-<p>profile = Selenium::WebDriver::Chrome::Profile.new<br />
-profile[&quot;intl.accept_languages&quot;] = &quot;de&quot;</p>
-<p>caps = Selenium::WebDriver::Remote::Capabilities.chrome(&quot;chrome.profile&quot; =&gt; profile.as_json['zip'])<br />
-caps.platform = &quot;Linux&quot;<br />
-caps.version = &quot;&quot;</p>
-<p>browser = Watir::Browser.new(<br />
-    :remote,<br />
-    url: &quot;http://USERNAME:ACCESS-KEY@ondemand.saucelabs.com:80/wd/hub&quot;,<br />
-    desired_capabilities: caps)</p>
-<p>browser.goto &quot;http://sandbox.translatewiki.net/&quot;<br />
-[/code]</p>
+
+{% highlight ruby %}
+require "watir-webdriver"
+
+profile = Selenium::WebDriver::Chrome::Profile.new
+profile["intl.accept_languages"] = "de"
+
+caps = Selenium::WebDriver::Remote::Capabilities.chrome("chrome.profile" => profile.as_json['zip'])
+caps.platform = "Linux"
+caps.version = ""
+
+browser = Watir::Browser.new(
+  :remote,
+  url: "http://USERNAME:ACCESS-KEY@ondemand.saucelabs.com:80/wd/hub",
+  desired_capabilities: caps)
+
+browser.goto "http://sandbox.translatewiki.net/"
+{% endhighlight %}

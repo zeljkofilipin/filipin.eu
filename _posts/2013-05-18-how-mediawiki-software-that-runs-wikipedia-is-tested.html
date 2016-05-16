@@ -45,197 +45,258 @@ $ irb
 {% endhighlight %}
 
 <p>Click <code>Print/export</code> and <code>Download as PDF</code> links.</p>
-<p>[code language="ruby"]<br />
-&gt; browser.a(text: &quot;Print/export&quot;).click<br />
-=&gt; [] </p>
-<p>&gt; browser.a(text: &quot;Download as PDF&quot;).click<br />
-=&gt; []<br />
-[/code]</p>
+
+{% highlight ruby %}
+> browser.a(text: "Print/export").click
+=> []
+
+> browser.a(text: "Download as PDF").click
+=> []
+{% endhighlight %}
+
 <p>Check if <code>Download the file</code> link appeared.</p>
-<p>[code language="ruby"]<br />
-&gt; browser.a(text: &quot;Download the file&quot;).exists?<br />
-=&gt; true<br />
-[/code]</p>
+
+{% highlight ruby %}
+> browser.a(text: "Download the file").exists?
+=> true
+{% endhighlight %}
+
 <p>Close the browser.</p>
-<p>[code language="ruby"]<br />
-&gt; browser.close<br />
-=&gt; true<br />
-[/code]</p>
+
+{% highlight ruby %}
+> browser.close
+=> true
+{% endhighlight %}
+
 <p>Now, do the same thing in Chrome, just because we can.</p>
-<p>[code language="ruby"]<br />
-&gt; browser = Watir::Browser.new :chrome<br />
-=&gt; #&lt;Watir::Browser:0x..f91396bcbed26c69e url=&quot;about:blank&quot; title=&quot;about:blank&quot;&gt; </p>
-<p>&gt; browser.goto &quot;http://en.wikipedia.beta.wmflabs.org/&quot;<br />
-=&gt; &quot;http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page&quot;</p>
-<p>&gt; browser.a(text: &quot;Print/export&quot;).click<br />
-=&gt; [] </p>
-<p>&gt; browser.a(text: &quot;Download as PDF&quot;).click<br />
-=&gt; [] </p>
-<p>&gt; browser.a(text: &quot;Download the file&quot;).exists?<br />
-=&gt; true </p>
-<p>&gt; browser.close<br />
-=&gt; true<br />
-[/code]</p>
+
+{% highlight ruby %}
+> browser = Watir::Browser.new :chrome
+=> #<Watir::Browser:0x..f91396bcbed26c69e url="about:blank" title="about:blank">
+
+> browser.goto "http://en.wikipedia.beta.wmflabs.org/"
+=> "http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page"
+
+> browser.a(text: "Print/export").click
+=> []
+
+> browser.a(text: "Download as PDF").click
+=> []
+
+> browser.a(text: "Download the file").exists?
+=> true
+
+> browser.close
+=> true
+{% endhighlight %}
+
 <p>Please notice that except the line that opens the browser, everything else is the same.</p>
 <p>Just for fun, let's do the same thing in <a href="http://phantomjs.org/">PhantomJS</a>.</p>
-<p>[code language="ruby"]<br />
-&gt; browser = Watir::Browser.new :phantomjs<br />
-=&gt; #&lt;Watir::Browser:0x..fbff7276034352be4 url=&quot;about:blank&quot; title=&quot;&quot;&gt;</p>
-<p>&gt; browser.goto &quot;http://en.wikipedia.beta.wmflabs.org/&quot;<br />
-=&gt; &quot;http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page&quot;</p>
-<p>&gt; browser.a(text: &quot;Print/export&quot;).click<br />
-=&gt; [] </p>
-<p>&gt; browser.a(text: &quot;Download as PDF&quot;).click<br />
-=&gt; [] </p>
-<p>&gt; browser.a(text: &quot;Download the file&quot;).exists?<br />
-=&gt; true<br />
-[/code]</p>
+
+{% highlight ruby %}
+> browser = Watir::Browser.new :phantomjs
+=> #<Watir::Browser:0x..fbff7276034352be4 url="about:blank" title="">
+
+> browser.goto "http://en.wikipedia.beta.wmflabs.org/"
+=> "http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page"
+
+> browser.a(text: "Print/export").click
+=> []
+
+> browser.a(text: "Download as PDF").click
+=> []
+
+> browser.a(text: "Download the file").exists?
+=> true
+{% endhighlight %}
+
 <p>Before closing the browser, let's take a screenshot. Screenshot of a headless browser? There is a joke here somewhere. If only I could find it.</p>
-<p>[code language="ruby"]<br />
-&gt; browser.screenshot.save &quot;phantomjs.png&quot;<br />
- =&gt; #&lt;File:phantomjs.png (closed)&gt;</p>
-<p>&gt; browser.close<br />
-=&gt; true<br />
-[/code]</p>
+
+{% highlight ruby %}
+> browser.screenshot.save "phantomjs.png"
+=> #<File:phantomjs.png (closed)>
+
+> browser.close
+=> true
+[/code]
+{% endhighlight %}
+
 <p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/phantomjs.png"><img src="/assets/phantomjs.png" alt="PhantomJS" width="400" height="534" class="size-full wp-image-1145" /></a> PhantomJS screenshot</p>
 <p>It would be crazy to type this stuff all the time, so let's create a script that we can just run. I have executed <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature#L9-L12">Click on Download as PDF link</a> scenario.</p>
 <p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature">pdf_readonly.feature</a> file.</p>
-<p>[code]<br />
-Scenario: Click on Download as PDF link<br />
-  Given I am at random page<br />
-  When I click on Download as PDF<br />
-  Then Download the file link should be present<br />
-[/code]</p>
+
+{% highlight gherkin %}
+Scenario: Click on Download as PDF link
+  Given I am at random page
+  When I click on Download as PDF
+  Then Download the file link should be present
+{% endhighlight %}
+
 <p>The scenario failed.</p>
-<p>[code language="bash"]<br />
-$ bundle exec cucumber features/pdf_readonly.feature:9<br />
-Using the default profile...<br />
-..F</p>
-<p>(::) failed steps (::)</p>
-<p>timed out after 15 seconds, waiting for {:text=&gt;&quot;Download the file&quot;, :tag_name=&gt;&quot;a&quot;} to become present (Watir::Wait::TimeoutError)<br />
-./features/step_definitions/pdf_steps.rb:15:in `block (2 levels) in &lt;top (required)&gt;'<br />
-./features/step_definitions/pdf_steps.rb:14:in `/^Download the file link should be present$/'<br />
-features/pdf_readonly.feature:12:in `Then Download the file link should be present'</p>
-<p>Failing Scenarios:<br />
-cucumber features/pdf_readonly.feature:9 # Scenario: Click on Download as PDF link</p>
-<p>1 scenario (1 failed)<br />
-3 steps (1 failed, 2 passed)<br />
-0m48.241s<br />
-[/code]</p>
+
+{% highlight shell %}
+$ bundle exec cucumber features/pdf_readonly.feature:9
+Using the default profile...
+..F
+
+(::) failed steps (::)
+
+timed out after 15 seconds, waiting for {:text=>"Download the file", :tag_name=>"a"} to become present (Watir::Wait::TimeoutError)
+./features/step_definitions/pdf_steps.rb:15:in `block (2 levels) in <top (required)>'
+./features/step_definitions/pdf_steps.rb:14:in `/^Download the file link should be present$/'
+features/pdf_readonly.feature:12:in `Then Download the file link should be present'
+
+Failing Scenarios:
+cucumber features/pdf_readonly.feature:9 # Scenario: Click on Download as PDF link
+
+1 scenario (1 failed)
+3 steps (1 failed, 2 passed)
+0m48.241s
+{% endhighlight %}
+
 <p>The problem is that the test waits 15 seconds for <code>Download the file</code> link to appear, and sometimes it takes longer. This time it took longer and the test failed.</p>
 <p><strong>Part Four</strong></p>
 <p>A short overview of the complete browser test automation solution that we have developed. The code is hosted at Gerrit (<a href="https://gerrit.wikimedia.org/r/#/admin/projects/qa/browsertests">qa/browsertests</a>) and there is Github mirror (<a href="https://github.com/wikimedia/qa-browsertests">wikimedia/qa-browsertests</a>).</p>
 <p>We use <a href="https://rvm.io/">RVM</a> to manage Ruby versions and <a href="https://rvm.io/gemsets/">gemsets</a>.</p>
 <p><a href="https://github.com/wikimedia/qa-browsertests/blob/master/.ruby-version">.ruby-version</a> file.</p>
-<p>[code]<br />
-ruby-2.0.0-p0<br />
-[/code]</p>
+
+{% highlight ruby %}
+ruby-2.0.0-p0
+{% endhighlight %}
+
 <p><a href="https://github.com/wikimedia/qa-browsertests/blob/master/.ruby-gemset">.ruby-gemset</a> file.</p>
-<p>[code]<br />
-browsertests<br />
-[/code]</p>
+
+{% highlight ruby %}
+browsertests
+{% endhighlight %}
+
 <p>We use <a href="http://gembundler.com/">Bundler</a> to manage project dependencies.</p>
 <p><a href="https://github.com/wikimedia/qa-browsertests/blob/master/Gemfile">Gemfile</a> file.</p>
-<p>[code]<br />
-source 'https://rubygems.org'</p>
-<p>gem 'chunky_png'<br />
-gem 'cucumber'<br />
-gem 'net-http-persistent'<br />
-gem 'page-object'<br />
-gem 'parallel_tests'<br />
-gem 'rake'<br />
-gem 'rspec-expectations'<br />
-gem 'syntax'<br />
-[/code]</p>
+
+{% highlight ruby %}
+source 'https://rubygems.org'
+
+gem 'chunky_png'
+gem 'cucumber'
+gem 'net-http-persistent'
+gem 'page-object'
+gem 'parallel_tests'
+gem 'rake'
+gem 'rspec-expectations'
+gem 'syntax'
+{% endhighlight %}
+
 <p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/Gemfile.lock">Gemfile.lock</a> file.</p>
-<p>[code]<br />
-GEM<br />
-  remote: https://rubygems.org/<br />
-  specs:<br />
-    builder (3.2.0)<br />
-    childprocess (0.3.9)<br />
-      ffi (~&gt; 1.0, &gt;= 1.0.11)<br />
-    chunky_png (1.2.8)<br />
-    cucumber (1.3.1)<br />
-      builder (&gt;= 2.1.2)<br />
-      diff-lcs (&gt;= 1.1.3)<br />
-      gherkin (~&gt; 2.12.0)<br />
-      multi_json (~&gt; 1.3)</p>
-<p>...</p>
-<p>PLATFORMS<br />
-  ruby<br />
-  x86-mingw32</p>
-<p>DEPENDENCIES<br />
-  chunky_png<br />
-  cucumber<br />
-  net-http-persistent<br />
-  page-object<br />
-  parallel_tests<br />
-  rake<br />
-  rspec-expectations<br />
-  syntax<br />
-[/code]</p>
+
+{% highlight ruby %}
+GEM
+remote: https://rubygems.org/
+specs:
+builder (3.2.0)
+childprocess (0.3.9)
+ffi (~> 1.0, >= 1.0.11)
+chunky_png (1.2.8)
+cucumber (1.3.1)
+builder (>= 2.1.2)
+diff-lcs (>= 1.1.3)
+gherkin (~> 2.12.0)
+multi_json (~> 1.3)
+
+...
+
+PLATFORMS
+ruby
+x86-mingw32
+
+DEPENDENCIES
+chunky_png
+cucumber
+net-http-persistent
+page-object
+parallel_tests
+rake
+rspec-expectations
+syntax
+{% endhighlight %}
+
 <p>We use <a href="http://cukes.info/">Cucumber</a> (<a href="https://github.com/wikimedia/qa-browsertests/tree/master/features">features</a> folder) as a tool for communication between people that know what needs to be tested and people that know how to write browser test automation code. Cucumber is one of the really important tools in our toolchain.</p>
 <p>I have showed Cucumber code for <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature#L9-L12">Click on Download as PDF link</a> scenario.</p>
 <p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature">pdf_readonly.feature</a> file.</p>
-<p>[code]<br />
-Scenario: Click on Download as PDF link<br />
-  Given I am at random page<br />
-  When I click on Download as PDF<br />
-  Then Download the file link should be present<br />
-[/code]</p>
+
+{% highlight gherkin %}
+Scenario: Click on Download as PDF link
+  Given I am at random page
+  When I click on Download as PDF
+  Then Download the file link should be present
+{% endhighlight %}
+
 <p>Then I showed how <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature#L10">Given I am at random page</a> step is <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/step_definitions/search_steps.rb#L1-L3">implemented</a>.</p>
 <p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/step_definitions/search_steps.rb">search_steps.rb</a> file.</p>
-<p>[code language="ruby"]<br />
-Given /^I am at random page$/ do<br />
-  visit RandomPage<br />
-end<br />
-[/code]</p>
+
+{% highlight ruby %}
+Given /^I am at random page$/ do
+  visit RandomPage
+end
+{% endhighlight %}
+
 <p>As you can see, the implementation is trivial. <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/pages/random_page.rb#L5">RandomPage</a> is also pretty simple.</p>
 <p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/pages/random_page.rb">random_page.rb</a> file.</p>
-<p>[code language="ruby"]<br />
-class RandomPage<br />
-  include PageObject</p>
-<p>  include URL<br />
-  page_url URL.url('Special:Random')</p>
-<p>...</p>
-<p>end<br />
-[/code]</p>
+
+{% highlight ruby %}
+class RandomPage
+  include PageObject
+  include URL
+  page_url URL.url('Special:Random')
+...
+end
+{% endhighlight %}
+
 <p><a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/modules/url_module.rb">URL module</a> is simple too.</p>
 <p><a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/modules/url_module.rb">url_module.rb</a> file.</p>
-<p>[code language="ruby"]<br />
-module URL<br />
-  def self.url(name)<br />
-    if ENV['MEDIAWIKI_URL']<br />
-      mediawiki_url = ENV['MEDIAWIKI_URL']<br />
-    else<br />
-      mediawiki_url = 'http://en.wikipedia.beta.wmflabs.org/wiki/'<br />
-    end<br />
-    &quot;#{mediawiki_url}#{name}&quot;<br />
-  end<br />
-end<br />
-[/code]</p>
+
+{% highlight ruby %}
+module URL
+  def self.url(name)
+    if ENV['MEDIAWIKI_URL']
+      mediawiki_url = ENV['MEDIAWIKI_URL']
+    else
+      mediawiki_url = 'http://en.wikipedia.beta.wmflabs.org/wiki/'
+    end
+    "#{mediawiki_url}#{name}"
+  end
+end
+{% endhighlight %}
+
 <p>I have explained that we use the <a href="https://code.google.com/p/selenium/wiki/PageObjects">Page Object pattern</a> and <a href="https://github.com/cheezy/page-object">page-object</a> gem. Page object pattern is another important tool. It allows us to write maintainable code.</p>
 <p>A slightly more complicated step is <code>When I click on Download as PDF</code>.</p>
 <p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/step_definitions/pdf_steps.rb">pdf_steps.rb</a> file.</p>
-<p>[code language="ruby"]<br />
-When(/^I click on Download as PDF$/) do<br />
-  @browser.driver.manage.add_cookie(:name =&gt; 'vector-nav-p-coll-print_export', :value =&gt; 'true')<br />
-  @browser.driver.navigate.refresh<br />
-  on(RandomPage).download_as_pdf<br />
-end<br />
-[/code]</p>
+
+{% highlight ruby %}
+When(/^I click on Download as PDF$/) do
+  @browser.driver.manage.add_cookie(:name => 'vector-nav-p-coll-print_export', :value => 'true')
+  @browser.driver.navigate.refresh
+  on(RandomPage).download_as_pdf
+end
+{% endhighlight %}
+
 <p>From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/pages/random_page.rb">random_page.rb</a> file.</p>
-<p>[code language="ruby"]<br />
-class RandomPage<br />
-  include PageObject</p>
-<p>  include URL<br />
-  page_url URL.url('Special:Random')</p>
-<p>...</p>
-<p>  a(:download_as_pdf, text: 'Download as PDF')</p>
-<p>...</p>
-<p>end<br />
-[/code]</p>
+
+{% highlight ruby %}
+class RandomPage
+  include PageObject
+
+  include URL
+  page_url URL.url('Special:Random')
+
+  ...
+
+  a(:download_as_pdf, text: 'Download as PDF')
+
+  ...
+
+end
+{% endhighlight %}
+
 <p>We use <a href="http://jenkins-ci.org/">Jenkins</a> <a href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a> server. It is also one of the important tools. Jenkins that runs our browser test automation is hosted by <a href="http://www.cloudbees.com/">CloudBees</a> at <a href="https://wmf.ci.cloudbees.com/">wmf.ci.cloudbees.com</a>.</p>
 <p>I have showed <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/">a job</a> that is sometimes failing because of the timeout problem that I have mentioned previously. I have showed a couple of nice Jenkins features, <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/test/?width=800&height=600">Test Result Trend</a> chart and <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/buildTimeTrend">Build Time Trend</a> chart.</p>
 <p><a href="http://filipin.zeljkofilipin.com/wp-content/uploads/2013/05/trt.png"><img src="/assets/trt.png" alt="Test Result Trend" width="800" height="600" class="size-full wp-image-1148" /></a> Test Result Trend</p>

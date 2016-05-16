@@ -2,36 +2,40 @@
 tags:  code ruby
 title: watir-webdriver tests at TestingBot
 ---
-<p><a href="http://zeljkofilipin.com/wp-content/uploads/2012/05/throne.jpg"><img src="/assets/throne-300x300.jpg" alt="Random photo: Varaždin, Croatia." title="Random photo: Varaždin, Croatia." width="300" height="300" class="size-medium wp-image-1677" /></a></p>
+<p><img src="/assets/throne-300x300.jpg" alt="Random photo: Varaždin, Croatia." title="Random photo: Varaždin, Croatia."  /></p>
 <p><em>To make it explicit: I am not affiliated with <a href="http://testingbot.com/">TestingBot</a> or <a href="http://saucelabs.com/">Sauce Labs</a>.</em></p>
-<p>A few days ago I wrote about <a href="http://zeljkofilipin.com/watir-webdriver-and-sauce-labs-ondemand/">how to run watir-webdriver tests at Sauce Labs OnDemand</a>. I have also noticed that <a href="http://zeljkofilipin.com/watir-webdriver-tests-are-pretty-slow-at-sauce-labs-ondemand/">watir-webdriver tests are pretty slow at Sauce Labs OnDemand</a>.</p>
+<p>A few days ago I wrote about <a href="/watir-webdriver-and-sauce-labs-ondemand/">how to run watir-webdriver tests at Sauce Labs OnDemand</a>. I have also noticed that <a href="watir-webdriver-tests-are-pretty-slow-at-sauce-labs-ondemand/">watir-webdriver tests are pretty slow at Sauce Labs OnDemand</a>.</p>
 <p>Jari Bakken <a href="https://twitter.com/jarib/status/206495033979961344">suggested to use net-http-persistent</a> gem to speed things up. Jochen Delabie suggested I should try TestingBot. So, I have decided to try both.</p>
 <p>TestingBot is pretty much the same service as <a href="http://saucelabs.com/ondemand">Sauce Labs OnDemand</a>. There is also 200 minutes of free trial, and the prices are a bit lower than Sauce Labs OnDemand. If you have used Sauce Labs OnDemand, TestingBot will look familiar. If you have not used Sauce Labs OnDemand, read the last couple of articles I have wrote here.</p>
 <p>So, what you need to do to run your tests at TestingBot?</p>
 <p>If you already run tests at Sauce Labs OnDemand:</p>
-<p>[sourcecode language="ruby"]<br />
-require &quot;watir-webdriver&quot;<br />
-caps = Selenium::WebDriver::Remote::Capabilities.firefox<br />
-caps.version = &quot;11&quot;<br />
-caps.platform = :LINUX<br />
-caps[:name] = &quot;testing this cloud thing&quot;<br />
-browser = Watir::Browser.new(<br />
-  :remote,<br />
-  :url =&gt; &quot;http://username:api-key@ondemand.saucelabs.com:80/wd/hub&quot;,<br />
-  :desired_capabilities =&gt; caps)<br />
-[/sourcecode]</p>
+
+{% highlight ruby %}
+require "watir-webdriver"
+caps = Selenium::WebDriver::Remote::Capabilities.firefox
+caps.version = "11"
+caps.platform = :LINUX
+caps[:name] = "testing this cloud thing"
+browser = Watir::Browser.new(
+  :remote,
+  :url => "http://username:api-key@ondemand.saucelabs.com:80/wd/hub",
+  :desired_capabilities => caps)
+{% endhighlight %}
+
 <p>you only have to change <code>caps.version</code> and <code>:url</code>. Depending on the platform and browser, check if you have to change other settings too. (Supported operating systems: <a href="https://saucelabs.com/docs/ondemand/browsers/env/ruby/se2/mac">Sauce Labs OnDemand</a>, <a href="http://testingbot.com/support/getting-started/browsers.html">TestingBot</a>.)</p>
-<p>[sourcecode language="ruby"]<br />
-require &quot;watir-webdriver&quot;<br />
-caps = Selenium::WebDriver::Remote::Capabilities.firefox<br />
-caps.version = 11<br />
-caps.platform = :LINUX<br />
-caps[:name] = &quot;testing this cloud thing&quot;<br />
-browser = Watir::Browser.new(<br />
-  :remote,<br />
-  :url =&gt; &quot;http://key:secret@hub.testingbot.com:80/wd/hub&quot;,<br />
-  :desired_capabilities =&gt; caps)<br />
-[/sourcecode]</p>
+
+{% highlight ruby %}
+require "watir-webdriver"
+caps = Selenium::WebDriver::Remote::Capabilities.firefox
+caps.version = 11
+caps.platform = :LINUX
+caps[:name] = "testing this cloud thing"
+browser = Watir::Browser.new(
+  :remote,
+  :url => "http://key:secret@hub.testingbot.com:80/wd/hub",
+  :desired_capabilities => caps)
+{% endhighlight %}
+
 <p>Of course, replace <code>key</code> and <code>secret</code> with your credentials.</p>
 <p>I have run pretty much the same script as in the previous post. The script opens the browser, goes to 9 sites and closes the browser. Actually, it does that with and without using net-http-persistent gem, on a local browser, at Sauce Labs OnDemand and at TestingBot.</p>
 <p><iframe width="700" height="250" frameborder="0" src="https://docs.google.com/spreadsheet/pub?key=0AkEvoPk1PsafdHNDN0JiM2VJRFlfS0g5OVRuUWxxbGc&single=true&gid=5&output=html&widget=true"></iframe></p>
@@ -39,5 +43,3 @@ browser = Watir::Browser.new(<br />
 <p>What do the numbers say?</p>
 <p>net-http-persistent gem this time helped to reduce test run time up to 10%, but other tests showed up to 15% shorter times.</p>
 <p>TestingBot is still about 2 times slower than running a local browser, but Sauce Labs OnDemand is about 4 times slower. So, running tests at TestingBot is about 2 times faster than at Sauce Labs OnDemand.</p>
-<p>As usual, if you want to run the script yourself, here it is:</p>
-<p><script src="https://gist.github.com/2843657.js?file=cloud.rb"></script></p>

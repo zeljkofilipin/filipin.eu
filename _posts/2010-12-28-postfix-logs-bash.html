@@ -2,7 +2,7 @@
 tags:  code
 title: 'Postfix Logs: Bash'
 ---
-<p><a href="http://zeljkofilipin.com/wp-content/uploads/2010/12/P6040019.jpg"><img src="/assets/P6040019-300x224.jpg" alt="Random Croatian countryside #1" title="Random Croatian countryside #1" width="300" height="224" class="size-medium wp-image-1301" /></a></p>
+<p><a href="http://filipin.eu/wp-content/uploads/2010/12/P6040019.jpg"><img src="/assets/P6040019-300x224.jpg" alt="Random Croatian countryside #1" title="Random Croatian countryside #1" width="300" height="224" class="size-medium wp-image-1301" /></a></p>
 <p>My company uses <a href="http://www.postfix.org/">Postfix</a> mail server to send mail.</p>
 <p>Recently some users complained that they have received the same e-mail multiple times. I have inspected our logs and confirmed the problem. In short, the problem was that all messages should have unique message-id. We had a bug. While sending the same message to multiple people (for example in a mailing list), all messages had the same message-id and that caused some mails to be sent multiple times.</p>
 <p>The developers fixed the problem and I wanted to make sure it is really fixed. After checking in a virtual machine we use for testing we were pretty sure the problem is fixed. All messages had unique message-id, even if the same mail was sent to multiple people. We have updated the code in production. After a few days I wanted to check Postfix logs to make sure the problem is really fixed.</p>
@@ -86,7 +86,7 @@ $ grep -c &quot;: \w*=&lt;.*=.*=.*@.*&gt;, &quot; log<br />
 $ grep -c &quot;&lt;.*=.*=.*@.*&gt;, &quot; log<br />
 153412<br />
 [/sourcecode]</p>
-<p><a href="http://zeljkofilipin.com/wp-content/uploads/2010/12/P6040027.jpg"><img src="/assets/P6040027-300x224.jpg" alt="Random Croatian countryside #2" title="Random Croatian countryside #2" width="300" height="224" class="size-medium wp-image-1304" /></a></p>
+<p><a href="http://filipin.eu/wp-content/uploads/2010/12/P6040027.jpg"><img src="/assets/P6040027-300x224.jpg" alt="Random Croatian countryside #2" title="Random Croatian countryside #2" width="300" height="224" class="size-medium wp-image-1304" /></a></p>
 <p>Enough of statistics, let's inspect one mail. A few lines from the log look like this.</p>
 <p>[sourcecode language="bash"]<br />
 $ cat log<br />

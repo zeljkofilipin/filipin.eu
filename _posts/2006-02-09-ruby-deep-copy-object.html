@@ -2,7 +2,7 @@
 tags:  code ruby
 title: Ruby (Deep) Copy Object
 ---
-<p>I wanted to make an object. Then copy it. Then change that copy and leave original object intact. But I did not know how to do it. When I do not know how to do something, I always ask <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/">wtr-general</a> mailing list. I <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg02650.html">posted</a> my question. Then I though it would be nice if I explained why I want to copy an object. But it got pretty long, so I put it at my <a href="http://zeljkofilipin.com/2006/02/07/watir-ruby-objects-and-variables/">blog</a>.</p>
+<p>I wanted to make an object. Then copy it. Then change that copy and leave original object intact. But I did not know how to do it. When I do not know how to do something, I always ask <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/">wtr-general</a> mailing list. I <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg02650.html">posted</a> my question. Then I though it would be nice if I explained why I want to copy an object. But it got pretty long, so I put it at my <a href="http://filipin.eu/2006/02/07/watir-ruby-objects-and-variables/">blog</a>.</p>
 <p>I got a reply. "Try Object#clone". Could it be that easy?! It could be. After all, this is Ruby. But no, it is not that easy. It did not work. Original object was changing with it's duplicate.</p>
 <p>[source:ruby]<br />
 class Page<br />

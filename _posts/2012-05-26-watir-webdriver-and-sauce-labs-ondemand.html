@@ -2,7 +2,7 @@
 tags:  code ruby
 title: watir-webdriver and Sauce Labs OnDemand
 ---
-<p><a href="http://zeljkofilipin.com/wp-content/uploads/2012/05/bug_hunter.jpg"><img src="/assets/bug_hunter-300x300.jpg" alt="Bug Hunter&#039;s Journal" title="Bug Hunter&#039;s Journal" width="300" height="300" class="size-medium wp-image-1633" /></a></p>
+<p><a href="http://filipin.eu/wp-content/uploads/2012/05/bug_hunter.jpg"><img src="/assets/bug_hunter-300x300.jpg" alt="Bug Hunter&#039;s Journal" title="Bug Hunter&#039;s Journal" width="300" height="300" class="size-medium wp-image-1633" /></a></p>
 <p>For a couple of clients I have been running <a href="http://watir.com/">watir</a>-webdriver tests using <a href="http://saucelabs.com/ondemand">Sauce Labs OnDemand</a>. Never heard about it? In short, instead of driving a browser at your local machine, you can drive a browser <em>in the cloud</em>. Sounds cool, right?</p>
 <p>What changes should you do to your existing watir-webdriver scripts to run them <em>in the cloud</em>?</p>
 <p>This would open Firefox at your local machine:</p>
@@ -27,5 +27,5 @@ browser = Watir::Browser.new(<br />
 <p>You can run the above code by pasting it into <a href="http://en.wikipedia.org/wiki/Interactive_Ruby_Shell">IRB</a>, or paste it into a Ruby file (named <code>cloud.rb</code>, for example) and just run the file from command line.</p>
 <p>After the browser is opened, you can drive it as usual.</p>
 <p>Now go to <a href="https://saucelabs.com/jobs">https://saucelabs.com/jobs</a> and there should be a test with status <em>running</em> and name <em>testing this cloud thing</em>.</p>
-<p><a href="http://zeljkofilipin.com/wp-content/uploads/2012/05/running.png"><img src="/assets/running.png" alt="testing this cloud thing" title="testing this cloud thing" width="625" height="281" class="size-full wp-image-1646" /></a></p>
+<p><a href="http://filipin.eu/wp-content/uploads/2012/05/running.png"><img src="/assets/running.png" alt="testing this cloud thing" title="testing this cloud thing" width="625" height="281" class="size-full wp-image-1646" /></a></p>
 <p>Click the test name and you will see live video of the browser running <em>in the cloud</em>. After the test is finished you will be able to view the video and see the screenshots that (I think) are automatically taken for every page that the browser opens.</p>

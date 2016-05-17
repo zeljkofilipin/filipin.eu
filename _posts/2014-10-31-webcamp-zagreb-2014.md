@@ -6,7 +6,7 @@ title: WebCamp Zagreb 2014
 
 Today is the last day I can say that earlier this month I was at [WebCamp Zagreb 2014](http://2014.webcampzg.org/) conference. Tomorrow that would not be true.
 
-I have been to all three WebCamps ([2012](http://filipin.zeljkofilipin.com/webcampzg-2012/), 2013). Every time I was impressed with the quality of the conference, especially since it is free. This year for the first time they have accepted optional donations.
+I have been to all three WebCamps. Every time I was impressed with the quality of the conference, especially since it is free. This year for the first time they have accepted optional donations.
 
 This first year it was a small conference. The second year it grew so big they had to change the venue. This year it was even bigger. Two days instead of one. A lot of preconference activities. The organizers even started a non profit to help organize local tech events. It would be even better if they did it the first year. I plan to use the non profit this year to organize a tech meetup. More about that soon.
 

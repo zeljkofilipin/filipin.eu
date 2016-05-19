@@ -1,12 +1,23 @@
-<ul style="text-align: justify;">
+{% capture tags %}
   {% for tag in site.tags %}
+    {{ tag[0] }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+
+{% assign tags_size = site.tags.size %}
+
+<ul style="text-align: justify;">
+  {% for tag in sortedtags %}
+  {% assign tag_size = site.tags[tag].size %}
+  {% assign font_size = tag_size | times: 30 | divided_by: tags_size | plus: 80 %}
     <li style="
       display: inline-block;
-      font-size: {{ tag | last | size | times: 30 | divided_by: site.tags.size | plus: 80 }}%;">
+      font-size: {{ font_size }}%;">
       <a
-        href="/{{ tag | first | slugize }}"
-        title="{{ tag | last | size }} {{ tag | last | size | times: 30 | divided_by: site.tags.size | plus: 80 }}%">
-         {{ tag | first }}
+        href="/{{ tag }}"
+        title="{{ tag_size }} {{ font_size }}%">
+         {{ tag }}
       </a>
     </li>
   {% endfor %}

@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Internet Information Services Installation Nightmare (Resolved)
-date: 2007-08-02 13:49:07.000000000 +02:00
 ---
 <p>I just do not understand what happened. I tried to install Internet Information Services (IIS) but it kept complaining that it needs Windows XP Professional Service Pack 2 (SP2) CD. The first error message was "The file 'staxmem.dll' on Windows XP Professional Service Pack 2 CD is needed."</p>
 <p><img src="/assets/staxmem.png" title="staxmem.png" alt="staxmem.png" /></p>
@@ -12,7 +10,7 @@ date: 2007-08-02 13:49:07.000000000 +02:00
 <p>Window with title Extracting Files will appear.</p>
 <p><img src="/assets/extracting.png" alt="extracting.png" /></p>
 <p>After it is done, temporary directory will be created in C:\ with funny name like 94340997294df09a342ed3029c. Also, window with title Service Pack 2 Setup will appear.</p>
-<p><a href="/wp-content/uploads/2007/08/sp2.png"><img src="/assets/sp2.thumbnail.png" alt="sp2.png" /></a></p>
+<p><img src="/assets/sp2.thumbnail.png" alt="sp2.png" /></p>
 <p>Temporary directory is deleted when you click OK, so leave it open until you are done with IIS installation.</p>
 <p>Finally, you can start (or continue) with IIS installation. When Windows says that it can not find staxmem.dll point it to C:\[sp2 temp folder]\i386, and when it asks for adsutil.vbs point it to C:\[sp2 temp folder]\i386\ip.</p>
 <p>You can use this trick with SP2 whenever Windows asks you for Windows XP Professional Service Pack 2 CD. I successfully installed USB drivers in VMware virtual machine that way.</p>

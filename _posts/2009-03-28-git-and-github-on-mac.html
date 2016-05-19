@@ -16,13 +16,17 @@ title: Git and Github on Mac
 <p>He added <code>C:\ruby\lib\ruby\gems\1.8\gems\watir-1.6.2</code> folder (that is where Watir lived on his Windows machine) to his Watir project in <a href="http://www.netbeans.org/">NetBeans</a>, and made a search for <code>Choose file</code>. The search found 12 matches in 2 files. Both files were in <code>watir-1.6.2\lib\watir</code> folder. Files were <code>input_elements.rb</code> and <code>winClicker.rb</code>. He said (to himself):</p>
 <blockquote><p>I will try <code>input_elements.rb</code> first.</p></blockquote>
 <p>There he found an ugly long line that contained <code>Choose file</code> three times:</p>
-<p>[ruby]<br />
-system(&quot;rubyw -e \&quot;require 'win32ole'; @autoit=WIN32OLE.new('AutoItX3.Control'); waitresult=@autoit.WinWait 'Choose file', '', 15; sleep 1; if waitresult == 1\&quot; -e \&quot;@autoit.ControlSetText 'Choose file', '', 'Edit1', '#{setPath}'; @autoit.ControlSend 'Choose file', '', 'Button2', '{ENTER}';\&quot; -e \&quot;end\&quot;&quot;)<br />
-[/ruby]</p>
+
+{% highlight ruby %}
+system("rubyw -e \"require 'win32ole'; @autoit=WIN32OLE.new('AutoItX3.Control'); waitresult=@autoit.WinWait 'Choose file', '', 15; sleep 1; if waitresult == 1\" -e \"@autoit.ControlSetText 'Choose file', '', 'Edit1', '#{setPath}'; @autoit.ControlSend 'Choose file', '', 'Button2', '{ENTER}';\" -e \"end\"")
+{% endhighlight %}
+
 <p>He replaced all three occurrences of <code>Choose file</code> with <code>Choose File to Upload</code>.</p>
-<p>[ruby]<br />
-system(&quot;rubyw -e \&quot;require 'win32ole'; @autoit=WIN32OLE.new('AutoItX3.Control'); waitresult=@autoit.WinWait 'Choose File to Upload', '', 15; sleep 1; if waitresult == 1\&quot; -e \&quot;@autoit.ControlSetText 'Choose File to Upload', '', 'Edit1', '#{setPath}'; @autoit.ControlSend 'Choose File to Upload', '', 'Button2', '{ENTER}';\&quot; -e \&quot;end\&quot;&quot;)<br />
-[/ruby]</p>
+
+{% highlight ruby %}
+system("rubyw -e \"require 'win32ole'; @autoit=WIN32OLE.new('AutoItX3.Control'); waitresult=@autoit.WinWait 'Choose File to Upload', '', 15; sleep 1; if waitresult == 1\" -e \"@autoit.ControlSetText 'Choose File to Upload', '', 'Edit1', '#{setPath}'; @autoit.ControlSend 'Choose File to Upload', '', 'Button2', '{ENTER}';\" -e \"end\"")
+{% endhighlight %}
+
 <p>He tried file upload with Watir, and it worked! He was so proud, that he decided to share it with the world! Since Watir code recently moved from SVN to Git, it was also a perfect chance to try Git again. Watir code is hosted on <a href="http://github.com/">Github</a>, so he opened an account there.</p>
 <p><img src="/assets/pricing-github-300x145.jpg" alt="pricing-github" title="pricing-github" /></p>
 <p>He thought:</p>
@@ -36,47 +40,69 @@ system(&quot;rubyw -e \&quot;require 'win32ole'; @autoit=WIN32OLE.new('AutoItX3.
 <p><img src="/assets/zeljkofilipin_s-watir-at-master-github-300x85.jpg" alt="zeljkofilipin_s-watir-at-master-github" title="zeljkofilipin_s-watir-at-master-github" /></p>
 <p>But, before cloning he had to create SSH keys. He found the instructions at <a href="https://github.com/account">Github account</a> page. There was a link with a friendly name: <a href="http://github.com/guides/providing-your-ssh-key">Need help with public keys?</a>. Oh, he needed help!</p>
 <p>He followed the instructions.  Do not name your files <code>github</code> and <code>github.pub</code>, like he did. Leave default file names, otherwise it will not work. You do not need a passphrase for now. Leave it blank. (He wants to say thanks to <a href="http://github.com/mislav">Mislav Marohnić</a> for teaching him all that SSH stuff.)</p>
-<p><code><br />
-$ cd .ssh<br />
-$ ssh-keygen<br />
-Generating public/private rsa key pair.<br />
-Enter file in which to save the key (/Users/zeljko/.ssh/id_rsa):<br />
-Enter passphrase (empty for no passphrase):<br />
-Enter same passphrase again:<br />
-Your identification has been saved in /Users/zeljko/.ssh/id_rsa.<br />
-Your public key has been saved in /Users/zeljko/.ssh/id_rsa.pub.<br />
-</code></p>
+
+{% highlight shell %}
+$ cd .ssh
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/zeljko/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/zeljko/.ssh/id_rsa.
+Your public key has been saved in /Users/zeljko/.ssh/id_rsa.pub.
+{% endhighlight %}
+
 <p>Now he had <code>id_rsa</code> and <code>id_rsa.pub</code> files. He gave contents of <code>id_rsa.pub</code> to <a href="https://github.com/account">Github</a>. (You should keep your <code>id_rsa</code> as a secret. Never show it to anybody. Not even your best friend. Seriously.)</p>
 <p><img src="/assets/your-account-github-300x86.jpg" alt="your-account-github" title="your-account-github" /></p>
 <p>Now that chain of trust was made, he got the repository to his machine.</p>
-<p><code>git clone git@github.com:zeljkofilipin/watir.git</code></p>
+
+{% highlight shell %}
+git clone git@github.com:zeljkofilipin/watir.git
+{% endhighlight %}
+
 <p>He saw something like this:</p>
-<p><code>$ git clone git@github.com:zeljkofilipin/watir.git<br />
-Initialized empty Git repository in /Users/zeljko/Documents/github/watir/.git/<br />
-The authenticity of host 'github.com (65.74.177.129)' can't be established.<br />
-RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.<br />
-Are you sure you want to continue connecting (yes/no)? yes<br />
-Warning: Permanently added 'github.com,65.74.177.129' (RSA) to the list of known hosts.<br />
-remote: Counting objects: 13296, done.<br />
-remote: Compressing objects: 100% (4837/4837), done.<br />
-remote: Total 13296 (delta 8584), reused 11936 (delta 8216)<br />
-Receiving objects: 100% (13296/13296), 7.50 MiB | 549 KiB/s, done.<br />
-Resolving deltas: 100% (8584/8584), done.</code></p>
+
+{% highlight shell %}
+$ git clone git@github.com:zeljkofilipin/watir.git
+Initialized empty Git repository in /Users/zeljko/Documents/github/watir/.git/
+The authenticity of host 'github.com (65.74.177.129)' can't be established.
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,65.74.177.129' (RSA) to the list of known hosts.
+remote: Counting objects: 13296, done.
+remote: Compressing objects: 100% (4837/4837), done.
+remote: Total 13296 (delta 8584), reused 11936 (delta 8216)
+Receiving objects: 100% (13296/13296), 7.50 MiB | 549 KiB/s, done.
+Resolving deltas: 100% (8584/8584), done.
+{% endhighlight %}
+
 <p>He made the changes to the code with NetBeans. That was not such a good idea. But, I will talk about that later.</p>
 <p>Then he committed the change to the local repository.</p>
-<p><code>$ cd watir/<br />
-$ git add watir/lib/watir/input_elements.rb<br />
-$ git commit -m 'Fixed file uploads for IE8'</code></p>
+
+{% highlight shell %}
+$ cd watir/
+$ git add watir/lib/watir/input_elements.rb
+$ git commit -m 'Fixed file uploads for IE8'
+{% endhighlight %}
+
 <p>Finally, he pushed the change back to Github:</p>
-<p><code>git push</code></p>
+
+{% highlight shell %}
+git push
+{% endhighlight %}
+
 <p>He saw something like this:</p>
-<p><code>$ git push<br />
-Counting objects: 11, done.<br />
-Compressing objects: 100% (6/6), done.<br />
-Writing objects: 100% (6/6), 530 bytes, done.<br />
-Total 6 (delta 5), reused 0 (delta 0)<br />
-To git@github.com:zeljkofilipin/watir.git<br />
-   2a244f9..038e96b  master -> master</code></p>
+
+{% highlight shell %}
+$ git push
+Counting objects: 11, done.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 530 bytes, done.
+Total 6 (delta 5), reused 0 (delta 0)
+To git@github.com:zeljkofilipin/watir.git
+2a244f9..038e96b master -> master
+{% endhighlight %}
+
 <p>In a blink of eye, he was already at Github looking proudly at <a href="http://github.com/zeljkofilipin/watir/commit/038e96b52200a5d86b477654ef166c9a995ab9a7">his commit</a>.</p>
 <p><img src="/assets/commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github-300x168.jpg" alt="commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github" title="commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github" /></p>
 <p>But, he made one last mistake. (This is the last mistake. I promise. No more mistakes in this story. Enough is enough.) He did not know how to do a diff with Git, and NetBeans messed the whitespace, so his commit was a whitespace mess. Of course, he did not know how to undo. So, he just deleted his local and Github repositories and started over. (He had to wait a bit until he saw <code>fork</code> button again on Bret's Watir repository.)</p>
@@ -85,5 +111,8 @@ To git@github.com:zeljkofilipin/watir.git<br />
 <p><img src="/assets/commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github-1-1-273x300.jpg" alt="commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github-1-1" title="commit-038e96b52200a5d86b477654ef166c9a995ab9a7-to-zeljkofilipin_s-watir-github-1-1" /></p>
 <p>Don't just love happy ends?! :)</p>
 <p><strong>Update:</strong> Bret Pettichord <a href="http://groups.google.com/group/watir-general/browse_thread/thread/89dfd45bdca2d305">points out</a> that instead of deleting local and Github repositories after messing up the whitespace, our hero could undo the change with this:</p>
-<p><code>git reset HEAD~<br />
-git push</code></p>
+
+{% highlight shell %}
+git reset HEAD~
+git push
+{% endhighlight %}

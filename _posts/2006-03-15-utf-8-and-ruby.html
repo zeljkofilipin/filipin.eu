@@ -4,28 +4,39 @@ title: UTF-8 and Ruby
 ---
 <p>I use Watir to test web applications.</p>
 <p>At application under test, after user is created I need to get her or his database id. I use it later to check if script is at the right page. For example, view user page url is</p>
-<p>http://{application_under_test}/ViewUser.aspx?m={user_database_id}</p>
-<p>I have to know user database id to check url.</p>
-<p><a href="http://edge4dev.wordpress.com/">My developer</a> made xml page with all users. Only username and database id are displayed.</p>
+
+{% highlight http %}
+http://{application_under_test}/ViewUser.aspx?m={user_database_id}
+{% endhighlight %}
+
+<p>I have to know user database id to check URL.</p>
+<p>A developer made XML page with all users. Only username and database id are displayed.</p>
 <p>Script goes there and grabs database id.</p>
-<p>[source:ruby]<br />
-require "watir"<br />
-require "rexml/document"</p>
-<p>username = "Aragon"<br />
-ie = Watir::IE.start("{application_under_test}/users.xml")<br />
-root = REXML::Document.new(ie.text).root<br />
-db_id = root.elements["item[@username='#{username}']"].attributes["id"]<br />
-puts db_id<br />
-[/source]</p>
+
+{% highlight ruby %}
+require "watir"
+require "rexml/document"
+username = "Aragon"
+ie = Watir::IE.start("{application_under_test}/users.xml")
+root = REXML::Document.new(ie.text).root
+db_id = root.elements["item[@username='#{username}']"].attributes["id"]
+puts db_id
+{% endhighlight %}
+
 <p>And it works just fine.</p>
 <p>Then, we imported data from production database. And my script returns this error:</p>
-<p>C:\ruby\lib\ruby\1.8/rexml/parsers/treeparser.rb:85:in `parse': #<br />
-...<br />
-Last 80 unconsumed characters:<br />
-...</p>
+
+{% highlight shell %}
+C:\ruby\lib\ruby\1.8/rexml/parsers/treeparser.rb:85:in `parse': #
+...
+Last 80 unconsumed characters:
+...
+{% endhighlight %}
+
 <p>There is user with username Aragón, and my script has a problem with it.</p>
 <p>The solution? Install Ruby 1.8.3. or 1.8.4. and put this at the begging of your script:</p>
-<p>[source:ruby]<br />
-require "win32ole"<br />
-WIN32OLE.codepage = WIN32OLE::CP_UTF8<br />
-[/source]</p>
+
+{% highlight ruby %}
+require "win32ole"
+WIN32OLE.codepage = WIN32OLE::CP_UTF8
+{% endhighlight %}

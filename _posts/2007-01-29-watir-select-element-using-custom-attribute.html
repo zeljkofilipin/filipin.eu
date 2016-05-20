@@ -4,15 +4,20 @@ title: 'Watir: Select Element Using Custom Attribute'
 ---
 <p>Paul Rogers and Prema Arya just started a very interesting thread at <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg06769.html">wtr-general</a>.</p>
 <p>If you have text field</p>
-<p>[sourcecode language="html"]<br />
-&lt;input custom_attribute=&quot;so cool&quot; type=&quot;text&quot; /&gt;<br />
-[/sourcecode]</p>
+
+{% highlight html %}
+<input custom_attribute="so cool" type="text" />
+{% endhighlight %}
+
 <p>you can get value of <code>custom_attribute</code></p>
-<p>[sourcecode language="ruby"]<br />
-browser.text_field(:index, 1).attribute_value(&quot;custom_attribute&quot;)<br />
-#=&gt; &quot;so cool&quot;<br />
-[/sourcecode]</p>
+
+{% highlight ruby %}
+browser.text_field(:index, 1).attribute_value("custom_attribute")
+#=> "so cool"
+{% endhighlight %}
+
 <p>and you can set value of that text field using <code>custom_attribute</code></p>
-<p>[sourcecode language="ruby"]<br />
-browser.text_field(:xpath , &quot;//input[@custom_attribute='so cool']/&quot;).set(&quot;even more cool&quot;)<br />
-[/sourcecode]</p>
+
+{% highlight ruby %}
+browser.text_field(:xpath , "//input[@custom_attribute='so cool']/").set("even more cool")
+{% endhighlight %}

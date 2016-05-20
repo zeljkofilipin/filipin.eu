@@ -3,22 +3,30 @@ tags:  code ruby
 title: 'Watir Has A New Method: after?'
 ---
 <p>Imagine that you have two links. Both links are the same.</p>
-<p>[sourcecode language="html"]<br />
-&lt;a&gt;text&lt;/a&gt;<br />
-[/sourcecode]</p>
+
+{% highlight html %}
+<a>text</a>
+{% endhighlight %}
+
 <p>The only thing that makes them different is that the second one is located after an image.</p>
-<p>[sourcecode language="html"]<br />
-&lt;a&gt;text&lt;/a&gt;<br />
-&lt;img src=&quot;image.png&quot; /&gt;<br />
-&lt;a&gt;text&lt;/a&gt;<br />
-[/sourcecode]</p>
+
+{% highlight html %}
+<a>text</a>
+<img src="image.png" />
+<a>text</a>
+{% endhighlight %}
+
 <p>Of course, you just <em>have to</em> click the second link. You have already tried this.</p>
-<p>[sourcecode language="ruby"]<br />
-browser.link(:text, &quot;text&quot;).click<br />
-[/sourcecode]</p>
+
+{% highlight ruby %}
+browser.link(:text, "text").click
+{% endhighlight %}
+
 <p>But, it always clicks the first link. There is a way.</p>
-<p>[sourcecode language="ruby"]<br />
-browser.link(:after?, browser.image(:src, /image/)).click<br />
-[/sourcecode]</p>
+
+{% highlight ruby %}
+browser.link(:after?, browser.image(:src, /image/)).click
+{% endhighlight %}
+
 <p>This is <em>so cool</em>.</p>
-<p>(You will need <a href="http://wiki.openqa.org/display/WTR/Development+Builds">Watir 1.5</a>. Bret Pettichord <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg08829.html">posted that at wtr-general</a>.)</p>
+<p>You will need Watir 1.5. Bret Pettichord <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg08829.html">posted that at wtr-general</a>.</p>

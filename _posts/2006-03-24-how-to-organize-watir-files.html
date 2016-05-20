@@ -3,26 +3,31 @@ tags:  code ruby
 title: How to Organize Watir Files
 ---
 <p>My Watir scripts became too big for one file, so I split them in several files. But then number of files became too big so I moved them to folders. Something like this</p>
-<p>- conf (folder: yaml configuration files)<br />
--- builder.yml<br />
--- stager.yml<br />
-...</p>
-<p>- file (folder: files for upload)<br />
--- file.txt<br />
--- attachment.txt<br />
-...</p>
-<p>- lib (folder: files that contain my modules, classes, methods...)<br />
--- File.rb<br />
--- User.rb<br />
-...</p>
-<p>- test (folder: files that contain tests)<br />
--- all_tests.rb<br />
--- core_tests.rb<br />
--- file_tests.rb<br />
--- user_tests.rb<br />
-...</p>
-<p>And it works just fine. Just add this code at the top of files that need it (all_tests.rb, core_tests.rb...):</p>
-<p>[source:ruby]<br />
-$:.unshift File.join(File.dirname(__FILE__), "..", "lib")<br />
-require "file_name"<br />
-[/source]</p>
+
+{% highlight plaintext %}
+- conf (folder: yaml configuration files)
+-- builder.yml
+-- stager.yml
+...
+- file (folder: files for upload)
+-- file.txt
+-- attachment.txt
+...
+- lib (folder: files that contain my modules, classes, methods...)
+-- File.rb
+-- User.rb
+...
+- test (folder: files that contain tests)
+-- all_tests.rb
+-- core_tests.rb
+-- file_tests.rb
+-- user_tests.rb
+...
+{% endhighlight %}
+
+<p>And it works just fine. Just add this code at the top of files that need it (<code>all_tests.rb</code>, <code>core_tests.rb</code>...):</p>
+
+{% highlight ruby %}
+$:.unshift File.join(File.dirname(__FILE__), "..", "lib")
+require "file_name"
+{% endhighlight %}

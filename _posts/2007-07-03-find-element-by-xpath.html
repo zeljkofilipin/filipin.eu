@@ -2,17 +2,21 @@
 tags:  code ruby
 title: Find Element by XPath
 ---
-<p><a href="http://picasaweb.google.com/fsrkaptol/Trsat2007/photo#5074720591070798482"><img src="/assets/p6090033.jpg" title="p6090033.jpg" alt="p6090033.jpg" /></a></p>
 <p>I had to click a h4 headline.</p>
-<p>[sourcecode language="html"]<br />
-&lt;h4 id=&quot;addproject&quot;&gt;Create a new project&lt;/h4&gt;<br />
-[/sourcecode]</p>
+
+{% highlight html %}
+<h4 id="addproject">Create a new project</h4>
+{% endhighlight %}
+
 <p>This did not work.</p>
-<p>[sourcecode language="ruby"]<br />
-browser.h4(:id, &quot;addproject&quot;).click<br />
-[/sourcecode]</p>
+
+{% highlight ruby %}
+browser.h4(:id, "addproject").click
+{% endhighlight %}
+
 <p>I posted a question to <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg09457.html">wtr-general</a> mailing list and <a href="http://angrez.blogspot.com/">Angrez Singh</a> was kind enough to help.</p>
 <p>This will click h4 headline.</p>
-<p>[sourcecode language="ruby"]<br />
-browser.element_by_xpath(&quot;//h4[@id='addproject']&quot;).click<br />
-[/sourcecode]</p>
+
+{% highlight ruby %}
+browser.element_by_xpath("//h4[@id='addproject']").click
+{% endhighlight %}

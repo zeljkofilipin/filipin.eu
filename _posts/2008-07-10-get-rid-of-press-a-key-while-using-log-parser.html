@@ -2,11 +2,18 @@
 tags:  code
 title: Get rid Of "Press a key..." While Using Log Parser
 ---
-<p>As I said before, <a href="http://filipin.eu/2008/07/03/log-parser-and-batch-files/">I use Log Parser a lot</a>.</p>
+<p>As I said before, <a href="/log-parser-and-batch-files">I use Log Parser a lot</a>.</p>
 <p>One thing that really annoyed me is <code>Press a key...</code> that would appear after each screen of results.</p>
-<p><code>C:\>LogParser "SELECT text FROM errors.log"<br />
-[...]<br />
-Press a key...<br />
-[...]</code></p>
+
+{% highlight shell %}
+C:\>LogParser "SELECT text FROM errors.log"
+...
+Press a key...
+...
+{% endhighlight %}
+
 <p>It took me some time to get rid of it, so maybe this helps somebody. Use <code>-rtp:-1</code> switch and there will be no more <code>Press a key...</code></p>
-<p><code>C:\>LogParser -rtp:-1 "SELECT text FROM errors.log"</code></p>
+
+{% highlight shell %}
+C:\>LogParser -rtp:-1 "SELECT text FROM errors.log"
+{% endhighlight %}

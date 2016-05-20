@@ -3,63 +3,72 @@ tags:  code ruby
 title: Ruby Hashes
 ---
 <p>I have seen Ruby hashes in use, but I never needed them. Until today. I was testing edit community feature. I started with editing title.</p>
-<p>[source:ruby]<br />
-edit(title)<br />
-[/source]</p>
+
+{% highlight ruby %}
+edit(title)
+{% endhighlight %}
+
 <p>I created class <code>Community</code> and method <code>edit</code>.</p>
-<p>[source:ruby]<br />
-def edit(title)<br />
-  prepare_for_edit<br />
-  edit_title(title)<br />
-  check_after_edit<br />
-end<br />
-[/source]</p>
+
+{% highlight ruby %}
+def edit(title)
+  prepare_for_edit
+  edit_title(title)
+  check_after_edit
+end
+{% endhighlight %}
+
 <p>Then I tested editing other community properties. Sometimes I need to edit just one property, sometimes a few of them and sometimes all properties. The only way I could think of how to do it is to make all arguments of <code>edit</code> method optional.</p>
-<p>[source:ruby]<br />
-def edit(title = nil, url = nil, mail = nil,<br />
-           description = nil, membership = nil,<br />
-           status = nil, security = nil)<br />
-  prepare_for_edit<br />
-  edit_title(title) if title<br />
-  edit_url(url) if url<br />
-  edit_mail(mail) if mail<br />
-  edit_description(description) if description<br />
-  edit_membership(membership) if membership<br />
-  edit_status(status) if status<br />
-  edit_security(security) if security<br />
-  check_after_edit<br />
-end<br />
-[/source]</p>
+
+{% highlight ruby %}
+def edit(title = nil, url = nil, mail = nil,
+           description = nil, membership = nil,
+           status = nil, security = nil)
+  prepare_for_edit
+  edit_title(title) if title
+  edit_url(url) if url
+  edit_mail(mail) if mail
+  edit_description(description) if description
+  edit_membership(membership) if membership
+  edit_status(status) if status
+  edit_security(security) if security
+  check_after_edit
+end
+{% endhighlight %}
+
 <p>But that caused ugly code when calling <code>edit</code> method if, for example, I only wanted to change security property.</p>
-<p>[source:ruby]<br />
-edit(nil, nil, nil, nil, nil, nil, security)<br />
-[/source]</p>
+
+{% highlight ruby %}
+edit(nil, nil, nil, nil, nil, nil, security)
+{% endhighlight %}
+
 <p>I could make <code>edit_security</code> (and <code>edit_title</code>, <code>edit_url</code>...).</p>
-<p>[source:ruby]<br />
-edit_security(security)<br />
-[/source]</p>
-<p>[source:ruby]<br />
-def edit_security(security)<br />
-  prepare_for_edit<br />
-  set_security(security)<br />
-  check_after_edit<br />
-end<br />
-[/source]</p>
+
+{% highlight ruby %}
+edit_security(security)
+
+def edit_security(security)
+  prepare_for_edit
+  set_security(security)
+  check_after_edit
+end
+{% endhighlight %}
+
 <p>Better, but I wanted to try hashes, and it worked great.</p>
-<p>[source:ruby]<br />
-edit({"security" => "low"})<br />
-edit({"security" => "low", "status" => "offline"})<br />
-[/source]</p>
-<p>[source:ruby]<br />
-def edit(properties)<br />
-  prepare_for_edit<br />
-  edit_title(properties["title"]) if properties["title"]<br />
-  edit_url(properties["url"]) if properties["url"]<br />
-  edit_mail(properties["mail"]) if properties["mail"]<br />
-  edit_description(properties["description"]) if properties["description"]<br />
-  edit_membership(properties["membership"]) if properties["membership"]<br />
-  edit_status(properties["status"]) if properties["status"]<br />
-  edit_security(properties["security"]) if properties["security"]<br />
-  check_after_edit<br />
-end<br />
-[/source]</p>
+
+{% highlight ruby %}
+edit({"security" => "low"})
+edit({"security" => "low", "status" => "offline"})
+
+def edit(properties)
+  prepare_for_edit
+  edit_title(properties["title"]) if properties["title"]
+  edit_url(properties["url"]) if properties["url"]
+  edit_mail(properties["mail"]) if properties["mail"]
+  edit_description(properties["description"]) if properties["description"]
+  edit_membership(properties["membership"]) if properties["membership"]
+  edit_status(properties["status"]) if properties["status"]
+  edit_security(properties["security"]) if properties["security"]
+  check_after_edit
+end
+{% endhighlight %}

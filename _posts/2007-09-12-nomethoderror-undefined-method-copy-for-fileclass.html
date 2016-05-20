@@ -2,15 +2,22 @@
 tags:  code ruby
 title: 'NoMethodError: undefined method `copy'' for File:Class'
 ---
-<p>I wanted to copy a file from Ruby. Documentation for <a href="http://www.ruby-doc.org/core/classes/File.html#M002607">File#copy<br />
-</a> said that </p>
-<p>[source:ruby]<br />
-File.copy(from, to)<br />
-[/source]</p>
+<p>I wanted to copy a file from Ruby. Documentation for <code><a href="http://www.ruby-doc.org/core/classes/File.html#M002607">File#copy</code></a> said that</p>
+
+{% highlight ruby %}
+File.copy(from, to)
+{% endhighlight %}
+
 <p>should work. But, I got this error message:</p>
-<p><code>NoMethodError: undefined method `copy' for File:Class</code></p>
+
+{% highlight shell %}
+NoMethodError: undefined method `copy' for File:Class
+{% endhighlight %}
+
 <p>Google search led me to <a href="http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/131302">ruby-talk post</a> that said I should do:</p>
-<p>[source:ruby]<br />
-require "ftools"<br />
-[/source]</p>
+
+{% highlight ruby %}
+require "ftools"
+{% endhighlight %}
+
 <p>I am just surprised that documentation did not make that clear.</p>

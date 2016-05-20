@@ -2,10 +2,9 @@
 tags:  code ruby
 title: How to Get Text from Status Bar
 ---
-<p><a href="http://picasaweb.google.com/fsrkaptol/Asiz2007/photo#5082554240273922114"><img src="/assets/p6220071.JPG" alt="p6220071.JPG" /></a></p>
-<p>There was an interesting question recently at <a href="http://forums.openqa.org/thread.jspa?threadID=9113&tstart=10">Watir General</a> forum. How to get text from Internet Explorer status bar using Watir? I did not know that it was possible. Not only it is possible, but it is so easy.</p>
-<p>[source:ruby]<br />
-ie.status<br />
-=> "Done"<br />
-[/source]</p>
-<p>I just had to put it at <a href="http://wiki.openqa.org/display/WTR/How+To">How To</a> page of Watir Wiki.</p>
+<p>There was an interesting question recently at Watir General forum. How to get text from Internet Explorer status bar using Watir? I did not know that it was possible. Not only it is possible, but it is so easy.</p>
+
+{% highlight ruby %}
+browser.status
+=> "Done"
+{% endhighlight %}

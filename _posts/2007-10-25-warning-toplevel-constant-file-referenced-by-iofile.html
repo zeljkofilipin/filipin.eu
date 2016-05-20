@@ -2,34 +2,49 @@
 tags:  code ruby
 title: 'warning: toplevel constant File referenced by IO::File'
 ---
-<p>I want to delete a file from <em>Application::Mail.download</em>. The problem is that inside <em>Application</em> module, <em>File.delete</em> calls <em>Application::File.delete</em>.</p>
-<p>[source:ruby]<br />
-module Application<br />
-  class File<br />
-    def delete<br />
-    end<br />
-  end<br />
-  class Mail<br />
-    def self.download<br />
-      File.delete "mail.eml"<br />
-    end<br />
-  end<br />
-end</p>
-<p>Application::Mail.download<br />
-[/source]</p>
+<p>I want to delete a file from <code>Application::Mail.download</code>. The problem is that inside <code>Application</code> module, <code>File.delete</code> calls <code>Application::File.delete</code>.</p>
+
+{% highlight ruby %}
+module Application
+  class File
+    def delete
+    end
+  end
+  class Mail
+    def self.download
+      File.delete "mail.eml"
+    end
+  end
+end
+
+Application::Mail.download
+{% endhighlight %}
+
 <p>Run this code and you will get error message:</p>
-<p><code>Exception: undefined method `delete' for Application::File:Class</code></p>
-<p>I could rename <em>Application::File</em> to something else, but I created <em>Application</em> module because I wanted to name my classes as I wish without conflicts with Ruby classes.</p>
-<p>One solution is to specify that I want to call <em>IO::File.delete</em>.</p>
-<p>[source:ruby]<br />
-def self.download<br />
-  IO::File.delete "mail.eml"<br />
-end<br />
-[/source]</p>
+
+{% highlight shell %}
+Exception: undefined method `delete' for Application::File:Class
+{% endhighlight %}
+
+<p>I could rename <code>Application::File</code> to something else, but I created <code>Application</code> module because I wanted to name my classes as I wish without conflicts with Ruby classes.</p>
+<p>One solution is to specify that I want to call <code>IO::File.delete</code>.</p>
+
+{% highlight ruby %}
+def self.download
+  IO::File.delete "mail.eml"
+end
+{% endhighlight %}
+
 <p>But then I get this warning:</p>
-<p><code>warning: toplevel constant File referenced by IO::File</code></p>
+
+{% highlight shell %}
+warning: toplevel constant File referenced by IO::File
+{% endhighlight %}
+
 <p><a href="http://www.ruby-forum.com/topic/127608">How to ignore warning</a> thread at <a href="http://www.ruby-forum.com/">ruby-forum.com</a> provided the solution to removing warning. Add this at the beginning of the file:</p>
-<p>[source:ruby]<br />
-$VERBOSE = nil<br />
-[/source]</p>
-<p>But, I want to see other warnings. I know I can change the value of <em>$VERBOSE</em> to <em>nil</em> just before I call <em>IO::File.delete</em> and then change it back. That just feels wrong. Why am I getting that warning after all? Why do I get the warning after calling <em>IO::File.delete</em>? Am I doing something wrong?</p>
+
+{% highlight ruby %}
+$VERBOSE = nil
+{% endhighlight %}
+
+<p>But, I want to see other warnings. I know I can change the value of <code>$VERBOSE</code> to <code>nil</code> just before I call <code>IO::File.delete</code> and then change it back. That just feels wrong. Why am I getting that warning after all? Why do I get the warning after calling <code>IO::File.delete</code>? Am I doing something wrong?</p>

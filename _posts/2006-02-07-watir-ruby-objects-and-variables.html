@@ -3,76 +3,89 @@ tags:  code ruby
 title: Watir, Ruby, Objects and Variables
 ---
 <p>I test web applications for living. I use Ruby and Watir for automating functional tests. My scripts have grown, so I made a little framework to make them simpler (all code in this post is simplified and not tested).</p>
-<p>Class Page makes checking page url and text(s) easier.</p>
-<p>[sourcecode language="ruby"]<br />
-class Page<br />
-  def initialize(ie, url, texts)<br />
-    @ie, @url, @texts = ie, url, texts<br />
-  end<br />
-  def check<br />
-    @texts.each do |text|<br />
-      assert(@ie.contains_text(text))<br />
-    end<br />
-    assert_equal(@url, @ie.url)<br />
-  end<br />
-end<br />
-[/sourcecode]</p>
-<p>View item page at application under test has text (breadcrumb) <strong>{item_type} > View</strong> (example: <strong>File > View</strong>).</p>
-<p>After item is added/edited, at that page there is also text <strong>{item_type} {action}.</strong> (example: <strong>File added.</strong>).</p>
-<p>Class File tests files, of course.</p>
-<p>[sourcecode language="ruby"]<br />
-class File<br />
-  def initialize<br />
-    @page_view = Page.new(<br />
-        &quot;app.com/view.aspx&quot;,<br />
-        [&quot;File &gt; View&quot;])<br />
-    @page_view_after_add = Page.new(<br />
-        &quot;app.com/view.aspx&quot;,<br />
-        [&quot;File &gt; View&quot;, &quot;File added.&quot;])<br />
-    @page_view_after_edit = Page.new(<br />
-        &quot;app.com/view.aspx&quot;,<br />
-        [&quot;File &gt; View&quot;, &quot;File edited.&quot;])<br />
-  end<br />
-  def add<br />
-    # add file<br />
-    @page_view_after_add.check<br />
-  end<br />
-  def edit<br />
-    # edit file<br />
-    @page_view_after_edit.check<br />
-  end<br />
-  def view<br />
-    # go to file<br />
-    @page_view.check<br />
-  end<br />
-end<br />
-[/sourcecode]</p>
+<p>Class <code>Page</code> makes checking page URL and text(s) easier.</p>
+
+{% highlight ruby %}
+class Page
+  def initialize(ie, url, texts)
+    @ie, @url, @texts = ie, url, texts
+  end
+  def check
+    @texts.each do |text|
+      assert(@ie.contains_text(text))
+    end
+    assert_equal(@url, @ie.url)
+  end
+end
+{% endhighlight %}
+
+<p>View item page at application under test has text (breadcrumb) <code>{item_type} > View</code> (example: <code>File > View</code>).</p>
+<p>After item is added/edited, at that page there is also text <code>{item_type} {action}</code> (example: <code>File added</code>).</p>
+<p>Class <code>File</code> tests files, of course.</p>
+
+{% highlight ruby %}
+class File
+  def initialize
+    @page_view = Page.new(
+        "app.com/view.aspx",
+        ["File > View"])
+    @page_view_after_add = Page.new(
+        "app.com/view.aspx",
+        ["File > View", "File added."])
+    @page_view_after_edit = Page.new(
+        "app.com/view.aspx",
+        ["File > View", "File edited."])
+  end
+  def add
+    # add file
+    @page_view_after_add.check
+  end
+  def edit
+    # edit file
+    @page_view_after_edit.check
+  end
+  def view
+    # go to file
+    @page_view.check
+  end
+end
+{% endhighlight %}
+
 <p>And it works just nice. All I have to write is this.</p>
-<p>[sourcecode language="ruby"]<br />
-file = File.new<br />
-file.add<br />
-file.edit<br />
-file.view<br />
-[/sourcecode]</p>
-<p>There are three objects. One for each (@page_view...) variable. "id" in "Page:{id}" is different for each variable.</p>
-<p><code><br />
-#&lt;Page:<strong>0x2b5ac28</strong> @url="app.com/view.aspx", @texts=["File &gt; View"]&gt;<br />
-#&lt;Page:<strong>0x2b5ab98</strong> @url="app.com/view.aspx", @texts=["File &gt; View", "File added."]&gt;<br />
-#&lt;Page:<strong>0x2b5ab08</strong> @url="app.com/view.aspx", @texts=["File &gt; View", "File edited."]&gt;<br />
-</code></p>
+
+{% highlight ruby %}
+file = File.new
+file.add
+file.edit
+file.view
+{% endhighlight %}
+
+<p>There are three objects. One for each (<code>@page_view...</code>) variable. <code>id</code> in <code>Page:{id}</code> is different for each variable.</p>
+
+{% highlight shell %}
+#<Page:<strong>0x2b5ac28</strong> @url="app.com/view.aspx", @texts=["File > View"]>
+#<Page:<strong>0x2b5ab98</strong> @url="app.com/view.aspx", @texts=["File > View", "File added."]>
+#<Page:<strong>0x2b5ab08</strong> @url="app.com/view.aspx", @texts=["File > View", "File edited."]>
+{% endhighlight %}
+
 <p>But, duplication bugs me.</p>
-<p>I would like that File#initialize looks like this.</p>
-<p>[sourcecode language="ruby"]<br />
-@page_view = @page_view_after_add = @page_view_after_edit = Page.new(<br />
-  &quot;app.com/view.aspx&quot;,<br />
-  [&quot;File &gt; View&quot;])<br />
-@page_view_after_add.texts &lt; &lt; &quot;File added.&quot;<br />
-@page_view_after_edit.texts &lt;&lt; &quot;File edited.&quot;<br />
-[/sourcecode]</p>
+<p>I would like that <code>File#initialize</code> looks like this.</p>
+
+{% highlight ruby %}
+@page_view = @page_view_after_add = @page_view_after_edit = Page.new(
+  "app.com/view.aspx",
+  ["File > View"])
+@page_view_after_add.texts < < "File added."
+@page_view_after_edit.texts << "File edited."
+{% endhighlight %}
+
 <p>But (surprise!), it does not work. Well, I am pretty new in object oriented world, so this was not really a surprise for me.</p>
-<p>This way only one Page object is created, and all three variables point to it. No matter which variable I change, it changes the object it points to. Result is that all three variables are the same. Not what I wanted to do.</p>
-<p><code><br />
-#&lt;Page:<strong>0x2820048</strong> @url="app.com/view.aspx", @texts=["File &gt; View", "File added.", "File edited."]&gt;<br />
-#&lt;Page:<strong>0x2820048</strong> @url="app.com/view.aspx", @texts=["File &gt; View", "File added.", "File edited."]&gt;<br />
-#&lt;Page:<strong>0x2820048</strong> @url="app.com/view.aspx", @texts=["File &gt; View", "File added.", "File edited."]&gt;</p>
-<p>I have tried a few alternatives, but none worked. I will live with duplication for now, but I would like to remove it from my scripts.</code></p>
+<p>This way only one <code>Page</code> object is created, and all three variables point to it. No matter which variable I change, it changes the object it points to. Result is that all three variables are the same. Not what I wanted to do.</p>
+
+{% highlight shell %}
+#<Page:<strong>0x2820048</strong> @url="app.com/view.aspx", @texts=["File > View", "File added.", "File edited."]>
+#<Page:<strong>0x2820048</strong> @url="app.com/view.aspx", @texts=["File > View", "File added.", "File edited."]>
+#<Page:<strong>0x2820048</strong> @url="app.com/view.aspx", @texts=["File > View", "File added.", "File edited."]></p>
+{% endhighlight %}
+
+<p>I have tried a few alternatives, but none worked. I will live with duplication for now, but I would like to remove it from my scripts.</p>

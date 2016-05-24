@@ -1,30 +1,43 @@
 ---
-layout: post
+tags:  code
 title: Troubleshooting SMTP Issues with Telnet
-date: 2007-10-15 09:00:39.000000000 +02:00
 ---
 <p>I have really bad memory. I have to write this down. I just know I will forget it, but need it later.</p>
-<p>I had to find out why one user did not receive any mail from us. I tried the usual things, but all looked fine. <a href="http://edge4dev.wordpress.com/">My developer</a> suggested to troubleshoot it with telnet. I found good article about <a href="http://www.novell.com/coolsolutions/trench/9879.html">troubleshooting SMTP issues</a>. What I did:</p>
+<p>I had to find out why one user did not receive any mail from us. I tried the usual things, but all looked fine. My colleague suggested to troubleshoot it with telnet. I found good article about <a href="http://www.novell.com/coolsolutions/trench/9879.html">troubleshooting SMTP issues</a>. What I did:</p>
 <ul>
 <li>open command prompt</li>
-<li>find server<code><br />
->nslookup -querytype=MX [domain]<br />
-...<br />
-Non-authoritative answer:<br />
-[domain] MX preference = [integer], mail exchanger = [subdomain].[domain]<br />
-...<br />
-</code>
+<li>find server
+
+{% highlight shell %}
+>nslookup -querytype=MX [domain]
+...
+Non-authoritative answer:
+[domain] MX preference = [integer], mail exchanger = [subdomain].[domain]
+...
+{% endhighlight %}
+
 </li>
-<li>connect to that machine with telnet<code><br />
->telnet [subdomain].[domain] 25<br />
-</code>
+<li>connect to that machine with telnet
+
+{% highlight shell %}
+>telnet [subdomain].[domain] 25
+{% endhighlight %}
+
 </li>
 <li>
-good<br />
-<code>220 SMTP Proxy Server Ready</code>
+good
+
+{% highlight shell %}
+220 SMTP Proxy Server Ready
+{% endhighlight %}
+
 </li>
 <li>
-not so good<br />
-<code>554 Transaction Failed Listed in connection control deny list</code>
+not so good
+
+{% highlight shell %}
+554 Transaction Failed Listed in connection control deny list
+{% endhighlight %}
+
 </li>
 </ul>

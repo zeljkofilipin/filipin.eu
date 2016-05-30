@@ -11,6 +11,6 @@ What I’m doing [now](https://sivers.org/now), in approximate order of time spe
 - Attending local and international [tech events](/events/).
 - Helping with organization of:
   - [Zagreb Software Testing Club](https://www.facebook.com/groups/744433025640501), Zagreb, Croatia
-  - [Testival](http://www.testival.eu/), Split, Croatia
+  - [Testival](http://www.testival.eu/), Rijeka, Croatia
 - Listening to audio books and podcasts.
 - Documenting interesting things here.

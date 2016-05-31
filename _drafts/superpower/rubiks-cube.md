@@ -1,2 +1,0 @@
-- https://en.wikipedia.org/wiki/Rubik%27s_Cube
-- http://eu.rubiks.com/solving-guide/3x3

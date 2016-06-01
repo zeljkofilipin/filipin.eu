@@ -14,3 +14,4 @@ What I’m doing [now](https://sivers.org/now), in approximate order of time spe
   - [Testival](http://www.testival.eu/), Rijeka, Croatia
 - Listening to audio books and podcasts.
 - Documenting interesting things here.
+- Running 4 kilometers a few times a week.

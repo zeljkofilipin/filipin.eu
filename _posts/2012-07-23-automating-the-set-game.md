@@ -1,7 +1,7 @@
 ---
-tags:  code ruby video
+tags:  code featured ruby video
 title: Automating The Set Game
 ---
-<p><img src="/assets/set-300x187.png" alt="Automating The Set Game" title="Automating The Set Game" /> Automating The Set Game</p>
-<p>At <a href="/zagreb-stc-meetup-5/">Zagreb STC MeetUp #5</a> last week we were playing <a href="http://www.thebreretons.com/setgame/">The Set Game</a>. We were talking about automating it, and a few of us had different ideas on how to do it. It looked like an interesting little project, so I have spend a few hours on it. The code is at <a href="https://github.com/zeljkofilipin/set">github.com/zeljkofilipin/set</a> and I have recorded a short <a href="https://archive.org/download/filipin.eu/set.mov">screencast</a> of one game.</p>
-<p><iframe width="420" height="315" src="http://www.youtube.com/embed/4FMB55f3bYI?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/4FMB55f3bYI" frameborder="0" allowfullscreen></iframe>
+
+At [Zagreb Software Testing Club #5](/zagreb-stc-5) last week we were playing [The Set Game](https://en.wikipedia.org/wiki/Set_(game)). We were talking about automating it, and a few of us had different ideas on how to do it. It looked like an interesting little project, so I have spend a few hours on it. The code is in [set-game-rb](https://github.com/zeljkofilipin/set-game-rb) repository and I have recorded a short screencast of one game.

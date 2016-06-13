@@ -1,5 +1,5 @@
 ---
-tags:  code featured ruby video
+tags:  code featured ruby selenium video
 title: Automating The Set Game
 ---
 <iframe width="420" height="315" src="https://www.youtube.com/embed/4FMB55f3bYI" frameborder="0" allowfullscreen></iframe>

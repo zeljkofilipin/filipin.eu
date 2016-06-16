@@ -1,5 +1,7 @@
 ---
-tags:  camp event organizer todo
+tags:  camp event organizer
 title: WebCamp Zagreb 2015
 ---
-<div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/media/set/?set=a.10153736504617290.1073741834.735252289&amp;type=3" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/media/set/?set=a.10153736504617290.1073741834.735252289&amp;type=3">Posted by <a href="#" role="button">Željko Filipin</a> on&nbsp;<a href="https://www.facebook.com/media/set/?set=a.10153736504617290.1073741834.735252289&amp;type=3">Saturday, November 28, 2015</a></blockquote></div></div>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10153736504617290.1073741834.735252289%26type%3D3&width=500" width="500" height="518" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+I have probably been to all WebCamp Zagreb conferences, one year I was a speaker. This year I have helped organize it. My main duty was organizing craft beer by [Nova Runda](http://novarunda.com/).

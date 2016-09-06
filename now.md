@@ -9,7 +9,7 @@ What I’m doing [now](https://sivers.org/now), in approximate order of time spe
 - Working about 8 hours every work day as Software Engineer (International contractor) for the [Wikimedia Foundation](https://wikimediafoundation.org).
 - Spending time with my wife and two kids.
 - Listening to audio books and podcasts.
-- Attending local and international [tech events](/events/).
+- Attending local and international [tech events](/event).
 - Running 5 kilometers a few times a week.
 - Documenting interesting things here.
 - Helping with organization of:

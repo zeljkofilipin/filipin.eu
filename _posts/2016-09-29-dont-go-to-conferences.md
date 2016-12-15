@@ -51,6 +51,14 @@ I have been to a lot of [conferences](/event). I have been a [speaker](/speaker)
 - Go to workshops. Listening to a talk can be interesting, but learning something new and using it immediately is when you actually learn something.
 - Keep in mind that some conferences will be a disappointment, no matter how much you have prepared.
 
-# Comments?
+# Conclusion
 
-Please note that I have not yet figured out what to do about comments. If you would like to leave a comment, please use your favorite social network. My e-mail is in the footer.
+- There are good conferences.
+- There are bad conferences.
+- There are good talks are bad conferences.
+- There are bad talks at good conferences.
+- All the above is true for alternatives. The good thing about alternatives is that less time and/or money is lost if you are at a bad meetup, or watching a bad video.
+
+# Comments
+
+Please note that I have not yet figured out what to do about comments. If you would like to leave a comment, please use e-mail, Twitter or GitHub. Links are in the footer.

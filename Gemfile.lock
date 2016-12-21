@@ -27,10 +27,10 @@ GEM
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    mdl (0.3.1)
-      kramdown (~> 1.8, >= 1.8.0)
-      mixlib-cli (~> 1.5, >= 1.5.0)
-      mixlib-config (~> 2.1, >= 2.1.0)
+    mdl (0.4.0)
+      kramdown (~> 1.12, >= 1.12.0)
+      mixlib-cli (~> 1.7, >= 1.7.0)
+      mixlib-config (~> 2.2, >= 2.2.1)
     mercenary (0.3.6)
     mixlib-cli (1.7.0)
     mixlib-config (2.2.4)
@@ -63,7 +63,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.3, >= 3.3.1)
-  mdl (~> 0.3.1)
+  mdl (~> 0.4.0)
   rake (~> 11.1, >= 11.1.2)
   rubocop (~> 0.40.0)
   yaml-lint (~> 0.0.4)

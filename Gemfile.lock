@@ -41,7 +41,7 @@ GEM
     powerpack (0.1.1)
     public_suffix (2.0.4)
     rainbow (2.1.0)
-    rake (11.3.0)
+    rake (12.0.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -64,7 +64,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.3, >= 3.3.1)
   mdl (~> 0.4.0)
-  rake (~> 11.1, >= 11.1.2)
+  rake (~> 12.0)
   rubocop (~> 0.40.0)
   yaml-lint (~> 0.0.4)
 

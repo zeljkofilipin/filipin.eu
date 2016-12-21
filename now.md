@@ -10,8 +10,6 @@ What I’m doing [now](https://sivers.org/now), in approximate order of time spe
 - Spending time with my wife and two kids.
 - Listening to audio books and podcasts.
 - Attending local and international [tech events](/event).
-- Running 5 kilometers a few times a week.
+- Running 5-10 kilometers a few times a week.
 - Documenting interesting things here.
-- Helping with organization of:
-  - [Zagreb Software Testing Club](https://www.facebook.com/groups/744433025640501), Zagreb, Croatia
-  - [Testival](http://www.testival.eu/), Rijeka, Croatia
+- Helping with organization of [Testival](http://www.testival.eu/) meetup and conference.

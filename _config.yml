@@ -9,7 +9,9 @@ defaults:
 description: Željko Filipin's blog.
 email: zeljko.filipin@gmail.com
 github_username:  zeljkofilipin
+google_analytics: UA-200958-28
 permalink: /:title
+theme: minima
 title: Filipin dot eu
 twitter_username: zeljkofilipin
 url: "http://filipin.eu/" # the base hostname & protocol for your site

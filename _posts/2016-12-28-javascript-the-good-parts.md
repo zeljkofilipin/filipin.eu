@@ -3,11 +3,11 @@ tags:  book featured javascript
 title: 'JavaScript: The Good Parts'
 ---
 # TLDR
-This was the second time I have read the book. 📖📖 I am not sure if I have finished it the first time I was reading it. The first time I did not learn much because it was way over my head. This time I have learned more, but the book is still over my head. I should read it again in a year or two. ⏳
+This was the second time I have read [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do) by Douglas Crockford. 📖📖 I am not sure if I have finished it the first time I was reading it. The first time I did not learn much because it was way over my head. This time I have learned more, but the book is still over my head. I should read it again in a year or two. ⏳
 
 # Review
 
-It has been a couple of years since I have reviewed a book here. 😱 I have read plenty of books since. More than 60 in 2016 alone. I am trying to be better about at least recording the books I have read (see [my Goodreads account](https://www.goodreads.com/zeljko_filipin)). Most of the time I just rate the book 1 ⭐️ to 5 🌟🌟🌟🌟🌟 stars. I will try to write at least a sentence about each book at Goodreads.
+It has been a couple of years since I have reviewed a [book](/book) here. 😱 I have read plenty of books since. More than 60 in [2016](https://www.goodreads.com/user/year_in_books/2016) alone. I am trying to be better about at least recording the books I have read (see [my Goodreads account](https://www.goodreads.com/zeljko_filipin)). Most of the time I just rate the book 1 ⭐️ to 5 🌟🌟🌟🌟🌟 stars. I will try to write at least a sentence about each book at Goodreads.
 
 Not all books deserve a review, but this one does. I have bought it in early 2013, almost four years ago. I remember reading it then. It was so over my head. There is a chance I did no finish reading it, since I did not write a review, but also, I did not review many books I have read...
 

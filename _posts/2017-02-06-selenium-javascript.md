@@ -170,7 +170,7 @@ The entire code is available in the GitHub repositories. I don't want this blog 
 
 ### WebDriverJs
 
-The code is at [selenium-mediawiki-mocha](https://github.com/zeljkofilipin/selenium-mediawiki-mocha) repository.
+The code is at [mediawiki-webdriverjs](https://github.com/zeljkofilipin/mediawiki-webdriverjs) repository.
 
 #### Stack
 

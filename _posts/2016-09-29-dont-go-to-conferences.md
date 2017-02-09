@@ -2,10 +2,9 @@
 tags:  event featured
 title: Don't Go to Conferences
 ---
-# Introduction
-I have been thinking about conferences a lot lately. I was leading a session at a recent Testival conference about not going to conferences. I also gave a lightning talk about it at a recent Testival meetup. While writing this post, I did some research. I was surprised how many was already written on the topic. For now, this post is a collection of my rough notes. I will revisit it from time to time, as I get feedback.
-
 I have been to a lot of [conferences](/event). I have been a [speaker](/speaker) at some of them. I have even helped [organize](/organizer) a few. I like going to conferences. I also think that going to the most of the conferences is a waste of time.
+
+I have been thinking about conferences a lot lately. I was leading a session at a recent Testival conference about not going to conferences. I also gave a lightning talk about it at a recent Testival meetup. While writing this post, I did some research. I was surprised how many was already written on the topic. For now, this post is a collection of my rough notes. I will revisit it from time to time, as I get feedback.
 
 # Why people go to conferences?
 

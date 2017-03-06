@@ -17,7 +17,7 @@ How does a simple Selenium test look like? Code examples are from the official d
 
 [Ruby Bindings](https://github.com/SeleniumHQ/selenium/wiki/Ruby-Bindings)
 
-{% highlight ruby %}
+```ruby
 require "selenium-webdriver"
 
 driver = Selenium::WebDriver.for :firefox
@@ -30,11 +30,11 @@ element.submit
 puts driver.title
 
 driver.quit
-{% endhighlight %}
+```
 
 [JavaScript Bindings](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs)
 
-{% highlight javascript %}
+```javascript
 var webdriver = require('selenium-webdriver'),
     By = webdriver.By,
     until = webdriver.until;
@@ -48,7 +48,7 @@ driver.findElement(By.name('q')).sendKeys('webdriver');
 driver.findElement(By.name('btnG')).click();
 driver.wait(until.titleIs('webdriver - Google Search'), 1000);
 driver.quit();
-{% endhighlight %}
+```
 
 The Ruby example opens Firefox, opens Google, inputs text into search box, submits the form, outputs the page title and finally closes the browser. The JavaScript example opens Firefox, opens Google, inputs text into search box, clicks the search button, waits until the title matches expected string and finally closes the browser.
 

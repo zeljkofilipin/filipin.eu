@@ -18,38 +18,36 @@ How does a simple Selenium test look like? Code examples are from the official d
 [Ruby Bindings](https://github.com/SeleniumHQ/selenium/wiki/Ruby-Bindings)
 
 ```ruby
-require "selenium-webdriver"
+require "selenium-webdriver" # require Selenium bindings
 
-driver = Selenium::WebDriver.for :firefox
-driver.navigate.to "http://google.com"
+driver = Selenium::WebDriver.for :firefox # open Firefox
+driver.navigate.to "http://google.com" # open Google
 
-element = driver.find_element(name: 'q')
-element.send_keys "Hello WebDriver!"
-element.submit
+element = driver.find_element(name: 'q') # find element with name q
+element.send_keys "Hello WebDriver!" # send text to the element
+element.submit # submit the element
 
-puts driver.title
+puts driver.title # output page title
 
-driver.quit
+driver.quit # close Firefox
 ```
 
 [JavaScript Bindings](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs)
 
 ```javascript
-const {Builder, By, until} = require('selenium-webdriver');
+const {Builder, By, until} = require('selenium-webdriver'); // require Selenium bindings
 
 let driver = new Builder()
     .forBrowser('firefox')
-    .build();
+    .build(); // open Firefox
 
-driver.get('http://www.google.com/ncr');
-driver.findElement(By.name('q')).sendKeys('webdriver');
-driver.findElement(By.name('btnG')).click();
-driver.wait(until.titleIs('webdriver - Google Search'), 1000);
-driver.quit();
+driver.get('http://www.google.com/ncr'); // open Google
+driver.findElement(By.name('q')).sendKeys('webdriver'); // send keys to an element with name q
+driver.findElement(By.name('btnG')).click(); // click element with name btnG
+driver.wait(until.titleIs('webdriver - Google Search'), 1000); // wait until page title matches string
+driver.quit(); // close Firefox
 ```
 
-The Ruby example opens Firefox, opens Google, inputs text into search box, submits the form, outputs the page title and finally closes the browser. The JavaScript example opens Firefox, opens Google, inputs text into search box, clicks the search button, waits until the title matches expected string and finally closes the browser.
-
-My goal was to create something similar in Scratch. I ended up implementing something similar to JavaScript example.
+My goal was to create something similar in Scratch.
 
 ![Scratch Selenium](/assets/scratch-selenium.png "Scratch Selenium")

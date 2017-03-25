@@ -5,15 +5,21 @@ published: false
 ---
 ![Scratch logo](/assets/Scratchcat2.png "Scratch logo")
 
-I have recently started reading a book about coding for kids, [How to Code: A Step-By-Step Guide to Computer Coding](https://www.goodreads.com/book/show/29563597-how-to-code) by Max Wainewright. It covers the basics of several languages, including Scratch. I was immediately impressed by the language. I have spent an afternoon developing simple games in it with my 9 year old son. We had a lot of fun, but he lost interest. I did not. It was so much fun that I have created a short video on [how to create a game in 5 minutes](/scratch). Scratch was so easy to use. It was so much fun, too.
+## Scratch
 
-I have been doing test automation for over 10 years. Most of them using Selenium from Ruby. Recently, I have started using Selenium from JavaScript. It is not simple to write code, it takes a few months or years to learn a language like Ruby or JavaScript. It also takes months or years to learn how to tool like Selenium.
+I have recently started reading a book about coding for kids, [How to Code: A Step-By-Step Guide to Computer Coding](https://www.goodreads.com/book/show/29563597-how-to-code) by Max Wainewright. It covers the basics of several languages, including Scratch. I was immediately impressed by the language. I have spent an afternoon developing simple games in it with my 9 year old son. We had a lot of fun, but he lost interest soon. I did not. It was so much fun that I have created a short video on [how to create a game in 5 minutes](/scratch). Take a quick look at the article. It is so easy to create with Scratch. It it also so much fun.
 
-There are people that would like to write tests using Selenium, but they don't have months, or years. The only option so far was to use a recorder. It would record your actions and create a script that would repeat those actions. A lot is written about recorders. I am not a big fan, so I will not spend a lot of time on them.
+# Test automation
 
-It came to my mind that a middle ground exists. Is there a way to make writing Selenium tests easier? Is there a way to make writing Selenium tests more fun?
+I have been doing test automation for over 10 years. Most of them using Selenium from Ruby. Recently, I have started using Selenium from JavaScript. It is not simple to write code, it takes a few months or years to learn a language like Ruby or JavaScript. It also takes months or years to learn how to use a tool like Selenium.
 
-How does a simple Selenium test look like? Code examples are from the official documentation.
+There are people that would like to write tests using Selenium, but they don't have months, or years. The only option, so far, was to use a recorder. It would record your actions and create a script that would repeat those actions. A lot is written about recorders. I am not a big fan, so I will not spend much time on them.
+
+It came to my mind that a middle ground exists. But, I did not want to make writing Selenium tests just easy. I wanted it to be fun, too.
+
+## Selenium
+
+So, how does a simple Selenium test look like? The following code examples are from the official documentation. I have added inline comments.
 
 [Ruby Bindings](https://github.com/SeleniumHQ/selenium/wiki/Ruby-Bindings)
 
@@ -42,12 +48,16 @@ let driver = new Builder()
     .build(); // open Firefox
 
 driver.get('http://www.google.com/ncr'); // open Google
-driver.findElement(By.name('q')).sendKeys('webdriver'); // send keys to an element with name q
+driver.findElement(By.name('q')).sendKeys('webdriver'); // send text to element with name q
 driver.findElement(By.name('btnG')).click(); // click element with name btnG
-driver.wait(until.titleIs('webdriver - Google Search'), 1000); // wait until page title matches string
+driver.wait(until.titleIs('webdriver - Google Search'), 1000); // wait until page title matches the string
 driver.quit(); // close Firefox
 ```
 
-My goal was to create something similar in Scratch.
+The basics are opening and closing a browser, finding an element and interacting with it (clicking, entering text...) and checking the results, for example page title.
+
+Scratch + Selenium = ❤️
+
+After a bit of thinking about the problem and some research, I had the basics working. I have showed it to a few people that have shown interest and the feedback was unilaterally positive.
 
 ![Scratch Selenium](/assets/scratch-selenium.png "Scratch Selenium")

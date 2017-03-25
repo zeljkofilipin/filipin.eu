@@ -35,11 +35,9 @@ driver.quit
 [JavaScript Bindings](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs)
 
 ```javascript
-var webdriver = require('selenium-webdriver'),
-    By = webdriver.By,
-    until = webdriver.until;
+const {Builder, By, until} = require('selenium-webdriver');
 
-var driver = new webdriver.Builder()
+let driver = new Builder()
     .forBrowser('firefox')
     .build();
 

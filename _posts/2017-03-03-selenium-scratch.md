@@ -5,7 +5,7 @@ published: false
 ---
 ![Scratch logo](/assets/Scratchcat2.png "Scratch logo")
 
-## Scratch
+# Scratch
 
 I have recently started reading a book about coding for kids, [How to Code: A Step-By-Step Guide to Computer Coding](https://www.goodreads.com/book/show/29563597-how-to-code) by Max Wainewright. It covers the basics of several languages, including Scratch. I was immediately impressed by the language. I have spent an afternoon developing simple games in it with my 9 year old son. We had a lot of fun, but he lost interest soon. I did not. It was so much fun that I have created a short video on [how to create a game in 5 minutes](/scratch). Take a quick look at the article. It is so _easy_ to create with Scratch. It it also so much _fun_.
 
@@ -17,7 +17,7 @@ There are people that would like to write tests using Selenium, but they don't h
 
 It came to my mind that a middle ground exists. But, I did not want to make writing Selenium tests just _easy_. I wanted it to be _fun_, too.
 
-## Selenium
+# Selenium
 
 So, how does a simple Selenium test look like? The following code examples are from the official documentation. I have added inline comments.
 

@@ -64,10 +64,10 @@ After a bit of thinking about the problem and some research, I had the basics wo
 
 Only the basics, but it's running. You can see the script at Scratch web site ([Selenium Scratch](https://scratch.mit.edu/projects/148651313/)), run it yourself and inspect the code. (You will need Flash. Sorry about that.) The above script is optimized so it is easy to read, but it runs so fast that you do not see much. I have created another script ([Selenium Scratch Demo](https://scratch.mit.edu/projects/148654788/)) that is not so easy to read, but it runs slower, and the helpful Scratch cat is also giving you useful comments on what is happening. Here is a YouTube video, if you prefer that.
 
-<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/pNJSSDt5RPI?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+[![Selenium Scratch Demo](http://img.youtube.com/vi/pNJSSDt5RPI/0.jpg)](http://www.youtube.com/watch?v=pNJSSDt5RPI "Selenium Scratch Demo")
 
 While working on the script, I have noticed that a debugger would be helpful. So, I have created one. Take a look at [Selenium Scratch Debug](https://scratch.mit.edu/projects/148695263/) project, or just play the YouTube video:
 
-<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/i-g6fwYlFW4?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+[![Selenium Scratch Debug](http://img.youtube.com/vi/i-g6fwYlFW4/0.jpg)](http://www.youtube.com/watch?v=i-g6fwYlFW4 "Selenium Scratch Debug")
 
 In addition to the projects on Scratch web site and YouTube videos, [selenium-scratch](https://github.com/zeljkofilipin/selenium-scratch) is also on GitHub.

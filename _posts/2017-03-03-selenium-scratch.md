@@ -7,7 +7,7 @@ published: false
 
 # Scratch
 
-I have recently started reading a book about coding for kids, [How to Code: A Step-By-Step Guide to Computer Coding](https://www.goodreads.com/book/show/29563597-how-to-code) by Max Wainewright. It covers the basics of several languages, including Scratch. I was immediately impressed by the language. I have spent an afternoon developing simple games in it with my 9 year old son. We had a lot of fun, but he lost interest soon. I did not. It was so much fun that I have created a short video on [how to create a game in 5 minutes](/scratch). Take a quick look at the article. It is so _easy_ to create with Scratch. It it also so much _fun_.
+I have recently started reading a book about coding for kids, [How to Code: A Step-By-Step Guide to Computer Coding](https://www.goodreads.com/book/show/29563597-how-to-code) by Max Wainewright. It covers the basics of several languages, including Scratch. I was immediately impressed by the language. I have spent an afternoon developing [simple games](https://github.com/zeljkofilipin/scratch-games) in it with my 9 year old son. We had a lot of fun, but he lost interest soon. I did not. It was so much fun that I have created a short video on [how to create a game in 5 minutes](/scratch). Take a quick look at the article. It is so _easy_ to create with Scratch. It it also so much _fun_.
 
 # Test automation
 
@@ -54,7 +54,10 @@ driver.wait(until.titleIs('webdriver - Google Search'), 1000); // wait until pag
 driver.quit(); // close Firefox
 ```
 
-The basics are opening and closing a browser, finding an element and interacting with it (clicking, entering text...) and checking the results, for example page title.
+The basics are:
+- opening and closing a browser,
+- finding an element and interacting with it (clicking, entering text...),
+- checking the results (page title...).
 
 # Selenium + Scratch = ❤️
 
@@ -62,7 +65,7 @@ After a bit of thinking about the problem and some research, I had the basics wo
 
 ![Selenium Scratch](/assets/selenium-scratch.png "Selenium Scratch")
 
-Only the basics, but it's running. You can see the script at Scratch web site ([Selenium Scratch](https://scratch.mit.edu/projects/148651313/)), run it yourself and inspect the code. (You will need Flash. Sorry about that.) The above script is optimized so it is easy to read, but it runs so fast that you do not see much. I have created another script ([Selenium Scratch Demo](https://scratch.mit.edu/projects/148654788/)) that is not so easy to read, but it runs slower, and the helpful Scratch cat is also giving you useful comments on what is happening. Here is a YouTube video, if you prefer that.
+Only the basics, but it's running. You can run the script at Scratch web site ([Selenium Scratch](https://scratch.mit.edu/projects/148651313/)) and inspect the code. (You will need Flash. Sorry about that.) The above script is optimized so it is easy to read, but it runs so fast that you do not see much. I have created another script ([Selenium Scratch Demo](https://scratch.mit.edu/projects/148654788/)) that is not so easy to read, but it runs slower, and the helpful Scratch cat is providing useful comments on what is happening. Here is a YouTube video, if you prefer that.
 
 [![Selenium Scratch Demo](http://img.youtube.com/vi/pNJSSDt5RPI/0.jpg)](http://www.youtube.com/watch?v=pNJSSDt5RPI "Selenium Scratch Demo")
 

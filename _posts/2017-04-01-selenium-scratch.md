@@ -62,14 +62,14 @@ The basics are:
 
 After a bit of thinking about the problem and some research, I had the basics working. I have showed it to a few people and they said it was _easy_ to use, but also a lot of _fun_. Here it is. (Yellow boxes are comments.)
 
-![Selenium Scratch](/assets/selenium-scratch.png "Selenium Scratch")
+[![Selenium Scratch](/assets/selenium-scratch.png "Selenium Scratch")](https://scratch.mit.edu/projects/148651313/)
 
 Only the basics, but it's running. You can run the script at Scratch web site ([Selenium Scratch](https://scratch.mit.edu/projects/148651313/)) and inspect the code. (You will need Flash. Sorry about that.) The above script is optimized so it is easy to read, but it runs so fast that you do not see much. I have created another script ([Selenium Scratch Demo](https://scratch.mit.edu/projects/148654788/)) that is not so easy to read, but it runs slower, and the helpful Scratch cat is providing useful comments on what is happening. Here is a YouTube video, if you prefer that.
 
-[![Selenium Scratch Demo](http://img.youtube.com/vi/pNJSSDt5RPI/0.jpg)](http://www.youtube.com/watch?v=pNJSSDt5RPI "Selenium Scratch Demo")
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/pNJSSDt5RPI?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
 While working on the script, I have noticed that a debugger would be helpful. So, I have created one. Take a look at [Selenium Scratch Debug](https://scratch.mit.edu/projects/148695263/) project, or just play the YouTube video:
 
-[![Selenium Scratch Debug](http://img.youtube.com/vi/i-g6fwYlFW4/0.jpg)](http://www.youtube.com/watch?v=i-g6fwYlFW4 "Selenium Scratch Debug")
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/i-g6fwYlFW4?ecver=2" width="480" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
 
 In addition to the projects on Scratch web site and YouTube videos, [selenium-scratch](https://github.com/zeljkofilipin/selenium-scratch) is also on GitHub.

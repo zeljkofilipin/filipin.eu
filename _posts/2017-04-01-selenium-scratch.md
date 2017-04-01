@@ -1,7 +1,6 @@
 ---
 tags:  code featured javascript ruby selenium
 title: Selenium bindings in Scratch, visual programming language for kids
-published: false
 ---
 ![Scratch logo](/assets/Scratchcat2.png "Scratch logo")
 

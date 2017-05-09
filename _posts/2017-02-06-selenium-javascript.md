@@ -12,11 +12,11 @@ As with all things JavaScript, there are plenty of choices. After some research,
 - [WebdriverIO](http://webdriver.io/) (named [WebdriverJS](https://www.npmjs.com/package/webdriverjs) until 2014),
 - [Nightwatch.js](http://nightwatchjs.org).
 
-My initial research ended quickly for WebdriverIO and Nightwatch.js because they had a Java dependency. ☕️ Some time later, after both the tools (and their documentation) and my understanding of the JavaScript ecosystem improved, I have figured out that they can be used without Java. 😓
+My initial research ended quickly for WebdriverIO and Nightwatch.js because they had Java ☕️ dependency. Some time later, after both the tools (and their documentation) and my understanding of the JavaScript ecosystem improved, I have figured out that they can be used without Java. 😓
 
 ## Numbers
 
-According to [JSDOW](http://www.jsdow.com/chart/selenium-210639/) (The javascript download index), WebDriverJs (selenium-webdriver) is far ahead in the number of downloads, but WebdriverIO is growing faster, if I have read the charts correctly.
+According to [JSDOW](http://www.jsdow.com/chart/selenium-210639/) (The javascript download index), WebDriverJs is far ahead in the number of downloads, but WebdriverIO is growing faster, if I have read the charts correctly.
 
 ![Selenium Downloads](/assets/selenium-downloads.png)
 ![Selenium Percentage](/assets/selenium-percentage.png)

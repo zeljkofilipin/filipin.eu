@@ -65,7 +65,6 @@ The code is hosted at [mediawiki-selenium-nodejs](https://github.com/zeljkofilip
 `webdriverjs/main_page.js`
 
 {% highlight javascript %}
-'use strict';
 const assert = require( 'assert' ),
 	{ Builder, By } = require( 'selenium-webdriver' ),
 	test = require( 'selenium-webdriver/testing' );
@@ -111,7 +110,6 @@ test.describe( 'Main page', function () {
 `webdriverio/stack/assert.js`
 
 {% highlight javascript %}
-'use strict';
 const assert = require( 'assert' );
 describe( 'Main page', function () {
 	it( 'should have "Log in" link', function () {
@@ -140,7 +138,6 @@ describe( 'Main page', function () {
 `nightwatch/main_page.js`
 
 {% highlight javascript %}
-'use strict';
 module.exports = {
 	'Main page': function ( client ) {
 		client

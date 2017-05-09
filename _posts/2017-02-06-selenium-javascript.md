@@ -62,7 +62,7 @@ The code is hosted at [mediawiki-selenium-nodejs](https://github.com/zeljkofilip
 
 #### Code
 
-[`main_page.js`](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs/blob/master/webdriverjs/main_page.js) file from [mediawiki-selenium-nodejs](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs) repository.
+[`webdriverjs/main_page.js`](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs/blob/master/webdriverjs/main_page.js) file from [mediawiki-selenium-nodejs](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs) repository.
 
 {% highlight javascript %}
 'use strict';

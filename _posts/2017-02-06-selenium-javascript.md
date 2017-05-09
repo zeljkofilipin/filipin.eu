@@ -9,7 +9,7 @@ I gave a talk based on this post at [Testival Meetup #27](/testival-27), [JavaSc
 As with all things JavaScript, there are plenty of choices. After some research, I have picked three packages:
 
 - [WebDriverJs](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs), the official Selenium bindings, also called [selenium-webdriver](https://www.npmjs.com/package/selenium-webdriver),
-- [WebdriverIO](http://webdriver.io/) (named WebdriverJS until 2014),
+- [WebdriverIO](http://webdriver.io/) (named [WebdriverJS](https://www.npmjs.com/package/webdriverjs) until 2014),
 - [Nightwatch.js](http://nightwatchjs.org).
 
 My initial research ended quickly for WebdriverIO and Nightwatch.js because they had a Java dependency. ☕️ Some time later, after both the tools (and their documentation) and my understanding of the JavaScript ecosystem improved, I have figured out that they can be used without Java. 😓

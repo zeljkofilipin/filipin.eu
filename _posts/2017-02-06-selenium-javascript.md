@@ -184,13 +184,13 @@ The code is at [mediawiki-webdriverjs](https://github.com/zeljkofilipin/mediawik
 
 #### Code
 
-`default.js`
+`config/default.js`
 
 {% highlight javascript %}
 module.exports = {
 	baseUrl: 'http://127.0.0.1:8080/w/index.php?title=',
 	browser: 'chrome',
-	logPath: 'log/',
+	logPath: '.',
 	mochaTestOptions: {
 		reporter: 'spec',
 		slow: 10000,
@@ -200,7 +200,7 @@ module.exports = {
 };
 {% endhighlight %}
 
-`helper.js`
+`test/helper.js`
 
 {% highlight javascript %}
 var config = require( 'config' ),
@@ -226,7 +226,7 @@ function screenshot( driver, state, title ) {
 module.exports = { browser, screenshot };
 {% endhighlight %}
 
-`page.js`
+`test/page.js`
 
 {% highlight javascript %}
 var assert = require( 'assert' ),

@@ -295,42 +295,30 @@ The code is at [mediawiki-webdriverio](https://github.com/zeljkofilipin/mediawik
 
 #### Code
 
-`wdio.conf.vagrant.js`
+`wdio.conf.js`
 
 {% highlight javascript %}
 exports.config = {
 
-	username: 'Admin',
-	password: 'vagrant',
-
 	specs: [
-		'./tests/selenium/**/*.js'
+		'./specs/**/*.js'
 	],
 
-	maxInstances: 1,
-
 	capabilities: [ {
-		maxInstances: 1,
-		browserName: 'chrome'
+		browserName: 'chrome',
 	} ],
 
-	screenshotPath: './log/',
-	baseUrl: 'http://127.0.0.1:8080/w',
-
 	framework: 'mocha',
+
 	reporters: [ 'spec' ],
-	mochaOpts: {
-		ui: 'bdd',
-		timeout: 20000
-	}
 };
 {% endhighlight %}
 
-`page.js`
+`specs/page.js`
 
 {% highlight javascript %}
-var assert = require( 'assert' ),
-	randomPage = require( './pages/randomPage' );
+const assert = require( 'assert' ),
+	EditPage = require( '../pageobjects/edit.page' );
 
 describe( 'Page', function () {
 
@@ -345,53 +333,56 @@ describe( 'Page', function () {
 	it( 'should be creatable', function () {
 
 		// create
-		randomPage.edit( name, content );
+		EditPage.edit( name, content );
 
 		// check
-		assert.equal( randomPage.heading.getText(), name );
-		assert.equal( randomPage.displayedContent.getText(), content );
+		assert.equal( EditPage.heading.getText(), name );
+		assert.equal( EditPage.displayedContent.getText(), content );
 
 	} );
 
 } );
 {% endhighlight %}
 
-`pages/page.js`
+`pageobjects/page.js`
 
 {% highlight javascript %}
-function Page() {
+class Page {
+	constructor() {
+		this.title = 'My Page';
+	}
+	open( path ) {
+		browser.url( '/index.php?title=' + path );
+	}
 }
-
-Page.prototype.open = function ( path ) {
-	browser.url( '/index.php?title=' + path );
-};
-
-module.exports = new Page();
+module.exports = Page;
 {% endhighlight %}
 
-`pages/randomPage.js`
+`pageobjects/edit.page.js`
 
 {% highlight javascript %}
-var Page = require( './page' ),
-	randomPage = Object.create( Page, {
+'use strict';
+const Page = require( './page' );
 
-		content: { get: function () { return browser.element( '#wpTextbox1' ); } },
-		displayedContent: { get: function () { return browser.element( '#mw-content-text' ); } },
-		heading: { get: function () { return browser.element( '#firstHeading' ); } },
-		save: { get: function () { return browser.element( '#wpSave' ); } },
+class EditPage extends Page {
 
-		open: { value: function( name ) {
-			Page.open.call( this, name + '&action=edit' );
-		} },
+	get content() { return browser.element( '#wpTextbox1' ); }
+	get displayedContent() { return browser.element( '#mw-content-text' ); }
+	get heading() { return browser.element( '#firstHeading' ); }
+	get save() { return browser.element( '#wpSave' ); }
 
-		edit: { value: function( name, content ) {
-			this.open( name );
-			this.content.setValue( content );
-			this.save.click();
-		} }
+	open( name ) {
+		super.open( name + '&action=edit' );
+	}
 
-	} );
-module.exports = randomPage;
+	edit( name, content ) {
+		this.open( name );
+		this.content.setValue( content );
+		this.save.click();
+	}
+
+}
+module.exports = new EditPage();
 {% endhighlight %}
 
 ## Conclusion

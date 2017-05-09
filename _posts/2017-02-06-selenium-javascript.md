@@ -65,16 +65,16 @@ The code is hosted at [mediawiki-selenium-nodejs](https://github.com/zeljkofilip
 [`main_page.js`](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs/blob/master/webdriverjs/main_page.js) file from [mediawiki-selenium-nodejs](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs) repository.
 
 {% highlight javascript %}
-var assert = require( 'assert' ),
-	webdriver = require( 'selenium-webdriver' ),
-	By = webdriver.By,
+'use strict';
+const assert = require( 'assert' ),
+	{ Builder, By } = require( 'selenium-webdriver' ),
 	test = require( 'selenium-webdriver/testing' );
 
 test.describe( 'Main page', function () {
-	var driver;
+	let driver;
 
 	test.beforeEach( function () {
-		driver = new webdriver.Builder()
+		driver = new Builder()
 		.forBrowser( 'chrome' )
 		.build();
 	} );

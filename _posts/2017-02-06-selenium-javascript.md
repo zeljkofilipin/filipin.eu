@@ -62,7 +62,7 @@ The code is hosted at [mediawiki-selenium-nodejs](https://github.com/zeljkofilip
 
 #### Code
 
-[`webdriverjs/main_page.js`](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs/blob/master/webdriverjs/main_page.js) file from [mediawiki-selenium-nodejs](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs) repository.
+`webdriverjs/main_page.js`
 
 {% highlight javascript %}
 'use strict';
@@ -108,7 +108,7 @@ test.describe( 'Main page', function () {
 
 #### Code
 
-[`webdriverio/stack/assert.js`](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs/blob/master/webdriverio/stack/assert.js) file from [mediawiki-selenium-nodejs](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs) repository.
+`webdriverio/stack/assert.js`
 
 {% highlight javascript %}
 'use strict';
@@ -137,7 +137,7 @@ describe( 'Main page', function () {
 
 #### Code
 
-[`nightwatch/main_page.js`](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs/blob/master/nightwatch/main_page.js) file from [mediawiki-selenium-nodejs](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs) repository.
+`nightwatch/main_page.js`
 
 {% highlight javascript %}
 'use strict';

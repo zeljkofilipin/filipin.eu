@@ -108,18 +108,16 @@ test.describe( 'Main page', function () {
 
 #### Code
 
-[`main_page.js`](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs/blob/master/webdriverio/main_page.js) file from [mediawiki-selenium-nodejs](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs) repository.
+[`webdriverio/stack/assert.js`](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs/blob/master/webdriverio/stack/assert.js) file from [mediawiki-selenium-nodejs](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs) repository.
 
 {% highlight javascript %}
-var assert = require( 'assert' );
-
+'use strict';
+const assert = require( 'assert' );
 describe( 'Main page', function () {
-
 	it( 'should have "Log in" link', function () {
 		browser.url( '/Main_Page' );
 		assert( browser.isVisible( 'li#pt-login a' ) );
 	} );
-
 } );
 {% endhighlight %}
 

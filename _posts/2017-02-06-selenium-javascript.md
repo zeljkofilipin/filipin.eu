@@ -153,7 +153,9 @@ module.exports = {
 
 ## Realistic code examples
 
-After the initial investigation with a simple test, all three tools looked fine to me. Tests written in WebDriverJs were the most verbose, but I didn't mind that. The second round included a more realistic set of tests.
+After the initial investigation with a simple test, all three tools looked fine to me. So far, I liked WebdriverIO API. WebDriverJs was a bit verbose for my taste. Nightwatch.js API looked strange to me.
+
+The second round included a more realistic set of tests.
 
 - wiki page
   - create

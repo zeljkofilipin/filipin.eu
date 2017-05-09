@@ -137,9 +137,10 @@ describe( 'Main page', function () {
 
 #### Code
 
-[`main_page.js`](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs/blob/master/nightwatch/main_page.js) file from [mediawiki-selenium-nodejs](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs) repository.
+[`nightwatch/main_page.js`](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs/blob/master/nightwatch/main_page.js) file from [mediawiki-selenium-nodejs](https://github.com/zeljkofilipin/mediawiki-selenium-nodejs) repository.
 
 {% highlight javascript %}
+'use strict';
 module.exports = {
 	'Main page': function ( client ) {
 		client

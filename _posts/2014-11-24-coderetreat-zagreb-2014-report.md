@@ -1,6 +1,6 @@
 ---
 tags:  coderetreat event organizer
-title: Coderetreat Zagreb Report
+title: Coderetreat Zagreb Report, Zagreb, Croatia
 ---
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.1706416389592081.1073741825.1706415746258812%26type%3D3&width=500" width="500" height="597" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 

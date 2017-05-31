@@ -1,6 +1,6 @@
 ---
 tags:  coderetreat event organizer
-title: Global Day of Coderetreat 2015
+title: Global Day of Coderetreat 2015, Zagreb, Croatia
 ---
 <iframe src="https://web.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.1718368168396903.1073741830.1706415746258812%26type%3D3&width=500" width="500" height="597" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 

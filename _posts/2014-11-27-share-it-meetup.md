@@ -1,7 +1,7 @@
 ---
 permalink: share-it-meetup
 tags:      event
-title:     Securing Internet of Things - Varovanje interneta stvari
+title:     Securing Internet of Things - Varovanje interneta stvari, Ljubljana, Slovenia
 ---
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10153749306427290.1073741848.735252289%26type%3D3&width=500" width="500" height="597" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 

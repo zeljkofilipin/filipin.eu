@@ -1,5 +1,5 @@
 desc 'run all tasks'
-task default: [:rubocop, :yaml_lint]
+task default: %i[rubocop yaml_lint]
 
 desc 'run markdown linter'
 task :md_lint do

@@ -9,7 +9,7 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem 'jekyll', '~> 3.5'
+gem 'jekyll', '~> 3.6'
 
 # This is the default theme for new Jekyll sites. You may change this to
 # anything you like.
@@ -25,6 +25,6 @@ group :jekyll_plugins do
 end
 
 gem 'mdl', '~> 0.4.0'
-gem 'rake', '~> 12.0'
-gem 'rubocop', '~> 0.47.1'
+gem 'rake', '~> 12.1'
+gem 'rubocop', '~> 0.50.0'
 gem 'yaml-lint', '~> 0.0.9'

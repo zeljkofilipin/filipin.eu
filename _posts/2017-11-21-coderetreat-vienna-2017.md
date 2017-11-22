@@ -10,6 +10,6 @@ Unlike Coderetreats in Zagreb, that were focused on implementing [Conway's Game 
 
 In one session we were encouraged to try a new test tool. I have tried [TextTest](http://texttest.sourceforge.net/). (It has been a long time since I have found something hosted at SourceForge. I thought it does not exist any more.) The tool is really interesting, but not something I would use.
 
-I have also heard about [cyber‑dojo](http://cyber-dojo.org/), an interesting way of practicing programming.
+I have also heard about several interesting way of practicing programming: [cyber‑dojo](http://cyber-dojo.org/), [Coding Dojo](http://www.codingdojo.com/) and [CodeKata](http://codekata.com/).
 
 While writing this post I have noticed that TechTalk also organize (or sponsor, or both) [Citcon Europe 2018 in Vienna](https://techtalk.at/trainings/citcon-europe-2018/?lang=en). (I already have a ticket.) It's a small world! 🌍

@@ -24,6 +24,7 @@ group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.9.2'
 end
 
+gem 'i18n', '0.9.0'
 gem 'mdl', '~> 0.4.0'
 gem 'rake', '~> 12.1'
 gem 'rubocop', '~> 0.50.0'

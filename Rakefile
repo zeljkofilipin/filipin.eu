@@ -12,5 +12,5 @@ RuboCop::RakeTask.new
 
 desc 'run yaml linter'
 task :yaml_lint do
-  sh "find . -regex '.*yml' | xargs yaml-lint"
+  sh "find . -not -path './vendor/*' -regex '.*yml' | xargs yaml-lint"
 end

@@ -2,7 +2,7 @@
 tags:  event organizer software-testing test-automation-bazaar
 title: Test Automation Bazaar 2015, Austin, Texas, USA
 ---
-<div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/media/set/?set=a.534784523346365.1073741825.534781143346703&amp;type=3" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/media/set/?set=a.534784523346365.1073741825.534781143346703&amp;type=3">Posted by <a href="https://www.facebook.com/Test-Automation-Bazaar-534781143346703/">Test Automation Bazaar</a> on&nbsp;<a href="https://www.facebook.com/media/set/?set=a.534784523346365.1073741825.534781143346703&amp;type=3">Thursday, October 15, 2015</a></blockquote></div></div>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10156208049397290.1073741941.735252289%26type%3D3&width=500" width="500" height="646" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
 This was my second Test automation bazaar and my third time in Austin, Texas. I have bought a cowboy hat and competed with [Marek](https://twitter.com/_marekj) several times in solving Rubik's cube. We even had a Rubik's cube workshop during lunch. Of course, there were many test automation related talks, too.
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Featured
+title:  Filipin
 regenerate: true
 ---
 {% include tag_page.html %}

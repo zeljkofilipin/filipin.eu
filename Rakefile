@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 desc 'run all tasks'
 task default: %i[rubocop yaml_lint]
 

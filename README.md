@@ -1,6 +1,6 @@
 # Filipin.eu
 
-Željko Filipin's blog. See it in action at http://filipin.eu/
+Željko Filipin's blog. See it in action at https://filipin.eu
 
 ## Prerequisites
 

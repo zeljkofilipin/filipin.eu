@@ -11,5 +11,6 @@ What I’m doing [now](https://sivers.org/now), in approximate order of time spe
 - Listening to audio books and podcasts.
 - Attending local and international [tech events](/event).
 - Running 5-10 kilometers a few times a week.
+- Playing an instrument. Mostly ukulele lately.
 - Documenting interesting things here.
 - Helping with organization of [Testival](http://www.testival.eu/) meetup and conference.

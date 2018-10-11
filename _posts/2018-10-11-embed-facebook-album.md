@@ -1,5 +1,5 @@
 ---
-tags:  code filipin
+tags:  code filipin photo
 title: Embed Facebook Album
 ---
 I usually take a few photos when I go to an [event](/event). 📸 I've tried several options of hosting photos and Facebook proved to be the best. A few years ago, Facebook had an option to embed the entire album, but they have removed it. Albums no longer have `embed` option. `Get Link` is the closest.

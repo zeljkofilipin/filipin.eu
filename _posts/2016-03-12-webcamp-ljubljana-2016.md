@@ -1,5 +1,5 @@
 ---
-tags:  camp event
+tags:  camp event photo
 title: WebCamp Ljubljana 2016, Ljubljana, Slovenia
 ---
 # WebCamp, Ljubljana, Slovenia

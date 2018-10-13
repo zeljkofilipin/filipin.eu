@@ -20,7 +20,7 @@ I have read several books.
 
 [Eloquent JavaScript](https://eloquentjavascript.net/) by Marijn Haverbeke. Very good book, covers most of the stuff a beginner should know. Recommended. Rating 4/5.
 
-[You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) (book series) by Kyle Simpson. I have only read [Up & Going](/you-dont-know-js-up-and-going). It's a good introduction to the language. I think the series would get a better rating, but since I have read only the first book, and it was pretty basic, it got rating 3/5.
+[You Don't Know JS](you-dont-know-js-up-and-going) (book series) by Kyle Simpson. I have only read [Up & Going](/you-dont-know-js-up-and-going). It's a good introduction to the language. I think the series would get a better rating, but since I have read only the first book, and it was pretty basic, it got rating 3/5.
 
 [JavaScript: The Good Parts](/javascript-the-good-parts) by Douglas Crockford. I have read it two times in the last few years. Both times it was over my head. I would not recommend it for beginners. Rating 3/5.
 

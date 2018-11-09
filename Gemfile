@@ -28,5 +28,5 @@ end
 
 gem 'mdl', '~> 0.5.0'
 gem 'rake', '~> 12.3', '>= 12.3.1'
-gem 'rubocop', '~> 0.57.2'
+gem 'rubocop', '~> 0.60.0'
 gem 'yaml-lint', '~> 0.0.10'

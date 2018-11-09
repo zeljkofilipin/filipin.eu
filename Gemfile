@@ -23,10 +23,10 @@ gem 'minima', '~> 2.5'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-feed', '~> 0.10.0'
+  gem 'jekyll-feed', '~> 0.11.0'
 end
 
-gem 'mdl', '~> 0.4.0'
+gem 'mdl', '~> 0.5.0'
 gem 'rake', '~> 12.3', '>= 12.3.1'
 gem 'rubocop', '~> 0.57.2'
 gem 'yaml-lint', '~> 0.0.10'

@@ -24,6 +24,7 @@ gem 'minima', '~> 2.5', '>= 2.5.1'
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.12.1'
+  gem 'jekyll-sitemap', '~> 1.3', '>= 1.3.1'
 end
 
 gem 'rake', '~> 12.3', '>= 12.3.1'

@@ -5,6 +5,10 @@ title:  About
 ---
 I am a software engineer in test. I work as a contractor at the [Wikimedia Foundation](https://wikimediafoundation.org/). For more information take a look at my [LinkedIn](https://www.linkedin.com/in/zeljkofilipin) profile.
 
+# PGP
+
+1DE8 1558 80C1 7434 9E65 1197 1F64 8D48 55B8 CF0E
+
 # Frequently asked questions
 
 - How is Željko pronounced? Similar to zhel-ko or jell-ko.

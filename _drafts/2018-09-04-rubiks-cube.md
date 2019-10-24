@@ -1,6 +1,6 @@
 ---
 published: false
-tags:  
+tags:  TODO
 title: Rubik's Cube
 ---
 I don't really remember how I got interested in Rubik's cube. All I do remember is that in 2014 I had a small cube and I decided to learn how to solve it. I had a lot of fun in the next couple of years, even had some competition with friends, but by 2016 I have lost interest. Recently a friend asked me to help him learn how to solve the cube and I got interested again.

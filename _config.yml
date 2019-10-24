@@ -39,8 +39,6 @@ defaults:
       layout: "post"
 
 permalink: /:title
-# https://github.com/jekyll/minima#enabling-google-analytics
-google_analytics: UA-200958-28
 
 # Minima https://github.com/jekyll/minima
 theme: minima
@@ -56,3 +54,6 @@ rss: rss
 ## Disqus
 disqus:
   shortname: filipineu
+
+## Google
+google_analytics: UA-200958-28

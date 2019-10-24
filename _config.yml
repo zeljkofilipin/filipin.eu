@@ -22,7 +22,6 @@ url: "https://filipin.eu/" # the base hostname & protocol for your site, e.g. ht
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -46,9 +45,10 @@ google_analytics: UA-200958-28
 disqus:
   shortname: filipineu
 
-# Minima
-## Social
+# Minima https://github.com/jekyll/minima
+theme: minima
 
+## Social
 twitter_username: zeljkofilipin
 github_username:  zeljkofilipin
 facebook_username: zeljko.filipin

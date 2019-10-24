@@ -1,6 +1,4 @@
 ---
-layout: page
-tags:   page
 title:  Blog
 ---
 <div class="home">

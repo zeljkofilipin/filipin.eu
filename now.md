@@ -1,6 +1,4 @@
 ---
-layout: page
-tags:   page
 title:  Now
 ---
 What I’m doing [now](https://sivers.org/now), in approximate order of time spent:

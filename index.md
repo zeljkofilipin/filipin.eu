@@ -1,6 +1,4 @@
 ---
-layout: page
-tags:   page
 title:  Home
 ---
 I am a software engineer in test. I work as a contractor at the [Wikimedia Foundation](https://wikimediafoundation.org/). For more information take a look at my [LinkedIn](https://www.linkedin.com/in/zeljkofilipin) profile.

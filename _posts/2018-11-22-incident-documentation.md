@@ -2,7 +2,6 @@
 tags:  wikimedia
 title: Incident Documentation - An Unexpected Journey
 ---
-
 *(Originally published at [Doing the needful](https://phabricator.wikimedia.org/phame/post/view/128/incident_documentation_an_unexpected_journey/) blog.)*
 
 # Introduction
@@ -56,7 +55,7 @@ To make extra sure I have not missed any repositories, I've used MediaWiki code 
 
 This is the list.
 
-| **Repository** | **Language** 
+| **Repository** | **Language**
 | mediawiki/core | JavaScript
 | mediawiki/extensions/AdvancedSearch | JavaScript
 | mediawiki/extensions/CentralAuth | Ruby

@@ -41,9 +41,6 @@ defaults:
 permalink: /:title
 # https://github.com/jekyll/minima#enabling-google-analytics
 google_analytics: UA-200958-28
-# https://github.com/jekyll/minima#enabling-comments-via-disqus
-disqus:
-  shortname: filipineu
 
 # Minima https://github.com/jekyll/minima
 theme: minima
@@ -55,3 +52,7 @@ facebook_username: zeljko.filipin
 linkedin_username: zeljkofilipin
 youtube_username: zeljkofilipin
 rss: rss
+
+## Disqus
+disqus:
+  shortname: filipineu

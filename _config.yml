@@ -18,8 +18,7 @@ email: zeljko.filipin@gmail.com
 description: Željko Filipin's blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://filipin.eu/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: zeljkofilipin
-github_username:  zeljkofilipin
+
 
 # Build settings
 markdown: kramdown
@@ -46,3 +45,13 @@ google_analytics: UA-200958-28
 # https://github.com/jekyll/minima#enabling-comments-via-disqus
 disqus:
   shortname: filipineu
+
+# Minima
+## Social
+
+twitter_username: zeljkofilipin
+github_username:  zeljkofilipin
+facebook_username: zeljko.filipin
+linkedin_username: zeljkofilipin
+youtube_username: zeljkofilipin
+rss: rss

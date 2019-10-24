@@ -1,4 +1,5 @@
 ---
+tags:  TODO
 title: Vidi Podkast
 ---
 Recently I have started a new podcast, Vidi Podkast. It is in Croatian and we are talking about hardware, software and Vidi magazine.

@@ -1,4 +1,4 @@
 ---
 name: gist
 ---
-gist.
+Contains GitHub Gist.

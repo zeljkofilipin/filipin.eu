@@ -1,4 +1,4 @@
 ---
 name: code
 ---
-code.
+Contains code.

@@ -1,4 +1,4 @@
 ---
 name: ruby
 ---
-ruby.
+About Ruby.

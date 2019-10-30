@@ -1,4 +1,4 @@
 ---
 name: speaker
 ---
-speaker.
+An event I've been a speaker at.

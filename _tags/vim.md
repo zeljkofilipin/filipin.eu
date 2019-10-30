@@ -1,4 +1,4 @@
 ---
 name: vim
 ---
-vim.
+About Vim.

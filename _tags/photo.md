@@ -1,4 +1,4 @@
 ---
 name: photo
 ---
-Photos.
+Contains a photo.

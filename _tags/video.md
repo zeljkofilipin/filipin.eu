@@ -1,4 +1,4 @@
 ---
 name: video
 ---
-Videos.
+Contains video.

@@ -1,4 +1,4 @@
 ---
 name: docs
 ---
-docs.
+Contains Google Docs.

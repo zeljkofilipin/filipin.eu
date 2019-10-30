@@ -1,5 +1,5 @@
 ---
-tags:  event filipin
+tags:  event featured
 title: Don't Go to Conferences
 ---
 I have been to a lot of [conferences](/event). I have been a [speaker](/speaker) at some of them. I have even helped [organize](/organizer) a few. I like going to conferences. I also think that going to the most of the conferences is a waste of time.

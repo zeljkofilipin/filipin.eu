@@ -1,5 +1,5 @@
 ---
-tags:  coderetreat event organizer photo
+tags:  event organizer photo
 title: Coderetreat Zagreb 2014 Announcement, Zagreb, Croatia
 ---
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10156205808202290.1073741938.735252289%26type%3D3&width=500" width="500" height="597" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
@@ -8,7 +8,7 @@ title: Coderetreat Zagreb 2014 Announcement, Zagreb, Croatia
 
 Imagine a group of people gathering in a room and coding all day. Just for fun. For free, as in beer. (There will not be beer.) Free lunch will be provided. The event is limited to 30 people. Bring your laptop.
 
-Interested? Read on, or [register](https://www.entrio.hr/event/coderetreat-zagreb-1875). 
+Interested? Read on, or [register](https://www.entrio.hr/event/coderetreat-zagreb-1875).
 
 # Code-what?
 

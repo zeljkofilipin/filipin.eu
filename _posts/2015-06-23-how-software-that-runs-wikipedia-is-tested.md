@@ -1,5 +1,5 @@
 ---
-tags:  camp citcon code dors-cluc event filipin ruby selenium software-testing speaker testival wikimedia
+tags:  code event featured ruby selenium speaker testing testival wikimedia
 title: How software that runs Wikipedia is tested
 ---
 This is a new and shiny version of my [How MediaWiki, software that runs Wikipedia, is tested](/how-mediawiki-software-that-runs-wikipedia-is-tested/) blog post. I gave this talk several times at various meetups and conferences, but I never had the time to sit down and document it. There are some [slides](https://commons.wikimedia.org/wiki/File:How_software_that_runs_Wikipedia_is_tested.pdf) too.
@@ -191,4 +191,3 @@ DEPENDENCIES
 # Why did we pick Ruby to run Selenium tests?
 
 Can you believe that all the problems that we wanted to solve were already solved by a mature Ruby library? Other languages had libraries that solved some of the problems. If a language had all or most of the tools already available, then the tools were not as mature as in Ruby.
-

@@ -1,5 +1,5 @@
 ---
-tags:  book coderetreat
+tags:  book
 title: Understanding the Four Rules of Simple Design
 ---
 I have organized a couple of [Coderetreats](/coderetreat) in 2014 and 2015. I have bought [Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign) by [Corey Haines](http://articles.coreyhaines.com/) in 2015. It was discounted (from $18 to $5) for attendees of Coderetreat. I have read the book then, but the only note I have is "I have mixed feelings". I have read it on Kindle and I had a hard time reading code. There was no syntax highlighting and Kindle's screen is so small that even simple code examples from the book did not fit on a page.

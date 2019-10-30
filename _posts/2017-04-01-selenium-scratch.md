@@ -1,5 +1,5 @@
 ---
-tags:  code filipin javascript ruby testival selenium
+tags:  code featured javascript ruby testival selenium
 title: Selenium bindings in Scratch, visual programming language for kids
 ---
 ![Scratch logo](/assets/Scratchcat2.png "Scratch logo")

@@ -6,8 +6,9 @@ title: Tags
 <ul>
   {% for tag in site.tags %}
     <li>
-      <h2><a href="{{ tag.url }}">{{ tag.name }}</a></h2>
-      <p>{{ tag.content | markdownify }}</p>
+      <a href="{{ tag.url }}">{{ tag.name }}</a>
+      ({{ site.posts | where: 'tags', tag.name | size }})
+      {{ tag.content | markdownify }}
     </li>
   {% endfor %}
 </ul>

@@ -1,5 +1,5 @@
 ---
-tags:  code docs gist ruby
+tags:  code docs ruby
 title: watir-webdriver Tests Are Pretty Slow at Sauce Labs OnDemand
 ---
 <p><img src="/assets/blowball-300x300.jpg" alt="Random Croatian Countryside" title="Random Croatian Countryside" /></p>
@@ -27,6 +27,82 @@ browser.close
 <p><iframe width="700" height="425" frameborder="0" src="https://docs.google.com/spreadsheet/pub?key=0AkEvoPk1PsafdDhDTTl6SDhTbERlbXdCVVlaT2Z1UUE&single=true&gid=2&output=html&widget=true"></iframe></p>
 <p>The script that just opens the browser, visits 9 pages and closes the browser takes 14 seconds on average at my machine. Exactly the same script at Sauce Labs OnDemand takes on average 55-69 seconds with default settings, and 48-64 seconds with everything disabled. So, the script <em>is</em> a bit faster when everything is disabled, but unfortunately, just a bit.</p>
 <p>The entire script is here:</p>
-<p><script src="https://gist.github.com/2794749.js?file=sauce.rb"></script></p>
+
+{% highlight ruby %}
+screenshots_videos_advisors = [true, false]
+platforms_browsers_versions = [
+    [:XP, "ie", "8"],
+    [:XP, "firefox", "11"],
+    [:XP, "chrome"],
+
+    [:VISTA, "ie", "9"],
+    [:VISTA, "firefox", "11"],
+    [:VISTA, "chrome"],
+
+    [:LINUX, "firefox", "11"],
+    [:LINUX, "chrome"],
+]
+
+def run_all_tests(screenshots_videos_advisors, platforms_browsers_versions)
+  screenshots_videos_advisors.each do |screenshot_video_advisor|
+    run_screenshot_video_advisor_test(screenshot_video_advisor, platforms_browsers_versions)
+  end
+end
+def run_screenshot_video_advisor_test(screenshot_video_advisor, platforms_browsers_versions)
+  platforms_browsers_versions.each do |platform_browser_version|
+    run_platform_browser_version_test(screenshot_video_advisor, platform_browser_version)
+  end
+end
+def run_platform_browser_version_test(screenshot_video_advisor, platform_browser_version)
+  platform = platform_browser_version[0]
+  browser = platform_browser_version[1]
+  version = platform_browser_version[2]
+
+  require "benchmark"
+  10.times do
+    Benchmark.bm do |x|
+      x.report(test_name(screenshot_video_advisor, platform, browser, version)) do
+        run_sauce_test(screenshot_video_advisor, platform, browser, version)
+      end
+    end
+  end
+end
+def run_sauce_test(screenshot_video_advisor, platform, browser, version)
+  require "watir-webdriver"
+
+  caps = Selenium::WebDriver::Remote::Capabilities.send(browser)
+  caps.version = version if version
+  caps.platform = platform
+  caps[:name] = test_name(screenshot_video_advisor, platform, browser, version)
+  caps["record-screenshots"] = screenshot_video_advisor
+  caps["record-video"] = screenshot_video_advisor
+  caps["sauce-advisor"] = screenshot_video_advisor
+
+  browser = Watir::Browser.new(
+    :remote,
+    :url => "http://username:api-key@ondemand.saucelabs.com:80/wd/hub",
+    :desired_capabilities => caps)
+
+  sites = [
+  "google.com",
+  "facebook.com",
+  # add more sites
+  ]
+  sites.each do |site|
+    browser.goto site
+  end
+
+  browser.close
+
+rescue => e
+  puts "rescued: #{e.inspect}"
+end
+def test_name(screenshot_video_advisor, platform, browser, version)
+  "#{screenshot_video_advisor}, #{platform}, #{browser}, #{version}"
+end
+
+run_all_tests(screenshots_videos_advisors, platforms_browsers_versions)
+{% endhighlight %}
+
 <p>You have to replace <code>username</code> and <code>api-key</code> with your username and API key.</p>
 <p>The only solution I have found so far is to run the tests in parallel. Report coming soon.</p>

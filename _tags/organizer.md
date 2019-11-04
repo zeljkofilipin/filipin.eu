@@ -1,4 +1,4 @@
 ---
 name: organizer
 ---
-An event I've helped organize.
+An event I've helped to organize.

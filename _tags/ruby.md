@@ -1,4 +1,4 @@
 ---
 name: ruby
 ---
-About Ruby.
+About [Ruby](https://www.ruby-lang.org/en/).

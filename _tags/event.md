@@ -1,4 +1,4 @@
 ---
 name: event
 ---
-About an event.
+An event.

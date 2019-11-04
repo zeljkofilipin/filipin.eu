@@ -1,4 +1,4 @@
 ---
 name: book
 ---
-Book reviews.
+Book review.

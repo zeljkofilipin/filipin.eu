@@ -1,4 +1,4 @@
 ---
 name: javascript
 ---
-About JavaScript.
+About [JavaScript](https://en.wikipedia.org/wiki/JavaScript).

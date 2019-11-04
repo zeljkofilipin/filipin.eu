@@ -1,4 +1,4 @@
 ---
 name: selenium
 ---
-About Selenium.
+About [Selenium](https://www.seleniumhq.org/).

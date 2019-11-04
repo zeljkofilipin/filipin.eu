@@ -1,4 +1,4 @@
 ---
 name: featured
 ---
-A few posts that I like.
+Featured post.

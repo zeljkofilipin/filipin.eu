@@ -1,4 +1,4 @@
 ---
 name: gist
 ---
-Contains GitHub Gist.
+Contains a [GitHub Gist](https://gist.github.com/).

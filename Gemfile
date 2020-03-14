@@ -23,11 +23,11 @@ gem 'minima', '~> 2.5', '>= 2.5.1'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-feed', '~> 0.12.1'
+  gem 'jekyll-feed', '~> 0.13.0'
   gem 'jekyll-seo-tag', '~> 2.6', '>= 2.6.1'
-  gem 'jekyll-sitemap', '~> 1.3', '>= 1.3.1'
+  gem 'jekyll-sitemap', '~> 1.4'
 end
 
-gem 'rake', '~> 12.3', '>= 12.3.1'
-gem 'rubocop', '~> 0.60.0'
+gem 'rake', '~> 13.0', '>= 13.0.1'
+gem 'rubocop', '~> 0.80.1'
 gem 'yaml-lint', '~> 0.0.10'

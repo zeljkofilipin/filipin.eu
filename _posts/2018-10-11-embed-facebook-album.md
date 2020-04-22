@@ -1,7 +1,9 @@
 ---
 tags:  code photo
-title: Embed Facebook Album
+title: Embed Facebook Album in 2018
 ---
+*Update - I wrote a new blog post: [Embed Facebook Album in 2020](/embed-facebook-album-2020).*
+
 I usually take a few photos when I go to an [event](/event). 📸 I've tried several options of hosting photos and Facebook proved to be the best. A few years ago, Facebook had an option to embed the entire album, but they have removed it. Albums no longer have `embed` option. `Get Link` is the closest.
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fzeljko.filipin%2Fposts%2F10156741026372290%3A0&width=500" width="500" height="206" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>

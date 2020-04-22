@@ -29,5 +29,5 @@ group :jekyll_plugins do
 end
 
 gem 'rake', '~> 13.0', '>= 13.0.1'
-gem 'rubocop', '~> 0.80.1'
+gem 'rubocop', '~> 0.82.0'
 gem 'yaml-lint', '~> 0.0.10'

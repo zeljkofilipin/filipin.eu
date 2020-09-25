@@ -1,5 +1,4 @@
 ---
-published: false
 tags:  TODO
 title: Rubik's Cube
 ---

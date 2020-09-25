@@ -1,5 +1,4 @@
 ---
-published: false
 tags:  camp citcon speaker testival
 title: Career Development
 ---

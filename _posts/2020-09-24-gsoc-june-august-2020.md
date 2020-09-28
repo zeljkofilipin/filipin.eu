@@ -50,6 +50,10 @@ Vidhi created the majority of the documentation on how use [MediaWiki-Docker](ht
 
 To help with debugging, Soham worked on recording videos of all test runs. We had a framework that works only on Linux. He found an NPM package that works on all platforms, [wdio-video-reporter](https://www.npmjs.com/package/wdio-video-reporter). When we discovered it supports only WebdriverIO v5 he contributed a [patch](https://github.com/presidenten/wdio-video-reporter/pull/44) to the package to make it work with v6.
 
+### Badges
+
+I've created [Intern](https://phabricator.wikimedia.org/badges/view/16/) and [Mentor](https://phabricator.wikimedia.org/badges/view/18/) badges at Phabricator and awarded them to all interns and mentors that I knew about. They don't do anything, but I like badges. 🏅
+
 ## Things that didn't go well
 
 ### COVID-19
@@ -97,3 +101,7 @@ I've decided to take a break from mentoring. (I might not take that advice. More
 ### General advice
 
 A piece of advice for all mentors: prepare to spend more time on mentoring than you've originally planned. I've spent about 10 hours a week per intern.
+
+## Links
+
+- [Google Summer of Code](https://techblog.wikimedia.org/2020/09/15/celebrating-free-and-open-source-software-with-google-summer-of-code-and-outreachy/) at techblog.wikimedia.org

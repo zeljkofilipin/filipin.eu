@@ -2,6 +2,8 @@
 tags: photo vim
 title: Visual Studio Code + Neovim
 ---
+*[ɸ](https://en.wikipedia.org/wiki/Golden_ratio) minute read.*
+
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fzeljko.filipin%2Fposts%2F10158798342837290&show_text=true&width=552&height=325&appId" width="552" height="325" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
 I've started using Vim in [2014](https://github.com/zeljkofilipin/dotfiles/commit/a21f4bb5834695dafba64e7c59a05694eaf52fdc). I've read a few books, wrote a few articles and gave a few talks on [Vim](/tags/vim). I really like editing text with Vim, but I was never happy with it's file management, extensions, things like that.

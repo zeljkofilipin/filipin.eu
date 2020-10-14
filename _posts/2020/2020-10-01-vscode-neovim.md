@@ -2,7 +2,7 @@
 tags: photo vim
 title: Visual Studio Code + Neovim
 ---
-*[ɸ](https://en.wikipedia.org/wiki/Golden_ratio) minute read.*
+*[ɸ](https://en.wikipedia.org/wiki/Golden_ratio "1.618") minute read.*
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fzeljko.filipin%2Fposts%2F10158798342837290&show_text=true&width=552&height=325&appId" width="552" height="325" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 

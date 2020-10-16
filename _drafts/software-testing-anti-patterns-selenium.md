@@ -1,6 +1,6 @@
 ---
 tags:  testing wikimedia
-title: Software Testing Anti-patterns
+title: Software Testing Anti-patterns - Selenium
 ---
 - Raise your hand if you have not written a Node/Selenium test?
 - Today we'll cover a couple of examples of tests are written, how they work, what makes a good/bad one. Best practices and gotchas.

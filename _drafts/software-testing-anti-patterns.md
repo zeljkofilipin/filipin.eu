@@ -44,3 +44,17 @@ I've started writing this blog post while preparing for Testival meetup, and I'm
 
 For each anti-pattern I'll list some advantages and disadvantages. It would be great to hear from the readers if they've seen them in the wild.
 
+# Chords
+
+Am6
+A#6
+Bm9
+C7sus4
+C#aug
+Dsus4
+D#9
+Edim
+Fsus2
+F#m9
+G6
+G#aug

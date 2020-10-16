@@ -34,11 +34,11 @@ This is not a definition, but I would still like to mention it. Testing pyramid.
 
 # Events
 
-I talked about software testing anti-patterns at [Zagreb Tech Sauna meetup](/zagreb-tech-sauna). I went over all thirteen anti-patterns from the blog post. With the introduction and some discussion, the talk ended up being over an hour long. A bit too long.
+I talked about software testing anti-patterns at [Zagreb Tech Sauna meetup](/zagreb-tech-sauna) in December 2019. I went over all thirteen anti-patterns from the blog post. With the introduction and some discussion, the talk ended up being over an hour long. A bit too long.
 
-I gave a half hour talk at [Testival #56](/testival-56) meetup, covering five anti patterns. I've heard commentns that it was a bit too short.
+I gave a half hour talk at [Testival #56](/testival-56) meetup in January 2020, covering five anti patterns. I've heard comments that it was a bit too short.
 
-I've started writing this blog post while preparing for Testival meetup, and I'm finishing it while preparing for upcoming [Quality and Test Engineering Office Hour](https://lists.wikimedia.org/pipermail/wikitech-l/2020-February/093084.html).
+I've started writing this blog post while preparing for Testival meetup. I've worked on it while preparing for [Quality and Test Engineering Office Hour](https://lists.wikimedia.org/pipermail/wikitech-l/2020-February/093084.html) in February 2020.
 
 # Anti-patterns
 
@@ -46,15 +46,4 @@ For each anti-pattern I'll list some advantages and disadvantages. It would be g
 
 # Chords
 
-Am6
-A#6
-Bm9
-C7sus4
-C#aug
-Dsus4
-D#9
-Edim
-Fsus2
-F#m9
-G6
-G#aug
+To make it more fun, I've played a dissonant chord on a ukulele for every pattern. The chords I've used are: Am6, A#6, Bm9, C7sus4, C#aug, Dsus4, D#9, Edim, Fsus2, F#m9, G6, G#aug.

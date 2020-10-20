@@ -32,6 +32,10 @@ Anti-pattern is a solution that creates more problems than it solves.
 
 This is not a definition, but I would still like to mention it. Testing pyramid. (It's really a triangle, but let's skip that discussion for now.) I really like the image from the top of [TestPyramid](https://martinfowler.com/bliki/TestPyramid.html) article at Martin Fowler's blog.
 
+<a title="Abbe98, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Testing_Pyramid.svg"><img width="512" alt="Testing Pyramid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Testing_Pyramid.svg/512px-Testing_Pyramid.svg.png"></a>
+
+This article will cover the bottom two parts of the pyramid. The top part is a topic for another post.
+
 # Events
 
 I talked about software testing anti-patterns at [Zagreb Tech Sauna meetup](/zagreb-tech-sauna) in December 2019. I went over all thirteen anti-patterns from the blog post. With the introduction and some discussion, the talk ended up being over an hour long. A bit too long.

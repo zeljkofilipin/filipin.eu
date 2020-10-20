@@ -11,3 +11,8 @@ title: Remote work
 - headphones
 - text chat
 - audio/video chat
+- time tracking
+- flexibility
+- work hours
+- travel
+- watercooler

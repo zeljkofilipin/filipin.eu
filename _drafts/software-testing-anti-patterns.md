@@ -20,11 +20,11 @@ I gave a half hour talk at [Testival #56](/testival-56) meetup in January 2020, 
 
 I've led an hour long [Quality and Test Engineering Office Hour](https://lists.wikimedia.org/pipermail/wikitech-l/2020-February/093084.html) virtual event in February 2020. It also covered five anti-patterns.
 
-This post spend a lot of time in draft mode. I wanted to write something but I didn't want to copy/paste the entire original article. I've ended up with quoting some parts of the article that I found particularly interesting and adding my comments here and there. I've started writing this blog post while preparing for Testival meetup in January 2020. I've worked on it while preparing for Quality and Test Engineering Office Hour in February 2020. I've finished it in October 2020.
+This post spend a lot of time in draft mode. I wanted to write something but I didn't want to copy/paste the entire original article. I've ended up with quoting some parts of the article that I found particularly interesting and adding my comments here and there. I've started writing this blog post while preparing for Testival meetup in January 2020. I've worked on it while preparing for Quality and Test Engineering Office Hour in February 2020. I've finished it in November 2020.
 
 # Terminology
 
-I would like to discuss terminology really quickly. The problem is, if you ask three people about the difference between unit, integration and system tests, you'll probably get four responses. Sometimes even five.
+I would like to discuss terminology really quickly. The problem is, if you ask three people about the difference between unit, integration and end-to-end (E2E) tests, you'll probably get four responses. Sometimes even five.
 
 So, let's define just a few basic terms, before we start the discussion.
 
@@ -54,11 +54,11 @@ One of the things that keeps surprising me is how people that have a lot of expe
 
 In the talks, for each anti-pattern I've mentioned some advantages and disadvantages. It would be great to hear from the readers if they've seen them in the wild.
 
-In this article, I'll usually quote the most important part of the original article and comment on it.
+In this article, I'll usually quote the most important part of the original article. Sometimes I'll add a comment.
 
 # Chords
 
-To make it more fun, I've played a dissonant chord on a ukulele for every pattern. For my reference, the chords I've used are: Am6, A#6, Bm9, C7sus4, C#aug, Dsus4, D#9, Edim, Fsus2, F#m9, G6, G#aug. I've spent some time searching for perfect chords. Easy to play but sounding like an anti-pattern.
+To make it more fun, I've played a dissonant chord on an ukulele for every pattern. For my reference, the chords I've used are: Am6, A#6, Bm9, C7sus4, C#aug, Dsus4, D#9, Edim, Fsus2, F#m9, G6, G#aug. I've spent some time searching for perfect chords. Easy to play but sounding like an anti-pattern.
 
 # Anti-Pattern #1 - Having unit tests without integration tests
 

@@ -9,3 +9,5 @@ COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
 COPY . .
+
+CMD ["bundle", "exec", "jekyll", "s", "--drafts"]

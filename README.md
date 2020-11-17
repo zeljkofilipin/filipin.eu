@@ -14,4 +14,4 @@
 
 The web site is available at http://127.0.0.1:4000/
 
-[![Build Status](https://travis-ci.org/zeljkofilipin/filipin.svg?branch=master)](https://travis-ci.org/zeljkofilipin/filipin)
+[![Build Status](https://travis-ci.org/zeljkofilipin/filipin.eu.svg?branch=master)](https://travis-ci.org/zeljkofilipin/filipin.eu)

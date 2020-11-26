@@ -8,6 +8,8 @@ WORKDIR /usr/src/app
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
+EXPOSE 4000
+
 COPY . .
 
 CMD ["bundle", "exec", "jekyll", "s", "--drafts"]

@@ -1,6 +1,6 @@
 ---
 tags:  event wikimedia
-title: Engineering Productivity Offsite October 2020
+title: Engineering Productivity Virtual Offsite October 2020
 ---
 October 26-29 2020 was my team's second virtual offsite. We've had many offsites, but the first virtual one was in May 2020. The structure of this offsite was similar to the one in May. About four hours of sessions every day, from Monday to Thursday.
 

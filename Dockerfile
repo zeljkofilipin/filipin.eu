@@ -24,4 +24,4 @@ EXPOSE 4000
 COPY . .
 
 # Run the specified command within the container.
-CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0"]
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--drafts", "--livereload"]

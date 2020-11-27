@@ -1,6 +1,6 @@
 ---
 tags:  event wikimedia
-title: Engineering Productivity Offsite May 2020
+title: Engineering Productivity Virtual Offsite May 2020
 ---
 In May 2020 we were supposed to have a team offsite in Lisbon, Portugal. I was planning to visit Portugal with my family for a while, so that looked like a great opportunity to go together. Early in 2020 we bought plane tickets for the entire family. Then COVID-19 happened and the offsite was cancelled. Instead, we had a virtual offsite May 18-21 2020.
 

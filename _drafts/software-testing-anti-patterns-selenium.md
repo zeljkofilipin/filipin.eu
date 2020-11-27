@@ -2,6 +2,7 @@
 tags:  testing wikimedia
 title: Software Testing Anti-patterns - Selenium
 ---
+- I gave a talk during QTE office hours on 2020-04-17, calendar event has video and chat transcript
 - Raise your hand if you have not written a Node/Selenium test?
 - Today we'll cover a couple of examples of tests are written, how they work, what makes a good/bad one. Best practices and gotchas.
 - Session will be in two parts. Some slides, and then looking at some real code to discuss as example.

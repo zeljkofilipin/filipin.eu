@@ -16,3 +16,4 @@ title: Remote work
 - work hours
 - travel
 - watercooler
+- serious exercise

@@ -1,6 +1,6 @@
 ---
 tags:  TODO
-title: Rubik's Cube
+title: Rubik's Cube for Coders
 ---
 I don't really remember how I got interested in Rubik's cube. All I do remember is that in 2014 I had a small cube and I decided to learn how to solve it. I had a lot of fun in the next couple of years, even had some competition with friends, but by 2016 I have lost interest. Recently a friend asked me to help him learn how to solve the cube and I got interested again.
 
@@ -31,3 +31,5 @@ In order to apply algorithms we need some notation. When you look at the cube, i
 # Step 1: white cross
 
 The hardest thing is to start, and you have already done that. To solve the white cross, position the cube so the white center piece is up, find edge piece (two colors, remember?)
+# Links
+- https://www.facebook.com/photo.php?fbid=10152847779652290&l=6393af8586

@@ -18,7 +18,7 @@ COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
 # Add metadata to the image to describe which port the container is listening on at runtime.
-EXPOSE 4000
+EXPOSE 4000 35729
 
 # Copy the rest of your app's source code from your host to your image filesystem.
 COPY . .

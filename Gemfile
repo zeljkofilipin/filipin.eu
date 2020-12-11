@@ -24,6 +24,7 @@ gem "minima", :github => 'jekyll/minima', :ref => '3cdd14dff1216f561c68329e0b742
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.15.0'
+  gem 'jekyll-remote-theme', '~> 0.4.2'
   gem 'jekyll-seo-tag', '~> 2.6', '>= 2.6.1'
   gem 'jekyll-sitemap', '~> 1.4'
 end

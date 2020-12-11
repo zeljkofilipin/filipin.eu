@@ -26,11 +26,17 @@ url: "https://filipin.eu/" # the base hostname & protocol for your site, e.g. ht
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# GitHub Pages
+# Minima's v3 dark theme doesn't work without this and
+# - jekyll-remote-theme
+remote_theme: jekyll/minima@3cdd14dff1216f561c68329e0b7420c2dc9b796a
 
 # Custom settings
 defaults:

@@ -1,6 +1,6 @@
 ---
 tags:  book wikimedia
-title: Continuous Delivery
+title: Continuous Delivery By Jez Humble and David Farley
 ---
 I have bought the book via informit. I have read it mostly on Kindle, but sometimes on Kindle Android app. Quotes and page numbers are from pdf version.
 

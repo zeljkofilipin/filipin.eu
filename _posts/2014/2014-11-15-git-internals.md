@@ -1,6 +1,6 @@
 ---
 tags:  book
-title: Git Internals
+title: Git Internals by Scott Chacon
 ---
 # TLDR
 

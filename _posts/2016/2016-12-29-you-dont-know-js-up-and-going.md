@@ -1,6 +1,6 @@
 ---
 tags:  book javascript
-title: "You Don't Know JS: Up & Going"
+title: "You Don't Know JS: Up & Going by Kyle Simpson"
 ---
 [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS): Up & Going by Kyle Simpson was more suitable for my level of JavaScript knowledge 👶 than [JavaScript: The Good Parts](/javascript-the-good-parts). It is the first part of the six part series. I have learned some new things 😎 and got confused about some things. 🤔
 

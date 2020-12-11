@@ -14,7 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Filipin.eu
-email: zeljko.filipin@gmail.com
+author:
+  name: Željko Filipin
+  email: "zeljko.filipin@gmail.com"
 description: Željko Filipin's blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://filipin.eu/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -59,14 +61,12 @@ theme: minima
 minima:
   date_format: "%Y-%m-%d"
   skin: dark
-
-## Social
-twitter_username: zeljkofilipin
-github_username:  zeljkofilipin
-facebook_username: zeljko.filipin
-linkedin_username: zeljkofilipin
-youtube_username: zeljkofilipin
-rss: rss
+  social_links:
+    twitter: zeljkofilipin
+    github: zeljkofilipin
+    stackoverflow: "17469"
+    facebook: zeljko.filipin
+    linkedin: zeljkofilipin
 
 ## Disqus
 disqus:

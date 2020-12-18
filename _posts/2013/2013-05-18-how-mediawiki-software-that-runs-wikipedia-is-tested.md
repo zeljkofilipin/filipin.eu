@@ -21,18 +21,18 @@ Short version of Quim Gil's *How to hack on Wikipedia* talk (sources: <a href="h
 Short <a href="http://docs.seleniumhq.org/">Selenium</a> + <a href="http://www.ruby-lang.org/en/">Ruby</a> live coding demo. The example at the talk was slightly different.
 I have first opened <a href="http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page">a test site</a> manually, clicked <code>Print/export</code> link (sidebar at the left hand side) so <code>Download as PDF</code> link appears.
 
-<img src="/assets/pdf1.png" alt="Print/export" />
+<img src="/assets/how-mediawiki-software-that-runs-wikipedia-is-tested/pdf1.png" alt="Print/export" />
 *Print/export*
 
-<img src="/assets/pdf2.png" alt="Download as PDF" />
+<img src="/assets/how-mediawiki-software-that-runs-wikipedia-is-tested/pdf2.png" alt="Download as PDF" />
 *Download as PDF*
 
 I have then click <code>Download as PDF</code> link and showed that <code>Download the file</code> link should appear (after a while) at the page that opens.
 
-<img src="/assets/pdf3.png" alt="Please wait while the document is being generated." />
+<img src="/assets/how-mediawiki-software-that-runs-wikipedia-is-tested/pdf3.png" alt="Please wait while the document is being generated." />
 *Please wait while the document is being generated.*
 
-<img src="/assets/pdf4.png" alt="Download the file" />
+<img src="/assets/how-mediawiki-software-that-runs-wikipedia-is-tested/pdf4.png" alt="Download the file" />
 *Download the file*
 
 Next we did the same with Selenium. I like <a href="http://en.wikipedia.org/wiki/Interactive_Ruby_Shell">irb</a> for live coding, so the first step is to open it.
@@ -139,7 +139,7 @@ Before closing the browser, let's take a screenshot. Screenshot of a headless br
 [/code]
 {% endhighlight %}
 
-<img src="/assets/phantomjs.png" alt="PhantomJS" />
+<img src="/assets/how-mediawiki-software-that-runs-wikipedia-is-tested/phantomjs.png" alt="PhantomJS" />
 *PhantomJS screenshot*
 
 It would be crazy to type this stuff all the time, so let's create a script that we can just run. I have executed <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature#L9-L12">Click on Download as PDF link</a> scenario.
@@ -322,10 +322,10 @@ end
 We use <a href="http://jenkins-ci.org/">Jenkins</a> <a href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a> server. It is also one of the important tools. Jenkins that runs our browser test automation is hosted by <a href="http://www.cloudbees.com/">CloudBees</a> at <a href="https://wmf.ci.cloudbees.com/">wmf.ci.cloudbees.com</a>.
 I have showed <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/">a job</a> that is sometimes failing because of the timeout problem that I have mentioned previously. I have showed a couple of nice Jenkins features, <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/test/?width=800&height=600">Test Result Trend</a> chart and <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/buildTimeTrend">Build Time Trend</a> chart.
 
-<img src="/assets/trt.png" alt="Test Result Trend" />
+<img src="/assets/how-mediawiki-software-that-runs-wikipedia-is-tested/trt.png" alt="Test Result Trend" />
 *Test Result Trend*
 
-<img src="/assets/btt.png" alt="Build Time Trend" />
+<img src="/assets/how-mediawiki-software-that-runs-wikipedia-is-tested/btt.png" alt="Build Time Trend" />
 *Build Time Trend*
 
 Then I showed <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/56/">a build that failed</a> and <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/56/testReport/junit/(root)/PDF/Click_on_Download_as_PDF_link/">test results</a> saying <code>timed out after 15 seconds, waiting for {:text=>"Download the file", :tag_name=>"a"} to become present</code>.
@@ -344,5 +344,5 @@ A few ideas came to my mind after the talk. It would be fun to show how to run t
 For those interested in playing with the code themselves, show <a href="http://www.mediawiki.org/wiki/Mediawiki-Vagrant">MediaWiki-Vagrant</a> and <a href="https://github.com/wikimedia/mediawiki-vagrant/tree/master/puppet/modules/browsertests">puppet/modules/browsertests</a>, the complete environment in a virtual machine. Setting everything up is as easy as installing a couple of applications and cloning a repository.
 If you want to get involved, join <a href="https://lists.wikimedia.org/mailman/listinfo/qa">qa@lists.wikimedia.org</a> mailing list and <a href="http://lists.wikimedia.org/pipermail/qa/2013-May/000003.html">introduce</a> yourself.
 
-<img src="/assets/vagrant-1024x640.png" alt="Vagrant" />
+<img src="/assets/how-mediawiki-software-that-runs-wikipedia-is-tested/vagrant-1024x640.png" alt="Vagrant" />
 *The screen shot shows a Mac desktop. On the right hand side you can see two Mac windows (Terminal, VirtualBox). On the left hand side you can see Firefox window forwarded from a Linux virtual machine. Magic.*

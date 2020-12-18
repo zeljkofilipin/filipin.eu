@@ -1,5 +1,5 @@
 ---
-tags:  code docs ruby
+tags:  code ruby
 title: watir-webdriver tests at TestingBot
 ---
 <p><img src="/assets/throne-300x300.jpg" alt="Random photo: Varaždin, Croatia." title="Random photo: Varaždin, Croatia."  /></p>
@@ -38,7 +38,18 @@ browser = Watir::Browser.new(
 
 <p>Of course, replace <code>key</code> and <code>secret</code> with your credentials.</p>
 <p>I have run pretty much the same script as in the previous post. The script opens the browser, goes to 9 sites and closes the browser. Actually, it does that with and without using net-http-persistent gem, on a local browser, at Sauce Labs OnDemand and at TestingBot.</p>
-<p><iframe width="700" height="250" frameborder="0" src="https://docs.google.com/spreadsheet/pub?key=0AkEvoPk1PsafdHNDN0JiM2VJRFlfS0g5OVRuUWxxbGc&single=true&gid=5&output=html&widget=true"></iframe></p>
+
+watir-webdriver tests at TestingBot : local, sauce labs, testingbot
+
+|location  |os          |browser   |net- http- persistent|1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |average|median|deviation|min|max|average net-http-persistent improvement (%)|slower than local (times)|
+|----------|------------|----------|---------------------|---|---|---|---|---|---|---|---|---|---|-------|------|---------|---|---|-------------------------------------------|-------------------------|
+|local     |mac 10.7    |firefox 12|FALSE                |20 |18 |20 |22 |18 |15 |16 |17 |17 |16 |18     |18    |2        |15 |22 |                                           |                         |
+|local     |mac 10.7    |firefox 12|TRUE                 |14 |16 |16 |16 |21 |15 |18 |16 |15 |15 |16     |16    |1        |14 |21 |9                                          |                         |
+|sauce     |windows 7   |firefox 11|FALSE                |75 |59 |56 |57 |65 |56 |96 |62 |64 |   |66     |62    |9        |56 |96 |                                           |3.7                      |
+|sauce     |windows 7   |firefox 11|TRUE                 |63 |50 |50 |   |84 |60 |54 |50 |82 |51 |60     |54    |11       |50 |84 |8                                          |3.7                      |
+|testingbot|Windows 2008|firefox 11|FALSE                |31 |35 |31 |33 |30 |33 |31 |32 |31 |33 |32     |32    |1        |30 |35 |                                           |1.8                      |
+|testingbot|Windows 2008|firefox 11|TRUE                 |30 |33 |31 |31 |30 |30 |30 |31 |31 |31 |31     |31    |1        |30 |33 |4                                          |1.9                      |
+
 <p><em>(I could not figure out how to make the last two columns display rounded numbers.)</em></p>
 <p>What do the numbers say?</p>
 <p>net-http-persistent gem this time helped to reduce test run time up to 10%, but other tests showed up to 15% shorter times.</p>

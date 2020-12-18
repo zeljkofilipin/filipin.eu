@@ -1,7 +1,9 @@
 ---
-tags:  book
+tags:  book photo
 title: The Passionate Programmer by Chad Fowler
 ---
+![The Passionate Programmer by Chad Fowler](assets/passionate-programmer.jpg)
+
 I bought *[The Passionate Programmer](https://pragprog.com/titles/cfcar2/the-passionate-programmer-2nd-edition/)* by Chad Fowler during December 2019 sale. It spent a lot of time in my to-read stack. I've finally read it in November 2020.
 
 I've read the 2nd edition with subtitle *Creating a Remarkable Career in Software Development*. As far as I understood it, the first edition of the book was called *My Job Went to India* with subtitle *And All I Got Was This Lousy Book*.

@@ -97,6 +97,7 @@ GEM
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
+    webrick (1.7.0)
     yaml-lint (0.0.10)
 
 PLATFORMS
@@ -111,6 +112,7 @@ DEPENDENCIES
   minima!
   rake (~> 13.0, >= 13.0.1)
   rubocop (~> 0.91.0)
+  webrick (~> 1.7)
   yaml-lint (~> 0.0.10)
 
 RUBY VERSION

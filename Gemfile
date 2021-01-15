@@ -31,4 +31,5 @@ end
 
 gem 'rake', '~> 13.0', '>= 13.0.1'
 gem 'rubocop', '~> 0.91.0'
+gem 'webrick', '~> 1.7'
 gem 'yaml-lint', '~> 0.0.10'

@@ -2,6 +2,8 @@
 tags:  code scratch
 title: Sharko and Bernie
 ---
+![Sharko and Bernie](/assets/sharko-and-bernie/sharko-and-bernie.png "Sharko and Bernie")
+
 In 2017 I had a lot of fun with Scratch with my older son, then 9 years old. We have created a few simple games. See [Make a Game in 5 Minutes with Scratch](/scratch). I've also "created" [Selenium bindings in Scratch](/selenium-scratch).
 
 I haven't done much with Scratch since. Well, until December 2020. I've showed Scratch to my younger son, 6 years old, over the holidays. We've created a simple game called [Sharko and Bernie](https://scratch.mit.edu/projects/467982933/), after characters from [Zig & Sharko](https://en.wikipedia.org/wiki/Zig_%26_Sharko) cartoon.

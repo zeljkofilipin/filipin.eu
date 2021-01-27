@@ -4,7 +4,7 @@ title: Deep Work Quotes
 ---
 ![Deep Work](/assets/books-that-have-changed-my-life/deep-work.jpg "Deep Work")
 
-# Introduction
+## Introduction
 
 > The term “deep work” is my own
 
@@ -27,11 +27,11 @@ title: Deep Work Quotes
 
 > A deep life is a good life.
 
-# Part 1: The Idea
+## Part 1: The Idea
 
-## Chapter 1: Deep Work Is Valuable
+### Chapter 1: Deep Work Is Valuable
 
-### How to Become a Winner in the New Economy
+#### How to Become a Winner in the New Economy
 
 > Two Core Abilities for Thriving in the New Economy
 >
@@ -44,7 +44,7 @@ title: Deep Work Quotes
 
 > The two core abilities just described depend on your ability to perform deep work.
 
-### Deep Work Helps You Quickly Learn Hard Things
+#### Deep Work Helps You Quickly Learn Hard Things
 
 > To learn requires intense concentration.
 
@@ -52,7 +52,7 @@ title: Deep Work Quotes
 
 > To learn, in other words, is an act of deep work.
 
-### Deep Work Helps You Produce at an Elite Level
+#### Deep Work Helps You Produce at an Elite Level
 
 > High-Quality Work Produced = (Time Spent) x (Intensity of Focus)
 
@@ -60,11 +60,11 @@ title: Deep Work Quotes
 
 > To produce at your peak level you need to work for extended periods with full concentration on a single task free from distraction.
 
-### What About Jack Dorsey?
+#### What About Jack Dorsey?
 
 > Deep work is not the only skill valuable in our economy, and it’s possible to do well without fostering this ability, but the niches where this is advisable are increasingly rare.
 
-## Chapter 2: Deep Work Is Rare
+### Chapter 2: Deep Work Is Rare
 
 Joel Spolsky of was way ahead of it's time when he introduced private offices in the Joel test.
 
@@ -80,11 +80,15 @@ Joel Spolsky of was way ahead of it's time when he introduced private offices in
 
 > To summarize, big trends in business today actively decrease people’s ability to perform deep work, even though the benefits promised by these trends (e.g., increased serendipity, faster responses to requests, and more exposure) are arguably dwarfed by the benefits that flow from a commitment to deep work (e.g., the ability to learn hard things fast and produce at an elite level).
 
+#### The Metric Black Hole
+
 > He discovered that Atlantic Media was spending well over a million dollars a year to pay people to process e-mails,
 
 > Even though we abstractly accept that distraction has costs and depth has value, these impacts, as Tom Cochran discovered, are difficult to measure.
 
 > Generally speaking, as knowledge work makes more complex demands of the labor force, it becomes harder to measure the value of an individual’s efforts.
+
+#### The Principle of Least Resistance
 
 > The Principle of Least Resistance: In a business setting, without clear feedback on the impact of various behaviors to the bottom line, we will tend toward behaviors that are easiest in the moment.
 
@@ -98,9 +102,13 @@ Writing e-mail messages (and instant messages), phabricator tasks and similar in
 
 > A little more care in crafting the message by the sender could reduce the overall time spent by all parties by a significant fraction.
 
+#### Busyness as a Proxy for Productivity
+
 > Knowledge workers, I’m arguing, are tending toward increasingly visible busyness because they lack a better way to demonstrate their value.
 
 > Busyness as Proxy for Productivity: ... doing lots of stuff in a visible manner.
+
+#### The Cult of the Internet
 
 > Postman argued that our society was sliding into a troubling relationship with technology. We were, he noted, no longer discussing the trade-offs surrounding new technologies, balancing the new efficiencies against the new problems introduced. If it’s high-tech, we began to instead assume, then it’s good. Case closed.
 
@@ -108,11 +116,13 @@ Writing e-mail messages (and instant messages), phabricator tasks and similar in
 
 > Deep work is at a severe disadvantage in a technopoly because it builds on values like quality, craftsmanship, and mastery that are decidedly old-fashioned and nontechnological. Even worse, to support deep work often requires the rejection of much of what is new and high-tech.
 
+#### Bad for Business. Good for You.
+
 > Deep work should be a priority in today’s business climate. But it’s not.
 
 > depth will become increasingly rare and therefore increasingly valuable. Having just established that there’s nothing fundamentally flawed about deep work and nothing fundamentally necessary about the distracting behaviors that displace it, you can therefore continue with confidence with the ultimate goal of this book: to systematically develop your personal ability to go deep—and by doing so, reap great rewards.
 
-## Chapter 3: Deep Work Is Meaningful
+### Chapter 3: Deep Work Is Meaningful
 
 > It can be hard to define exactly what a given knowledge worker does and how it differs from another:
 
@@ -136,9 +146,9 @@ Writing e-mail messages (and instant messages), phabricator tasks and similar in
 
 > A deep life is a good life, any way you look at it.
 
-# Part 2: The Rules
+## Part 2: The Rules
 
-## Rule #1: Work Deeply
+### Rule #1: Work Deeply
 
 > Unfortunately, when it comes to replacing distraction with focus, matters are not so simple. To understand why this is true let’s take a closer look at one of the main obstacles to going deep: the urge to turn your attention toward something more superficial.
 
@@ -288,7 +298,7 @@ Writing e-mail messages (and instant messages), phabricator tasks and similar in
 
 > regularly resting your brain improves the quality of your deep work. When you work, work hard. When you’re done, be done.
 
-## Rule #2: Embrace Boredom
+### Rule #2: Embrace Boredom
 
 > The ability to concentrate intensely is a skill that must be trained.
 
@@ -340,7 +350,7 @@ Writing e-mail messages (and instant messages), phabricator tasks and similar in
 
 > there’s nothing special about card memorization. Any structured thought process that requires unwavering attention can have a similar effect
 
-## Rule #3: Quit Social Media
+### Rule #3: Quit Social Media
 
 > we increasingly recognize that these tools fragment our time and reduce our ability to concentrate.
 
@@ -394,7 +404,7 @@ Writing e-mail messages (and instant messages), phabricator tasks and similar in
 
 > if you want to eliminate the addictive pull of entertainment sites on your time and attention, give your brain a quality alternative.
 
-## Rule #4: Drain the Shallows
+### Rule #4: Drain the Shallows
 
 > Deep work is exhausting because it pushes you toward the limit of your abilities.
 
@@ -452,7 +462,7 @@ I'm really bad at this. I tend to start my work day late, and I tend to finish l
 
 > Professorial E-mail Sorting: Do not reply to an e-mail message if any of the following applies: It’s ambiguous or otherwise makes it hard for you to generate a reasonable response. It’s not a question or proposal that interests you. Nothing really good would happen if you did respond and nothing really bad would happen if you didn’t.
 
-# Conclusion
+## Conclusion
 
 > A commitment to deep work is not a moral stance and it’s not a philosophical statement—it is instead a pragmatic recognition that the ability to concentrate is a skill that gets valuable things done.
 

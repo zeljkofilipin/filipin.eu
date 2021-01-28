@@ -20,6 +20,14 @@ There is high demand and low supply for people that can do deep work.
 
 ## Part 1: The Idea
 
+You have to learn hard things quickly. That requires you to focus intensely, without distraction.
+
+Deep work is valuable and rare. Shallow work is easy and common. Develop the skill of deep work and the world is yours.
+
+Work deeply and you will enjoy life.
+
+> Human beings, it seems, are at their best when immersed deeply in something challenging.
+
 ### Chapter 1: Deep Work Is Valuable
 
 You have to learn hard things quickly. That requires you to focus intensely, without distraction.
@@ -49,13 +57,15 @@ You have to learn hard things quickly. That requires you to focus intensely, wit
 
 ### Chapter 2: Deep Work Is Rare
 
+Deep work is valuable and rare. Shallow work is easy and common. Develop the skill of deep work and the world is yours.
+
 > ... big trends in business today [open offices, instant messaging, social media] actively decrease people’s ability to perform deep work, even though the benefits promised by these trends (e.g., increased serendipity, faster responses to requests, and more exposure) are arguably dwarfed by the benefits that flow from a commitment to deep work (e.g., the ability to learn hard things fast and produce at an elite level).
 
 #### The Metric Black Hole
 
 We intuitively know the cost of distraction and the value of depth. It's hard, if not impossible, to measure knowledge work.
 
-> Even though we abstractly accept that distraction has costs and depth has value, these impacts, as Tom Cochran discovered, are difficult to measure.
+> Even though we abstractly accept that distraction has costs and depth has value, these impacts [...] are difficult to measure.
 >
 > Generally speaking, as knowledge work makes more complex demands of the labor force, it becomes harder to measure the value of an individual’s efforts.
 
@@ -87,13 +97,9 @@ Deep work is valuable and rare. Develop the skill of deep work and the world is 
 
 ### Chapter 3: Deep Work Is Meaningful
 
-#### A Neurological Argument for Depth
+Work deeply and you will enjoy life.
 
-#### A Psychological Argument for Depth
-
-#### A Philosophical Argument for Depth
-
-#### Homo Sapiens Deepensis
+> A deep life is a good life, any way you look at it.
 
 ## Part 2: The Rules
 

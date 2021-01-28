@@ -128,7 +128,11 @@ Writing e-mail messages (and instant messages), phabricator tasks and similar in
 
 > deep life is not just economically lucrative, but also a life well lived.
 
+#### A Neurological Argument for Depth
+
 > The world represented by your inbox, in other words, isn’t a pleasant world to inhabit.
+
+#### A Psychological Argument for Depth
 
 > “The best moments usually occur when a person’s body or mind is stretched to its limits in a voluntary effort to accomplish something difficult and worthwhile.” Csikszentmihalyi calls this mental state flow
 
@@ -144,17 +148,57 @@ Writing e-mail messages (and instant messages), phabricator tasks and similar in
 
 > “jobs should be redesigned so that they resemble as closely as possible flow activities.”
 
+#### A Philosophical Argument for Depth
+
+> ... to embrace deep work in your own career [...] is an effort that can transform a knowledge work job from a distracted, draining obligation into something satisfying ...
+
+#### Homo Sapiens Deepensis
+
 > A deep life is a good life, any way you look at it.
 
 ## Part 2: The Rules
 
 ### Rule #1: Work Deeply
 
-> Unfortunately, when it comes to replacing distraction with focus, matters are not so simple. To understand why this is true let’s take a closer look at one of the main obstacles to going deep: the urge to turn your attention toward something more superficial.
+#### Decide on Your Depth Philosophy
 
-> You have a finite amount of willpower that becomes depleted as you use it.
+##### The Monastic Philosophy of Deep Work Scheduling
 
-> The key to developing a deep work habit is to move beyond good intentions and add routines and rituals to your working life designed to minimize the amount of your limited willpower necessary to transition into and maintain a state of unbroken concentration.
+##### The Bimodal Philosophy of Deep Work Scheduling
+
+##### The Rhythmic Philosophy of Deep Work Scheduling
+
+##### The Journalistic Philosophy of Deep Work Scheduling
+
+#### Ritualize
+
+##### Where you’ll work and for how long.
+
+##### How you’ll work once you start to work.
+
+##### How you’ll support your work.
+
+#### Make Grand Gestures
+
+#### Don’t Work Alone
+
+#### Execute Like a Business (The 4 Disciplines of Execution, 4DX)
+
+##### Discipline #1: Focus on the Wildly Important
+
+##### Discipline #2: Act on the Lead Measures
+
+##### Discipline #3: Keep a Compelling Scoreboard
+
+##### Discipline #4: Create a Cadence of Accountability
+
+#### Be Lazy
+
+##### Reason #1: Downtime Aids Insights
+
+##### Reason #2: Downtime Helps Recharge the Energy Needed to Work Deeply
+
+##### Reason #3: The Work That Evening Downtime Replaces Is Usually Not That Important
 
 > Decide on Your Depth Philosophy
 

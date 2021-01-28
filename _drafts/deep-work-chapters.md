@@ -25,23 +25,30 @@ Chapters.
 - Introduction
 - Part 1: The Idea
   - Chapter 1: Deep Work Is Valuable
+    - Introduction
+      - The High-Skilled Workers
+      - The Superstars
+      - The Owners
     - How to Become a Winner in the New Economy
     - Deep Work Helps You Quickly Learn Hard Things
     - Deep Work Helps You Produce at an Elite Level
     - What About Jack Dorsey?
   - Chapter 2: Deep Work Is Rare
+    - Introduction
     - The Metric Black Hole
     - The Principle of Least Resistance
     - Busyness as a Proxy for Productivity
     - The Cult of the Internet
     - Bad for Business. Good for You.
   - Chapter 3: Deep Work Is Meaningful
+    - Introduction
     - A Neurological Argument for Depth
     - A Psychological Argument for Depth
     - A Philosophical Argument for Depth
     - Homo Sapiens Deepensis
 - Part 2: The Rules
   - Rule #1: Work Deeply
+    - Introduction
     - Decide on Your Depth Philosophy
       - The Monastic Philosophy of Deep Work Scheduling
       - The Bimodal Philosophy of Deep Work Scheduling
@@ -63,6 +70,7 @@ Chapters.
       - Reason #2: Downtime Helps Recharge the Energy Needed to Work Deeply
       - Reason #3: The Work That Evening Downtime Replaces Is Usually Not That Important
   - Rule #2: Embrace Boredom
+    - Introduction
     - Don’t Take Breaks from Distraction. Instead Take Breaks from Focus.
       - Point #1: This strategy works even if your job requires lots of Internet use and/or prompt e-mail replies.
       - Point #2: Regardless of how you schedule your Internet blocks, you must keep the time outside these blocks absolutely free from Internet use.
@@ -73,10 +81,12 @@ Chapters.
       - Suggestion #2: Structure Your Deep Thinking
     - Memorize a Deck of Cards
   - Rule #3: Quit Social Media
+    - Introduction
     - Apply the Law of the Vital Few to Your Internet Habits
     - Quit Social Media
     - Don’t Use the Internet to Entertain Yourself
   - Rule #4: Drain the Shallows
+    - Introduction
     - Schedule Every Minute of Your Day
     - Quantify the Depth of Every Activity
     - Ask Your Boss for a Shallow Work Budget

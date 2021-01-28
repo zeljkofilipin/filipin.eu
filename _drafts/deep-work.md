@@ -6,7 +6,7 @@ title: Deep Work by Cal Newport
 
 ## TLDR (Too Long, Didn't Read)
 
-First, I'll summarize the book. In a sentence or two. Next, I'll summarize each part of the book. (There are two parts.) Then, I'll summarize each chapter. (The first part has three, the second part has four chapters.) Chapters are divided in sections. Depending on how long all of those summaries get, I might even summarize each section. We'll see.
+TODO: short book review.
 
 ## Introduction
 
@@ -31,6 +31,14 @@ Work deeply and you will enjoy life.
 ### Chapter 1: Deep Work Is Valuable
 
 You have to learn hard things quickly. That requires you to focus intensely, without distraction.
+
+#### Introduction
+
+##### The High-Skilled Workers
+
+##### The Superstars
+
+##### The Owners
 
 #### How to Become a Winner in the New Economy
 
@@ -60,6 +68,8 @@ You have to learn hard things quickly. That requires you to focus intensely, wit
 Deep work is valuable and rare. Shallow work is easy and common. Develop the skill of deep work and the world is yours.
 
 > ... big trends in business today [open offices, instant messaging, social media] actively decrease people’s ability to perform deep work, even though the benefits promised by these trends (e.g., increased serendipity, faster responses to requests, and more exposure) are arguably dwarfed by the benefits that flow from a commitment to deep work (e.g., the ability to learn hard things fast and produce at an elite level).
+
+#### Introduction
 
 #### The Metric Black Hole
 
@@ -105,6 +115,8 @@ Work deeply and you will enjoy life.
 
 ### Rule #1: Work Deeply
 
+#### Introduction
+
 #### Decide on Your Depth Philosophy
 
 ##### The Monastic Philosophy of Deep Work Scheduling
@@ -147,6 +159,8 @@ Work deeply and you will enjoy life.
 
 #### Rule #2: Embrace Boredom
 
+#### Introduction
+
 #### Don’t Take Breaks from Distraction. Instead Take Breaks from Focus.
 
 ##### Point #1: This strategy works even if your job requires lots of Internet use and/or prompt e-mail replies.
@@ -167,6 +181,8 @@ Work deeply and you will enjoy life.
 
 #### Rule #3: Quit Social Media
 
+#### Introduction
+
 ##### Apply the Law of the Vital Few to Your Internet Habits
 
 ##### Quit Social Media
@@ -174,6 +190,8 @@ Work deeply and you will enjoy life.
 ##### Don’t Use the Internet to Entertain Yourself
 
 #### Rule #4: Drain the Shallows
+
+#### Introduction
 
 ##### Schedule Every Minute of Your Day
 

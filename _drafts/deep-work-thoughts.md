@@ -35,3 +35,19 @@ One way I fight distractions (especially while doing deep work) is to have a pap
 Try turning off notifications for apps. Apps really really don't like it. TODO: screenshots.
 
 I used to have have a few tabs always open in my browser. Now I close all but the ones I'm currently using.
+
+### Chapter 2: Deep Work Is Rare
+
+#### Introduction
+
+Joel Spolsky of was way ahead of it's time when he introduced private offices in the Joel test.
+
+#### The Principle of Least Resistance
+
+Writing e-mail messages (and instant messages), phabricator tasks and similar in a way that the other person can quickly and easily respond might be harder to you short-term, but much better long-term.
+
+#### Rule #4: Drain the Shallows
+
+##### Finish Your Work by Five Thirty
+
+I'm really bad at this. I tend to start my work day late, and I tend to finish late. But, I don't work crazy hours.

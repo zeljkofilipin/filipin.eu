@@ -6,9 +6,11 @@ title: Deep Work Quotes
 
 ## Introduction
 
-> The term “deep work” is my own
+> **Deep Work: Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate.**
 
-> Deep Work: Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate.
+> Deep work is necessary to wring every last drop of value out of your current intellectual capacity.
+
+> The term “deep work” is my own
 
 > The reason knowledge workers are losing their familiarity with deep work is well established: network tools. This is a broad category that captures communication services like e-mail and SMS, social media networks like Twitter and Facebook, and the shiny tangle of infotainment sites like BuzzFeed and Reddit. In aggregate, the rise of these tools, combined with ubiquitous access to them through smartphones and networked office computers, has fragmented most knowledge workers’ attention into slivers.
 
@@ -20,10 +22,11 @@ title: Deep Work Quotes
 
 > We can, I hope, stipulate that network tools negatively impact deep work.
 
+> The Deep Work Hypothesis: The ability to perform deep work is becoming increasingly rare at exactly the same time it is becoming increasingly valuable in our economy. As a consequence, the few who cultivate this skill, and then make it the core of their working life, will thrive.
 
 > This book has two goals, pursued in two parts. The first, tackled in Part 1, is to convince you that the deep work hypothesis is true. The second, tackled in Part 2, is to teach you how to take advantage of this reality by training your brain and transforming your work habits to place deep work at the core of your professional life.
 
-> Three to four hours a day, five days a week, of uninterrupted and carefully directed concentration, it turns out, can produce a lot of valuable output.
+> **I build my days around a core of carefully chosen deep work, with the shallow activities I absolutely cannot avoid batched into smaller bursts at the peripheries of my schedule. Three to four hours a day, five days a week, of uninterrupted and carefully directed concentration, it turns out, can produce a lot of valuable output.**
 
 > A deep life is a good life.
 
@@ -31,16 +34,26 @@ title: Deep Work Quotes
 
 ### Chapter 1: Deep Work Is Valuable
 
+#### Introduction
+
+> **In this new economy, three groups will have a particular advantage: those who can work well and creatively with intelligent machines, those who are the best at what they do, and those with access to capital.**
+
+##### The High-Skilled Workers
+
+##### The Superstars
+
+##### The Owners
+
 #### How to Become a Winner in the New Economy
 
-> Two Core Abilities for Thriving in the New Economy
+> **Two Core Abilities for Thriving in the New Economy**
 >
-> - The ability to quickly master hard things.
-> - The ability to produce at an elite level, in terms of both quality and speed.
+> - **The ability to quickly master hard things.**
+> - **The ability to produce at an elite level, in terms of both quality and speed.**
 
 > If you can’t learn, you can’t thrive.
 
-> If you don’t produce, you won’t thrive—no matter how skilled or talented you are.
+> **If you don’t produce, you won’t thrive—no matter how skilled or talented you are.**
 
 > The two core abilities just described depend on your ability to perform deep work.
 
@@ -49,6 +62,8 @@ title: Deep Work Quotes
 > To learn requires intense concentration.
 
 > This brings us to the question of what deliberate practice actually requires. Its core components are usually identified as follows: (1) your attention is focused tightly on a specific skill you’re trying to improve or an idea you’re trying to master; (2) you receive feedback so you can correct your approach to keep your attention exactly where it’s most productive.
+
+> **To learn hard things quickly, you must focus intensely without distraction.**
 
 > To learn, in other words, is an act of deep work.
 
@@ -66,7 +81,7 @@ title: Deep Work Quotes
 
 ### Chapter 2: Deep Work Is Rare
 
-Joel Spolsky of was way ahead of it's time when he introduced private offices in the Joel test.
+#### Introduction
 
 > Facebook, of course, is not the only Silicon Valley heavyweight to embrace the open office concept.
 
@@ -96,8 +111,6 @@ Joel Spolsky of was way ahead of it's time when he introduced private offices in
 
 > To name another example, consider the common practice of setting up regularly occurring meetings for projects. These meetings tend to pile up and fracture schedules to the point where sustained focus during the day becomes impossible. Why do they persist? They’re easier.
 
-Writing e-mail messages (and instant messages), phabricator tasks and similar in a way that the other person can quickly and easily respond might be harder to you short-term, but much better long-term.
-
 > Also consider the frustratingly common practice of forwarding an e-mail to one or more colleagues, labeled with a short open-ended interrogative, such as: “Thoughts?”
 
 > A little more care in crafting the message by the sender could reduce the overall time spent by all parties by a significant fraction.
@@ -124,11 +137,15 @@ Writing e-mail messages (and instant messages), phabricator tasks and similar in
 
 ### Chapter 3: Deep Work Is Meaningful
 
+#### Introduction
+
 > It can be hard to define exactly what a given knowledge worker does and how it differs from another:
 
 > deep life is not just economically lucrative, but also a life well lived.
 
 #### A Neurological Argument for Depth
+
+> skillful management of attention is the sine qua non of the good life and the key to improving virtually every aspect of your experience.
 
 > The world represented by your inbox, in other words, isn’t a pleasant world to inhabit.
 
@@ -142,11 +159,13 @@ Writing e-mail messages (and instant messages), phabricator tasks and similar in
 
 > When measured empirically, people were happier at work and less happy relaxing than they suspected.
 
-> Human beings, it seems, are at their best when immersed deeply in something challenging.
+> **Human beings, it seems, are at their best when immersed deeply in something challenging.**
 
 > the feeling of going deep is in itself very rewarding.
 
 > “jobs should be redesigned so that they resemble as closely as possible flow activities.”
+
+> **To build your working life around the experience of flow produced by deep work is a proven path to deep satisfaction.**
 
 #### A Philosophical Argument for Depth
 
@@ -159,6 +178,13 @@ Writing e-mail messages (and instant messages), phabricator tasks and similar in
 ## Part 2: The Rules
 
 ### Rule #1: Work Deeply
+
+#### Introduction
+
+> Unfortunately, when it comes to replacing distraction with focus, matters are not so simple. To understand why this is true let’s take a closer look at one of the main obstacles to going deep: the urge to turn your attention toward something more superficial.
+
+> **You have a finite amount of willpower that becomes depleted as you use it.**
+
 
 #### Decide on Your Depth Philosophy
 
@@ -199,6 +225,61 @@ Writing e-mail messages (and instant messages), phabricator tasks and similar in
 ##### Reason #2: Downtime Helps Recharge the Energy Needed to Work Deeply
 
 ##### Reason #3: The Work That Evening Downtime Replaces Is Usually Not That Important
+
+#### Rule #2: Embrace Boredom
+
+#### Introduction
+
+#### Don’t Take Breaks from Distraction. Instead Take Breaks from Focus.
+
+##### Point #1: This strategy works even if your job requires lots of Internet use and/or prompt e-mail replies.
+
+##### Point #2: Regardless of how you schedule your Internet blocks, you must keep the time outside these blocks absolutely free from Internet use.
+
+##### Point #3: Scheduling Internet use at home as well as at work can further improve your concentration training.
+
+#### Work Like Teddy Roosevelt
+
+#### Meditate Productively
+
+##### Suggestion #1: Be Wary of Distractions and Looping
+
+##### Suggestion #2: Structure Your Deep Thinking
+
+#### Memorize a Deck of Cards
+
+#### Rule #3: Quit Social Media
+
+#### Introduction
+
+##### Apply the Law of the Vital Few to Your Internet Habits
+
+##### Quit Social Media
+
+##### Don’t Use the Internet to Entertain Yourself
+
+#### Rule #4: Drain the Shallows
+
+#### Introduction
+
+##### Schedule Every Minute of Your Day
+
+##### Quantify the Depth of Every Activity
+
+##### Ask Your Boss for a Shallow Work Budget
+
+##### Finish Your Work by Five Thirty
+
+##### Become Hard to Reach
+
+###### Tip #1: Make People Who Send You E-mail Do More Work
+
+###### Tip #2: Do More Work When You Send or Reply to E-mails
+
+###### Tip #3: Don’t Respond
+
+## Conclusion
+
 
 > Decide on Your Depth Philosophy
 
@@ -481,8 +562,6 @@ Writing e-mail messages (and instant messages), phabricator tasks and similar in
 > the answer to the question will be somewhere in the 30 to 50 percent
 
 > Finish Your Work by Five Thirty
-
-I'm really bad at this. I tend to start my work day late, and I tend to finish late. But, I don't work crazy hours.
 
 > I call this commitment fixed-schedule productivity, as I fix the firm goal of not working past a certain time, then work backward to find productivity strategies that allow me to satisfy this declaration.
 

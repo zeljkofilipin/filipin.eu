@@ -60,7 +60,7 @@ Chapters.
       - How you’ll support your work.
     - Make Grand Gestures
     - Don’t Work Alone
-    - Execute Like a Business (The 4 Disciplines of Execution, 4DX)
+    - Execute Like a Business
       - Discipline #1: Focus on the Wildly Important
       - Discipline #2: Act on the Lead Measures
       - Discipline #3: Keep a Compelling Scoreboard

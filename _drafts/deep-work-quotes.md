@@ -185,117 +185,23 @@ title: Deep Work Quotes
 
 > **You have a finite amount of willpower that becomes depleted as you use it.**
 
+> **The key to developing a deep work habit is to move beyond good intentions and add routines and rituals to your working life designed to minimize the amount of your limited willpower necessary to transition into and maintain a state of unbroken concentration.**
 
 #### Decide on Your Depth Philosophy
 
 ##### The Monastic Philosophy of Deep Work Scheduling
 
-##### The Bimodal Philosophy of Deep Work Scheduling
-
-##### The Rhythmic Philosophy of Deep Work Scheduling
-
-##### The Journalistic Philosophy of Deep Work Scheduling
-
-#### Ritualize
-
-##### Where you’ll work and for how long.
-
-##### How you’ll work once you start to work.
-
-##### How you’ll support your work.
-
-#### Make Grand Gestures
-
-#### Don’t Work Alone
-
-#### Execute Like a Business (The 4 Disciplines of Execution, 4DX)
-
-##### Discipline #1: Focus on the Wildly Important
-
-##### Discipline #2: Act on the Lead Measures
-
-##### Discipline #3: Keep a Compelling Scoreboard
-
-##### Discipline #4: Create a Cadence of Accountability
-
-#### Be Lazy
-
-##### Reason #1: Downtime Aids Insights
-
-##### Reason #2: Downtime Helps Recharge the Energy Needed to Work Deeply
-
-##### Reason #3: The Work That Evening Downtime Replaces Is Usually Not That Important
-
-#### Rule #2: Embrace Boredom
-
-#### Introduction
-
-#### Don’t Take Breaks from Distraction. Instead Take Breaks from Focus.
-
-##### Point #1: This strategy works even if your job requires lots of Internet use and/or prompt e-mail replies.
-
-##### Point #2: Regardless of how you schedule your Internet blocks, you must keep the time outside these blocks absolutely free from Internet use.
-
-##### Point #3: Scheduling Internet use at home as well as at work can further improve your concentration training.
-
-#### Work Like Teddy Roosevelt
-
-#### Meditate Productively
-
-##### Suggestion #1: Be Wary of Distractions and Looping
-
-##### Suggestion #2: Structure Your Deep Thinking
-
-#### Memorize a Deck of Cards
-
-#### Rule #3: Quit Social Media
-
-#### Introduction
-
-##### Apply the Law of the Vital Few to Your Internet Habits
-
-##### Quit Social Media
-
-##### Don’t Use the Internet to Entertain Yourself
-
-#### Rule #4: Drain the Shallows
-
-#### Introduction
-
-##### Schedule Every Minute of Your Day
-
-##### Quantify the Depth of Every Activity
-
-##### Ask Your Boss for a Shallow Work Budget
-
-##### Finish Your Work by Five Thirty
-
-##### Become Hard to Reach
-
-###### Tip #1: Make People Who Send You E-mail Do More Work
-
-###### Tip #2: Do More Work When You Send or Reply to E-mails
-
-###### Tip #3: Don’t Respond
-
-## Conclusion
-
-
-> Decide on Your Depth Philosophy
-
-> The Monastic Philosophy of Deep Work Scheduling
-
 > This philosophy attempts to maximize deep efforts by eliminating or radically minimizing shallow obligations.
 
 > the pool of individuals to whom the monastic philosophy applies is limited
 
-> The Bimodal Philosophy of Deep Work Scheduling
+##### The Bimodal Philosophy of Deep Work Scheduling
 
 > This philosophy asks that you divide your time, dedicating some clearly defined stretches to deep pursuits and leaving the rest open to everything else. During the deep time, the bimodal worker will act monastically—seeking intense and uninterrupted concentration. During the shallow time, such focus is not prioritized. This division of time between deep and open can happen on multiple scales. For example, on the scale of a week, you might dedicate a four-day weekend to depth and the rest to open time. Similarly, on the scale of a year, you might dedicate one season to contain most of your deep stretches
 
 > the minimum unit of time for deep work in this philosophy tends to be at least one full day.
 
-> The Rhythmic Philosophy of Deep Work Scheduling
+##### The Rhythmic Philosophy of Deep Work Scheduling
 
 > the easiest way to consistently start deep work sessions is to transform them into a simple regular habit.
 
@@ -303,7 +209,7 @@ title: Deep Work Quotes
 
 > the rhythmic philosophy is one of the most common among deep workers in standard office jobs.
 
-> The Journalistic Philosophy of Deep Work Scheduling
+##### The Journalistic Philosophy of Deep Work Scheduling
 
 > I call this approach, in which you fit deep work wherever you can into your schedule, the journalist philosophy.
 
@@ -311,27 +217,27 @@ title: Deep Work Quotes
 
 > I instead tend to map out when I’ll work deeply during each week at the beginning of the week, and then refine these decisions, as needed, at the beginning of each day
 
-> Ritualize
+#### Ritualize
 
-> Where you’ll work and for how long.
+##### Where you’ll work and for how long.
 
 > (a colleague of mine likes to put a hotel-style “do not disturb” sign on his office door when he’s tackling something difficult).
 
 > Regardless of where you work, be sure to also give yourself a specific time frame to keep the session a discrete challenge and not an open-ended slog.
 
-> How you’ll work once you start to work.
+##### How you’ll work once you start to work.
 
 > you might institute a ban on any Internet use
 
-> How you’ll support your work.
+##### How you’ll support your work.
 
 > For example, the ritual might specify that you start with a cup of good coffee, or make sure you have access to enough food of the right type to maintain energy, or integrate light exercise such as walking to help keep the mind clear.
 
-> Make Grand Gestures
+#### Make Grand Gestures
 
 > By leveraging a radical change to your normal environment, coupled perhaps with a significant investment of effort or money, all dedicated toward supporting a deep work task, you increase the perceived importance of the task.
 
-> Don’t Work Alone
+#### Don’t Work Alone
 
 > This decision between promoting concentration and promoting serendipity seems to indicate that deep work (an individual endeavor) is incompatible with generating creative insights (a collaborative endeavor). This conclusion, however, is flawed.
 
@@ -347,17 +253,17 @@ title: Deep Work Quotes
 
 > When it comes to deep work, in other words, consider the use of collaboration when appropriate, as it can push your results to a new level.
 
-> Execute Like a Business
+#### Execute Like a Business
 
-> The 4 Disciplines of Execution (abbreviated, 4DX)
+> The 4 Disciplines of Execution (...) 4DX
 
-> Discipline #1: Focus on the Wildly Important
+##### Discipline #1: Focus on the Wildly Important
 
 > “The more you try to do, the less you actually accomplish.” ... execution should be aimed at a small number of “wildly important goals.”
 
 > For an individual focused on deep work, the implication is that you should identify a small number of ambitious outcomes to pursue with your deep work hours.
 
-> Discipline #2: Act on the Lead Measures
+##### Discipline #2: Act on the Lead Measures
 
 > Once you’ve identified a wildly important goal, you need to measure your success. In 4DX, there are two types of metrics for this purpose: lag measures and lead measures. Lag measures describe the thing you’re ultimately trying to improve.
 
@@ -367,7 +273,7 @@ title: Deep Work Quotes
 
 > lead measures turn your attention to improving the behaviors you directly control in the near future that will then have a positive impact on your long-term goals. For an individual focused on deep work, it’s easy to identify the relevant lead measure: time spent in a state of deep work dedicated toward your wildly important goal.
 
-> Discipline #3: Keep a Compelling Scoreboard
+##### Discipline #3: Keep a Compelling Scoreboard
 
 > “People play differently when they’re keeping score,”
 
@@ -375,7 +281,7 @@ title: Deep Work Quotes
 
 > To maximize the motivation generated by this scoreboard, whenever I reached an important milestone in an academic paper (e.g., solving a key proof), I would circle the tally mark corresponding to the hour where I finished the result.
 
-> Discipline #4: Create a Cadence of Accountability
+##### Discipline #4: Create a Cadence of Accountability
 
 > recommend the habit of a weekly review in which you make a plan for the workweek ahead
 
@@ -383,11 +289,13 @@ title: Deep Work Quotes
 
 > The 4DX framework is based on the fundamental premise that execution is more difficult than strategizing.
 
-> Be Lazy
+#### Be Lazy
+
+#### Be Lazy Introduction
 
 > At the end of the workday, shut down your consideration of work issues until the next morning—no after-dinner e-mail check, no mental replays of conversations, and no scheming about how you’ll handle an upcoming challenge; shut down work thinking completely. If you need more time, then extend your workday, but once you shut down, your mind must be left free
 
-> Reason #1: Downtime Aids Insights
+##### Reason #1: Downtime Aids Insights
 
 > some decisions are better left to your unconscious mind to untangle. In other words, to actively try to work through these decisions will lead to a worse outcome than loading up the relevant information and then moving on to something else while letting the subconscious layers of your mind mull things over.
 
@@ -395,7 +303,7 @@ title: Deep Work Quotes
 
 > providing your conscious brain time to rest enables your unconscious mind to take a shift sorting through your most complex professional challenges.
 
-> Reason #2: Downtime Helps Recharge the Energy Needed to Work Deeply
+##### Reason #2: Downtime Helps Recharge the Energy Needed to Work Deeply
 
 > spending time in nature can improve your ability to concentrate.
 
@@ -405,11 +313,13 @@ title: Deep Work Quotes
 
 > Only the confidence that you’re done with work until the next day can convince your brain to downshift to the level where it can begin to recharge for the next day to follow. Put another way, trying to squeeze a little more work out of your evenings might reduce your effectiveness the next day enough that you end up getting less done than if you had instead respected a shutdown.
 
-> Reason #3: The Work That Evening Downtime Replaces Is Usually Not That Important
+##### Reason #3: The Work That Evening Downtime Replaces Is Usually Not That Important
 
 > for a novice, somewhere around an hour a day of intense concentration seems to be a limit, while for experts this number can expand to as many as four hours—but rarely more.
 
 > capacity for deep work in a given day is limited.
+
+#### Be Lazy Ending
 
 > once your workday shuts down, you cannot allow even the smallest incursion of professional concerns into your field of attention.
 
@@ -423,7 +333,9 @@ title: Deep Work Quotes
 
 > regularly resting your brain improves the quality of your deep work. When you work, work hard. When you’re done, be done.
 
-### Rule #2: Embrace Boredom
+#### Rule #2: Embrace Boredom
+
+#### Embrace Boredom Introduction
 
 > The ability to concentrate intensely is a skill that must be trained.
 
@@ -437,21 +349,21 @@ title: Deep Work Quotes
 
 > improving your ability to concentrate intensely and overcoming your desire for distraction.
 
-> Don’t Take Breaks from Distraction. Instead Take Breaks from Focus.
+> To summarize, to succeed with deep work you must rewire your brain to be comfortable resisting distracting stimuli.
+
+#### Don’t Take Breaks from Distraction. Instead Take Breaks from Focus.
 
 > Schedule in advance when you’ll use the Internet, and then avoid it altogether outside these times.
 
-> Point #1: This strategy works even if your job requires lots of Internet use and/or prompt e-mail replies.
+##### Point #1: This strategy works even if your job requires lots of Internet use and/or prompt e-mail replies.
 
-> Point #2: Regardless of how you schedule your Internet blocks, you must keep the time outside these blocks absolutely free from Internet use.
+##### Point #2: Regardless of how you schedule your Internet blocks, you must keep the time outside these blocks absolutely free from Internet use.
 
-> Point #3: Scheduling Internet use at home as well as at work can further improve your concentration training.
+##### Point #3: Scheduling Internet use at home as well as at work can further improve your concentration training.
 
 > To simply wait and be bored has become a novel experience in modern life, but from the perspective of concentration training, it’s incredibly valuable.
 
-> To summarize, to succeed with deep work you must rewire your brain to be comfortable resisting distracting stimuli.
-
-> Work Like Teddy Roosevelt
+#### Work Like Teddy Roosevelt
 
 > identify a deep task (that is, something that requires deep work to complete) that’s high on your priority list. Estimate how long you’d normally put aside for an obligation of this type, then give yourself a hard deadline that drastically reduces this time.
 
@@ -459,23 +371,25 @@ title: Deep Work Quotes
 
 > Deep work requires levels of concentration well beyond where most knowledge workers are comfortable.
 
-> Meditate Productively
+#### Meditate Productively
 
 > The goal of productive meditation is to take a period in which you’re occupied physically but not mentally—walking, jogging, driving, showering—and focus your attention on a single well-defined professional problem.
 
 > goal should be to participate in at least two or three such sessions in a typical week.
 
-> Suggestion #1: Be Wary of Distractions and Looping
+##### Suggestion #1: Be Wary of Distractions and Looping
 
-> Suggestion #2: Structure Your Deep Thinking
+##### Suggestion #2: Structure Your Deep Thinking
 
-> Memorize a Deck of Cards
+#### Memorize a Deck of Cards
 
 > A side effect of memory training, in other words, is an improvement in your general ability to concentrate.
 
 > there’s nothing special about card memorization. Any structured thought process that requires unwavering attention can have a similar effect
 
-### Rule #3: Quit Social Media
+#### Rule #3: Quit Social Media
+
+#### Quit Social Media Introduction
 
 > we increasingly recognize that these tools fragment our time and reduce our ability to concentrate.
 
@@ -493,7 +407,7 @@ title: Deep Work Quotes
 
 > The Craftsman Approach to Tool Selection: Identify the core factors that determine success and happiness in your professional and personal life. Adopt a tool only if its positive impacts on these factors substantially outweigh its negative impacts.
 
-> Apply the Law of the Vital Few to Your Internet Habits
+##### Apply the Law of the Vital Few to Your Internet Habits
 
 > “Twitter is crack for media addicts.”
 
@@ -511,7 +425,7 @@ title: Deep Work Quotes
 
 > The Law of the Vital Few*: In many settings, 80 percent of a given effect is due to just 20 percent of the possible causes.
 
-> Quit Social Media
+##### Quit Social Media
 
 > In more detail, this strategy asks that you perform the equivalent of a packing party on the social media services that you currently use. Instead of “packing,” however, you’ll instead ban yourself from using them for thirty days. All of them: Facebook, Instagram, Google+, Twitter, Snapchat, Vine
 
@@ -521,7 +435,7 @@ title: Deep Work Quotes
 
 > For most people this reality will confirm something that seems obvious only once you’ve done the hard work of freeing yourself from the marketing messages surrounding these tools: They’re not really all that important in your life.
 
-> Don’t Use the Internet to Entertain Yourself
+##### Don’t Use the Internet to Entertain Yourself
 
 > Bennett writes in his 1910 self-help classic, How to Live on 24 Hours a Day.
 
@@ -529,7 +443,9 @@ title: Deep Work Quotes
 
 > if you want to eliminate the addictive pull of entertainment sites on your time and attention, give your brain a quality alternative.
 
-### Rule #4: Drain the Shallows
+#### Rule #4: Drain the Shallows
+
+#### Drain the Shallows Introduction
 
 > Deep work is exhausting because it pushes you toward the limit of your abilities.
 
@@ -539,7 +455,7 @@ title: Deep Work Quotes
 
 > To summarize, I’m asking you to treat shallow work with suspicion because its damage is often vastly underestimated and its importance vastly overestimated.
 
-> Schedule Every Minute of Your Day
+##### Schedule Every Minute of Your Day
 
 > On some days, you might rewrite your schedule half a dozen times. Don’t despair if this happens. Your goal is not to stick to a given schedule at all costs; it’s instead to maintain, at all times, a thoughtful say in what you’re doing with your time going forward—even if these decisions are reworked again and again as the day unfolds.
 
@@ -549,11 +465,13 @@ title: Deep Work Quotes
 
 > Decide in advance what you’re going to do with every minute of your workday.
 
-> Quantify the Depth of Every Activity
+##### Quantify the Depth of Every Activity
 
 > How long would it take (in months) to train a smart recent college graduate with no specialized training in my field to complete this task?
 
 > Once you know where your activities fall on the deep-to-shallow scale, bias your time toward the former.
+
+##### Ask Your Boss for a Shallow Work Budget
 
 > Ask Your Boss for a Shallow Work Budget
 
@@ -561,25 +479,25 @@ title: Deep Work Quotes
 
 > the answer to the question will be somewhere in the 30 to 50 percent
 
-> Finish Your Work by Five Thirty
+##### Finish Your Work by Five Thirty
 
 > I call this commitment fixed-schedule productivity, as I fix the firm goal of not working past a certain time, then work backward to find productivity strategies that allow me to satisfy this declaration.
 
 > Fixed-schedule productivity, in other words, is a meta-habit that’s simple to adopt but broad in its impact. If you have to choose just one behavior that reorients your focus toward the deep, this one should be high on your list of possibilities.
 
-> Become Hard to Reach
+##### Become Hard to Reach
 
-> Tip #1: Make People Who Send You E-mail Do More Work
+###### Tip #1: Make People Who Send You E-mail Do More Work
 
 > I call this approach a sender filter, as I’m asking my correspondents to filter themselves before attempting to contact me.
 
-> Tip #2: Do More Work When You Send or Reply to E-mails
+###### Tip #2: Do More Work When You Send or Reply to E-mails
 
 > What is the project represented by this message, and what is the most efficient (in terms of messages generated) process for bringing this project to a successful conclusion?
 
 > process-centric approach to e-mail, and it’s designed to minimize both the number of e-mails you receive and the amount of mental clutter they generate.
 
-> Tip #3: Don’t Respond
+###### Tip #3: Don’t Respond
 
 > it’s the sender’s responsibility to convince the receiver that a reply is worthwhile.
 

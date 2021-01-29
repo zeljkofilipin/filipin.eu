@@ -139,7 +139,7 @@ Work deeply and you will enjoy life.
 
 #### Don’t Work Alone
 
-#### Execute Like a Business (The 4 Disciplines of Execution, 4DX)
+#### Execute Like a Business
 
 ##### Discipline #1: Focus on the Wildly Important
 

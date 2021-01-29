@@ -32,7 +32,7 @@ Work deeply and you will enjoy life.
 
 You have to learn hard things quickly. That requires you to focus intensely, without distraction.
 
-#### Introduction
+#### Deep Work Is Valuable Introduction
 
 ##### The High-Skilled Workers
 
@@ -69,7 +69,7 @@ Deep work is valuable and rare. Shallow work is easy and common. Develop the ski
 
 > ... big trends in business today [open offices, instant messaging, social media] actively decrease people’s ability to perform deep work, even though the benefits promised by these trends (e.g., increased serendipity, faster responses to requests, and more exposure) are arguably dwarfed by the benefits that flow from a commitment to deep work (e.g., the ability to learn hard things fast and produce at an elite level).
 
-#### Introduction
+#### Deep Work Is Rare Introduction
 
 #### The Metric Black Hole
 
@@ -115,7 +115,7 @@ Work deeply and you will enjoy life.
 
 ### Rule #1: Work Deeply
 
-#### Introduction
+#### Work Deeply Introduction
 
 #### Decide on Your Depth Philosophy
 
@@ -159,7 +159,7 @@ Work deeply and you will enjoy life.
 
 #### Rule #2: Embrace Boredom
 
-#### Introduction
+#### Embrace Boredom Introduction
 
 #### Don’t Take Breaks from Distraction. Instead Take Breaks from Focus.
 
@@ -181,7 +181,7 @@ Work deeply and you will enjoy life.
 
 #### Rule #3: Quit Social Media
 
-#### Introduction
+#### Quit Social Media Introduction
 
 ##### Apply the Law of the Vital Few to Your Internet Habits
 
@@ -191,7 +191,7 @@ Work deeply and you will enjoy life.
 
 #### Rule #4: Drain the Shallows
 
-#### Introduction
+#### Drain the Shallows Introduction
 
 ##### Schedule Every Minute of Your Day
 

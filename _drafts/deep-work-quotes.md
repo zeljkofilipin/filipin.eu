@@ -34,7 +34,7 @@ title: Deep Work Quotes
 
 ### Chapter 1: Deep Work Is Valuable
 
-#### Introduction
+#### Deep Work Is Valuable Introduction
 
 > **In this new economy, three groups will have a particular advantage: those who can work well and creatively with intelligent machines, those who are the best at what they do, and those with access to capital.**
 
@@ -81,7 +81,7 @@ title: Deep Work Quotes
 
 ### Chapter 2: Deep Work Is Rare
 
-#### Introduction
+#### Deep Work Is Rare Introduction
 
 > Facebook, of course, is not the only Silicon Valley heavyweight to embrace the open office concept.
 
@@ -137,7 +137,7 @@ title: Deep Work Quotes
 
 ### Chapter 3: Deep Work Is Meaningful
 
-#### Introduction
+#### Deep Work Is Meaningful Introduction
 
 > It can be hard to define exactly what a given knowledge worker does and how it differs from another:
 
@@ -179,7 +179,7 @@ title: Deep Work Quotes
 
 ### Rule #1: Work Deeply
 
-#### Introduction
+#### Work Deeply Introduction
 
 > Unfortunately, when it comes to replacing distraction with focus, matters are not so simple. To understand why this is true let’s take a closer look at one of the main obstacles to going deep: the urge to turn your attention toward something more superficial.
 

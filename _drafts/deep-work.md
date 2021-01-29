@@ -4,35 +4,33 @@ title: Deep Work by Cal Newport
 ---
 ![Deep Work](/assets/books-that-have-changed-my-life/deep-work.jpg "Deep Work")
 
-## TLDR (Too Long, Didn't Read)
-
-TODO: short book review.
-
 ## Introduction
 
-There is high demand and low supply for people that can do deep work.
+There is high demand and low supply for people that can do deep work. Internet and our devices are more and more distracting, making deep work hard, if not almost impossible.
 
-> Deep Work: Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate.
+> Deep Work: Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate. (5544 highlights)
 >
 > Shallow Work: Noncognitively demanding, logistical-style tasks, often performed while distracted. These efforts tend not to create much new value in the world and are easy to replicate.
 >
 > The Deep Work Hypothesis: The ability to perform deep work is becoming increasingly rare at exactly the same time it is becoming increasingly valuable in our economy. As a consequence, the few who cultivate this skill, and then make it the core of their working life, will thrive.
+>
+> I build my days around a core of carefully chosen deep work, with the shallow activities I absolutely cannot avoid batched into smaller bursts at the peripheries of my schedule. Three to four hours a day, five days a week, of uninterrupted and carefully directed concentration, it turns out, can produce a lot of valuable output. (5700 highlights)
 
 ## Part 1: The Idea
 
-You have to learn hard things quickly. That requires you to focus intensely, without distraction.
+From the introduction:
 
-Deep work is valuable and rare. Shallow work is easy and common. Develop the skill of deep work and the world is yours.
-
-Work deeply and you will enjoy life.
-
-> Human beings, it seems, are at their best when immersed deeply in something challenging.
+> This book has two goals, pursued in two parts. The first, tackled in Part 1, is to convince you that the deep work hypothesis is true. The second, tackled in Part 2, is to teach you how to take advantage of this reality by training your brain and transforming your work habits to place deep work at the core of your professional life.
 
 ### Chapter 1: Deep Work Is Valuable
 
 You have to learn hard things quickly. That requires you to focus intensely, without distraction.
 
 #### Deep Work Is Valuable Introduction
+
+It might be very hard to become a superstar or to have a lot of money, but working with intelligent machines is in our reach.
+
+> In this new economy, three groups will have a particular advantage: those who can work well and creatively with intelligent machines, those who are the best at what they do, and those with access to capital. (9014 highlights)
 
 ##### The High-Skilled Workers
 
@@ -42,22 +40,32 @@ You have to learn hard things quickly. That requires you to focus intensely, wit
 
 #### How to Become a Winner in the New Economy
 
+Hard work is more valuable than talent.
+
 > Two Core Abilities for Thriving in the New Economy
 >
 > - The ability to quickly master hard things.
-> - The ability to produce at an elite level, in terms of both quality and speed.
+> - The ability to produce at an elite level, in terms of both quality and speed. (7347 highlights)
+>
+> If you don’t produce, you won’t thrive—no matter how skilled or talented you are. (8800 highlights)
 >
 > The two core abilities just described depend on your ability to perform deep work.
 
 #### Deep Work Helps You Quickly Learn Hard Things
 
-> To learn hard things quickly, you must focus intensely without distraction.
+Learning is hard. Learning hard things is harder. Deep work to the rescue.
+
+> To learn hard things quickly, you must focus intensely without distraction. (8501 highlights)
 
 #### Deep Work Helps You Produce at an Elite Level
+
+The amount of high-quality work you can produce doesn't only depend on the time spent, but also on focus.
 
 > High-Quality Work Produced = (Time Spent) x (Intensity of Focus)
 
 #### What About Jack Dorsey?
+
+There's a small chance that your job is not compatible with deep work.
 
 > Jack Dorsey helped found Twitter. After stepping down as CEO, he then launched the payment-processing company Square.
 >
@@ -67,9 +75,11 @@ You have to learn hard things quickly. That requires you to focus intensely, wit
 
 Deep work is valuable and rare. Shallow work is easy and common. Develop the skill of deep work and the world is yours.
 
-> ... big trends in business today [open offices, instant messaging, social media] actively decrease people’s ability to perform deep work, even though the benefits promised by these trends (e.g., increased serendipity, faster responses to requests, and more exposure) are arguably dwarfed by the benefits that flow from a commitment to deep work (e.g., the ability to learn hard things fast and produce at an elite level).
-
 #### Deep Work Is Rare Introduction
+
+Trends in business increase shallow and decrease deep work.
+
+> ... big trends in business today [open offices, instant messaging, social media] actively decrease people’s ability to perform deep work, even though the benefits promised by these trends (e.g., increased serendipity, faster responses to requests, and more exposure) are arguably dwarfed by the benefits that flow from a commitment to deep work (e.g., the ability to learn hard things fast and produce at an elite level).
 
 #### The Metric Black Hole
 
@@ -111,7 +121,82 @@ Work deeply and you will enjoy life.
 
 > A deep life is a good life, any way you look at it.
 
+#### Deep Work Is Meaningful Introduction
+
+Deep work is good for both professional and private life.
+
+> ... deep life is not just economically lucrative, but also a life well lived.
+
+#### A Neurological Argument for Depth
+
+Managing your attention is very important. Don't let your inbox manage it.
+
+> ... skillful management of attention is the sine qua non of the good life and the key to improving virtually every aspect of your experience.
+
+#### A Psychological Argument for Depth
+
+We enjoy life the best when we work deeply on something that is meaningful and hard. We enjoy free time more when it's structured.
+
+> Human beings, it seems, are at their best when immersed deeply in something challenging. (7272 highlights)
+>
+> To build your working life around the experience of flow produced by deep work is a proven path to deep satisfaction. (7288 highlights)
+
+#### A Philosophical Argument for Depth
+
+Deep work will transform your job from soul-crushing to enjoyable.
+
+> ... to embrace deep work in your own career [...] is an effort that can transform a knowledge work job from a distracted, draining obligation into something satisfying ...
+
+#### Homo Sapiens Deepensis
+
+Humans enjoy deep work.
+
+> A deep life is a good life, any way you look at it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Part 2: The Rules
+
+From the introduction:
+
+> This book has two goals, pursued in two parts. The first, tackled in Part 1, is to convince you that the deep work hypothesis is true. The second, tackled in Part 2, is to teach you how to take advantage of this reality by training your brain and transforming your work habits to place deep work at the core of your professional life.
 
 ### Rule #1: Work Deeply
 

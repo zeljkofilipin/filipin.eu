@@ -6,7 +6,7 @@ title: Deep Work Quotes
 
 ## Introduction
 
-> **Deep Work: Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate.**
+> **Deep Work: Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate.** (5544)
 
 > Deep work is necessary to wring every last drop of value out of your current intellectual capacity.
 
@@ -26,7 +26,7 @@ title: Deep Work Quotes
 
 > This book has two goals, pursued in two parts. The first, tackled in Part 1, is to convince you that the deep work hypothesis is true. The second, tackled in Part 2, is to teach you how to take advantage of this reality by training your brain and transforming your work habits to place deep work at the core of your professional life.
 
-> **I build my days around a core of carefully chosen deep work, with the shallow activities I absolutely cannot avoid batched into smaller bursts at the peripheries of my schedule. Three to four hours a day, five days a week, of uninterrupted and carefully directed concentration, it turns out, can produce a lot of valuable output.**
+> **I build my days around a core of carefully chosen deep work, with the shallow activities I absolutely cannot avoid batched into smaller bursts at the peripheries of my schedule. Three to four hours a day, five days a week, of uninterrupted and carefully directed concentration, it turns out, can produce a lot of valuable output.** (5700)
 
 > A deep life is a good life.
 
@@ -36,7 +36,7 @@ title: Deep Work Quotes
 
 #### Deep Work Is Valuable Introduction
 
-> **In this new economy, three groups will have a particular advantage: those who can work well and creatively with intelligent machines, those who are the best at what they do, and those with access to capital.**
+> **In this new economy, three groups will have a particular advantage: those who can work well and creatively with intelligent machines, those who are the best at what they do, and those with access to capital.** (9014)
 
 ##### The High-Skilled Workers
 
@@ -49,11 +49,11 @@ title: Deep Work Quotes
 > **Two Core Abilities for Thriving in the New Economy**
 >
 > - **The ability to quickly master hard things.**
-> - **The ability to produce at an elite level, in terms of both quality and speed.**
+> - **The ability to produce at an elite level, in terms of both quality and speed.** (7347)
 
 > If you can’t learn, you can’t thrive.
 
-> **If you don’t produce, you won’t thrive—no matter how skilled or talented you are.**
+> **If you don’t produce, you won’t thrive—no matter how skilled or talented you are.** (8800)
 
 > The two core abilities just described depend on your ability to perform deep work.
 
@@ -63,7 +63,7 @@ title: Deep Work Quotes
 
 > This brings us to the question of what deliberate practice actually requires. Its core components are usually identified as follows: (1) your attention is focused tightly on a specific skill you’re trying to improve or an idea you’re trying to master; (2) you receive feedback so you can correct your approach to keep your attention exactly where it’s most productive.
 
-> **To learn hard things quickly, you must focus intensely without distraction.**
+> **To learn hard things quickly, you must focus intensely without distraction.** (8501)
 
 > To learn, in other words, is an act of deep work.
 
@@ -159,13 +159,13 @@ title: Deep Work Quotes
 
 > When measured empirically, people were happier at work and less happy relaxing than they suspected.
 
-> **Human beings, it seems, are at their best when immersed deeply in something challenging.**
+> **Human beings, it seems, are at their best when immersed deeply in something challenging.** (7272)
 
 > the feeling of going deep is in itself very rewarding.
 
 > “jobs should be redesigned so that they resemble as closely as possible flow activities.”
 
-> **To build your working life around the experience of flow produced by deep work is a proven path to deep satisfaction.**
+> **To build your working life around the experience of flow produced by deep work is a proven path to deep satisfaction.** (7288)
 
 #### A Philosophical Argument for Depth
 
@@ -183,9 +183,9 @@ title: Deep Work Quotes
 
 > Unfortunately, when it comes to replacing distraction with focus, matters are not so simple. To understand why this is true let’s take a closer look at one of the main obstacles to going deep: the urge to turn your attention toward something more superficial.
 
-> **You have a finite amount of willpower that becomes depleted as you use it.**
+> **You have a finite amount of willpower that becomes depleted as you use it.** (8563)
 
-> **The key to developing a deep work habit is to move beyond good intentions and add routines and rituals to your working life designed to minimize the amount of your limited willpower necessary to transition into and maintain a state of unbroken concentration.**
+> **The key to developing a deep work habit is to move beyond good intentions and add routines and rituals to your working life designed to minimize the amount of your limited willpower necessary to transition into and maintain a state of unbroken concentration.** (8267)
 
 #### Decide on Your Depth Philosophy
 
@@ -255,7 +255,11 @@ title: Deep Work Quotes
 
 #### Execute Like a Business
 
+##### Execute Like a Business Introduction
+
 > The 4 Disciplines of Execution (...) 4DX
+
+> The 4DX framework is based on the fundamental premise that execution is more difficult than strategizing.
 
 ##### Discipline #1: Focus on the Wildly Important
 
@@ -287,8 +291,6 @@ title: Deep Work Quotes
 
 > I used a weekly review to look over my scoreboard to celebrate good weeks, help understand what led to bad weeks, and most important, figure out how to ensure a good score for the days ahead.
 
-> The 4DX framework is based on the fundamental premise that execution is more difficult than strategizing.
-
 #### Be Lazy
 
 #### Be Lazy Introduction
@@ -319,7 +321,7 @@ title: Deep Work Quotes
 
 > capacity for deep work in a given day is limited.
 
-#### Be Lazy Ending
+#### Be Lazy Summary
 
 > once your workday shuts down, you cannot allow even the smallest incursion of professional concerns into your field of attention.
 
@@ -472,8 +474,6 @@ title: Deep Work Quotes
 > Once you know where your activities fall on the deep-to-shallow scale, bias your time toward the former.
 
 ##### Ask Your Boss for a Shallow Work Budget
-
-> Ask Your Boss for a Shallow Work Budget
 
 > What percentage of my time should be spent on shallow work?
 

@@ -153,45 +153,6 @@ Humans enjoy deep work.
 
 > A deep life is a good life, any way you look at it.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Part 2: The Rules
 
 From the introduction:
@@ -200,98 +161,272 @@ From the introduction:
 
 ### Rule #1: Work Deeply
 
+> Rule #1 taught you how to integrate deep work into your schedule and support it with routines and rituals designed to help you consistently reach the current limit of your concentration ability.
+
 #### Work Deeply Introduction
+
+Your mind prefers distractions over depth. Additionally, it has be trained to do so.
+
+> You have a finite amount of willpower that becomes depleted as you use it. (8563 highlights)
+>
+> The key to developing a deep work habit is to move beyond good intentions and add routines and rituals to your working life designed to minimize the amount of your limited willpower necessary to transition into and maintain a state of unbroken concentration. (8267 highlights)
 
 #### Decide on Your Depth Philosophy
 
 ##### The Monastic Philosophy of Deep Work Scheduling
 
+Maximize deep work at all cost. Very rare.
+
+> .... maximize deep efforts by eliminating or radically minimizing shallow obligations.
+
 ##### The Bimodal Philosophy of Deep Work Scheduling
+
+Pick months, weeks or days for deep and shallow work. More practical.
+
+> ... divide your time, dedicating some clearly defined stretches to deep pursuits and leaving the rest open to everything else. During the deep time, the bimodal worker will act monastically—seeking intense and uninterrupted concentration.
 
 ##### The Rhythmic Philosophy of Deep Work Scheduling
 
+Divide your work day into blocks of deep and shallow work. Even more practical. The most common. Deep work blocks can't be too short. It takes time to reach deep work state.
+
+> ... the easiest way to consistently start deep work sessions is to transform them into a simple regular habit.
+
 ##### The Journalistic Philosophy of Deep Work Scheduling
+
+If you can't plan your day in advance, work deeply whenever you can. Not recommended if you're new to deep work.
+
+> ... you fit deep work wherever you can into your schedule ...
 
 #### Ritualize
 
-##### Where you’ll work and for how long.
+##### Where you’ll work and for how long
 
-##### How you’ll work once you start to work.
+I have a lot of fun with creative "do not disturb" signs.
 
-##### How you’ll support your work.
+> ... give yourself a specific time frame to keep the session a discrete challenge and not an open-ended slog.
+
+##### How you’ll work once you start to work
+
+Limit yourself to only the most essential tools during deep work.
+
+> ... you might institute a ban on any Internet use ...
+
+##### How you’ll support your work
+
+If something helps you work deeply, do it.
+
+> ... start with a cup of good coffee, or make sure you have access to enough food of the right type to maintain energy, or integrate light exercise such as walking to help keep the mind clear.
 
 #### Make Grand Gestures
 
+If working at a special place helps, do it. Special place might be expensive or hard to reach.
+
+> By leveraging a radical change to your normal environment, coupled perhaps with a significant investment of effort or money, all dedicated toward supporting a deep work task, you increase the perceived importance of the task.
+
 #### Don’t Work Alone
+
+Deep work doesn't mean you always work in isolation.
+
+> This combination of soundproofed offices connected to large common areas yields a hub-and-spoke architecture of innovation in which both serendipitous encounter and isolated deep thinking are supported. It’s a setup that straddles a spectrum where on one extreme we find the solo thinker, isolated from inspiration but free from distraction, and on the other extreme, we find the fully collaborative thinker in an open office, flush with inspiration but struggling to support the deep thinking needed to build on it.
 
 #### Execute Like a Business
 
+##### Execute Like a Business Introduction
+
+A book focused on big business proved to be useful for deep work.
+
+> The 4DX [4 Disciplines of Execution] framework is based on the fundamental premise that execution is more difficult than strategizing.
+
 ##### Discipline #1: Focus on the Wildly Important
+
+Start less, finish more. Work only on the important things.
+
+> “The more you try to do, the less you actually accomplish.”
+>
+> ... you should identify a small number of ambitious outcomes to pursue with your deep work hours.
 
 ##### Discipline #2: Act on the Lead Measures
 
+Measure the time you work deeply towards a goal.
+
+> Lag measures describe the thing you’re ultimately trying to improve. ... the problem ... is that they come too late to change your behavior... Lead measures ... “measure the new behaviors that will drive success on the lag measures.” ... the relevant lead measure: time spent in a state of deep work dedicated toward your wildly important goal.
+
 ##### Discipline #3: Keep a Compelling Scoreboard
+
+Put deep wok hours on big visible charts.
+
+> “People play differently when they’re keeping score” ... I kept track of the hours spent in deep work that week ...
 
 ##### Discipline #4: Create a Cadence of Accountability
 
+Review the scoreboard weekly and learn from it.
+
+> I used a weekly review to look over my scoreboard to celebrate good weeks, help understand what led to bad weeks, and most important, figure out how to ensure a good score for the days ahead.
+
 #### Be Lazy
+
+#### Be Lazy Introduction
+
+Work hard. Rest harder.
+
+> At the end of the workday, shut down your consideration of work issues until the next morning—no after-dinner e-mail check, no mental replays of conversations, and no scheming about how you’ll handle an upcoming challenge; shut down work thinking completely. If you need more time, then extend your workday, but once you shut down, your mind must be left free
 
 ##### Reason #1: Downtime Aids Insights
 
+Some problems are solved by not actively thinking about them.
+
+> some decisions are better left to your unconscious mind to untangle.
+
 ##### Reason #2: Downtime Helps Recharge the Energy Needed to Work Deeply
+
+When you work, work deeply. When you rest, rest deeply.
+
+> Only the confidence that you’re done with work until the next day can convince your brain to downshift to the level where it can begin to recharge for the next day to follow.
 
 ##### Reason #3: The Work That Evening Downtime Replaces Is Usually Not That Important
 
+You are both not working on anything important and not resting well.
+
+> ... for a novice, somewhere around an hour a day of intense concentration seems to be a limit, while for experts this number can expand to as many as four hours—but rarely more.
+
+#### Shutdown rituals
+
+A short review at the end of work day will clear your mind and give a signal to your brain that it's time to relax.
+
+> regularly resting your brain improves the quality of your deep work. When you work, work hard. When you’re done, be done.
+
 #### Rule #2: Embrace Boredom
+
+> Rule #1 taught you how to integrate deep work into your schedule and support it with routines and rituals designed to help you consistently reach the current limit of your concentration ability. Rule #2 will help you significantly improve this limit.
 
 #### Embrace Boredom Introduction
 
+Being bored is a great exercise for avoiding distractions and staying concentrated.
+
+> ... to succeed with deep work you must rewire your brain to be comfortable resisting distracting stimuli.
+
 #### Don’t Take Breaks from Distraction. Instead Take Breaks from Focus.
 
-##### Point #1: This strategy works even if your job requires lots of Internet use and/or prompt e-mail replies.
+Schedule your day around focus with breaks for distractions, not vice versa.
 
-##### Point #2: Regardless of how you schedule your Internet blocks, you must keep the time outside these blocks absolutely free from Internet use.
-
-##### Point #3: Scheduling Internet use at home as well as at work can further improve your concentration training.
+> - This strategy works even if your job requires lots of Internet use and/or prompt e-mail replies.
+> - Regardless of how you schedule your Internet blocks, you must keep the time outside these blocks absolutely free from Internet use.
+> - Scheduling Internet use at home as well as at work can further improve your concentration training.
 
 #### Work Like Teddy Roosevelt
 
+Maximize concentration by very short deadlines.
+
+> identify a deep task ... that’s high on your priority list. Estimate how long you’d normally put aside for an obligation of this type, then give yourself a hard deadline that drastically reduces this time.
+
 #### Meditate Productively
 
-##### Suggestion #1: Be Wary of Distractions and Looping
+Think hard about a problem while doing something else.
 
-##### Suggestion #2: Structure Your Deep Thinking
+> ... take a period in which you’re occupied physically but not mentally—walking, jogging, driving, showering—and focus your attention on a single well-defined professional problem.
+>
+> - Be Wary of Distractions and Looping
+> - Structure Your Deep Thinking
 
 #### Memorize a Deck of Cards
+
+> A side effect of memory training, in other words, is an improvement in your general ability to concentrate. ... there’s nothing special about card memorization. Any structured thought process that requires unwavering attention can have a similar effect ...
 
 #### Rule #3: Quit Social Media
 
 #### Quit Social Media Introduction
 
+Pick the tools you use with a lot of thought.
+
+> The Any-Benefit Approach to Network Tool Selection: You’re justified in using a network tool if you can identify any possible benefit to its use, or anything you might possibly miss out on if you don’t use it.
+>
+> The Craftsman Approach to Tool Selection: Identify the core factors that determine success and happiness in your professional and personal life. Adopt a tool only if its positive impacts on these factors substantially outweigh its negative impacts.
+
 ##### Apply the Law of the Vital Few to Your Internet Habits
+
+Use only a few carefully selected tools that have substantial positive impact on your life.
+
+> ask whether the use of the tool has a substantially positive impact, a substantially negative impact, or little impact ... Keep using this tool only if you concluded that it has substantial positive impacts and that these outweigh the negative impacts.
+>
+> The Law of the Vital Few*: In many settings, 80 percent of a given effect is due to just 20 percent of the possible causes.
 
 ##### Quit Social Media
 
+Quit social media for a while and see what happens.
+
+> Don’t formally deactivate these services, and (this is important) don’t mention online that you’ll be signing off... After thirty days ... ask yourself ... :
+>
+> 1. Would the last thirty days have been notably better if I had been able to use this service?
+> 2. Did people care that I wasn’t using this service?
+>
+> If your answer is “no” to both questions, quit the service permanently. If your answer was a clear “yes,” then return to using the service.
+
 ##### Don’t Use the Internet to Entertain Yourself
+
+Instead of internet junk food, think about healthy alternatives.
+
+> ... if you want to eliminate the addictive pull of entertainment sites on your time and attention, give your brain a quality alternative.
 
 #### Rule #4: Drain the Shallows
 
 #### Drain the Shallows Introduction
 
+Try to avoid as much shallow work as possible, so you could spend more time on deep work.
+
+> ... treat shallow work with suspicion because its damage is often vastly underestimated and its importance vastly overestimated.
+
 ##### Schedule Every Minute of Your Day
+
+It's important to have a plan. It's less important to stick to it.
+
+> Decide in advance what you’re going to do with every minute of your workday.
 
 ##### Quantify the Depth of Every Activity
 
+Deep and shallow work are not black and white. There's a lot of gray.
+
+> How long would it take (in months) to train a smart recent college graduate with no specialized training in my field to complete this task? ... Once you know where your activities fall on the deep-to-shallow scale, bias your time toward the former.
+
 ##### Ask Your Boss for a Shallow Work Budget
 
+Talk to your boss about your deep/shallow work ratio.
+
+> somewhere in the 30 to 50 percent
+
 ##### Finish Your Work by Five Thirty
+
+Strict deadlines will help you make decisions on what needs to be done and how.
+
+> I call this commitment fixed-schedule productivity, as I fix the firm goal of not working past a certain time, then work backward to find productivity strategies that allow me to satisfy this declaration.
 
 ##### Become Hard to Reach
 
 ###### Tip #1: Make People Who Send You E-mail Do More Work
 
+This could help if you receive a lot of unsolicited mail.
+
+> I call this approach a sender filter, as I’m asking my correspondents to filter themselves before attempting to contact me.
+
 ###### Tip #2: Do More Work When You Send or Reply to E-mails
+
+Put more work in each e-mail message and the total amount of messages will decrease.
+
+> What is the project represented by this message, and what is the most efficient (in terms of messages generated) process for bringing this project to a successful conclusion?
 
 ###### Tip #3: Don’t Respond
 
+It's not as bad not to reply as you think it is.
+
+> Professorial E-mail Sorting: Do not reply to an e-mail message if any of the following applies:
+>
+> - It’s ambiguous or otherwise makes it hard for you to generate a reasonable response.
+> - It’s not a question or proposal that interests you.
+> - Nothing really good would happen if you did respond and nothing really bad would happen if you didn’t.
+
 ## Conclusion
+
+Deep work is hard and powerful.
+
+> Deep work is way more powerful than most people understand.
+>
+> The deep life, of course, is not for everybody. It requires hard work and drastic changes to your habits.

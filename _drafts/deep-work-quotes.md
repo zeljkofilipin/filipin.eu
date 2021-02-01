@@ -2,8 +2,6 @@
 tags:  book
 title: Deep Work Quotes
 ---
-![Deep Work](/assets/books-that-have-changed-my-life/deep-work.jpg "Deep Work")
-
 ## Introduction
 
 > **Deep Work: Professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit. These efforts create new value, improve your skill, and are hard to replicate.** (5544)

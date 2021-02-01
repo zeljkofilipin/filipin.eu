@@ -26,17 +26,11 @@ From the introduction:
 
 You have to learn hard things quickly. That requires you to focus intensely, without distraction.
 
-#### Deep Work Is Valuable Introduction
+#### Introduction
 
 It might be very hard to become a superstar or to have a lot of money, but working with intelligent machines is in our reach.
 
 > In this new economy, three groups will have a particular advantage: those who can work well and creatively with intelligent machines, those who are the best at what they do, and those with access to capital. (9014 highlights)
-
-##### The High-Skilled Workers
-
-##### The Superstars
-
-##### The Owners
 
 #### How to Become a Winner in the New Economy
 
@@ -75,7 +69,7 @@ There's a small chance that your job is not compatible with deep work.
 
 Deep work is valuable and rare. Shallow work is easy and common. Develop the skill of deep work and the world is yours.
 
-#### Deep Work Is Rare Introduction
+#### Introduction
 
 Trends in business increase shallow and decrease deep work.
 
@@ -121,7 +115,7 @@ Work deeply and you will enjoy life.
 
 > A deep life is a good life, any way you look at it.
 
-#### Deep Work Is Meaningful Introduction
+#### Introduction
 
 Deep work is good for both professional and private life.
 
@@ -163,7 +157,7 @@ From the introduction:
 
 > Rule #1 taught you how to integrate deep work into your schedule and support it with routines and rituals designed to help you consistently reach the current limit of your concentration ability.
 
-#### Work Deeply Introduction
+#### Introduction
 
 Your mind prefers distractions over depth. Additionally, it has be trained to do so.
 
@@ -231,7 +225,7 @@ Deep work doesn't mean you always work in isolation.
 
 #### Execute Like a Business
 
-##### Execute Like a Business Introduction
+##### Introduction
 
 A book focused on big business proved to be useful for deep work.
 
@@ -265,7 +259,7 @@ Review the scoreboard weekly and learn from it.
 
 #### Be Lazy
 
-#### Be Lazy Introduction
+#### Introduction
 
 Work hard. Rest harder.
 
@@ -299,7 +293,7 @@ A short review at the end of work day will clear your mind and give a signal to 
 
 > Rule #1 taught you how to integrate deep work into your schedule and support it with routines and rituals designed to help you consistently reach the current limit of your concentration ability. Rule #2 will help you significantly improve this limit.
 
-#### Embrace Boredom Introduction
+#### Introduction
 
 Being bored is a great exercise for avoiding distractions and staying concentrated.
 
@@ -334,7 +328,7 @@ Think hard about a problem while doing something else.
 
 #### Rule #3: Quit Social Media
 
-#### Quit Social Media Introduction
+#### Introduction
 
 Pick the tools you use with a lot of thought.
 
@@ -369,7 +363,7 @@ Instead of internet junk food, think about healthy alternatives.
 
 #### Rule #4: Drain the Shallows
 
-#### Drain the Shallows Introduction
+#### Introduction
 
 Try to avoid as much shallow work as possible, so you could spend more time on deep work.
 

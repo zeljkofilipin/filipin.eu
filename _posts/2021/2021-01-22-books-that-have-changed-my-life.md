@@ -21,7 +21,7 @@ Each book in this post had to pass three selection phases. In the first phase, I
 
 I plan to write a post about each of these books this year. For now, I'll write a short summary.
 
-# Getting Things Done: The Art of Stress-Free Productivity by David Allen
+# [Getting Things Done](https://gettingthingsdone.com/what-is-gtd/): The Art of Stress-Free Productivity by David Allen
 
 ![Getting Things Done](/assets/books-that-have-changed-my-life/getting-things-done.jpg "Getting Things Done")
 
@@ -31,7 +31,7 @@ I was sold on one of the first sentences in the book.
 
 > Your mind is for having ideas, not holding them.®
 
-# Deep Work: Rules for Focused Success in a Distracted World by Cal Newport
+# [Deep Work](https://www.calnewport.com/books/deep-work/): Rules for Focused Success in a Distracted World by Cal Newport
 
 ![Deep Work](/assets/books-that-have-changed-my-life/deep-work.jpg "Deep Work")
 
@@ -41,7 +41,7 @@ It will open your eyes on how distracted we have become. Everything is trying to
 
 I've found this book to be the perfect companion to Getting Things Done. One book without the other only gets you part of the way to productivity.
 
-# The Healthy Programmer by Joe Kutner
+# [The Healthy Programmer](https://pragprog.com/titles/jkthp/the-healthy-programmer/): Get Fit, Feel Better, and Keep Coding by Joe Kutner
 
 ![The Healthy Programmer](/assets/books-that-have-changed-my-life/healthly-programmer.jpg "The Healthy Programmer")
 

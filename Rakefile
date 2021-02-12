@@ -25,5 +25,6 @@ task :super_linter do
     ' -e VALIDATE_MARKDOWN=false'\
     ' -e VALIDATE_JSCPD=false'\
     ' -e VALIDATE_RUBY=false'\
+    ' -e FILTER_REGEX_EXCLUDE=.*_site/.*'\
     ' -v ~/Documents/github/zeljkofilipin/filipin.eu:/tmp/lint github/super-linter'
 end

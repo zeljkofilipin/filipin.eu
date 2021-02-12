@@ -1,5 +1,5 @@
 ---
-tags:  ruby testing
+tags:  featured ruby testing
 title: How I Learned Test Automation in Ruby
 ---
 I've talked with people several times on how to get started on testing, test automation and Ruby, so I've decided to document it. It is mostly influenced by how I have learned it. It was years ago, so other resources might be available now.

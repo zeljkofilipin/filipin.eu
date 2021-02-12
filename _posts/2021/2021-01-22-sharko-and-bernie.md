@@ -1,5 +1,5 @@
 ---
-tags:  code scratch
+tags:  code featured scratch
 title: Sharko and Bernie
 ---
 ![Sharko and Bernie](/assets/sharko-and-bernie/sharko-and-bernie.png "Sharko and Bernie")

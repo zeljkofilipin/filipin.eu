@@ -1,5 +1,5 @@
 ---
-tags:  book photo
+tags:  book featured photo
 title: The Passionate Programmer by Chad Fowler
 ---
 ![The Passionate Programmer by Chad Fowler](assets/passionate-programmer.jpg)

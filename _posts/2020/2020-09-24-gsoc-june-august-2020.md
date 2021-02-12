@@ -1,5 +1,5 @@
 ---
-tags:  mentor wikimedia
+tags:  featured mentor wikimedia
 title: Google Summer of Code, June-August 2020
 ---
 ## Introduction

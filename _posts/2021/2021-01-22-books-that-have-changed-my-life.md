@@ -1,5 +1,5 @@
 ---
-tags:  book deep-work photo
+tags:  book deep-work featured photo
 title: Books That Have Changed My Life
 ---
 I read a lot of books. These are my stats according to Goodreads.

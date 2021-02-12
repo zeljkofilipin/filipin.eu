@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  featured
 title: Filipin, obrt za računalne djelatnosti, started
 ---
 ![Random Photo: Zagreb, Croatia.](/assets/balls-300x300.jpg "Random Photo: Zagreb, Croatia.")

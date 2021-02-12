@@ -1,5 +1,5 @@
 ---
-tags: photo vim
+tags: featured photo vim
 title: Visual Studio Code + Neovim
 ---
 *[ɸ](https://en.wikipedia.org/wiki/Golden_ratio "1.618") minute read.*

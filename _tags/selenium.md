@@ -1,4 +1,4 @@
 ---
 name: selenium
 ---
-About [Selenium](https://www.seleniumhq.org/).
+About [Selenium](https://www.seleniumhq.org/). 🤖

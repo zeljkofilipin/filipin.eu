@@ -1,4 +1,4 @@
 ---
 name: book
 ---
-Book review.
+Book review. 📚

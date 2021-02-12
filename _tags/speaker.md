@@ -1,4 +1,4 @@
 ---
 name: speaker
 ---
-An event I've been a speaker at.
+An event I've been a speaker at. 🎤

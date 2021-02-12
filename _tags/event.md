@@ -1,4 +1,4 @@
 ---
 name: event
 ---
-An event.
+An event. 👨‍👩‍👧‍👦

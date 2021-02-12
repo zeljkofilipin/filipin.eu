@@ -1,4 +1,4 @@
 ---
 name: video
 ---
-Contains a video.
+Contains a video. 🎥

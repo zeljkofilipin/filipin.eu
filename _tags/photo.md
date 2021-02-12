@@ -1,4 +1,4 @@
 ---
 name: photo
 ---
-Contains a photo.
+Contains a photo. 📸

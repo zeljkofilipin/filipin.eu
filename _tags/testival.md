@@ -1,4 +1,4 @@
 ---
 name: testival
 ---
-About [Testival](https://testival.eu/).
+About [Testival](https://testival.eu/). 🧪

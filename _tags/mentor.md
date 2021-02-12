@@ -1,4 +1,4 @@
 ---
 name: mentor
 ---
-I've been a mentor a few times.
+I've been a mentor a few times. 🧑‍💻

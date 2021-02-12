@@ -1,4 +1,4 @@
 ---
 name: scratch
 ---
-About [Scratch](https://scratch.mit.edu/).
+About [Scratch](https://scratch.mit.edu/). 😺

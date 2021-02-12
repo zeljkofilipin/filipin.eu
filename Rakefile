@@ -16,3 +16,9 @@ desc 'run yaml linter'
 task :yaml_lint do
   sh "find . -not -path './vendor/*' -regex '.*yml' | xargs yaml-lint"
 end
+
+desc 'run super-linter'
+task :super_linter do
+  sh 'docker run -e RUN_LOCAL=true -v '\
+    '~/Documents/github/zeljkofilipin/filipin.eu/file:/tmp/lint/file github/super-linter'
+end

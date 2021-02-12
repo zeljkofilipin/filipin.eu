@@ -1,5 +1,5 @@
 ---
-tags:  book javascript
+tags:  book javascript twitter
 title: 'JavaScript: The Good Parts by Douglas Crockford'
 ---
 This was the second time I have read [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do) by Douglas Crockford. 📖📖 I am not sure if I have finished it the first time I was reading it. The first time I did not learn much because it was way over my head. This time I have learned more, but the book is still over my head. I should read it again in a year or two. ⏳

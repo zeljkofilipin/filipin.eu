@@ -1,5 +1,5 @@
 ---
-tags:  book vim
+tags:  book twitter vim
 title: Practical Vim by Drew Neil
 ---
 I read a lot of books, [50-150 in a year](https://www.goodreads.com/zeljko_filipin). A lot of those are audiobooks, a lot are books for kids, but some of them are work related, like [Practical Vim](https://pragprog.com/book/dnvim2/practical-vim-second-edition). For every book I have read in the last few years, I have an 1-5 rating and at least one sentence written. Work related books deserve a few more sentences here.

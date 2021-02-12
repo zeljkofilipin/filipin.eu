@@ -19,6 +19,8 @@ end
 
 desc 'run super-linter'
 task :super_linter do
-  sh 'docker run -e RUN_LOCAL=true -v '\
-    '~/Documents/github/zeljkofilipin/filipin.eu:/tmp/lint github/super-linter'
+  sh 'docker run'\
+    ' -e RUN_LOCAL=true'\
+    ' -e VALIDATE_HTML=false'\
+    ' -v ~/Documents/github/zeljkofilipin/filipin.eu:/tmp/lint github/super-linter'
 end

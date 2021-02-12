@@ -1,5 +1,5 @@
 ---
-tags:  featured photo
+tags:  facebook featured photo
 title: Embed Facebook Album in 2020
 ---
 In 2018 I wrote a blog post on [embedding Facebook albums](/embed-facebook-album). Of course, Facebook changed and the instructions no longer work. I've found a workaround but I didn't have the time to update the post, or write a new one. I wouldn't probably write an update if the original post isn't constantly one of the most popular posts on my blog. 😁

@@ -1,5 +1,5 @@
 ---
-tags:  code photo
+tags:  code facebook photo
 title: Embed Facebook Album in 2018
 ---
 *Update - I wrote a new blog post: [Embed Facebook Album in 2020](/embed-facebook-album-2020).*

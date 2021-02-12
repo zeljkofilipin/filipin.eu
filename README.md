@@ -14,4 +14,4 @@
 
 The web site is available at http://127.0.0.1:4000/
 
-[![Build Status](https://travis-ci.org/zeljkofilipin/filipin.eu.svg?branch=master)](https://travis-ci.org/zeljkofilipin/filipin.eu)
+[![GitHub Super-Linter](https://github.com/zeljkofilipin/filipin.eu/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)

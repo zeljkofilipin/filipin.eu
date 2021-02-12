@@ -1,5 +1,5 @@
 ---
-tags:  code featured javascript selenium video
+tags:  code featured javascript selenium video youtube
 title: Playing Set game with JavaScript and Selenium
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sTDY7Sb18x4" frameborder="0" allowfullscreen></iframe>

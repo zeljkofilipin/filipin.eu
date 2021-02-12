@@ -46,3 +46,6 @@ jobs:
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_HTML: false
+          VALIDATE_MARKDOWN: false # 125
+          VALIDATE_JSCPD: false # 15
+          VALIDATE_RUBY: false # 1

@@ -1,5 +1,5 @@
 ---
-tags:  facebook featured youtube
+tags:  facebook featured photo youtube
 title: Frankie and Johnny
 ---
 # Instruments

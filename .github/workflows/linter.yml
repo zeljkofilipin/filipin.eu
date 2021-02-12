@@ -11,15 +11,8 @@ name: Lint Code Base
 # https://help.github.com/en/articles/workflow-syntax-for-github-actions
 #
 
-#############################
-# Start the job on all push #
-#############################
-on:
-  push:
-    branches-ignore: [master]
-    # Remove the line above to run when pushing to master
-  pull_request:
-    branches: [master]
+# Run this workflow every time a new commit pushed to your repository
+on: push
 
 ###############
 # Set the Job #

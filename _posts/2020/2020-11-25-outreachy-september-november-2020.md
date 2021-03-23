@@ -1,7 +1,9 @@
 ---
-tags:  featured mentor wikimedia
+tags:  featured mentor photo wikimedia
 title: Outreachy, September-November 2020
 ---
+![Outreachy](/assets/outreachy-december-march-2021.png "Outreachy")
+
 In [Google Summer of Code, June-August 2020](/gsoc-june-august-2020) I've said:
 
 > I’ve decided to take a break from mentoring. (I might not take that advice. More about that soon.)

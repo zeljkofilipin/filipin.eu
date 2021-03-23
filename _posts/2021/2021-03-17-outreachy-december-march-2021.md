@@ -1,7 +1,9 @@
 ---
-tags:  featured mentor wikimedia
+tags:  featured mentor photo wikimedia
 title: Outreachy, December 2020-March 2021
 ---
+![Outreachy](/assets/outreachy-december-march-2021.png "Outreachy")
+
 [Outreachy Round](https://www.mediawiki.org/wiki/Outreachy/Round_21) 21 has finished! [Vidhi Mody](https://www.vidhimody.me/), [Soham Parekh](https://www.sohamp.dev/) and I were mentoring [Harriet Ayugi](https://harriet-ayugi.onrender.com/) on project [Evaluation of Microsoft Playwright](https://phabricator.wikimedia.org/T262682).
 
 # Project management

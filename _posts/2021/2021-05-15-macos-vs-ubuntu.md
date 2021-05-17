@@ -28,9 +28,9 @@ Both tests will have two variants. One variant will run the command from the ope
 
 # Data
 
-I've tried to keep the environments as simple as possible. When running the commands, only the Terminal application was open. I was primarily interested in how much RAM will be used when running the tests in the Fresh container, since the laptop has only 4 GB. I ended up not measuring that. Instead, I've measured how fast each command takes.
+I've tried to keep the environments as simple as possible. When running the commands, only the Terminal application was open. I was primarily interested in how much RAM will be used when running the tests in the Fresh container, since the laptop has only 4 GB. I've also measured how fast each command runs.
 
-I wasn't interested in very good data. I just wanted good enough data for my use case. For that reason, I've only run each command three times. That's just enough data to show any trends, but not so much that I'll get bored while waiting for them to finish. All results are in how much time (in minutes) did each command take in different environments.
+I wasn't interested in very good data. I just wanted good enough data for my use case. For that reason, I've only run each command three times. That's just enough data to show any trends, but not so much that I'll get bored while waiting for them to finish. All results are in how much time (in minutes) each command took in different environments.
 
 ## iMac + macOS
 
@@ -80,17 +80,19 @@ I wasn't interested in very good data. I just wanted good enough data for my use
 | 2 | 0:24 | 0:53 |
 | 3 | 0:24 | 0:53 |
 
-# Screenshots
+# RAM
 
-I took a few screenshots while running the test suite.
-
-Air + Ubuntu + `npm run selenium-test`
-
-![Air + Ubuntu](/assets/macos-vs-ubuntu/air-ubuntu.png "Air + Ubuntu")
+Since a blog post without an image is no fun, I took a couple of screenshots.
 
 Air + Ubuntu + Fresh + `npm run selenium-test`
 
-![Air + Ubuntu + Fresh](/assets/macos-vs-ubuntu/air-ubuntu-fresh.png "Air + Ubuntu + Fresh")
+![Air + Ubuntu + Fresh](/assets/macos-vs-ubuntu/ubuntu.png "Air + Ubuntu + Fresh")
+
+Air + macOS + Fresh + `npm run selenium-test`
+
+![Air + macOS + Fresh](/assets/macos-vs-ubuntu/macos.png "Air + macOS + Fresh")
+
+Not surprisingly, the screenshots show that on Ubuntu the machine was using 1.5 GB RAM, while on macOS it was using 3.2 GB RAM. The difference is in the Linux virtual machine that Docker runs in the background on macOS.
 
 # Conclusion
 

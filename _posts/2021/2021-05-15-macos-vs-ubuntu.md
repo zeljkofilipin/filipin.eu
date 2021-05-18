@@ -24,7 +24,7 @@ For reference, here's the table with the two machines, with some relevant data. 
 
 Two things that I do the most are installing npm dependencies (`npm ci`) and running tests (`npm run selenium-test`). For this blog post, I'll use [MediaWiki Core](https://gerrit.wikimedia.org/g/mediawiki/core) repository and it's Selenium test suite. The suite is targeting a local MediaWiki. It's running in a local Docker container via [MediaWiki-Docker](https://www.mediawiki.org/wiki/MediaWiki-Docker).
 
-Both tests will have two variants. One variant will run the command from the operating system (without a container). The other variant will run the commands from a Fresh container. [Fresh](https://gerrit.wikimedia.org/g/fresh) is *"a fast and ready-to-use Docker container with various developer tools pre-installed."*
+Both tests have two variants. One variant will run the command from the operating system (without a container). The other variant will run the commands from a Fresh container. [Fresh](https://gerrit.wikimedia.org/g/fresh) is *"a fast and ready-to-use Docker container with various developer tools pre-installed."*
 
 # RAM
 
@@ -40,6 +40,8 @@ Air + macOS + Fresh + `npm run selenium-test`
 
 The screenshots show that on Ubuntu the machine was using 1.5 GB RAM, while on macOS it was using 3.2 GB RAM. The difference is in the Linux virtual machine that Docker runs in the background on macOS.
 
+![RAM](/assets/macos-vs-ubuntu/ram.png "RAM")
+
 # Speed
 
 I've tried to keep the environments as simple as possible. When running the commands, only the Terminal application was open. I was primarily interested in how much RAM will be used when running the tests in the Fresh container, since the laptop has only 4 GB. I've also measured how fast each command runs.
@@ -53,6 +55,7 @@ I wasn't interested in very good data. I just wanted good enough data for my use
 | 1 | 0:23 | 1:15 |
 | 2 | 0:24 | 0:56 |
 | 3 | 0:23 | 1:01 |
+| Average | 0:23 | 1:04 |
 
 ## iMac + macOS + Fresh
 
@@ -61,6 +64,7 @@ I wasn't interested in very good data. I just wanted good enough data for my use
 | 1 | 3:19 | 2:24 |
 | 2 | 3:17 | 1:52 |
 | 3 | 3:27 | 1:53 |
+| Average | 3:21 | 2:03 |
 
 ## Air + macOS
 
@@ -69,6 +73,7 @@ I wasn't interested in very good data. I just wanted good enough data for my use
 | 1 | 0:42 | 1:47 |
 | 2 | 0:45 | 1:49 |
 | 3 | 0:44 | 1:48 |
+| Average | 0:43 | 1:48 |
 
 ## Air + macOS + Fresh
 
@@ -77,6 +82,7 @@ I wasn't interested in very good data. I just wanted good enough data for my use
 | 1 | 6:14 | 3:42 |
 | 2 | 5:51 | 3:30 |
 | 3 | 5:46 | 3:28 |
+| Average | 5:57 | 3:33 |
 
 ## Air + Ubuntu
 
@@ -85,6 +91,7 @@ I wasn't interested in very good data. I just wanted good enough data for my use
 | 1 | 0:17 | 0:34 |
 | 2 | 0:15 | 0:34 |
 | 3 | 0:15 | 0:34 |
+| Average | 0:15 | 0:34 |
 
 ## Air + Ubuntu + Fresh
 
@@ -93,10 +100,13 @@ I wasn't interested in very good data. I just wanted good enough data for my use
 | 1 | 0:24 | 0:54 |
 | 2 | 0:24 | 0:53 |
 | 3 | 0:24 | 0:53 |
+| Average | 0:24 | 0:53 |
 
 # Conclusion
 
 I was expecting to see less RAM used while running the commands on Ubuntu. No surprise there. How much time it takes to run the commands was a big surprise. It is so much faster on Ubuntu, it's amazing.
+
+![Speed](/assets/macos-vs-ubuntu/speed.png "Speed")
 
 `npm ci` takes about half a minute to run on powerful desktop machine running macOS, *outside* of the Fresh container. It takes more than three minutes to run the same command *inside* the container.
 

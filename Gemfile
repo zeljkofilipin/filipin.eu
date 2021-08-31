@@ -11,7 +11,7 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem 'jekyll', '~> 4.1', '>= 4.1.1'
+gem 'jekyll', '~> 4.2'
 
 # This is the default theme for new Jekyll sites. You may change this to
 # anything you like.
@@ -23,13 +23,13 @@ gem 'minima', github: 'jekyll/minima', ref: '3cdd14dff1216f561c68329e0b7420c2dc9
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-feed', '~> 0.15.0'
-  gem 'jekyll-remote-theme', '~> 0.4.2'
-  gem 'jekyll-seo-tag', '~> 2.6', '>= 2.6.1'
+  gem 'jekyll-feed', '~> 0.15.1'
+  gem 'jekyll-remote-theme', '~> 0.4.3'
+  gem 'jekyll-seo-tag', '~> 2.7', '>= 2.7.1'
   gem 'jekyll-sitemap', '~> 1.4'
 end
 
-gem 'rake', '~> 13.0', '>= 13.0.1'
-gem 'rubocop', '~> 0.91.0'
+gem 'rake', '~> 13.0', '>= 13.0.6'
+gem 'rubocop', '~> 1.20'
 gem 'webrick', '~> 1.7'
 gem 'yaml-lint', '~> 0.0.10'

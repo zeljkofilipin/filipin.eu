@@ -27,13 +27,13 @@ After a bit of searching, I've found several presentations, blog posts and video
 - [Are Testing "Schools" a good idea?](https://youtu.be/4GwHGbQZP2s) by [Doug Hoffman](https://www.linkedin.com/in/doughoffman/) and [James Bach](https://en.wikipedia.org/wiki/James_Marcus_Bach), video, from 2012, ~ 70 minutes.
 - [Schools of Software Testing: Useful or Negative Influence?](https://context-driven-testing.com/schools-of-software-testing-useful-or-negative-influence/) by [Cem Kaner](https://en.wikipedia.org/wiki/Cem_Kaner) and [Rex Black](https://en.wikipedia.org/wiki/Rex_Black), blog post, from 2014, ~ 45 minutes.
 
-School names change from author to author and with the time. As far as I can see, these are the five schools and their names.
+School names change from author to author and with the time. These are the five schools, their names and short descriptions. (Descriptions are from [Five Schools of Software Testing](https://www.prismnet.com/~wazmo/papers/four_schools.pdf) by [Bret Pettichord](http://www.pettichord.com/).)
 
-- Analytic / Analytical
-- Standard / Factory
-- Quality / Quality Assurance / Control
-- Context-Driven
-- Agile / Test-driven
+- Analytic / Analytical - sees testing as rigorous and technical with many proponents in academia.
+- Standard / Factory - sees testing as a way to measure progress with emphasis on cost and repeatable standards.
+- Quality / Quality Assurance / Control - emphasizes process, policing developers and acting as the gatekeeper.
+- Context-Driven - emphasizes people, seeking bugs that stakeholders care about.
+- Agile / Test-driven - uses testing to prove that development is complete; emphasizes automated testing.
 
 # Meetings
 

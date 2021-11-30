@@ -1,5 +1,5 @@
 ---
-tags:  wikimedia
+tags:  featured
 title: Lessons from 16 Years of Working Remotely
 ---
 I have been working remotely since 2005. Recently, an intern has asked me for advice about it. I've decided to write a blog post. I hope the advice will be useful to a wide range of people. From people new to remote work (possibly because of COVID) to people with years of experience.
@@ -14,7 +14,7 @@ When traveling, I prefer a very small laptop. I've tried a few options over the 
 
 # Internet
 
-I never had to pay much for the internet (even in 2005) and it worked well most of the time. I had some trouble with routers, but not much. Today, probably the cheapest wired internet you can buy would work just fine. If you work from a crowded apartment building, WiFi might now work all the time, for various reasons. It took me some effort to set it up because my desk was not so close to the router. Buying a very long ethernet cable and plugging it in the router and my desktop machine improved my internet speed, latency and stability significantly. I would recommend fast.com (by Netflix) for testing your connection.
+I never had to pay much for the internet (even in 2005) and it worked well most of the time. I had some trouble with routers, but not much. Today, probably the cheapest wired internet you can buy would work just fine. If you work from a crowded apartment building, WiFi might now work all the time, for various reasons. It took me some effort to set it up because my desk was not so close to the router. Buying a very long [ethernet](https://en.wikipedia.org/wiki/Ethernet) cable and plugging it in the router and my desktop machine improved my internet speed, latency and stability significantly. I would recommend [fast.com](https://fast.com/) (by Netflix) for testing your connection.
 
 Sometimes I work while traveling, and setting up my phone as a router works great.
 
@@ -26,11 +26,11 @@ Any office desk should work just fine. Bonus points for desks with adjustable he
 
 # Chair
 
-"I'll work from the kitchen." Don't. It's probably better than the couch, but you'll be sitting down for many hours, for many years. Kitchen chairs are not made for that. Invest in a good chair. I have SpinaliS HACKER for a decade or so. I don't know how available they are globally.
+"I'll work from the kitchen." Don't. It's probably better than the couch, but you'll be sitting down for many hours, for many years. Kitchen chairs are not made for that. Invest in a good chair. I have [SpinaliS HACKER](https://www.spinalis.com/office-chairs/spinalis-hacker/) for a decade or so. I don't know how available they are globally.
 
 # Keyboard
 
-I've used many keyboards. I really liked Apple's bluetooth keyboard, but after a few years of using it, it caused some hand pain. A few years ago, I switched to Kinesis Advantage2 and never had any problems since. It did take me a while to get used to it, but it was worth the effort
+I've used many keyboards. I really liked Apple's bluetooth keyboard, but after a few years of using it, it caused some hand pain. A few years ago, I switched to [Kinesis Advantage2](https://kinesis-ergo.com/shop/advantage2/) and never had any problems since. It did take me a while to get used to it, but it was worth the effort.
 
 # Mouse
 
@@ -42,7 +42,7 @@ You'll need headphones. And if you're sharing an office you'll probably want to 
 
 # Text Chat
 
-I've used many chat software, but I don't have strong opinions. For many years, I've used IRC via IRCCloud. Lately I mostly use Slack. From a communication perspective, it's almost not important which tool you use. It's important that you can communicate both socially (non-work related topics) and professionally (work related topics) with the people you work with. When possible, I try to avoid Slack. I don't like their vendor lock-in model.
+I've used many chat software, but I don't have strong opinions. For many years, I've used IRC via [IRCCloud](https://www.irccloud.com). Lately I mostly use Slack. From a communication perspective, it's almost not important which tool you use. It's important that you can communicate both socially (non-work related topics) and professionally (work related topics) with the people you work with. When possible, I try to avoid Slack. I don't like their [vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in) model.
 
 # Audio/Video Chat
 
@@ -78,8 +78,8 @@ I like running, so that's what I've decided to become serious about. It's almost
 
 If it's a group sport, join a club. If it's something you can do alone (like running), I would still recommend joining a club, or getting a coach. Especially if you haven't exercised in years, or decades. The most important thing is to create a habit of exercise and avoid injury. A club or a coach will help you start slow and improve over time.
 
-To learn more, I would highly recommend The Healthy Programmer book. It is marketed towards programmers, but it offers good advice for any office job.
+To learn more, I would highly recommend [The Healthy Programmer](https://pragprog.com/titles/jkthp/the-healthy-programmer/) book. It is marketed towards programmers, but it offers good advice for any office job.
 
 # Reviewers
 
-I would like to thank Hrvoje Šimić (Shime) for reviewing the article and a lot of advice on how to make it better.
+I would like to thank [Hrvoje Šimić (Shime)](https://shime.sh/) for reviewing the article and a lot of advice on how to make it better.

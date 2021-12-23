@@ -4,11 +4,13 @@ title: Perfect Software by Gerald M. Weinberg (2021)
 ---
 ![Perfect Software by Gerald M. Weinberg](/assets/perfect-software-2021.jpg)
 
+# The Book in Three Sentences
+
+There is no perfect software. Testing provides information. Most people you work with will know little about testing.
+
 # Introduction
 
-I have read this book many years ago ([Perfect Software by Gerald M. Weinberg (2012)](/perfect-software-2012)). I'm always struggling with keeping notes, so that time I didn't have almost any. This time, I have better notes. In fact, I have so many notes that I'm trying to figure out how to summarize them for this blog post. 🧐
-
-A decade ago I had less experience and I couldn't really understand this book. I think I understand it better now.
+When I first read Perfect Software I didn't understand it. It took a decade of experience for the lessons to sink in.
 
 Please keep in mind that he published the book when he was 75 years old. You can tell the author has many decades of experience. The book is full of real life examples. I could recognize myself in characters from the examples, for more examples that I would like to admit. 😅
 
@@ -16,11 +18,11 @@ Some parts of this book are pure gold. When reading those parts, I was almost wr
 
 I really like the format of each chapter. First the main part, followed by a very short summary, then a lot of examples in the "common mistakes" section.
 
-I really liked the chapters where the material is presented in the format of a story (9, 10, 12 and 13). I wish there was more of it. Even the entire novel that would teach you a topic (in this case software testing) by following different characters as the story develops.
+I really liked the chapters where the material is presented in the format of a story (9, 10, 12 and 13). I wish there was more of it. Even the entire novel that would teach you a topic (in this case software testing) by following different characters as the story develops. In the book, three fictional characters (a manager, a developer and a tester) are discussing a problem. First in the office, then over lunch. It's written very well. I've heard that The Phoenix Project is written that way. (I haven't read it yet, it's on my to-read list.)
 
 I also really liked the last two chapters (17 and 18). They are about scams. I've seen so many of them in my career. I've written more about it in the chapter summary.
 
-I'll try to summarize each chapter. For some chapters, I've included a quote that I particularly liked. Sometimes the quote is the perfect summary of the chapter.
+I'll try to summarize each chapter. For some chapters, I've included a quote that I particularly liked. Often the quote is the perfect summary of the chapter.
 
 # Chapters
 

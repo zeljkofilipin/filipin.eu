@@ -303,7 +303,6 @@ DEPENDENCIES
   github-pages (~> 223)
   jekyll (= 3.9.0)
   jekyll-feed (= 0.15.1)
-  jekyll-remote-theme (= 0.4.3)
   jekyll-seo-tag (= 2.7.1)
   jekyll-sitemap (= 1.4.0)
   minima (= 2.5.1)

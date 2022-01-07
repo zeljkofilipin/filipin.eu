@@ -1,0 +1,11 @@
+---
+tags:  TODO
+title: 'Testing E-mail: Lessons Learned'
+---
+<p>Lately I have been testing e-mail functionality of web application. This is the fourth post about that experience. Last week I wrote about <a href="/testing-e-mail-tools/">tools I use for e-mail testing</a>.</p>
+<p>I suggest that you start with little steps, and I mean really little steps.</p>
+<p>I assume that you have a test suite that tests web interface of your application. Some tests cause e-mails to be sent. But, until now, you have ignored that e-mails.</p>
+<p>First, check if your application sends correct number of mails (see, really little steps). For example, if you are testing forum application, after start a discussion test is performed, check if every member of forum gets e-mail (depending on each member's settings).</p>
+<p>Then, after you have checked number of e-mails after all your tests, start checking if e-mail headers (from, to, subject) are correct for every mail that is sent. After that is done, start checking body, and then attachments.</p>
+<p>I think it is better to test only some properties of e-mail but for larger number of e-mails, than testing all properties of e-mail, but for small number of e-mails.</p>
+<p>Of course, this is only my advice based on my recent experience. Adjust your tests to your context.</p>

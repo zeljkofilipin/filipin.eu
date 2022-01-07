@@ -1,0 +1,69 @@
+---
+tags:  code ruby
+title: Ruby Hashes (2)
+---
+<p>Yesterday I wrote about <a href="/ruby-hashes">Ruby hashes</a>. Use it and you can write nice looking code.</p>
+
+{% highlight ruby %}
+edit({"security" => "low"})
+
+def edit(properties)
+  prepare_for_edit
+  edit_title(properties["title"]) if properties["title"]
+  # ...
+  edit_security(properties["security"]) if properties["security"]
+  check_after_edit
+end
+{% endhighlight %}
+
+<p>Instead of ugly code.</p>
+
+{% highlight ruby %}
+edit(nil, nil, nil, nil, nil, nil, security)
+
+def edit(title = nil, url = nil, mail = nil, description = nil, membership = nil, status = nil, security = nil)
+  prepare_for_edit
+  edit_title(title) if title
+  # ...
+  edit_security(security) if security
+  check_after_edit
+  end
+{% endhighlight %}
+
+<p>I got interested when I saw this at wtr-general</p>
+<blockquote>
+
+{% highlight ruby %}
+ie.div(:name => 'foo', :index => 2).click
+{% endhighlight %}
+
+<p>This will find the second div with the name <code>foo</code>.</p>
+</blockquote>
+<p>I tried to do something like that, but this was the best I could think of.</p>
+
+{% highlight ruby %}
+div(:name => 'foo', :index => 2)
+
+def div(first, second)
+  hash = {first, second}
+  puts hash[:name]
+  puts hash[:index]
+end
+{% endhighlight %}
+
+<p>And, of course, it did not work.</p>
+
+{% highlight shell %}
+ArgumentError: wrong number of arguments (1 for 2)
+{% endhighlight %}
+
+<p>I posted my problem to wtr-general and Charley Baker was kind enough to help me. A link to Collecting Hash Arguments from Programming Ruby said it all.</p>
+
+{% highlight ruby %}
+div(:name => 'foo', :index => 2)
+
+def div(properties)
+  puts properties[:name]
+  puts properties[:index]
+end
+{% endhighlight %}

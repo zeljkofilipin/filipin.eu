@@ -1,0 +1,21 @@
+---
+tags:  code ruby
+title: Watir ad at stackoverflow.com
+---
+<p><a href="http://meta.stackoverflow.com/questions/53346/open-source-advertising-sidebar-2h-2010/53544#53544"><img src="/assets/watir-so-2-1.jpg" alt="watir-so-2-1" title="watir-so-2-1" /></a></p>
+<p>New round of free advertising of open source projects at <a href="http://stackoverflow.com">stackoverflow.com</a> has just started.</p>
+<p>We had <a href="http://meta.stackoverflow.com/questions/31913/open-source-advertising-sidebar-1h-2010/38414#38414">17 votes</a> the last time, 6 were needed to be displayed at stackoverflow.com. The ad got a few complaints about not having any text. (I just copied our logo.)</p>
+<p>This time I took a <a href="http://creativecommons.org/">Creative Commons</a> <a href="http://www.flickr.com/photos/snapr/484776493">photo</a> and added some text:</p>
+
+{% highlight ruby %}
+browser.goto 'watir.com'
+# to learn more
+
+browser.goto 'github.com/bret/watir'
+browser.span(:text=>'Fork').click
+# to contribute
+{% endhighlight %}
+
+<p>Feel free to vote or comment for <a href="http://meta.stackoverflow.com/questions/53346/open-source-advertising-sidebar-2h-2010/53544#53544">Watir ad at stackoverflow.com</a>.</p>
+<p>If anybody has an idea for different photo or text, please let me know.</p>
+<p>Even better, read <a href="http://blog.stackoverflow.com/2010/06/free-vote-based-advertising-launches-second-round/">the stackoverflow.com blog post</a>, create an add and submit it. Then let us know so we can vote for it. (There can be more that one proposal.)</p>

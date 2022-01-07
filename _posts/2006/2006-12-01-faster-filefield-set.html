@@ -1,0 +1,33 @@
+---
+tags:  code ruby
+title: Faster FileField#set
+---
+<p>This is slightly edited conversation <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg05905.html">Is there a way to make file_field.set faster?</a> from wtr-general mailing list.</p>
+<p>Me:
+<blockquote>Is there a way to make <code>file_field.set</code> faster?</p>
+<p>I have noticed that this is the slowest part of my tests. It takes about 10 seconds to set file field. I have read that it can not be set directly because that would be security issue, but I wonder what I could do to make it faster. I upload extremely small files (a few bytes), but I have to do it frequently, and every time it takes about 10 seconds just to set file field.</p></blockquote>
+<p>Mark Cain:
+<blockquote>This works for me and it is much faster because it uses the handle of the object.</p></blockquote>
+
+{% highlight ruby %}
+def startClicker(button, waitTime=5, user_input=nil)
+  hwnd = @@ie.enabled_popup(waitTime)  # get a handle if one exists
+  if (hwnd) # yes there is a popup
+    w = WinClicker.new
+    if (user_input)
+      w.setTextValueForFileNameField(hwnd, "#{user_input}")
+    end
+    sleep 3 # I put this in to see the text being input it is not necessary to work
+    w.clickWindowsButton_hwnd(hwnd, "#{button}")  # "OK" or whatever the name on the button is
+    w = nil # this is just cleanup
+  end
+end
+{% endhighlight %}
+
+<p>Me:
+<blockquote><code>startClicker </code>works double faster than <code>file_field.set</code>.</p></blockquote>
+<p>Then I removed line with <code>sleep 3</code>.</p>
+<p>Me:
+<blockquote>It is now even faster (for three seconds) after I removed line with <code>sleep 3</code> (when I noticed that comment says that it can be removed).</p>
+<p><code>file_field.set</code> needed approximately 10.6 seconds to set file field, <code>startClicker </code>4.4, and when I removed <code>sleep 3,</code> it is down to 1.4. That saved me approximately 9 seconds for each file upload (and I do it a lot).</p></blockquote>
+<p><a href="http://www.paulrogers.ca/">Paul Rogers</a> also suggested <a href="http://www.autoitscript.com/autoit3/">AutoIt</a>, but this works fast enough, so I did not even try it.</p>

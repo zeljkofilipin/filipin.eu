@@ -1,0 +1,14 @@
+---
+tags:  TODO
+title: My Favourite Windows Media Player Bugs
+---
+<p>Brent Strange wrote (almost a month ago) that he noticed <a href="http://qainsight.net/2006/10/25/Defect+Of+The+Day+Repeat+Songs+On+MSN+Radio.aspx">a bug in Windows Media Player 10</a>. I also use it for listening to internet radio, so I tried to reproduce it (I have Windows Media Player 10 and 11). Successfully. Then I noticed another bug and left a comment at his post, but I like this bugs so much that I had to write a post about it.</p>
+<p>Should internet radio behave like ordinary radio? In general. You should be able to change stations, adjust volume. Well, that is about it (do turn on and off count as features?).</p>
+<p>You could also add some useful features.</p>
+<p>Say, pause a song. Phone rings while your favourite song plays? Pause, take your call and resume playing when you are finished with  the call. Very useful.</p>
+<p>Then, forward a song. You have heard that song ten times today (I listen a lot of radio), or you just do not like it? Press forward button and enjoy the next song.</p>
+<p>But there is behaviour that I (nor Brent) would not call a feature.</p>
+<p>(I guess) Brent noticed that stop button is not disabled. As a good tester he tried it while listening to a song, and noticed that after you press play button, the song does not resume playing from the point where you stopped, but from the beginning. That means you can play your favourite song over and over? Yes! Do not report this bug to Microsoft. :)</p>
+<p>I do not know how I noticed my bug, but I guess it was by accident. I must have pressed mute button instead of pause (or stop) button when I wanted some silence and was surprised when after a while radio started playing without me turning mute off. So I investigated a bit, and found out that mute turns off at the end of the song.</p>
+<p>A bug, I would say. If I clicked mute, I meant mute, not mute until the end of this song.</p>
+<p>But this bug has interesting side effect. Click mute during commercial. Continue what you were doing. Volume is back to normal after commercial ends. I will quote myself: "Do not report this bug to Microsoft. :)".</p>

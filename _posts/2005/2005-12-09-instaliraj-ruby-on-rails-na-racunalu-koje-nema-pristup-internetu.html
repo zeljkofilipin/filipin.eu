@@ -1,0 +1,68 @@
+---
+tags:  code hrvatski ruby
+title: Instaliraj Ruby on Rails na računalu koje nema pristup Internetu
+---
+<p><img src="/assets/1620443415.jpg" alt="Đžogljavko pored pruge (engl. rail)." /></p>
+<p>Pisao sam o tome kako napraviti <a href="http://www.rubyonrails.org/">Ruby on Rails</a> web aplikaciju.</p>
+<p>Želio sam prenijeti tu aplikaciju na drugo računalo (engl. computer). Postupak je iznimno jednostavan.</p>
+<p>Na drugom računalu sam napravio korake 2-7 (od dva do sedam) iz spomenutog članka. Prenio sam mapu (engl. folder) u kojoj se nalazi moja aplikacija (<code>C:\rails\blog</code>) s mog računala na drugo računalo. Pokrenuo sam aplikaciju na drugom računalu. Sve radi.</p>
+<p>Mapu možete prenijeti usb-om, spržiti (engl. burn) na cd, sažeti (engl. compress) pa postati e-poštom (engl. e-mail)...</p>
+<p>Problem se pojavio kad sam htio pokrenuti Ruby on Rails aplikaciju na računalu koje nema pristup Internetu. Dugo sam se s tim mučio, i sad kad sam našao rješenje, što drugo nego ga objaviti. :)</p>
+<p><strong>Na svom računalu</strong></p>
+<p>Napravi <code>C:\install</code> (možeš odabrati i manje štrebersko ime). Tu češ natrpati sve što ti treba:</p>
+<ol>
+<li><a href="http://rubyforge.org/frs/download.php/4174/ruby182-15.exe">ruby182-15.exe</a></li>
+<li><a href="http://www.sqlite.org/sqlite-3_2_7.zip">sqlite-3_2_7.zip</a></li>
+<li><a href="http://www.sqlite.org/sqlitedll-3_2_7.zip">sqlitedll-3_2_7.zip</a></li>
+<li><a href="http://rubyforge.org/frs/download.php/3087/sqlite3-ruby-1.1.0-mswin32.gem">sqlite3-ruby-1.1.0-mswin32.gem</a></li>
+<li><a href="http://rubyforge.org/frs/download.php/7589/rails-0.14.4.gem">rails-0.14.4.gem</a></li>
+<li><a href="http://rubyforge.org/frs/download.php/6356/rake-0.6.2.gem">rake-0.6.2.gem</a></li>
+<li><a href="http://rubyforge.org/frs/download.php/7575/activesupport-1.2.4.gem">activesupport-1.2.4.gem</a></li>
+<li><a href="http://rubyforge.org/frs/download.php/7571/activerecord-1.13.1.gem">activerecord-1.13.1.gem</a></li>
+<li><a href="http://rubyforge.org/frs/download.php/7580/actionpack-1.11.1.gem">actionpack-1.11.1.gem</a></li>
+<li><a href="http://rubyforge.org/frs/download.php/7583/actionmailer-1.1.4.gem">actionmailer-1.1.4.gem</a></li>
+<li><a href="http://rubyforge.org/frs/download.php/7586/actionwebservice-0.9.4.gem">actionwebservice-0.9.4.gem</a></li>
+<li>mapu u kojoj se nalazi tvoja aplikacija (<code>C:\rails\blog</code>)</li>
+</ol>
+<p><strong>Prebacivanje</strong></p>
+<p>Prebaci <code>C:\install</code> sa svog računala u <code>C:\install</code> na željenom računalu koristeći svoj omiljeni način (usb, cd, e-pošta...).</p>
+<p><strong>Na drugom računalu</strong></p>
+<ol>
+<li>instaliraj ruby
+<ol>
+<li>dvaput klikni na <code>C:\install\ruby182-15.exe</code></li>
+</ol>
+</li>
+<li>instaliraj SQLite
+<ol>
+<li>prebaci <code>C:\install\sqlite-3_2_7.zip</code> i <code>C:\install\sqlitedll-3_2_7.zip</code> u <code>C:\ruby\bin</code></li>
+<li>raspakiraj obje zip datoteke (engl. file)</li>
+</ol>
+</li>
+<li>otvori Command Prompt
+<ol>
+<li>start &gt; Run</li>
+<li>utipkaj <code>cmd</code></li>
+<li>pritisni <code>enter</code></li>
+</ol>
+</li>
+<li>utipkaj u Command Prompt
+
+{% highlight shell %}
+c:
+cd \install
+gem install sqlite3-ruby
+gem install rails
+gem install rake
+gem install activesupport
+gem install activerecord
+gem install actionpack
+gem install actionmailer
+gem install actionwebservice
+cd blog
+ruby script\server
+{% endhighlight %}
+
+</li>
+</ol>
+<p>Ako ti nešto nije jasno, pročitaj prvo prethodni članak. :)</p>

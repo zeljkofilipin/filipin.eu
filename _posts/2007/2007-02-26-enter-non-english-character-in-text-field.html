@@ -1,0 +1,48 @@
+---
+tags:  code ruby
+title: Enter Non-English Character in Text Field
+---
+<p><img src="/assets/google_zeljko.PNG" alt="google_zeljko.PNG" /></p>
+<p>I use <a href="http://watir.com">Watir</a> a lot. I wanted to set a text field to <code>željko</code>. I did not know it would hard. I tried this code.</p>
+
+{% highlight ruby %}
+browser.text_field(:index, 1).set("željko")
+{% endhighlight %}
+
+<p>But, text field was set to <code>§eljko</code>, <code>Ĺľeljko</code>, just <code>eljko</code> or some other string (depending if I try from irb, or from file that is saved in some encoding).</p>
+<p>I searched wtr-general and found different solutions.</p>
+<p>I added</p>
+
+{% highlight ruby %}
+require "win32ole"
+WIN32OLE.codepage = WIN32OLE::CP_UTF8
+{% endhighlight %}
+
+<p>and</p>
+
+{% highlight ruby %}
+$KCODE = 'utf8'
+require 'jcode'
+{% endhighlight %}
+
+<p>to the top of the file.</p>
+<p>I tried <code>TextField#value=</code> instead of <code>TextField#set</code>.</p>
+
+{% highlight ruby %}
+browser.text_field(:index, 1).value=("željko")
+{% endhighlight %}
+
+<p>I saved file as UTF-8.</p>
+<p>Nothing worked. I sent <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg07315.html">my question</a> to wtr-general and <a href="http://www.staqs.com/">Paul Carvalho</a> answered.</p>
+<blockquote><p>[...] I have a Watir script [...] It reads the inputs from an Excel file into an Array and then I use the array data to populate the text fields. [...] I didn't use any special 'require' lines or KCodes.  I just let Excel worry about holding the data [...]</p></blockquote>
+<p>I tried it, and it worked! It was simple, too. Just a few lines of code.</p>
+
+{% highlight ruby %}
+require 'watir'
+excel = WIN32OLE::new('excel.Application')
+workbook = excel.Workbooks.Open('C:\data.xls') # open file
+worksheet = workbook.Worksheets(1) # the first worksheet
+cell = worksheet.Range('a1')['Value'] # value of single cell
+browser = Watir::IE.start('http://www.google.com/') # start IE
+browser.text_field(:index, 1).set(cell) # set text field to value from cell
+{% endhighlight %}

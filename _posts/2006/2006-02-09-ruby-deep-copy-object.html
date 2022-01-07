@@ -1,0 +1,60 @@
+---
+tags:  code ruby
+title: Ruby (Deep) Copy Object
+---
+<p>I wanted to make an object. Then copy it. Then change that copy and leave original object intact. But I did not know how to do it. When I do not know how to do something, I always ask <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/">wtr-general</a> mailing list. I <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg02650.html">posted</a> my question. Then I though it would be nice if I explained why I want to copy an object. But it got pretty long, so I put it at my <a href="/watir-ruby-objects-and-variables">blog</a>.</p>
+<p>I got a reply. 
+
+<blockquote>
+Try <code>Object#clone</code>.
+</blockquote>
+
+Could it be that easy?! It could be. After all, this is Ruby. But no, it is not that easy. It did not work. Original object was changing with it's duplicate.</p>
+
+{% highlight ruby %}
+class Page
+  attr_accessor :texts
+  def initialize(url, texts)
+    @url, @texts = url, texts
+  end
+end
+
+page_view = Page.new("app.com/view.aspx", ["File > View"])
+page_view_after_add = page_view.clone
+page_view_after_add.texts << "File added."
+
+puts page_view.inspect
+puts page_view_after_add.inspect
+{% endhighlight %}
+
+<p>Output:</p>
+
+{% highlight shell %}
+#<Page:0x2820ae0 @url="app.com/view.aspx", @texts=["File > View", "File added."]>
+#<Page:0x2820a98 @url="app.com/view.aspx", @texts=["File > View", "File added."]>
+{% endhighlight %}
+
+<p>But now I new where to look. So I typed <code>ri Object#clone</code> and <code>ri Object#dup</code> at Command Prompt (and even looked at <a href="http://www.ruby-doc.org/core/">ruby-doc.org/core</a>). It said (at both places, for both <code>Object#clone</code> and <code>Object#dup</code>):</p>
+
+<blockquote>
+Produces a shallow copy of obj—the instance variables of obj are copied, but not the objects they reference.
+</blockquote>
+
+<p>So, it creates a "shallow" copy. I do not need this. I need a "real" copy.</p>
+<p>Google helped me. I searched for "ruby copy object" and found the solution. Secret word is "deep" copy.</p>
+<p>I added this to <code>class Page</code> (and replaced <code>page_view.clone</code> with <code>page_view.deep_clone</code>) and got what I needed!</p>
+
+{% highlight ruby %}
+def deep_clone
+  Marshal::load(Marshal.dump(self))
+end
+{% endhighlight %}
+
+<p>Output:</p>
+
+{% highlight shell %}
+#<Page:0x4c1dd10 @url="app.com/view.aspx", @texts=["File > View"]>
+#<Page:0x4c1dc50 @url="app.com/view.aspx", @texts=["File > View", "File added."]>
+{% endhighlight %}
+
+<p>I do not understand how it works, and I do not care, as long as it works.</p>

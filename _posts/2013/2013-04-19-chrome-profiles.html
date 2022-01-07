@@ -1,0 +1,33 @@
+---
+tags:  code ruby
+title: Chrome Profiles
+---
+<p><a title="By Zeljko.filipin (Own work) [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ATrees_in_bloom.jpg"><img width="512" alt="Trees in bloom" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Trees_in_bloom.jpg/512px-Trees_in_bloom.jpg"/></a></p>
+<p>Random photo: Spring in Zagreb, Croatia.</p>
+<p>This will open <a href="http://sandbox.translatewiki.net/">sandbox.translatewiki.net</a> in English using Firefox. The top link at the left hand side will be <code>Main page</code>.</p>
+
+{% highlight ruby %}
+require "watir-webdriver"
+browser = Watir::Browser.new :firefox
+browser.goto "http://sandbox.translatewiki.net/"
+{% endhighlight %}
+
+<p>This will open the same page in the same browser, but in German. The link will be <code>Hauptseite</code>.</p>
+
+{% highlight ruby %}
+require "watir-webdriver"
+profile = Selenium::WebDriver::Firefox::Profile.new
+profile["intl.accept_languages"] = "de"
+browser = Watir::Browser.new :firefox, :profile => profile
+browser.goto "http://sandbox.translatewiki.net/"
+{% endhighlight %}
+
+<p>I want to open the site in German using Chrome. I was able to find the solution using <a href="http://watirwebdriver.com/chrome/">Watir documentation on Chrome</a> and <a href="http://src.chromium.org/svn/trunk/src/chrome/common/pref_names.cc">Chromium source code</a>. Now that I look at it, the solution is trivial and really similar to Firefox.</p>
+
+{% highlight ruby %}
+require "watir-webdriver"
+profile = Selenium::WebDriver::Chrome::Profile.new
+profile["intl.accept_languages"] = "de"
+browser = Watir::Browser.new :chrome, :profile => profile
+browser.goto "http://sandbox.translatewiki.net/"
+{% endhighlight %}

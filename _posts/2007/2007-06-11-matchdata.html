@@ -1,0 +1,29 @@
+---
+tags:  code ruby
+title: MatchData
+---
+<p>Sapna asked <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg09099.html">how to extract id from this link</a>.</p>
+
+{% highlight html %}
+<a href="MessageDetail.aspx?id=1303&messageToUser=True">
+  RE: Check Copy Request
+</a>
+{% endhighlight %}
+
+<p>The solution includes using <a href="http://phrogz.net/ProgrammingRuby/ref_c_matchdata.html">MatchData</a>. I use it rarely, and I always forget how it is used. So, every time I need it, I have to read documentation. I have decided to make a note here, so I could easily find it later.</p>
+<p>This is how you can get href attribute of that link. I will assumed that he knows text <code>RE: Check Copy Request</code>.</p>
+
+{% highlight ruby %}
+ie.link(:text, "RE: Check Copy Request").href
+=> "MessageDetail.aspx?id=1303&messageToUser=True"
+{% endhighlight %}
+
+<p>This will extract 1303.</p>
+
+{% highlight ruby %}
+m = /id=(1303)/.match(ie.link(:text, "RE: Check Copy Request").href)
+=> #<matchdata :0x2d147b8>
+
+m[1]
+=> "1303"
+{% endhighlight %}

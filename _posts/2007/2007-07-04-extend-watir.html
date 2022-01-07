@@ -1,0 +1,36 @@
+---
+tags:  code ruby
+title: Extend Watir
+---
+<p>I had to click a h4 headline.</p>
+
+{% highlight html %}
+<h4 id="addproject">Create a new project</h4>
+{% endhighlight %}
+
+<p>This did not work.</p>
+
+{% highlight ruby %}
+browser.h4(:id, "addproject").click
+{% endhighlight %}
+
+<p>I posted a question to <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/msg09457.html">wtr-general</a> mailing list and <a href="http://pettichord.com/">Bret Pettichord</a> suggested to extend Watir with this, so it would support h4 headlines.</p>
+
+{% highlight ruby %}
+module Watir
+  class H4 < NonControlElement
+    TAG = 'H4'
+  end
+  module Container
+    def h4(how, what)
+      return H4.new(self, how, what)
+    end
+  end
+end
+{% endhighlight %}
+
+<p>Now this works.</p>
+
+{% highlight ruby %}
+browser.h4(:id, "addproject").click
+{% endhighlight %}

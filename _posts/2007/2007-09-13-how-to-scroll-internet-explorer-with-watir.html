@@ -1,0 +1,14 @@
+---
+tags:  code ruby
+title: How to Scroll Internet Explorer with Watir
+---
+<p>This is another gem from Watir General Google group.</p>
+<p><a href="http://groups.google.com/group/watir-general/browse_thread/thread/a0504c3358716dbb/b3d09c8cca522ec8">How to scroll Internet Explorer with Watir?</a></p>
+
+{% highlight ruby %}
+require 'watir'
+browser = Watir::IE.start('http://www.google.com')
+browser.link(:text, 'About Google').document.scrollintoview
+{% endhighlight %}
+
+<p><img src="/assets/scrollintoview.png" alt="scrollintoview.png" /></p>

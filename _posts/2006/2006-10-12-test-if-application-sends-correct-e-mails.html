@@ -1,0 +1,15 @@
+---
+tags:  TODO
+title: Test If Application Sends Correct E-mails
+---
+<p>Interesting question appeared today at <a href="http://www.mail-archive.com/wtr-general%40rubyforge.org/">wtr-general</a> mailing list.</p>
+<blockquote><p>my application has sent an email to outlook. i want watir to open outlook, open the mail and get the mail data like from text and so on.</p></blockquote>
+<p>I also have to test my application to see if it sends correct e-mails. So I knew the answer.</p>
+<blockquote><p>You do not have to open Outlook to see your mail. You can read you e-mail from ruby.</p>
+<p>- receive e-mail - <a href="http://www.ruby-doc.org/stdlib/libdoc/net/pop/rdoc/index.html">Net::POP3</a><br />
+- send e-mail - <a href="http://www.ruby-doc.org/stdlib/libdoc/net/smtp/rdoc/index.html">Net::SMTP</a><br />
+- create (before sending) and parse e-mail (from file, after receiving) - <a href="http://i.loveruby.net/en/projects/tmail/">TMail</a></p>
+<p>Net::POP3 and Net::SMTP are included in Ruby. TMail needs installation. I had a problem with TMail installation, and I contacted author. He recommended this procedure, and now it works.</p>
+<p><code>ruby setup.rb config --without-ext<br />
+ruby setup.rb setup<br />
+ruby setup.rb install</code></p></blockquote>

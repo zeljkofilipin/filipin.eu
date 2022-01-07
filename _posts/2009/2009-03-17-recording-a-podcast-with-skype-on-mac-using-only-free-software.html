@@ -1,0 +1,47 @@
+---
+tags:  podcast
+title: Recording a Podcast with Skype on Mac Using Only Free Software
+---
+<p>I have a small podcast on <a href="http://wtr.rubyforge.org/">Watir</a> called Watir Podcast.</p>
+<p>When I was recording podcasts on Windows XP machine, it was easy to do it using all open source or free software. All you had to do is install <a href="http://www.skype.com/">Skype</a> (free, voice over Internet), <a href="http://audacity.sourceforge.net/">Audacity</a> (open source, audio recording and editing) and play a bit with Windows XP audio settings. To be true, it took me a few podcasts to figure out how to set audio just right, as you will surely notice if you listen to the first few of my podcasts.</p>
+<p>A few months ago I got a Mac and I thought it would be as easy to record podcasts there. I was wrong. I have been trying and trying and only a few days ago I was able to record a Skype conversation on Mac.</p>
+<p>What was the problem? I installed Skype and Audacity (both have Mac versions) and, to my great surprise, there was no option in Audacity to record both audio from Skype and from my microphone, as there is on Windows XP. I browsed around, tried a bunch of software and could not find anything that would work. At the moment, I think it is the limitation of sound card, but I could be wrong. (I used Boot Camp to install Windows XP on Mac, and could not record all audio even then.)</p>
+<p>Then I found a great article, <a href="http://www.360east.com/?p=133">Recording Skype calls on GarageBand with LineIn and SoundFlower (Mac)</a>. It showed me that there is a way to record Skype on Mac using only free software. But it got me only 90% of the way. I was able to record both Skype and my audio, but I did not hear Skype audio. Asking a question and not being able to hear the answer is usually a problem in an interview. In the end, I found the solution in article's comments, but it took me a while (and some luck) to figure out how to fix the problem.</p>
+<p>So, how to record a Skype conversation?</p>
+<p>Install <a href="https://github.com/tap/Soundflower/downloads">Soundflower</a> (open source), <a href="http://www.rogueamoeba.com/freebies/">LineIn</a> (free) and <a href="http://www.skype.com/">Skype</a> (free).</p>
+<p>To record and edit audio, you can use <a href="http://www.apple.com/ilife/garageband/">GarageBand</a> (free, I got GarageBand '08 with Mac OS X, but you have to pay for GarageBand '09) or <a href="http://audacity.sourceforge.net/">Audacity</a> (open source).</p>
+<p><strong>System Preferences</strong> > Sound<br />
+ - Output: Headphones - Built-in Audio (always use headphones when recording so your microphone does not catch sound from the speakers)<br />
+ - Input: Internal microphone - Built-in (check 'Use ambient noise reduction' and move microphone input volume slider to the right)</p>
+<p><img src="/assets/sound-300x219.jpg" alt="sound" title="sound" /></p>
+<p><strong>Skype</strong> > Preferences > Audio<br />
+- Audio output: Soundflower (2ch)<br />
+- Audio input: Soundflower (2ch)</p>
+<p><img src="/assets/audio-300x107.jpg" alt="audio" title="audio" /></p>
+<p>While configuring Skype for the first use, you should uncheck option that Skype automatically adjusts microphone volume and move the slider to the right, but I can not find that configuration wizard, even after reinstalling.</p>
+<p><strong>LineIn</strong><br />
+Input from: Build-in Microphone: Internal microphone<br />
+Output to: Soundflower (2ch)</p>
+<p><img src="/assets/linein-300x106.jpg" alt="linein" title="linein" /></p>
+<p><strong>GarageBand</strong><br />
+Audio output: Built-in Output<br />
+Audio Input: Soundflower (2ch)</p>
+<p><img src="/assets/audio_midi-300x94.jpg" alt="audio_midi" title="audio_midi" /></p>
+<p>Create New Podcast Episode > Male/Female Voice > Monitor: On<br />
+Make sure you turn monitor "On", or you will not hear the other person speaking. I heard my voice with about one second delay, so the next time I will try "On with Feedback Protection" instead of "On" setting.</p>
+<p><img src="/assets/1band-300x195.jpg" alt="1band" title="1band" /></p>
+<p><strong>Audacity</strong><br />
+Output: Core Audio: Built-in Output<br />
+Input: Core Audio: Soundflower (2ch)</p>
+<p><img src="/assets/audacity-300x96.jpg" alt="audacity" title="audacity" /></p>
+<p>Preferences > Audio I/O > Playthrough > Hardware Playthrough: Play new track while recording it > check<br />
+With software playthrough I heard my voice with about one second delay, but it was fine with hardware playthrough.</p>
+<p><img src="/assets/audacity-preferences-300x169.jpg" alt="audacity-preferences" title="audacity-preferences" /></p>
+<p>Start Skype conversation and when you want to record, click ‘Pass Thru’ button in LineIn and click record button in GarageBand or Audacity.</p>
+<p>Software versions I used:<br />
+Mac OS X 10.5.6.<br />
+Soundflower 1.4.3<br />
+LineIn 2.0.3<br />
+GarageBand '08 4.1.2 (248.7)<br />
+Audacity 1.3.7<br />
+Skype 2.8.0.324</p>

@@ -1,0 +1,32 @@
+---
+tags:  TODO
+title: Roll your own Watir
+---
+<p><a href="http://wiki.openqa.org/display/WTR/Development+Builds">Watir 1.5.1.1136 was released</a> yesterday, but FileField#set does not work. They have fixed it, but it is not released yet. But still, you can use all those shiny new Watir methods.</p>
+<p>How?!</p>
+<p>Roll your own Watir using <a href="http://tortoisesvn.tigris.org/">TortoiseSVN</a>. Just make sure that you are logged in as administrator during installation. I am usually logged in as limited user, and to make it short, it does not work that way. Please, log in as administrator. If you can not, then I can not help you.</p>
+<p>From <a href="http://wiki.openqa.org/display/WTR/FAQ#FAQ-devgem">Installing a Gem from the latest development source</a> (Watir FAQ page).</p>
+<blockquote><p>Once TortoiseSVN is installed, checkout the source:</p>
+<ol>
+<li>Create a folder to checkout into, this will be the <em>watir_install_dir</em></li>
+<li>Right click on <em>watir_install_dir</em>, from the context menu select <em>SVN Checkout...</em></li>
+<li>In the dialog box enter <a href="http://svn.openqa.org/svn/watir/trunk/watir">http://svn.openqa.org/svn/watir/trunk/watir</a> for the url</li>
+<li>Hit <em>Ok</em>, Watir source should now download into the <em>watir_install_dir</em></li>
+</ol>
+<p>Now that you have your own local copy of the source, you can create your own gem and install it into your local ruby gems directory. Open a command line, navigate to <em>watir_install_dir</em> and type the following:</p>
+<p><code>gem build watir.gemspec</code></p>
+<p>This will create a file that is named something like watir.1.5.1.1032.gem. The actual version number will be based on the latest revision number of the source in subversion.</p>
+<p>You can install your gem simply by typing this in the same directory:</p>
+<p><code>gem install watir</code></p></blockquote>
+<p>Some things are still broken. Like IE#minimize.</p>
+<p>Why?! And I was so close...</p>
+<p>Do not despair, you can fix that too (are you lucky or what?).</p>
+<p>AutoIt is not registered. They say it should be, but it does not work on my machine.</p>
+<p>Open a command line, go to folder where AutoItX3.dll is located. If you installed Ruby to C:\ruby\ and your gem name is watir-1.5.1.1141 it should be C:\ruby\lib\ruby\gems\1.8\gems\watir-1.5.1.1141\watir\.</p>
+<p>Type this.</p>
+<p><code>regsvr32 AutoItX3.dll</code></p>
+<p>Pop up will appear with message that registration was successful. If message says that registration was not successful, you are not logged in as administrator. Log out (or switch user) and log in as administrator. As I stated earlier, if you can not, then I can not help you.</p>
+<p><a href="http://en.wikipedia.org/wiki/Porky_Pig">Th-th-th-that's all folks!</a></p>
+<p>P.S.</p>
+<p>You can unregister AutoIt with this if, for example, you have trouble with uninstalling Watir.</p>
+<p><code>regsvr32 /u AutoItX3.dll</code></p>

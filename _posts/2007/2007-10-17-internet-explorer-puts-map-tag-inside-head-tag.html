@@ -1,0 +1,24 @@
+---
+tags:  code ruby
+title: Internet Explorer Puts map Tag inside head Tag
+---
+<p>I have ported <em>Support for XPATH in Watir</em> by <a href="http://angrez.blogspot.com/">Angrez Singh</a> to wiki format.</p>
+<p>I was trying example from <em>What to do for elements not having class in Watir</em> section and for this HTML:</p>
+
+{% highlight html %}
+<map name="chart">
+  <area shape="poly" coords="150,16,159,17,168,20,175,25,182,32,150,56,150,56" />
+  <area shape="poly" coords="182,32,188,43,190,56,150,56,150,56" ref="PieChart.html?category=Critical&pieIndex=0" />
+</map>
+{% endhighlight %}
+
+<p>Watir always returned <code>nil</code>:</p>
+
+{% highlight ruby %}
+ie.element_by_xpath("//area[contains(@href , 'PieChart.html')]/")
+# => nil
+{% endhighlight %}
+
+<p>I asked Angrez am I doing something wrong and he replied to check if generated HTML (that is rendered in the browser) is the same as source HTML.</p>
+<p>Brilliant!</p>
+<p>There seems to be a bug in Internet Explorer 7 (IE). If you create HTML file with above HTML (only that code, do not add anything else) IE puts <code>map</code> tag inside <code>head</code> tag. Firefox 2 puts it inside <code>body</code> tag, of course. The workaround is to put <code>map</code> tag explicitly inside <code>body</code> tag.</p>

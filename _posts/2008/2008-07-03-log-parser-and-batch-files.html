@@ -1,0 +1,64 @@
+---
+tags:  code
+title: Log Parser and Batch Files
+---
+<p>I am using <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=890cd06b-abf8-4c25-91b2-f8d975cf8c07&displaylang=en">Log Parser</a> to parse log files. I parse a lot of files and I wanted to make a batch file that will do it for me.</p>
+<p>I pasted my commands to a batch file, executed it, and to my surprise, it would parse the files but would not find anything.</p>
+<p>This is content of my batch file:</p>
+
+{% highlight shell %}
+LogParser "SELECT text FROM errors.log WHERE text LIKE '2008-%'"
+{% endhighlight %}
+
+<p>When I execute it, it does not find anything:</p>
+
+{% highlight shell %}
+C:\>parse_logs.cmd
+C:\>LogParser "SELECT text FROM errors.log WHERE text LIKE '2008-'"
+
+Statistics:
+--
+Elements processed: 34
+Elements output: 0
+Execution time: 0.02 seconds
+{% endhighlight %}
+
+<p>When I executed the command from command prompt, Log Parser would find what I was looking for:</p>
+
+{% highlight shell %}
+C:\>LogParser "SELECT text FROM errors.log WHERE text LIKE '2008-%'"
+
+Statistics:
+--
+Elements processed: 34
+Elements output: 24
+Execution time: 0.02 seconds
+{% endhighlight %}
+
+<p>I looked around, asked a few people but no luck.</p>
+<p>I finally found the problem.</p>
+<p>There is <code>%</code> in Log Parser SQL query:</p>
+
+{% highlight sql %}
+LIKE '2008-%'
+{% endhighlight %}
+
+<p><code>%</code> represents variable in batch file, and if you take a closer look how batch file gets executed you will see that</p>
+
+{% highlight sql %}
+LIKE '2008-%'
+{% endhighlight %}
+
+<p>is executed as</p>
+
+{% highlight sql %}
+LIKE '2008-'
+{% endhighlight %}
+
+<p>I changed batch file to</p>
+
+{% highlight sql %}
+LIKE '2008-%%'
+{% endhighlight %}
+
+<p>and now it works.</p>

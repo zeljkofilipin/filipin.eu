@@ -1,4 +1,0 @@
----
-name: featured
----
-Featured post. 👍

@@ -83,6 +83,3 @@ To learn more, I would highly recommend [The Healthy Programmer](https://pragpro
 # Reviewers
 
 I would like to thank [Hrvoje Šimić (Shime)](https://shime.sh/) for reviewing the article and a lot of advice on how to make it better.
-
-# Links
-My co-worker Tyler Cipriani wrote [Lessons from seven years of remote work](https://tylercipriani.com/blog/2021/12/01/lessons-from-seven-years-of-remote-work/).

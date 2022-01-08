@@ -20,7 +20,9 @@
 
 title: Filipin.eu
 email: "zeljko.filipin@gmail.com"
-description: Željko Filipin's blog.
+description: >- # this means to ignore newlines until "baseurl:"
+  Željko Filipin's blog.
+  <br /><a href="/">Home</a> <a href="/blog">Blog</a> <a href="/tags">Tags</a> <a href="/now">Now</a> <a href="/license">License</a>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://filipin.eu/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zeljkofilipin

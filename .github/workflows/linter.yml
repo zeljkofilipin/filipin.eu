@@ -41,11 +41,13 @@ jobs:
       # Run Linter against code base #
       ################################
       - name: Lint Code Base
-        uses: github/super-linter@v3
+        uses: github/super-linter@v4
         env:
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VALIDATE_HTML: false # 250
-          VALIDATE_MARKDOWN: false # 125
-          VALIDATE_JSCPD: false # 15
-          VALIDATE_RUBY: false # 1
+          VALIDATE_GITLEAKS: false # 1
+          VALIDATE_HTML: false # 251
+          VALIDATE_JSCPD: false # 11
+          VALIDATE_MARKDOWN: false # 135
+          VALIDATE_NATURAL_LANGUAGE: false # 42
+          VALIDATE_YAML: false # 1

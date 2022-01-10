@@ -13,4 +13,5 @@ gem 'jekyll-theme-hacker', '~> 0.2.0'
 # If you have any plugins, put them here!
 gem "github-pages", '~> 223', group: :jekyll_plugins
 
+gem 'rake', '~> 13.0', '>= 13.0.6'
 gem 'webrick', '~> 1.7'

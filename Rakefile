@@ -1,12 +1,7 @@
 # frozen_string_literal: true
 
 desc 'run all tasks'
-task default: %i[yaml_lint]
-
-desc 'run yaml linter'
-task :yaml_lint do
-  sh "find . -not -path './vendor/*' -regex '.*yml' | xargs yaml-lint"
-end
+task default: %i[super_linter]
 
 desc 'run super-linter'
 task :super_linter do

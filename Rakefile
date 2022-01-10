@@ -1,11 +1,7 @@
 # frozen_string_literal: true
 
 desc 'run all tasks'
-task default: %i[rubocop yaml_lint]
-
-require 'rubocop/rake_task'
-desc 'run ruby linter'
-RuboCop::RakeTask.new
+task default: %i[yaml_lint]
 
 desc 'run yaml linter'
 task :yaml_lint do

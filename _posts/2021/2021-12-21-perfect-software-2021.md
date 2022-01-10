@@ -103,3 +103,7 @@ I've used several testing tools. I've contributed to the development of one. I h
 ## 18 Oblivious scams
 
 *When we want so much for everything to go well, it's all too easy to inject our fantasies into our data. (Page 168.)*
+
+# Reviewers
+
+I would like to thank [Tyler Cipriani](https://tylercipriani.com/) for reviewing the article and a lot of advice on how to make it better.

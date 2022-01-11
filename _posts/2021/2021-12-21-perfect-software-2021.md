@@ -10,7 +10,7 @@ There is no perfect software. Testing provides information. Most people you work
 
 # Introduction
 
-When I first read Perfect Software I didn't understand it. It took a decade of experience for the lessons to sink in.
+When I [first read Perfect Software](/perfect-software-2012) I didn't understand it. It took a decade of experience for the lessons to sink in.
 
 Please keep in mind that he published the book when he was 75 years old. You can tell the author has many decades of experience. The book is full of real life examples. I could recognize myself in characters from the examples, for more examples that I would like to admit. 😅
 

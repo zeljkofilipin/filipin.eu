@@ -1,3 +1,4 @@
+---
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -6,7 +7,8 @@
 # feature for the data you need to update frequently.
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server
+# process.
 #
 # If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
@@ -23,9 +25,11 @@ author: "Željko Filipin"
 email: "zeljko.filipin@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
   Željko Filipin's blog.
-  <br /><a href="/">Home</a> <a href="/blog">Blog</a> <a href="/tags">Tags</a> <a href="/now">Now</a> <a href="/license">License</a>
+  <br /><a href="/">Home</a> <a href="/blog">Blog</a> <a href="/tags">Tags</a>
+  <a href="/now">Now</a> <a href="/license">License</a>
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://filipin.eu/" # the base hostname & protocol for your site, e.g. http://example.com
+# the base hostname & protocol for your site, e.g. http://example.com
+url: "https://filipin.eu/"
 twitter_username: zeljkofilipin
 github_username: zeljkofilipin
 google_analytics: UA-200958-28

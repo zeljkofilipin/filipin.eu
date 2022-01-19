@@ -14,6 +14,6 @@ The adventure did not end there, since there seems to be several JavaScript Sele
 
 The fun continued with test frameworks. At the very beginning of the adventure, I have paired with a colegue that is familiar with JavaScript and we have picked [Jasmine](https://en.wikipedia.org/wiki/Jasmine_%28JavaScript_framework%29). While investigating existing JavaScript code, I have found out that we use [QUnit](https://en.wikipedia.org/wiki/QUnit), but I could not figure out how to use it with Selenium. I still need to learn more about the language.
 
-I was able to make everything work with [Mocha](https://en.wikipedia.org/wiki/Mocha_%28JavaScript_framework%29) (event Grunt!). Looks like WebDriverJs/selenium-webdriver has built in support for it.
+I was able to make everything work with [Mocha](https://en.wikipedia.org/wiki/Mocha_%28JavaScript_framework%29) (event Grunt!). Looks like WebDriverJs/selenium-webdriver has built-in support for it.
 
 I am looking forward to learning more about the language and the tools.

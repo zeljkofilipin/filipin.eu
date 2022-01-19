@@ -8,6 +8,6 @@ The highlight of the conference were a couple of teenagers presenting a robotic 
 
 # Links
 
-- [WebCamp](http://2017.webcamp.si/) web site
+- [WebCamp](http://2017.webcamp.si/) site
 - [RoboArm](http://slides.com/andagent/deck#/) at slides.com
 - [RoboArm](https://github.com/andagent/RoboArm) at github.com

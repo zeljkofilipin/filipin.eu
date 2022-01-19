@@ -97,7 +97,7 @@ There are several solutions to the problem.
 
 Code is hosted in <a href="https://gerrit.wikimedia.org/">Gerrit</a> and there are <a href="https://github.com/wikimedia/">GitHub mirrors</a> for almost all repositories. Of course, everything is completely open. We also use Gerrit for code review. Almost every commit is reviewed by somebody else before it gets merged into master.
 
-<a href="https://lists.wikimedia.org/mailman/listinfo/qa">Mailing list</a>, <a href="https://phabricator.wikimedia.org/">bug tracker</a> and <a href="https://integration.wikimedia.org/ci/">continuous integration server</a> (Jenkins) is open. Anybody can see our e-mail communication, bugs and Jenkins jobs. Every Jenkins job starts several Sauce Labs jobs. All of them are open too.
+<a href="https://lists.wikimedia.org/mailman/listinfo/qa">Mailing list</a>, <a href="https://phabricator.wikimedia.org/">bug tracker</a> and <a href="https://integration.wikimedia.org/ci/">continuous integration server</a> (Jenkins) is open. Anybody can see our email communication, bugs and Jenkins jobs. Every Jenkins job starts several Sauce Labs jobs. All of them are open too.
 
 # Code reuse
 

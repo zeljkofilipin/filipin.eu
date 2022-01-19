@@ -14,7 +14,7 @@ The organizers had a really ambitous plan. I was able to atted almost all precon
 
 The first event was [Week of WebCamp](http://2014.webcampzg.org/week-of-webcamp/). A few local tech groups have organized a two-track mini conference. I do not remember the details, but I was not dissapointed with the organization and the talks.
 
-The second event was a [workshop day](http://2014.webcampzg.org/workshops/). I have attended three workshops. I wanted to attend Git workshop, but when I decided to register, it was sold out. :'( It was not all sad news, since the usability testing workshop that was at the same time was great. A lot of good content and a couple of hands on exercises. I have also attended Scala and Elixir workshops, but I was dissapointed. Both of them assumed a lot of previous experience, but that was not communicated before the workshops, or at least I did not get that e-mail.
+The second event was a [workshop day](http://2014.webcampzg.org/workshops/). I have attended three workshops. I wanted to attend Git workshop, but when I decided to register, it was sold out. :'( It was not all sad news, since the usability testing workshop that was at the same time was great. A lot of good content and a couple of hands on exercises. I have also attended Scala and Elixir workshops, but I was dissapointed. Both of them assumed a lot of previous experience, but that was not communicated before the workshops, or at least I did not get that email.
 
 The main event, the conference, was also really good. Some good talks, some meh talks, some not so good talks. The usual. But rememeber, this was a non profit conference. Amazing. I have helped organize conferences, and it is not easy.
 

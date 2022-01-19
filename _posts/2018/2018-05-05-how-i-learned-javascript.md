@@ -2,7 +2,7 @@
 tags:  book featured javascript
 title: How I Learned JavaScript
 ---
-I have been using Ruby for a long time. The oldest blog post I have tagged Ruby is from [2005](/kako-znas-da-si-napisao-dosta-ruby-koda-za-danas) (in Croatian). In [2015](/javascript) I have started using JavaScript. Several people in the last few months have asked me how I learned it. I have some notes, e-mails and posts, so I thought it might be useful to write a post about it.
+I have been using Ruby for a long time. The oldest blog post I have tagged Ruby is from [2005](/kako-znas-da-si-napisao-dosta-ruby-koda-za-danas) (in Croatian). In [2015](/javascript) I have started using JavaScript. Several people in the last few months have asked me how I learned it. I have some notes, emails and posts, so I thought it might be useful to write a post about it.
 
 # Online Courses
 

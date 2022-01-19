@@ -10,7 +10,7 @@ Yesterday I gave a talk titled *How MediaWiki, software that runs Wikipedia, is 
 
 # Part One
 
-A few words about myself. I have showed this web site and [DORS/CLUC 2013](/dors-cluc-2013) article (I was <a href="http://en.wikipedia.org/wiki/Liveblogging">liveblogging</a>).
+A few words about myself. I have showed this site and [DORS/CLUC 2013](/dors-cluc-2013) article (I was <a href="http://en.wikipedia.org/wiki/Liveblogging">liveblogging</a>).
 
 # Part Two
 
@@ -178,7 +178,7 @@ The problem is that the test waits 15 seconds for <code>Download the file</code>
 
 # Part Four
 
-A short overview of the complete browser test automation solution that we have developed. The code is hosted at Gerrit (<a href="https://gerrit.wikimedia.org/r/#/admin/projects/qa/browsertests">qa/browsertests</a>) and there is Github mirror (<a href="https://github.com/wikimedia/qa-browsertests">wikimedia/qa-browsertests</a>).
+A short overview of the complete browser test automation solution that we have developed. The code is hosted at Gerrit (<a href="https://gerrit.wikimedia.org/r/#/admin/projects/qa/browsertests">qa/browsertests</a>) and there is GitHub mirror (<a href="https://github.com/wikimedia/qa-browsertests">wikimedia/qa-browsertests</a>).
 We use <a href="https://rvm.io/">RVM</a> to manage Ruby versions and <a href="https://rvm.io/gemsets/">gemsets</a>.
 <a href="https://github.com/wikimedia/qa-browsertests/blob/master/.ruby-version">.ruby-version</a> file.
 

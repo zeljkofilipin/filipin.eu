@@ -50,4 +50,4 @@ jobs:
           VALIDATE_HTML: false # 251
           VALIDATE_JSCPD: false # 11
           VALIDATE_MARKDOWN: false # 135
-          VALIDATE_NATURAL_LANGUAGE: false # 42
+          VALIDATE_NATURAL_LANGUAGE: false # 13

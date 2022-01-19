@@ -8,4 +8,4 @@ I gave my usual [How software that runs Wikipedia is tested](/how-software-that-
 
 Links:
 
-- [WebCamp Zagreb 2013](https://2013.webcampzg.org/) website
+- [WebCamp Zagreb 2013](https://2013.webcampzg.org/) site

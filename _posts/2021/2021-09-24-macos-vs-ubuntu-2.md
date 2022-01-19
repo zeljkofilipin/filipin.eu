@@ -44,7 +44,7 @@ Similar to the previous blog post, I was running two npm scripts. Installing npm
 
 I was not only interested in how fast it is to run the scripts from the operating system (macOS or Linux). I also wanted to know how much time it takes to run the scripts from a Fresh container. ([Fresh](https://gerrit.wikimedia.org/g/fresh) is *"a fast and ready-to-use Docker container with various developer tools pre-installed."*)
 
-To make things as fair as possible, both machines were using the same wifi and were the same distance from the router. `npm run selenium-test` was running in headless mode.
+To make things as fair as possible, both machines were using the same Wi-Fi and were the same distance from the router. `npm run selenium-test` was running in headless mode.
 
 # Data
 

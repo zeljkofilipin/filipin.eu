@@ -24,7 +24,7 @@ One mistake I used to do a lot of to check my mail in the morning. That usually 
 
 Even if you manage to triage your mail in the morning and you have the afternoon for working on projects, I'm usually more tired and less productive in the afternoon. It really makes little sense to spend the best hours of your day (morning) on mail. You should work on a hard problem then, and check mail in the afternoon.
 
-One of the problem of e-mail is that it produces more e-mail. If you respond to all of your messages in an hour or two, by the time you're done, you'll receive answers to some of the messages and the never ending circle of e-mail continues.
+One of the problem of email is that it produces more email. If you respond to all of your messages in an hour or two, by the time you're done, you'll receive answers to some of the messages and the never ending circle of email continues.
 
 Another problem are meetings. I've tried to get out of as many meetings as I could. For a while I had a fear of missing out, because sometimes I would learn valuable information at meetings. Also, I didn't want to look like I'm avoiding work. I had a chat with my manager (he recommended Deep Work in the first place) and he agreed that I should leave the meetings I didn't think are providing value. I've also marked Tuesdays and Fridays as "busy" in my work calendar, so people know not to schedule meetings with me.
 
@@ -44,7 +44,7 @@ Joel Spolsky of was way ahead of it's time when he introduced private offices in
 
 #### The Principle of Least Resistance
 
-Writing e-mail messages (and instant messages), phabricator tasks and similar in a way that the other person can quickly and easily respond might be harder to you short-term, but much better long-term.
+Writing email messages (and instant messages), phabricator tasks and similar in a way that the other person can quickly and easily respond might be harder to you short-term, but much better long-term.
 
 #### Rule #4: Drain the Shallows
 

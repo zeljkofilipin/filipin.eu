@@ -33,4 +33,4 @@ I had to step back from disabling *all* notifications. Turns out, some notificat
 
 # Watch
 
-You might be surprised to hear that my phone is in silent mode all the time, but I still get notifications. I've decided to try out enabling select notifications on my watch. I have [Polar Vantage M](https://www.polar.com/en/vantage/m) sports watch that I mostly use to track my running. I wouldn't call it a smart watch. I doesn't have apps or touch screen. It connects to my phone via Bluetooth and can notify me (with vibration) if I have a call or a calendar event. That turned out to be the best compromise.
+You might be surprised to hear that my phone is in silent mode all the time, but I still get notifications. I've decided to try out enabling select notifications on my watch. I have [Polar Vantage M](https://www.polar.com/en/vantage/m) sports watch that I mostly use to track my running. I wouldn't call it a smart watch. I doesn't have apps or touchscreen. It connects to my phone via Bluetooth and can notify me (with vibration) if I have a call or a calendar event. That turned out to be the best compromise.

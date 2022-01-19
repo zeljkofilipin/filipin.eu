@@ -27,7 +27,7 @@ Guitar
 Ukulele
 ![Yousician ukulele](/assets/frankie-and-johnny/yousician-ukulele.png "Yousician ukulele")
 
-You can also see the song at Yousician website ([all instruments](https://yousician.com/songs/guitar/frankie--johnny/558bd72e2968c42e0191caaa), [ukulele](https://yousician.com/songs/ukulele/frankie--johnny-uke-mix/56449095e8dec33a976ab725)). I'm not sure why is ukulele separate.
+You can also see the song at Yousician site ([all instruments](https://yousician.com/songs/guitar/frankie--johnny/558bd72e2968c42e0191caaa), [ukulele](https://yousician.com/songs/ukulele/frankie--johnny-uke-mix/56449095e8dec33a976ab725)). I'm not sure why is ukulele separate.
 
 # Recording
 

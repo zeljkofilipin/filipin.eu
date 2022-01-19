@@ -15,13 +15,13 @@ title: Software Testing Anti-patterns - Selenium
 - Anybody not like page objects?
 
 Looking at real code (Zeljko projecting):
-Z: A few repos moved from Ruby and cucumber to Node and mocha - they're just out of scope for today
+Z: A few repos moved from Ruby and cucumber to Node.js and mocha - they're just out of scope for today
 
 Good example (MediaWiki core, page.js)
 Z: beautiful new way to use the API. Before hook runs each test suite. use Util.getTestString.
 
 Bad example (TemplateWizard)
-Z: scored all the antipattern points! L28-L98 "basic use of templatewizard". It uses node selectors, 1 huge file, all details inside the test instead of using page objects. Positively, it waits for elements to be present.
+Z: scored all the antipattern points! L28-L98 "basic use of templatewizard". It uses Node.js selectors, 1 huge file, all details inside the test instead of using page objects. Positively, it waits for elements to be present.
 
 Strange example (MobileFrontend)
 Z: Tried to reuse existing cucumber test suite. It worked for some definition of "worked", but the resulting test code is strange. Slightly too complicated. Assertions should be exclusively at the end. Not horrible, but strange.

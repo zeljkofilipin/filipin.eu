@@ -16,7 +16,7 @@ My initial research ended quickly for WebdriverIO and Nightwatch.js because they
 
 ## Numbers
 
-According to [JSDOW](http://www.jsdow.com/chart/selenium-210639/) (The javascript download index), WebDriverJs is far ahead in the number of downloads, but WebdriverIO is growing faster, if I have read the charts correctly.
+According to [JSDOW](http://www.jsdow.com/chart/selenium-210639/) (The JavaScript download index), WebDriverJs is far ahead in the number of downloads, but WebdriverIO is growing faster, if I have read the charts correctly.
 
 ![Selenium Downloads](/assets/selenium-downloads.png)
 ![Selenium Percentage](/assets/selenium-percentage.png)

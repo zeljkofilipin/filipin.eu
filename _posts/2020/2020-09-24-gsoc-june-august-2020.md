@@ -50,7 +50,7 @@ Vidhi created the majority of the documentation on how use [MediaWiki-Docker](ht
 
 ### Upstream
 
-To help with debugging, Soham worked on recording videos of all test runs. We had a framework that works only on Linux. He found an NPM package that works on all platforms, [wdio-video-reporter](https://www.npmjs.com/package/wdio-video-reporter). When we discovered it supports only WebdriverIO v5 he contributed a [patch](https://github.com/presidenten/wdio-video-reporter/pull/44) to the package to make it work with v6.
+To help with debugging, Soham worked on recording videos of all test runs. We had a framework that works only on Linux. He found an npm package that works on all platforms, [wdio-video-reporter](https://www.npmjs.com/package/wdio-video-reporter). When we discovered it supports only WebdriverIO v5 he contributed a [patch](https://github.com/presidenten/wdio-video-reporter/pull/44) to the package to make it work with v6.
 
 ### Badges
 

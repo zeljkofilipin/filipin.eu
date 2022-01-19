@@ -355,11 +355,11 @@ title: Deep Work Quotes
 
 > Schedule in advance when you’ll use the Internet, and then avoid it altogether outside these times.
 
-##### Point #1: This strategy works even if your job requires lots of Internet use and/or prompt e-mail replies.
+##### Point #1: This strategy works even if your job requires lots of internet use and/or prompt email replies.
 
-##### Point #2: Regardless of how you schedule your Internet blocks, you must keep the time outside these blocks absolutely free from Internet use.
+##### Point #2: Regardless of how you schedule your internet blocks, you must keep the time outside these blocks absolutely free from internet use.
 
-##### Point #3: Scheduling Internet use at home as well as at work can further improve your concentration training.
+##### Point #3: Scheduling internet use at home as well as at work can further improve your concentration training.
 
 > To simply wait and be bored has become a novel experience in modern life, but from the perspective of concentration training, it’s incredibly valuable.
 
@@ -485,11 +485,11 @@ title: Deep Work Quotes
 
 ##### Become Hard to Reach
 
-###### Tip #1: Make People Who Send You E-mail Do More Work
+###### Tip #1: Make People Who Send You Email Do More Work
 
 > I call this approach a sender filter, as I’m asking my correspondents to filter themselves before attempting to contact me.
 
-###### Tip #2: Do More Work When You Send or Reply to E-mails
+###### Tip #2: Do More Work When You Send or Reply to Emails
 
 > What is the project represented by this message, and what is the most efficient (in terms of messages generated) process for bringing this project to a successful conclusion?
 

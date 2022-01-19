@@ -10,7 +10,7 @@ The book was first published in 1999. That makes it pretty old. For a book about
 
 I would highly recommend reading the book. It might be especially useful for people early in their careers. The book is full of advice and tips. It's hard to summarize it all. I'll comment on a few quotes from the book that caught my attention.
 
-I've read the book on Kindle (see photo). Quotes from the book reference page numbers in pdf version.
+I've read the book on Kindle (see photo). Quotes from the book reference page numbers in PDF version.
 
 ## Preface to the Second Edition
 
@@ -54,7 +54,7 @@ In [Google Summer of Code, June-August 2020](/gsoc-june-august-2020) I gave this
 
 > ... good communication skills are as important as good coding skills, if not slightly more important.
 
-It's really (really!) important to communicate well. From blog posts to e-mail messages, from chat to code review, from bug reports to video calls.
+It's really (really!) important to communicate well. From blog posts to email messages, from chat to code review, from bug reports to video calls.
 
 ## Chapter 2: A Pragmatic Approach
 

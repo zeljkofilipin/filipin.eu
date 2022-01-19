@@ -36,7 +36,7 @@ A big thank you to [Tentamen](https://www.tentamen.hr/) for sponsoring the event
 
 <iframe src="//player.vimeo.com/video/18955165" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/18955165">Cleveland Code Retreat Introduction</a> from <a href="http://vimeo.com/coreyhaines">Corey Haines</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-- Learn more about the event at their [web site](http://coderetreat.org/about).
+- Learn more about the event at their [site](http://coderetreat.org/about).
 - Yesterday was [International Stout Day](http://blog.untappd.com/post/101842404606/international-stout-day-2014).
 - The only way to get things done is to loose sleep. (I am finishing this blog post at 1 am.)
-- <del>We are looking for sponsors to cover the costs of lunch. Starting at 100 EUR. My e-mail address is at the bottom of the page. Thank you.</del>
+- <del>We are looking for sponsors to cover the costs of lunch. Starting at 100 EUR. My email address is at the bottom of the page. Thank you.</del>

@@ -14,7 +14,7 @@ When traveling, I prefer a very small laptop. I've tried a few options over the 
 
 # Internet
 
-I never had to pay much for the internet (even in 2005) and it worked well most of the time. I had some trouble with routers, but not much. Today, probably the cheapest wired internet you can buy would work just fine. If you work from a crowded apartment building, WiFi might now work all the time, for various reasons. It took me some effort to set it up because my desk was not so close to the router. Buying a very long [ethernet](https://en.wikipedia.org/wiki/Ethernet) cable and plugging it in the router and my desktop machine improved my internet speed, latency and stability significantly. I would recommend [fast.com](https://fast.com/) (by Netflix) for testing your connection.
+I never had to pay much for the internet (even in 2005) and it worked well most of the time. I had some trouble with routers, but not much. Today, probably the cheapest wired internet you can buy would work just fine. If you work from a crowded apartment building, Wi-Fi might now work all the time, for various reasons. It took me some effort to set it up because my desk was not so close to the router. Buying a very long [ethernet](https://en.wikipedia.org/wiki/Ethernet) cable and plugging it in the router and my desktop machine improved my internet speed, latency and stability significantly. I would recommend [fast.com](https://fast.com/) (by Netflix) for testing your connection.
 
 Sometimes I work while traveling, and setting up my phone as a router works great.
 

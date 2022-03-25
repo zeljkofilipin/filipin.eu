@@ -1,5 +1,5 @@
 ---
-tags:  featured wikimedia
+tags:  wikimedia
 title: Incident Documentation - An Unexpected Journey
 ---
 *(Originally published at [Doing the needful](https://phabricator.wikimedia.org/phame/post/view/128/incident_documentation_an_unexpected_journey/) blog.)*

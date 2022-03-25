@@ -1,5 +1,5 @@
 ---
-tags:  featured mentor photo wikimedia
+tags:  mentor photo wikimedia
 title: Outreachy, December 2020-March 2021
 ---
 ![Outreachy](/assets/outreachy-december-march-2021.png "Outreachy")

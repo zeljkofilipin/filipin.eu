@@ -1,5 +1,5 @@
 ---
-tags:  featured
+tags:  TODO
 title: Filipin, obrt za računalne djelatnosti, closed
 ---
 In 2012 I've [started](/filipin-obrt-started) a one-man company. I was freelancing for a few years. Also in 2012, I've started working full time as a contractor at the [Wikimedia Foundation](https://wikimediafoundation.org/), of [Wikipedia](https://www.wikipedia.org/) fame.

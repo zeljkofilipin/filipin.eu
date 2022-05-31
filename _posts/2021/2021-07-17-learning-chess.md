@@ -44,7 +44,7 @@ After each game, it's very important that you analyze the game. The site will te
 
 This Chess.com Android app screenshot shows a good move I made in a recent game. There aren't many of those. 😅
 
-![Analysis](/assets/chess/analysis.jpg "Analysis")
+![Analysis](assets/learning-chess/analysis.jpg "Analysis")
 
 ## Stats
 
@@ -52,11 +52,11 @@ After a few games, you'll be able to see if you're improving. The more games you
 
 This Chess.com site screenshot shows how I started from the start at the beginning of 2021 and reached about 800 in ranking in daily chess (each player has 24 hours to make a move). That's still pretty low, but it's slowly improving.
 
-![Daily](/assets/chess/daily.png "Daily")
+![Daily](assets/learning-chess/daily.png "Daily")
 
 This screenshots shows that I'm better at puzzles than in daily games. I've reached rating 1300-1400.
 
-![Puzzles](/assets/chess/puzzles.png "Puzzles")
+![Puzzles](assets/learning-chess/puzzles.png "Puzzles")
 
 ## Conclusion
 

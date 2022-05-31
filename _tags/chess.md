@@ -1,0 +1,4 @@
+---
+name: chess
+---
+About chess. ♔

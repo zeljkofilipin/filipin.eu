@@ -1,5 +1,5 @@
 ---
-tags:  photo
+tags:  chess photo
 title: Chess Basics
 ---
 # Introduction

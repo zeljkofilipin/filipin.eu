@@ -11,7 +11,7 @@ gem 'jekyll-theme-hacker', '~> 0.2.0'
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
-gem "github-pages", '~> 223', group: :jekyll_plugins
+gem "github-pages", '~> 226', group: :jekyll_plugins
 
 gem 'rake', '~> 13.0', '>= 13.0.6'
 gem 'webrick', '~> 1.7'

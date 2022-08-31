@@ -1,5 +1,5 @@
 ---
-tags:  book photo
+tags:  book book-club photo
 title: Lessons Learned in Software Testing by Cem Kaner, James Bach and Bret Pettichord (2022)
 ---
 ![Lessons Learned in Software Testing](assets/lessons-learned-in-software-testing-2022/lessons-learned.jpg "Lessons Learned in Software Testing")

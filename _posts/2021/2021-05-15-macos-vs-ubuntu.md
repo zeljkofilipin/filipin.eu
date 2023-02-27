@@ -1,5 +1,5 @@
 ---
-tags:  code linux photo
+tags:  code linux macos photo
 title: macOS vs Ubuntu Linux
 ---
 # Idea

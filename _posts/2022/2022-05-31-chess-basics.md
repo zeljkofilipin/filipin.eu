@@ -1,5 +1,5 @@
 ---
-tags:  chess photo
+tags:  chess photo years
 title: Chess Basics
 ---
 # Introduction

@@ -1,5 +1,5 @@
 ---
-tags:  wikimedia
+tags:  wikimedia years
 title: One Year of Pairing
 ---
 # Introduction

@@ -1,5 +1,5 @@
 ---
-tags:  wikimedia
+tags:  wikimedia years
 title: Two Years of Blog Post Writing Club
 ---
 > Smokers pressure you to light one, drinkers pressure you to drink one, we pressure you to publish one.

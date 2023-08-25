@@ -1,5 +1,5 @@
 ---
-tags:  featured
+tags:  featured years
 title: Lessons from 16 Years of Working Remotely
 ---
 I have been working remotely since 2005. Recently, an intern has asked me for advice about it. I've decided to write a blog post. I hope the advice will be useful to a wide range of people. From people new to remote work (possibly because of COVID) to people with years of experience.

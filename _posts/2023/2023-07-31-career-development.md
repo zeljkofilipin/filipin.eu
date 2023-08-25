@@ -6,7 +6,7 @@ title: Career Development
 
 I wrote a draft for this article in 2018. It has remained a draft since then. The last responsible moment to publish it is long gone. I have many notes about the topic, but I do not think I am ready to write a post about it yet. But, since a few people have asked me to share the notes, I will do my best.
 
-I am very interested in career development. I have tried to talk about it at a Testival meetup in 2015 and Testival conference in 2016. (Tried means I've proposed the topic but it was not selected for the event.) I gave a five-minute lightning talk about it at a Testival meetup and the WebCamp conference in 2017. I led a session at the CITCON conference in 2018 and the Testival conference in 2022 (link TODO).
+I am very interested in [career development](https://en.wikipedia.org/wiki/Career_development). I have tried to talk about it at a [Testival meetup] in 2015 and [Testival conference](zagreb-stc-18) in 2016. (Tried means I've proposed the topic but it was not selected for the event.) I gave a five-minute lightning talk about it at a [Testival meetup](testival-31) and the [WebCamp](webcamp-zagreb-2017) conference in 2017. I led a session at the [CITCON](citcon-2018) conference in 2018 and the [Testival conference](testival-2022) in 2022.
 
 All three talks consisted of two parts. First, I would ask the audience what they think is a good way to develop a career. I would take notes. Only then, in the second part, would I share my thoughts. I did not want to influence the audience. Every time the result was different. The first two times I gave short five-minute lightning talks. They were short, but they helped me develop my thoughts. The last time was a one-hour open-space session. It was very different in many ways.
 
@@ -86,7 +86,8 @@ The CITCON session was much longer than the previous two, and completely differe
 # Books
 
 I have read a few very good books recently that go into much more detail about career development than this blog post could.
-- The Passionate Programmer by Chad Fowler. The entire book is about the topic. Highly recommended.
-- Lessons Learned in Software Testing by Cem Kaner, James Bach and Bret Pettichord. It's one of the very rare books that I gave a 5-star rating on Goodreads. Chapter 10 (Your career in software testing) is full of good career advice.
-- Exploratory Software Testing by James A. Whittaker. Appendix A (Building a Successful Career in Testing) has good career advice.
-- Testing Computer Software by Kaner, Falk, Nguyen. Chapter 15 (Managing a testing group) has a very short but good section on career growth (page 362).
+
+- [The Passionate Programmer](passionate-programmer) by Chad Fowler. The entire book is about the topic. Highly recommended.
+- [Lessons Learned in Software Testing](lessons-learned-in-software-testing-2022) by Cem Kaner, James Bach and Bret Pettichord. It's one of the very rare books that I gave a 5-star rating on Goodreads. Chapter 10 (Your career in software testing) is full of good career advice.
+- [Exploratory Software Testing](exploratory-software-testing) by James A. Whittaker. Appendix A (Building a Successful Career in Testing) has good career advice.
+- [Testing Computer Software](testing-computer-software) by Kaner, Falk, Nguyen. Chapter 15 (Managing a testing group) has a very short but good section on career growth (page 362).

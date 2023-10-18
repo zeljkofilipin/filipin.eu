@@ -25,7 +25,7 @@ I plan to write a post about each of these books this year. For now, I'll write 
 
 ![Getting Things Done](/assets/books-that-have-changed-my-life/getting-things-done.jpg "Getting Things Done")
 
-I've read it all the way back in [2008](//getting-things-done). It will teach you how to get everything you want and need to do out of your head and into a trusted system, paper- or computer-based. Then it will teach you how to organize all of it in projects and contexts. It will teach you how to get things done.
+I've read it all the way back in [2008](getting-things-done). It will teach you how to get everything you want and need to do out of your head and into a trusted system, paper- or computer-based. Then it will teach you how to organize all of it in projects and contexts. It will teach you how to get things done.
 
 I was sold on one of the first sentences in the book.
 

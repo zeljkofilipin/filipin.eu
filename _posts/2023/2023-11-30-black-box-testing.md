@@ -2,6 +2,8 @@
 tags:  book photo
 title: Black Box Testing by Boris Beizer
 ---
+![Black Box Testing by Boris Beizer](assets/2023/black-box-testing.jpeg "Black Box Testing by Boris Beizer")
+
 # Introduction
 
 Black Box Testing by Boris Beizer is one of the early books on software testing. It was published in 1995, so it's almost 30 years old.

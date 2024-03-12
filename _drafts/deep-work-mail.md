@@ -1,5 +1,5 @@
 ---
-tags:  deep-work
+tags:  productivity
 title: 'Deep Work: Read Mail After Lunch'
 ---
 I was in a habit of making a big deep work mistake. I would start my day with checking my mail and messages. Some days that would not take a lot of time. I still think that's a mistake because I was spending the morning, when I'm the freshest and could do the best work, on a shallow work task like reading mail.

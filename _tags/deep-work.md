@@ -1,4 +1,4 @@
 ---
-name: deep-work
+name: productivity
 ---
-About [Deep Work](https://www.calnewport.com/books/deep-work/) by Cal Newport. ⛏
+About personal productivity ⛏

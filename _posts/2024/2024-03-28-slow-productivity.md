@@ -1,5 +1,5 @@
 ---
-tags:  book book-club photo
+tags:  book book-club photo productivity
 title: Slow Productivity by Cal Newport
 ---
 ## Summary

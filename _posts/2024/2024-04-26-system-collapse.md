@@ -4,6 +4,8 @@ title: System Collapse by Martha Wells
 ---
 ## Introduction
 
+![System Collapse by Martha Wells](assets/2024/system-collapse.jpeg "System Collapse by Martha Wells")
+
 System Collapse by Martha Wells is the seventh book in the The Murderbot Diaries Series. It's the last published book so far. To learn more about the series see the author's [web site](https://marthawells.com/murderbot.htm), [Wikipedia](https://en.wikipedia.org/wiki/The_Murderbot_Diaries) and [Goodreads](https://www.goodreads.com/series/191900-the-murderbot-diaries).
 
 ## The Murderbot Diaries

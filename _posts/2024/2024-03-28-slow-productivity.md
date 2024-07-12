@@ -42,7 +42,7 @@ Student advice:
 
 ## Personal Productivity
 
-If you have read [Getting Things Done](getting-things-done) by David Allen, liked it and implemented the advice from the book in your life, Calport's books are the next step. I read it in 2008 and my life was never the same.
+If you have read [Getting Things Done](getting-things-done-2008) by David Allen, liked it and implemented the advice from the book in your life, Calport's books are the next step. I read it in 2008 and my life was never the same.
 
 As a fan of both personal productivity and Cal Newport, when he announced the new book, I just had to read it. If he started writing picture books I would read them.
 

@@ -22,4 +22,4 @@ Sprinthackular was a lot of fun. I wish we had sprints like that regularly. I wo
 
 ## Feedback
 
-Thank you for reading. If you want to stay in touch please use the [feed](https://filipin.eu/feed.xml) or send me an [email](mailto:zeljko@filipin.eu).
+Thank you for reading. If you want to stay in touch please use the [feed](feed.xml) or send me an [email](mailto:zeljko@filipin.eu).

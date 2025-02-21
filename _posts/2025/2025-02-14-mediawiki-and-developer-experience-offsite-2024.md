@@ -30,4 +30,4 @@ The more I think about it, the stranger it sounds that Uber was happy to order m
 
 ## Feedback
 
-Thank you for reading. If you want to stay in touch please use the [feed](https://filipin.eu/feed.xml) or send me an [email](mailto:zeljko@filipin.eu).
+Thank you for reading. If you want to stay in touch please use the [feed](feed.xml) or send me an [email](mailto:zeljko@filipin.eu).

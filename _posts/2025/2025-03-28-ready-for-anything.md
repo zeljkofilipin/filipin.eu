@@ -2,6 +2,8 @@
 tags:  book photo productivity
 title: Ready for Anything by David Allen
 ---
+*Estimated reading time is 3-4 minutes.*
+
 ![Ready for Anything by David Allen](assets/2025/ready-for-anything.jpg "Ready for Anything by David Allen")
 
 ## Summary

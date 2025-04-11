@@ -2,6 +2,8 @@
 tags:  event wikimedia
 title: Sprinthackular 2025
 ---
+*Estimated reading time is 3-4 minutes.*
+
 ## Sprinthackular
 
 In January 2025 I participated in an internal hackathon with a funny name, Sprinthackular. This was the second Sprinthackular. The first one was in 2024, but I did not participate in that one. This time, nine temporary teams were formed. Each temporary team had members from various teams across the company.

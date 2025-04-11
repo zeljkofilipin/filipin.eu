@@ -2,6 +2,8 @@
 tags:  book-club wikimedia
 title: BBST Open Course Materials
 ---
+*Estimated reading time is 4-5 minutes.*
+
 ## Courses
 
 In September 2024 a few of us from my team at work started watching videos and reading materials from [BBST Open Course](https://phabricator.wikimedia.org/T374865). It was created by Cem Kaner and Rebeca Fielder. It was a part of a [book club](https://phabricator.wikimedia.org/T247665) we have been participating in since 2021\. Since we started with the course, our team [Quality and Test Engineering](https://www.mediawiki.org/wiki/Wikimedia_Quality_and_Test_Engineering_Team) split into [Quality Services](https://www.mediawiki.org/wiki/Wikimedia_Quality_Services) and [Testing Platform](https://www.mediawiki.org/wiki/Wikimedia_Testing_Platform). Members of the book club ended up on both teams.

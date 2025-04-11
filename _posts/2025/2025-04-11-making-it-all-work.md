@@ -2,6 +2,8 @@
 tags:  book photo productivity
 title: Making It All Work by David Allen
 ---
+*Estimated reading time is 3-4 minutes.*
+
 ![Making It All Work by David Allen](assets/2025/making-it-all-work.jpg "Making It All Work by David Allen")
 
 ## Summary

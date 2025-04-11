@@ -2,6 +2,7 @@
 tags:  photo
 title: Generate an image using ChatGPT
 ---
+*Estimated reading time is 2-3 minutes.*
 
 I wanted to illustrate my post about [managers](managers) with an image. To make it more fun, I wanted the person to work under water. A quick search found a few images online, but none of them worked for me. As an experiment, I wanted to use ChatGPT. I asked it for an image of a manager working under water.
 

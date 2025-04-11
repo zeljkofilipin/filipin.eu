@@ -2,6 +2,8 @@
 tags:  event photo wikimedia
 title: MediaWiki Platform and Developers Experience Offsite 2024, Barcelona, Spain
 ---
+*Estimated reading time is 3-4 minutes.*
+
 ## Barcelona
 
 In December 2024 I was at an offsite in Barcelona. This was my second work trip to Barcelona. The first one was the [Wikimedia Hackathon 2018](https://filipin.eu/wikimedia-hackathon-2018). I was in Barcelona at least one more time before that, in 2000, at the European [Youth Meeting](https://en.wikipedia.org/wiki/List_of_cities_hosting_Taiz%C3%A9_meetings). I vaguely remember visiting Barcelona once or twice while in school, but I'll have to check my old passports. If I can find them.

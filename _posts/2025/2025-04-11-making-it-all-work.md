@@ -119,3 +119,7 @@ This sounds very simple and very obvious. Yet, I frequently see people doing thi
 > Do you know when you need to process e-mail and when to ignore it? (Chapter 19, page 267.)
 
 I just ignore it the vast majority of the time. It worked so far.
+
+## Feedback
+
+Thank you for reading. If you want to stay in touch please use the [feed](feed.xml) or send me an [email](mailto:zeljko@filipin.eu).

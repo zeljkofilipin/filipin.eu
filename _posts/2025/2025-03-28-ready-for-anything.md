@@ -104,3 +104,7 @@ I'm not sure I would understand or appreciate this when I was younger. When you'
 > When you’re in an earthquake on a unicycle, juggling chain saws, the only way to survive is to tack down everything you can tack down, so you can deal with what you can’t. —Stephen Chakwin (Chapter 51, page 150.)
 
 This is a perfect quote to end a productivity book. Life does sometimes feel like juggling chainsaws on a unicycle during an earthquake. There is a way to deal with that situation. Simplify.
+
+## Feedback
+
+Thank you for reading. If you want to stay in touch please use the [feed](feed.xml) or send me an [email](mailto:zeljko@filipin.eu).

@@ -3,7 +3,7 @@ title:  Home
 ---
 ![Filipin.eu logo](assets/filipin.png)
 
-Hi. I'm Željko Filipin. I am a software engineer in test. I work as a contractor at the [Wikimedia Foundation](https://wikimediafoundation.org/).
+Hi. I'm Željko Filipin. I am a software engineer in test.
 
 # Motto
 

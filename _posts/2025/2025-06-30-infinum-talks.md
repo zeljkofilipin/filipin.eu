@@ -4,6 +4,8 @@ title: Infinum Talks, Zagreb, Croatia
 ---
 *Estimated reading time is 5-7 minutes.*
 
+![Infinum Talks](assets/2025/infinum-talks.jpg "Infinum Talks")
+
 ## Introduction
 
 I was at a local software testing meetup. It's one of the rare testing events not organized by the Testival community. This one was organized by a local company, Infinum. I wish they would collaborate with Testival, but I guess they have other priorities.

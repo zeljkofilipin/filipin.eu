@@ -1,0 +1,13 @@
+{
+  "name": "Ruby Dev Container",
+  "image": "ruby:3.3",
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rebornix.Ruby"
+      ]
+    }
+  }
+}

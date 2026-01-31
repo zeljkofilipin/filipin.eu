@@ -98,7 +98,9 @@ A word of warning for people entering the job market.
 My career is a perfect illustration of this.
 
 > Autonomy: the feeling that you have control over your day, and that your actions are important
+>
 > Competence: the feeling that you are good at what you do
+>
 > Relatedness: the feeling of connection to other people
 >
 > (Page 18\. 5k+ highlighters.)

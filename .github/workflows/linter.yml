@@ -57,6 +57,7 @@ jobs:
           VALIDATE_MARKDOWN: false # 135
           VALIDATE_MARKDOWN_PRETTIER: false
           VALIDATE_NATURAL_LANGUAGE: false # 13
+          VALIDATE_RUBY: false
           VALIDATE_SPELL_CODESPELL: false
 
       ##################################################

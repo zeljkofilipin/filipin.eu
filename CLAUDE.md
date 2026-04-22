@@ -23,8 +23,6 @@ Run the linter locally (requires Docker — runs `github/super-linter` against t
 rake
 ```
 
-The Rakefile hard-codes `~/Documents/github/zeljkofilipin/filipin.eu` as the volume mount, so running `rake` from a clone at a different path will lint the wrong directory — edit the `-v` flag or invoke `docker run` manually.
-
 Super-linter in this repo disables these validators: `GITLEAKS`, `HTML`, `JSCPD`, `MARKDOWN`, `NATURAL_LANGUAGE`. Markdown is instead linted via `textlint` (config in `.textlintrc`, uses `terminology` rule) and `markdownlint` (config in `.markdownlint.json`, relaxes `line-length`, `no-inline-html`, `single-h1`).
 
 ## Content structure

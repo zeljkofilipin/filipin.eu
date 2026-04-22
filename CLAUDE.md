@@ -23,7 +23,7 @@ Run the linter locally (requires Docker — runs `github/super-linter` against t
 rake
 ```
 
-Super-linter in this repo disables these validators: `GITLEAKS`, `HTML`, `JSCPD`, `MARKDOWN`, `NATURAL_LANGUAGE`. A `.markdownlint.json` is present (relaxes `line-length`, `no-inline-html`, `single-h1`), but since `VALIDATE_MARKDOWN` is off nothing currently runs against it.
+Disabled super-linter validators are declared in `.github/workflows/linter.yml` (for CI) and mirrored in the `Rakefile` (for local runs). The Rakefile additionally disables `RUBY` and `TRIVY`, which CI leaves on — both only produce false positives against `vendor/bundle`, which exists only locally. A `.markdownlint.json` is present (relaxes `line-length`, `no-inline-html`, `single-h1`), but since `VALIDATE_MARKDOWN` is off nothing currently runs against it.
 
 ## Content structure
 

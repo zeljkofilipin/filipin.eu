@@ -18,7 +18,9 @@ task :super_linter do
     ' -e VALIDATE_MARKDOWN=false'\
     ' -e VALIDATE_MARKDOWN_PRETTIER=false'\
     ' -e VALIDATE_NATURAL_LANGUAGE=false'\
+    ' -e VALIDATE_RUBY=false'\
     ' -e VALIDATE_SPELL_CODESPELL=false'\
+    ' -e VALIDATE_TRIVY=false'\
     ' -e FILTER_REGEX_EXCLUDE=.*(_site|vendor/bundle)/.*'\
     " -v #{__dir__}:/tmp/lint ghcr.io/super-linter/super-linter:v8"
 end

@@ -23,7 +23,7 @@ Run the linter locally (requires Docker — runs `github/super-linter` against t
 rake
 ```
 
-Super-linter in this repo disables these validators: `GITLEAKS`, `HTML`, `JSCPD`, `MARKDOWN`, `NATURAL_LANGUAGE`. Markdown is instead linted via `textlint` (config in `.textlintrc`, uses `terminology` rule) and `markdownlint` (config in `.markdownlint.json`, relaxes `line-length`, `no-inline-html`, `single-h1`).
+Super-linter in this repo disables these validators: `GITLEAKS`, `HTML`, `JSCPD`, `MARKDOWN`, `NATURAL_LANGUAGE`. A `.markdownlint.json` is present (relaxes `line-length`, `no-inline-html`, `single-h1`), but since `VALIDATE_MARKDOWN` is off nothing currently runs against it.
 
 ## Content structure
 

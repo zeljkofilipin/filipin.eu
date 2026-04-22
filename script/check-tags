@@ -1,0 +1,38 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'set'
+require 'yaml'
+
+root = File.expand_path('..', __dir__)
+
+post_tags = Set.new
+Dir.glob(File.join(root, '_posts/**/*.md')).each do |path|
+  parts = File.read(path).split(/^---\s*$/, 3)
+  next unless parts.length >= 3
+
+  front = begin
+    YAML.safe_load(parts[1])
+  rescue StandardError
+    nil
+  end
+  next unless front && front['tags']
+
+  tags = front['tags'].is_a?(Array) ? front['tags'] : front['tags'].split
+  post_tags.merge(tags)
+end
+
+tag_pages = Dir.glob(File.join(root, '_tags/*.md'))
+               .map { |p| File.basename(p, '.md') }
+               .to_set
+
+orphans = post_tags - tag_pages
+
+if orphans.empty?
+  puts "OK: all #{post_tags.size} post tags have a matching _tags/<tag>.md"
+  exit 0
+else
+  warn 'Orphan tags (referenced in posts, no _tags/<tag>.md):'
+  orphans.sort.each { |t| warn "  #{t}" }
+  exit 1
+end

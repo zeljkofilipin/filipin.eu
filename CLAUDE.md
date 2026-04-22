@@ -28,7 +28,7 @@ Super-linter in this repo disables these validators: `GITLEAKS`, `HTML`, `JSCPD`
 ## Content structure
 
 - `_posts/<year>/YYYY-MM-DD-slug.md` — blog posts. Posts are bucketed into per-year subdirectories (Jekyll recurses into `_posts`). Front matter needs `tags` (space-separated) and `title`; the `post` layout is applied automatically via the `defaults` block in `_config.yml`.
-- `_tags/<tag>.md` — one file per tag. Each has front matter `name: <tag>` and optional body content rendered on the tag page. The `tag` layout (`_layouts/tag.html`) lists all posts whose front matter `tags` include `page.name`. Adding a new tag to a post requires creating a matching `_tags/<tag>.md` for the tag page to exist.
+- `_tags/<tag>.md` — one file per tag. Each has front matter `name: <tag>` and optional body content rendered on the tag page. The `tag` layout (`_layouts/tag.html`) lists all posts whose front matter `tags` include `page.name`. Adding a new tag to a post requires creating a matching `_tags/<tag>.md` for the tag page to exist — enforced by `script/check-tags`, wired into the `Lint Code Base` workflow.
 - `index.md`, `blog.md`, `tags.md`, `license.md` — top-level pages. `blog.md` is the post index; `tags.md` lists all tags with post counts.
 - `_layouts/tag.html` — the only custom layout; everything else inherits `default` from the remote theme.
 - `assets/` — images and other static files referenced by posts.

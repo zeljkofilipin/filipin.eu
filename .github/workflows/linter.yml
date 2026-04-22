@@ -53,3 +53,9 @@ jobs:
           VALIDATE_MARKDOWN: false # 135
           VALIDATE_MARKDOWN_PRETTIER: false
           VALIDATE_NATURAL_LANGUAGE: false # 13
+
+      ##################################################
+      # Every post tag must have a matching _tags page #
+      ##################################################
+      - name: Check tag pages
+        run: ruby script/check-tags

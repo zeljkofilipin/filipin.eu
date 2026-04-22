@@ -5,9 +5,7 @@
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
   "customizations": {
     "vscode": {
-      "extensions": [
-        "Shopify.ruby-lsp"
-      ]
+      "extensions": ["Shopify.ruby-lsp"]
     }
   }
 }

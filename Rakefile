@@ -9,9 +9,11 @@ task :super_linter do
     ' -e RUN_LOCAL=true'\
     ' -e VALIDATE_GITLEAKS=false'\
     ' -e VALIDATE_HTML=false'\
+    ' -e VALIDATE_HTML_PRETTIER=false'\
     ' -e VALIDATE_JSCPD=false'\
     ' -e VALIDATE_MARKDOWN=false'\
+    ' -e VALIDATE_MARKDOWN_PRETTIER=false'\
     ' -e VALIDATE_NATURAL_LANGUAGE=false'\
     ' -e FILTER_REGEX_EXCLUDE=.*_site/.*'\
-    " -v #{__dir__}:/tmp/lint github/super-linter"
+    " -v #{__dir__}:/tmp/lint ghcr.io/super-linter/super-linter:v8"
 end

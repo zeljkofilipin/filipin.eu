@@ -40,4 +40,6 @@ Disabled super-linter validators are declared in `.github/workflows/linter.yml` 
 
 ## Working style
 
-Keep changes small — each change should be scoped so it can stand on its own as a single commit.
+- Keep changes small — each change should be scoped so it can stand on its own as a single commit.
+- No Ruby or Node on the host. Run linters and ad-hoc scripts via `docker run --rm -v "$PWD:/w" -w /w ruby:3.3 …` or the equivalent `node:20` image. Super-linter runs via the pinned image in the `Rakefile`.
+- One change per turn — apply the edit, hand it back for the user to commit, then wait before the next change.

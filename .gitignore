@@ -6,3 +6,4 @@ node_modules
 super-linter.log
 vendor/bundle
 .DS_Store
+.claude/settings.local.json

@@ -39,3 +39,7 @@ Super-linter in this repo disables these validators: `GITLEAKS`, `HTML`, `JSCPD`
 ## Spelling
 
 `.vscode/settings.json` carries a large `cSpell.words` allowlist of names and domain terms (people, places, tools). When adding posts that mention new proper nouns, add them there to keep the VS Code spellchecker quiet.
+
+## Working style
+
+Keep changes small — each change should be scoped so it can stand on its own as a single commit.

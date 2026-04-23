@@ -2,7 +2,7 @@
 tags:  code photo selenium wikimedia
 title: 'Debug WebdriverIO Tests: logLevel'
 ---
-![Debug WebdriverIO Tests: logLevel](/assets/debug-webdriverio-tests-loglevel.png "Debug WebdriverIO Tests: logLevel")
+![Debug WebdriverIO Tests: logLevel](/assets/2021/debug-webdriverio-tests-loglevel/debug-webdriverio-tests-loglevel.png "Debug WebdriverIO Tests: logLevel")
 
 # Introduction
 

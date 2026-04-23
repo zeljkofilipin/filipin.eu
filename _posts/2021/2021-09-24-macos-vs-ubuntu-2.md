@@ -8,7 +8,7 @@ In [macOS vs Ubuntu Linux](/macos-vs-ubuntu) I've written about a fun experiment
 
 # Machines
 
-![Machines](/assets/macos-vs-ubuntu-2/machines.jpg "Machines")
+![Machines](/assets/2021/macos-vs-ubuntu-2/machines.jpg "Machines")
 
 For reference, here's the table with the two machines and the Fresh container, with some relevant data.
 
@@ -65,11 +65,11 @@ I made a mistake in the previous blog post on this topic by including all the da
 
 Chart by environment.
 
-![Environment](/assets/macos-vs-ubuntu-2/environment.png "Environment")
+![Environment](/assets/2021/macos-vs-ubuntu-2/environment.png "Environment")
 
 Chart by script.
 
-![Script](/assets/macos-vs-ubuntu-2/script.png "Script")
+![Script](/assets/2021/macos-vs-ubuntu-2/script.png "Script")
 
 # Conclusion
 

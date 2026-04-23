@@ -32,15 +32,15 @@ Since a blog post without an image is no fun, I took a couple of screenshots.
 
 Air + Ubuntu + Fresh + `npm run selenium-test`
 
-![Air + Ubuntu + Fresh](/assets/macos-vs-ubuntu/ubuntu.png "Air + Ubuntu + Fresh")
+![Air + Ubuntu + Fresh](/assets/2021/macos-vs-ubuntu/ubuntu.png "Air + Ubuntu + Fresh")
 
 Air + macOS + Fresh + `npm run selenium-test`
 
-![Air + macOS + Fresh](/assets/macos-vs-ubuntu/macos.png "Air + macOS + Fresh")
+![Air + macOS + Fresh](/assets/2021/macos-vs-ubuntu/macos.png "Air + macOS + Fresh")
 
 The screenshots show that on Ubuntu the machine was using 1.5 GB RAM, while on macOS it was using 3.2 GB RAM. The difference is in the Linux virtual machine that Docker runs in the background on macOS.
 
-![RAM](/assets/macos-vs-ubuntu/ram.png "RAM")
+![RAM](/assets/2021/macos-vs-ubuntu/ram.png "RAM")
 
 # Speed
 
@@ -106,7 +106,7 @@ I wasn't interested in very good data. I just wanted good enough data for my use
 
 I was expecting to see less RAM used while running the commands on Ubuntu. No surprise there. How much time it takes to run the commands was a big surprise. It is so much faster on Ubuntu, it's amazing.
 
-![Speed](/assets/macos-vs-ubuntu/speed.png "Speed")
+![Speed](/assets/2021/macos-vs-ubuntu/speed.png "Speed")
 
 `npm ci` takes about half a minute to run on powerful desktop machine running macOS, *outside* of the Fresh container. It takes more than three minutes to run the same command *inside* the container.
 

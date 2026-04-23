@@ -33,7 +33,7 @@ I was sold on one of the first sentences in the book.
 
 # [Deep Work](https://www.calnewport.com/books/deep-work/): Rules for Focused Success in a Distracted World by Cal Newport
 
-![Deep Work](/assets/books-that-have-changed-my-life/deep-work.jpg "Deep Work")
+![Deep Work](/assets/2021/deep-work.jpg "Deep Work")
 
 I have first read it in November 2020 as an audio book. I've re-read it on Kindle in January 2021. I don't think I've ever re-read a book that soon.
 
@@ -43,6 +43,6 @@ I've found this book to be the perfect companion to Getting Things Done. One boo
 
 # [The Healthy Programmer](https://pragprog.com/titles/jkthp/the-healthy-programmer/): Get Fit, Feel Better, and Keep Coding by Joe Kutner
 
-![The Healthy Programmer](/assets/books-that-have-changed-my-life/healthly-programmer.jpg "The Healthy Programmer")
+![The Healthy Programmer](/assets/2021/books-that-have-changed-my-life/healthly-programmer.jpg "The Healthy Programmer")
 
 I've read it in 2019. It's marketed towards programmers, but I think everybody that sits for hours every day should read it. From kids in schools to office workers. As knowledge workers, we sit for many hours, for many years, if not decades. You will surely not be surprised to hear that our bodies do not function well that way. It will teach you how to minimize the harm your job is doing to your body. You will need that body for many years. Even after you've retired.

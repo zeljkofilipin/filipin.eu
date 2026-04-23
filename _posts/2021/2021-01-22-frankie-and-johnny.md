@@ -19,13 +19,13 @@ For a while I've been thinking I would like to record myself playing a few instr
 I've used [Yousician](https://yousician.com/) to learn to play ukulele and bass. I've played guitar a bit with Yousician, but not much. I've decided to focus on guitar in 2021. While playing the guitar, I've noticed [Frankie and Johnny](https://en.wikipedia.org/wiki/Frankie_and_Johnny_(song)) song. I liked it's guitar solo. The song was available for all my instruments. It wasn't too hard, or too easy. It was perfect. This is how the song looks like in Yousician.
 
 Bass
-![Yousician bass](/assets/frankie-and-johnny/yousician-bass.png "Yousician bass")
+![Yousician bass](/assets/2021/frankie-and-johnny/yousician-bass.png "Yousician bass")
 
 Guitar
-![Yousician guitar](/assets/frankie-and-johnny/yousician-guitar.png "Yousician guitar")
+![Yousician guitar](/assets/2021/frankie-and-johnny/yousician-guitar.png "Yousician guitar")
 
 Ukulele
-![Yousician ukulele](/assets/frankie-and-johnny/yousician-ukulele.png "Yousician ukulele")
+![Yousician ukulele](/assets/2021/frankie-and-johnny/yousician-ukulele.png "Yousician ukulele")
 
 You can also see the song at Yousician site ([all instruments](https://yousician.com/songs/guitar/frankie--johnny/558bd72e2968c42e0191caaa), [ukulele](https://yousician.com/songs/ukulele/frankie--johnny-uke-mix/56449095e8dec33a976ab725)). I'm not sure why is ukulele separate.
 
@@ -47,19 +47,19 @@ The process:
 
 # GarageBand
 
-![GarageBand](/assets/frankie-and-johnny/garage-band.png "GarageBand")
+![GarageBand](/assets/2021/frankie-and-johnny/garage-band.png "GarageBand")
 
 I've recorded and edited sound using GarageBand. (Free in macOS App Store.) I have some experience with editing audio. I used to host a podcast, but that was many years ago.
 
 # QuickTime Player
 
-![QuickTime Player](/assets/frankie-and-johnny/quick-time-player.png "QuickTime Player")
+![QuickTime Player](/assets/2021/frankie-and-johnny/quick-time-player.png "QuickTime Player")
 
 I've recorded video using QuickTime Player. (Comes with macOS.)
 
 # iMovie
 
-![iMovie](/assets/frankie-and-johnny/imovie.png "iMovie")
+![iMovie](/assets/2021/frankie-and-johnny/imovie.png "iMovie")
 
 I've edited video using iMovie. (Free in macOS App Store.)
 

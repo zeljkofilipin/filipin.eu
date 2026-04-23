@@ -2,7 +2,7 @@
 tags:  book book-club photo
 title: Perfect Software by Gerald M. Weinberg (2021)
 ---
-![Perfect Software by Gerald M. Weinberg](/assets/perfect-software-2021.jpg)
+![Perfect Software by Gerald M. Weinberg](/assets/2021/perfect-software-2021/perfect-software-2021.jpg)
 
 # The Book in Three Sentences
 

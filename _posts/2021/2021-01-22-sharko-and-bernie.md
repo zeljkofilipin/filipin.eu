@@ -2,7 +2,7 @@
 tags:  code featured photo scratch
 title: Sharko and Bernie
 ---
-![Sharko and Bernie](/assets/sharko-and-bernie/sharko-and-bernie.png "Sharko and Bernie")
+![Sharko and Bernie](/assets/2021/sharko-and-bernie/sharko-and-bernie.png "Sharko and Bernie")
 
 In 2017 I had a lot of fun with Scratch with my older son, then 9 years old. We have created a few simple games. See [Make a Game in 5 Minutes with Scratch](/scratch). I've also "created" [Selenium bindings in Scratch](/selenium-scratch).
 
@@ -18,14 +18,14 @@ Sharko (the shark) is trying to catch Bernie (the crab). If Sharko catches Berni
 
 Sharko 🦈
 
-![Sharko](/assets/sharko-and-bernie/sharko.png "Sharko")
+![Sharko](/assets/2021/sharko-and-bernie/sharko.png "Sharko")
 
 Bernie 🦀
 
-![Bernie](/assets/sharko-and-bernie/bernie.png "Bernie")
+![Bernie](/assets/2021/sharko-and-bernie/bernie.png "Bernie")
 
 Background 🌊
 
-![Background](/assets/sharko-and-bernie/underwater.png "Background")
+![Background](/assets/2021/sharko-and-bernie/underwater.png "Background")
 
 The code is also available at [scratch-games](https://github.com/zeljkofilipin/scratch-games) repository.

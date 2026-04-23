@@ -2,7 +2,7 @@
 tags:  photo watir
 title: Watir site at stackexchange.com
 ---
-[![Watir site at stackexchange.com](/assets/StackExchange-300x214.jpg "Watir site at stackexchange.com")](http://area51.stackexchange.com/proposals/6738/watir?referrer=cBxk1oncaoo1)
+[![Watir site at stackexchange.com](/assets/2010/watir-site-at-stackexchange-com/StackExchange-300x214.jpg "Watir site at stackexchange.com")](http://area51.stackexchange.com/proposals/6738/watir?referrer=cBxk1oncaoo1)
 
 [Recently](http://groups.google.com/group/watir-general/browse_thread/thread/f34f8a5fb2631ed7) I have asked if people are interested in creating Watir site at stackexchange.com. I was pleasantly surprised by the [number of people that are interested](http://meta.stackexchange.com/questions/6056/proposal-for-watir-site). Just today I have read that [new stackexchange.com sites can be created](http://blog.stackoverflow.com/2010/06/area-51-we-come-in-peace/), so I have created [Watir site at stackexchange.com](http://area51.stackexchange.com/proposals/6738/watir?referrer=cBxk1oncaoo1).
 

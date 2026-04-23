@@ -2,7 +2,7 @@
 tags:  code
 title: 'Postfix Logs: Bash'
 ---
-![Random Croatian countryside \#1](/assets/P6040019-300x224.jpg "Random Croatian countryside #1")
+![Random Croatian countryside \#1](/assets/2010/postfix-logs-bash/P6040019-300x224.jpg "Random Croatian countryside #1")
 
 My company uses [Postfix](http://www.postfix.org/) mail server to send mail.
 
@@ -117,7 +117,7 @@ $ grep -c "<.*=.*=.*@.*>, " log
 153412
 {% endhighlight %}
 
-![Random Croatian countryside \#2](/assets/P6040027-300x224.jpg "Random Croatian countryside #2")
+![Random Croatian countryside \#2](/assets/2010/postfix-logs-bash/P6040027-300x224.jpg "Random Croatian countryside #2")
 
 Enough of statistics, let's inspect one mail. A few lines from the log look like this.
 
@@ -260,6 +260,6 @@ Now, let's finally inspect the whole file and find out if any mail is sent multi
 - Get all lines with status `sent`. From each line grab Postfix ID. Get all lines with the ID. Get message-id, relay and VERP from lines with the ID. Ignore if VERP is in `to` header. (Those are bounces. We are interested only in VERPs in `from` header.)
 - Get all lines with a VERP. From each line grab Postfix ID. Get all lines with the ID. Get message-id, relay and status from lines with the ID. Ignore if status is not `sent`.
 
-![](/assets/postfix-logs-bash.png)
+![](/assets/2010/postfix-logs-bash/postfix-logs-bash.png)
 
 Since I have no idea how would I do that in Bash, I will use [Ruby](http://en.wikipedia.org/wiki/Ruby_%28programming_language%29) for that. This post got pretty long, that will be covered in another post.

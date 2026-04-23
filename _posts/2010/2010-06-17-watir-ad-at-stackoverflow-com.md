@@ -2,7 +2,7 @@
 tags:  code ruby
 title: Watir ad at stackoverflow.com
 ---
-[![watir-so-2-1](/assets/watir-so-2-1.jpg "watir-so-2-1")](http://meta.stackoverflow.com/questions/53346/open-source-advertising-sidebar-2h-2010/53544#53544)
+[![watir-so-2-1](/assets/2010/watir-ad-at-stackoverflow-com/watir-so-2-1.jpg "watir-so-2-1")](http://meta.stackoverflow.com/questions/53346/open-source-advertising-sidebar-2h-2010/53544#53544)
 
 New round of free advertising of open source projects at [stackoverflow.com](http://stackoverflow.com) has just started.
 

@@ -2,7 +2,7 @@
 tags:  photo watir
 title: OperaWatir
 ---
-[![Sydney Opera House](/assets/opera.jpg "Sydney Opera House")](http://www.flickr.com/photos/globetravelers/3553892349/)
+[![Sydney Opera House](/assets/2010/operawatir/opera.jpg "Sydney Opera House")](http://www.flickr.com/photos/globetravelers/3553892349/)
 
 *[Crossposted](http://en.wikipedia.org/wiki/Crossposting) at [watir.com](http://watir.com/2010/12/22/operawatir/).*
 

@@ -2,7 +2,7 @@
 tags:  podcast
 title: TestingPodcast.com
 ---
-[<img src="/assets/testingpodcast-300x187.png" title="TestingPodcast.com" class="size-medium wp-image-365" width="300" height="187" alt="TestingPodcast.com" />](http://testingpodcast.com/) TestingPodcast.com
+[<img src="/assets/2010/testingpodcast-300x187.png" title="TestingPodcast.com" class="size-medium wp-image-365" width="300" height="187" alt="TestingPodcast.com" />](http://testingpodcast.com/) TestingPodcast.com
 
 Yesterday was a big day for me. I have realized that I have listened to all audio podcasts on software testing that I could find. All 473 of them.
 

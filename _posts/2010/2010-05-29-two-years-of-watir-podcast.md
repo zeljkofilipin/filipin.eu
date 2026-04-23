@@ -2,7 +2,7 @@
 tags:  podcast years
 title: Two Years of Watir Podcast
 ---
-![Watir Podcast Logo](/assets/watir_podcast_logo.png "Watir Podcast Logo")
+![Watir Podcast Logo](/assets/2010/two-years-of-watir-podcast/watir_podcast_logo.png "Watir Podcast Logo")
 
 ## Numbers
 
@@ -12,9 +12,9 @@ In this 2 years I have published 34 podcasts with people literally all over the 
 
 [Google Analytics](http://www.google.com/analytics/) and [FeedBurner](http://feedburner.google.com/) say the numbers are (mostly) going up. FeedBurner says about 100 people is subscribed to the podcast feed lately.
 
-![Google Analytics](/assets/Google-Analytics-300x72.jpg "Google Analytics")
+![Google Analytics](/assets/2010/two-years-of-watir-podcast/Google-Analytics-300x72.jpg "Google Analytics")
 
-![FeedBurner](/assets/FeedBurner-300x92.jpg "FeedBurner")
+![FeedBurner](/assets/2010/two-years-of-watir-podcast/FeedBurner-300x92.jpg "FeedBurner")
 
 The following table lists downloads since December 2009, when I started using [Podtrac](http://podtrac.com/). The first number is total downloads, the second number is unique downloads. Please notice \#26. :)
 

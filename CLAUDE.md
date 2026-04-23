@@ -43,7 +43,7 @@ Disabled super-linter validators are declared in `.github/workflows/linter.yml` 
 - `_tags/<tag>.md` — one file per tag. Each has front matter `name: <tag>` and optional body content rendered on the tag page. The `tag` layout (`_layouts/tag.html`) lists all posts whose front matter `tags` include `page.name`. Adding a new tag to a post requires creating a matching `_tags/<tag>.md` for the tag page to exist — enforced by `script/check-tags`, wired into the `Lint Code Base` workflow.
 - `index.md`, `blog.md`, `tags.md`, `license.md` — top-level pages. `blog.md` is the post index; `tags.md` lists all tags with post counts.
 - `_layouts/tag.html` — the only custom layout; everything else inherits `default` from the remote theme.
-- `assets/` — images and other static files referenced by posts.
+- `assets/` — images and other static files referenced by posts. Organized by year and post: `assets/<year>/<post-slug>/<file>` when a post has multiple assets, or `assets/<year>/<post-slug>.<ext>` when it has exactly one. Assets shared across posts within the same year live at `assets/<year>/` root; cross-year shared assets live under the earliest year that references them. Site-wide assets (homepage logo, author photo) stay at `assets/` root.
 - `permalink: /:title` in `_config.yml` means post URLs are `/<slug-from-title>` not date-based. Changing a post's title will change its URL and break inbound links.
 
 ## Spelling

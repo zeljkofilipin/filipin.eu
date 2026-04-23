@@ -17,6 +17,18 @@ bundle exec jekyll s
 
 Bundler is configured via `.bundle/config` to install gems into `vendor/bundle`.
 
+No Ruby on the host, so the above won't work directly — use Docker. Build the site into an arbitrary destination (e.g. `/tmp/site`) with:
+
+```
+docker run --rm -v "$PWD:/w" -w /w -v /tmp:/tmp \
+  -e PAGES_REPO_NWO=zeljkofilipin/filipin.eu ruby:3.3 bash -c \
+  'git config --global --add safe.directory /w && \
+   bundle config set --local path vendor/bundle && \
+   bundle exec jekyll build -d /tmp/site'
+```
+
+`PAGES_REPO_NWO` is required because the `github-pages` gem resolves repo metadata from it; without the env var the build fails. `git safe.directory` is required because the container runs as root against the host-owned repo. The `/tmp` mount lets the build output land outside the repo (so `.gitignore` stays untouched).
+
 Run the linter locally (requires Docker — runs `github/super-linter` against the repo; matches the GitHub Actions workflow in `.github/workflows/linter.yml`):
 
 ```

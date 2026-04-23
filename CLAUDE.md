@@ -55,3 +55,11 @@ Disabled super-linter validators are declared in `.github/workflows/linter.yml` 
 - Keep changes small — each change should be scoped so it can stand on its own as a single commit.
 - No Ruby or Node on the host. Run linters and ad-hoc scripts via `docker run --rm -v "$PWD:/w" -w /w ruby:3.3 …` or the equivalent `node:20` image. Super-linter runs via the pinned image in the `Rakefile`.
 - One change per turn — apply the edit, hand it back for the user to commit, then wait before the next change.
+
+## Verifying mass rewrites
+
+For any change that rewrites refs across many posts (asset reorgs, slug renames, layout swaps), build the site before and after and diff the output — the diff must contain **only** the intended change. A find-and-replace can silently hit text it shouldn't (e.g. a `/assets/` in prose or a code block); the build diff is the ground-truth check, much stronger than browser spot-checks. Do this per commit, not batched.
+
+Procedure: build into `/tmp/filipin-old` using the Docker command above, apply the change, build into `/tmp/filipin-new`, then `diff -rq /tmp/filipin-old /tmp/filipin-new`.
+
+Jekyll output contains timestamp lines (`article:published_time`, schema.org JSON-LD `dateModified`/`datePublished`) that reflect build time, so tag pages (`_site/tags/*.html`) and `feed.xml` always differ between two builds — ~38 spurious diffs per build. Filter them with `sed -E 's/20[0-9]{2}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}[+-][0-9]{2}:[0-9]{2}/TS/g'` on both sides before comparing. After filtering, the only differing files should be the posts you touched, and every differing line should contain the token you intended to change.

@@ -2,7 +2,7 @@
 tags:  book
 title: The Art of War by Sun Tzu
 ---
-[<img src="/assets/370458424_231df1d51a_n.jpg" width="277" height="320" alt="Bamboo_Book_binding" />](http://www.flickr.com/photos/bluefootedbooby/370458424/ "Bamboo_Book_binding by vlasta2, on Flickr") The Art of War by Sun Tzu
+[<img src="/assets/2012/the-art-of-war/370458424_231df1d51a_n.jpg" width="277" height="320" alt="Bamboo_Book_binding" />](http://www.flickr.com/photos/bluefootedbooby/370458424/ "Bamboo_Book_binding by vlasta2, on Flickr") The Art of War by Sun Tzu
 
 Earlier this year I was on an island in the Adriatic sea with nothing to read. I had my phone with me so I have decided to take a look what is available in iBooks. [The Art of War](http://en.wikipedia.org/wiki/The_Art_of_War) by Sun Tzu was at the top of bestsellers list in the Croatian store and near the top in the US store. I have heard about the book before and saw people quoting it, so I have decided to read it.
 

@@ -2,7 +2,7 @@
 tags:  code ruby
 title: Catch JavaScript Errors on the Page with Watir or Selenium
 ---
-![Javascript Error](/assets/error.png)
+![Javascript Error](/assets/2012/catch-javascript-errors-on-the-page-with-watir-or-selenium/error.png)
 
 Seven months ago ([tempus fugit](http://en.wikipedia.org/wiki/Tempus_fugit)) a client asked if I could create a smoke test that would visit all pages of the application and report if there were any JavaScript errors. Since we already had a smoke test that visited all pages and took screenshots, I thought it would be easy to do. All I had to do was to figure out how to catch JavaScript errors with <a href="http://watir.com/">Watir</a>. Turns out <a href="http://code.google.com/p/selenium/issues/detail?id=148">Selenium does not have API for checking for JavaScript errors</a> on the page yet. How are <a href="http://seleniumhq.org/">Selenium</a> and Watir connected? <a href="http://watirwebdriver.com/">Watir WebDriver</a> (part of Watir project) uses <a href="http://seleniumhq.org/projects/webdriver/">WebDriver</a> (part of Selenium project) to drive browsers.
 

@@ -2,7 +2,7 @@
 tags:  code ruby
 title: watir-webdriver and Sauce Labs OnDemand
 ---
-![Bug Hunter's Journal](/assets/bug_hunter-300x300.jpg "Bug Hunter's Journal")
+![Bug Hunter's Journal](/assets/2012/watir-webdriver-and-sauce-labs-ondemand/bug_hunter-300x300.jpg "Bug Hunter's Journal")
 
 For a couple of clients I have been running [watir](http://watir.com/)-webdriver tests using [Sauce Labs OnDemand](http://saucelabs.com/ondemand). Never heard about it? In short, instead of driving a browser at your local machine, you can drive a browser *in the cloud*. Sounds cool, right?
 
@@ -38,6 +38,6 @@ After the browser is opened, you can drive it as usual.
 
 Now go to <https://saucelabs.com/jobs> and there should be a test with status *running* and name *testing this cloud thing*.
 
-![testing this cloud thing](/assets/running.png "testing this cloud thing")
+![testing this cloud thing](/assets/2012/watir-webdriver-and-sauce-labs-ondemand/running.png "testing this cloud thing")
 
 Click the test name and you will see live video of the browser running *in the cloud*. After the test is finished you will be able to view the video and see the screenshots that (I think) are automatically taken for every page that the browser opens.

@@ -2,7 +2,7 @@
 tags:  book photo
 title: Lessons Learned in Software Testing by Cem Kaner, James Bach and Bret Pettichord (2012)
 ---
-<img src="/assets/lessons-300x300.jpg" title="Lessons Learned in Software Testing" width="300" height="300" alt="Lessons Learned in Software Testing" />
+<img src="/assets/2012/lessons-learned-in-software-testing-2012/lessons-300x300.jpg" title="Lessons Learned in Software Testing" width="300" height="300" alt="Lessons Learned in Software Testing" />
 
 *Lessons Learned in Software Testing book signed by Bret Pettichord.*
 

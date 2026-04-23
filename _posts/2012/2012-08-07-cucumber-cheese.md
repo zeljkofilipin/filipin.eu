@@ -2,7 +2,7 @@
 tags:  book
 title: Cucumber & Cheese by Jeff Morgan
 ---
-[<img src="/assets/chzy.png" title="Cucumber &amp; Cheese, A Testers Workshop by Jeff Morgan" class="size-full wp-image-376" width="270" height="349" alt="Cucumber &amp; Cheese, A Testers Workshop by Jeff Morgan" />](https://leanpub.com/cucumber_and_cheese) Cucumber & Cheese, A Testers Workshop by Jeff Morgan
+[<img src="/assets/2012/cucumber-cheese/chzy.png" title="Cucumber &amp; Cheese, A Testers Workshop by Jeff Morgan" class="size-full wp-image-376" width="270" height="349" alt="Cucumber &amp; Cheese, A Testers Workshop by Jeff Morgan" />](https://leanpub.com/cucumber_and_cheese) Cucumber & Cheese, A Testers Workshop by Jeff Morgan
 
 I have a long story to tell about [Cucumber & Cheese](https://leanpub.com/cucumber_and_cheese) but, as both your and mine time is limited, I will try to make is short. The story begins way back in 2010 when [Charley Baker](https://twitter.com/charley_baker) posted [link](https://groups.google.com/forum/#!topic/watir-general/tKC3PV2X3m4/discussion) to [Jeff Morgan's blog](http://www.cheezyworld.com/). I think that was the first time I was introduced to [Page Object pattern](http://code.google.com/p/selenium/wiki/PageObjects). Since then Page Object pattern talks started appearing a lot at (test automation) conferences. I have created my own implementation of the pattern and I have used it on a few projects.
 

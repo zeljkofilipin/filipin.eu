@@ -2,7 +2,7 @@
 tags:  code drive ruby
 title: watir-nokogiri
 ---
-![Random Croatian Countryside](/assets/06dc5366979d11e19dc71231380fe523_6.jpg)
+![Random Croatian Countryside](/assets/2012/watir-nokogiri/06dc5366979d11e19dc71231380fe523_6.jpg)
 
 At [Test Automation Bazaar](http://watir.com/test-automation-bazaar/) [Aliaksandr Ikhelis](https://github.com/aikhelis) gave a lightning talk [Watir-Webdriver is slow (did you know that?)](https://docs.google.com/presentation/d/1DnO8XUsF_tppTW_c15VAPe89R35z-ytAsIgWu69arho/present#slide=id.gaee207f_1_46). He talked about the speed problem he had when [watir-webdriver](http://watirwebdriver.com/) was locating elements via [regular expression](http://en.wikipedia.org/wiki/Regular_expression) on big pages. (He also reported the [issue](https://github.com/watir/watir-webdriver/issues/108) at GitHub.)
 

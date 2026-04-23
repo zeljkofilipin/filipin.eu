@@ -2,7 +2,7 @@
 tags:  book photo
 title: Perfect Software by Gerald M. Weinberg (2012)
 ---
-[![Perfect Software And Other Illusions About Testing](/assets/perfect-software-2012.jpg "Perfect Software And Other Illusions About Testing")](http://www.dorsethouse.com/books/perf.html)
+[![Perfect Software And Other Illusions About Testing](/assets/2012/perfect-software-2012/perfect-software-2012.jpg "Perfect Software And Other Illusions About Testing")](http://www.dorsethouse.com/books/perf.html)
 
 [TL;DR](http://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn't_read): Read the book.
 

@@ -39,11 +39,11 @@ Yesterday we had and interactive part of the event. We started at 17h UTC with a
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/dQTHggO--AQ" frameborder="0" allowfullscreen></iframe>
 
-The [slides](/assets/pdf/automated-tests-in-plain-english.pdf) are also available.
+The [slides](/assets/2013/increase-the-backlog/automated-tests-in-plain-english.pdf) are also available.
 
 The rest of the event happened at \#wikimedia-dev IRC channel at freenode.net and [Browser-automation](http://etherpad.wmflabs.org/pad/p/Browser-automation) [Etherpad](http://etherpad.org/) pad.
 
-![Increase the Backlog!](/assets/increase_the_backlog.png) How the event looked like for the majority of the time.
+![Increase the Backlog!](/assets/2013/increase-the-backlog/increase_the_backlog.png) How the event looked like for the majority of the time.
 
 Chris and I helped volunteers write their first scenario and reviewed the scenarios when they were finished, with suggestions on how they could be improved. Once everybody was happy with a scenario it was moved to [Test\_backlog](http://www.mediawiki.org/wiki/QA/Browser_testing/Test_backlog) page.
 

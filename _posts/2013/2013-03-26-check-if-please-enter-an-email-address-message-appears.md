@@ -2,7 +2,7 @@
 tags:  code
 title: Check if "Please enter an email address" message appears
 ---
-![Golden Gate Bridge](/assets/IMG_20130224_133708.jpg)
+![Golden Gate Bridge](/assets/2013/check-if-please-enter-an-email-address-message-appears/IMG_20130224_133708.jpg)
 
 Random photo: Golden Gate Bridge, San Francisco
 

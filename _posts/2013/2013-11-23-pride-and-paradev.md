@@ -2,7 +2,7 @@
 tags:  book
 title: Pride and Paradev by Alister Scott
 ---
-![Pride and Paradev](/assets/pride-and-paradev.jpeg) Pride and Paradev
+![Pride and Paradev](/assets/2013/pride-and-paradev/pride-and-paradev.jpeg) Pride and Paradev
 
 I have bought [Pride and Paradev](https://leanpub.com/pride-and-paradev) book by [Alister Scott](http://watirmelon.com/) as soon as it was available, but it has been waiting on my reading list for months. A few weeks ago I have finally found some time to read the book. I was reading the articles on Alister's blog as he was writing the book so I was mostly familiar with the content.
 

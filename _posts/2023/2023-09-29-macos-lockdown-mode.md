@@ -21,12 +21,12 @@ That's far from perfect. But it's good enough. There's a small chance that some 
 # Lockdown Mode 🔐
 
 
-![System settings](assets/macos-lockdown-mode/system-settings.png "System settings")
+![System settings](assets/2023/macos-lockdown-mode/system-settings.png "System settings")
 
 I recently got a new Apple machine with an M1 chip. I guess it's still possible to install Ubuntu on it, but I have failed so far. What I did manage to do is two macOS installations on a single machine. I use one macOS for banking. Then one day I stumbled upon [Lockdown Mode](https://support.apple.com/en-us/HT212650). It pretty much makes your machine unusable, but I only needed a browser anyway. Perfect. The only drawback I have noticed so far is that some fonts and/or images are not loaded, so some pages look strange. But, that's a small price to pay. A website (for example your bank) can be excluded from Lockdown Mode in Safari, but I didn't need to do that so far. I learned that today while reading about Lockdown Mode. 😅 It might come handy in the future.
 
-![Safari lockdown enabled](assets/macos-lockdown-mode/safari-lockdown-enabled.png "Safari lockdown enabled")
-![Safari lockdown off](assets/macos-lockdown-mode/safari-lockdown-off.png "Safari lockdown off")
+![Safari lockdown enabled](assets/2023/macos-lockdown-mode/safari-lockdown-enabled.png "Safari lockdown enabled")
+![Safari lockdown off](assets/2023/macos-lockdown-mode/safari-lockdown-off.png "Safari lockdown off")
 
 # Dedicated Machine 💻
 

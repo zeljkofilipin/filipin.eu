@@ -2,7 +2,7 @@
 tags:  book book-club photo
 title: An Introduction to General Systems Thinking by Gerald M. Weinberg
 ---
-![An Introduction to General Systems Thinking](assets/an-introduction-to-general-systems-thinking.png "An Introduction to General Systems Thinking")
+![An Introduction to General Systems Thinking](assets/2023/an-introduction-to-general-systems-thinking/an-introduction-to-general-systems-thinking.png "An Introduction to General Systems Thinking")
 
 # Three sentence summary
 

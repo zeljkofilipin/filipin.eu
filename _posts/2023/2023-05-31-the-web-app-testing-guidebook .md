@@ -51,7 +51,7 @@ The author nicely says that using [WebdriverIO](https://webdriver.io/) in the bo
 
 For comparison, here is [cypress vs playwright vs puppeteer vs webdriverio](https://npmtrends.com/cypress-vs-playwright-vs-puppeteer-vs-webdriverio) package download counts from npm trends for the last 5 years (2018-2023). Puppeteer and Cypress are very popular, WebdriverIO and Playwright not so much.
 
-![cypress vs playwright vs puppeteer vs webdriverio](assets/the-web-app-testing-guidebook.png "cypress vs playwright vs puppeteer vs webdriverio")
+![cypress vs playwright vs puppeteer vs webdriverio](assets/2023/the-web-app-testing-guidebook/the-web-app-testing-guidebook.png "cypress vs playwright vs puppeteer vs webdriverio")
 
 # Conclusion
 

@@ -2,7 +2,7 @@
 tags:  book productivity
 title: Getting Things Done by David Allen
 ---
-<img src="/assets/books-that-have-changed-my-life/getting-things-done.jpg" title="Getting Things Done" class="alignnone size-medium wp-image-332" alt="Getting Things Done" />
+<img src="/assets/2008/books-that-have-changed-my-life/getting-things-done.jpg" title="Getting Things Done" class="alignnone size-medium wp-image-332" alt="Getting Things Done" />
 
 Let me tell you about a recent chat with my boss. It went something like this:
 

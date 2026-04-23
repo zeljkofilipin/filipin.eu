@@ -23,7 +23,7 @@ I plan to write a post about each of these books this year. For now, I'll write 
 
 # [Getting Things Done](https://gettingthingsdone.com/what-is-gtd/): The Art of Stress-Free Productivity by David Allen
 
-![Getting Things Done](/assets/books-that-have-changed-my-life/getting-things-done.jpg "Getting Things Done")
+![Getting Things Done](/assets/2008/books-that-have-changed-my-life/getting-things-done.jpg "Getting Things Done")
 
 I've read it all the way back in [2008](getting-things-done-2008). It will teach you how to get everything you want and need to do out of your head and into a trusted system, paper- or computer-based. Then it will teach you how to organize all of it in projects and contexts. It will teach you how to get things done.
 

@@ -34,7 +34,7 @@ What you need to bring:
 
 # Sponsors
 
-[![Tentamen](/assets/tentamen-logo.png "Tentamen")](https://www.tentamen.hr/)
+[![Tentamen](/assets/2014/tentamen-logo.png "Tentamen")](https://www.tentamen.hr/)
 
 A big thank you to [Tentamen](https://www.tentamen.hr/) for sponsoring the event!
 

@@ -28,7 +28,7 @@ The three of us are organizing the event and [Croatian Chamber of Commerce](http
 
 # Sponsors
 
-[![Tentamen](/assets/tentamen-logo.png "Tentamen")](https://www.tentamen.hr/)
+[![Tentamen](/assets/2014/tentamen-logo.png "Tentamen")](https://www.tentamen.hr/)
 
 A big thank you to [Tentamen](https://www.tentamen.hr/) for sponsoring the event!
 

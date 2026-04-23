@@ -2,7 +2,7 @@
 tags:  book
 title: Agile Testing by Lisa Crispin and Janet Gregory
 ---
-![Agile Testing: The Book](/assets/agile_testing.jpg "Agile Testing: The Book")
+![Agile Testing: The Book](/assets/2011/agile-testing/agile_testing.jpg "Agile Testing: The Book")
 
 [TL;DR](http://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn't_read): It is a good book.
 

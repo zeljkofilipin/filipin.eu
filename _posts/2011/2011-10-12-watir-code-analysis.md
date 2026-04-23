@@ -10,17 +10,17 @@ Some of the highlights:
 
 Jarmo Pertman contributed the most in the last year.
 
-![jarmo](/assets/watir-code-analysis/jarmo.png "jarmo")
+![jarmo](/assets/2011/watir-code-analysis/jarmo.png "jarmo")
 
-![jarmo-12](/assets/watir-code-analysis/jarmo-12.png "jarmo-12")
+![jarmo-12](/assets/2011/watir-code-analysis/jarmo-12.png "jarmo-12")
 
 Hugh McGowan was pretty busy recently, too.
 
-![hugh-12](/assets/watir-code-analysis/hugh-12.png "hugh-12")
+![hugh-12](/assets/2011/watir-code-analysis/hugh-12.png "hugh-12")
 
 Bret Pettichord, Paul Rogers and Jarmo Pertman have contributed the most code in the project life time.
 
-![bret-all](/assets/watir-code-analysis/bret-all.png "bret-all") ![paul-all](/assets/watir-code-analysis/paul-all.png "paul-all") ![jarmo-all](/assets/watir-code-analysis/jarmo-all.png "jarmo-all")
+![bret-all](/assets/2011/watir-code-analysis/bret-all.png "bret-all") ![paul-all](/assets/2011/watir-code-analysis/paul-all.png "paul-all") ![jarmo-all](/assets/2011/watir-code-analysis/jarmo-all.png "jarmo-all")
 
 For more details, go to [Watir Code Analysis](https://www.ohloh.net/p/watir/analyses/latest) page.
 

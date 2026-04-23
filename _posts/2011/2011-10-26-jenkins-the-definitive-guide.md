@@ -2,7 +2,7 @@
 tags:  book
 title: Jenkins The Definitive Guide by John Ferguson Smart
 ---
-![Jenkins: The Definitive Guide](/assets/jenkins-cover-small.png "Jenkins: The Definitive Guide")
+![Jenkins: The Definitive Guide](/assets/2011/jenkins-the-definitive-guide/jenkins-cover-small.png "Jenkins: The Definitive Guide")
 
 I have finished reading [Jenkins: The Definitive Guide](http://www.wakaleo.com/books/jenkins-the-definitive-guide) book today. It took me a while to realize there is free pdf version of the book (and $34.99-$49.49 print and ebook versions).
 

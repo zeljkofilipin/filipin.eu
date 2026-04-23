@@ -2,7 +2,7 @@
 tags:  photo software
 title: Jenkins, Windows and Git
 ---
-![jenkins logo](/assets/jenkins_logo.png "jenkins logo")
+![jenkins logo](/assets/2011/jenkins-windows-and-git/jenkins_logo.png "jenkins logo")
 
 **Update**: managed to clone Git repository via Git/SSH.
 

@@ -1,5 +1,5 @@
 ---
-tags:  book book-club youtube
+tags:  book book-club
 title: Explore It by Elisabeth Hendrickson
 ---
 # Three sentence summary

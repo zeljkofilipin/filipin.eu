@@ -1,5 +1,5 @@
 ---
-tags:  drive watir
+tags:  watir
 title: Alan Baird and Jari Bakken on watir-webdriver
 ---
 On January 28, 2010, [Alan Baird](http://twitter.com/bluegrasscoder) (*&lt;alan\_baird&gt;*) and [Jari](http://github.com/jarib) [Bakken](http://twitter.com/jarib) (**&lt;jarib&gt;**) had a chat about [watir-webdriver](/watir-on-webdriver/) on [\#watir IRC channel at freenode.net](http://wiki.openqa.org/display/WTR/The+IRC+Channel). Published with permission.

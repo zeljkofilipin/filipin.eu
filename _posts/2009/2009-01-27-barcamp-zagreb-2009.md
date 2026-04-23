@@ -16,7 +16,7 @@ The same as at BarCamp Zagreb 2008, I have chosen the smaller room (there were t
 
 I do not think my talk made a lot of sense to people. I asked how many were familiar with Ruby or Watir and saw just a few hands. I guess a talk about testing framework would be too much for the crowd like that. I gave my introduction to Watir talk last year, and organizers kindly said it would be better to do something else this year, so I choose Taza. Maybe that was not such a great move.
 
-This is my [presentation](/assets/pdf/watir-barcamp.pdf). I hope I will have some time in the near future and update it with the code.
+This is my [presentation](/assets/2009/barcamp-zagreb-2009/watir-barcamp.pdf). I hope I will have some time in the near future and update it with the code.
 
 After my talk two people approached me. Alex (American living in Italy, or Italian living in US, or some other more complicated combination) asked some general questions about Watir, and [Jure Čuhalev](http://www.jurecuhalev.com/blog/) asked if I would talk about Watir in Ljubljana, Slovenia. That was a surprise. I am all for it! I hope we will be able to arrange it in the next few weeks.
 

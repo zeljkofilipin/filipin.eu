@@ -22,13 +22,13 @@ To record and edit audio, you can use [GarageBand](http://www.apple.com/ilife/ga
 - Output: Headphones - Built-in Audio (always use headphones when recording so your microphone does not catch sound from the speakers)  
 - Input: Internal microphone - Built-in (check 'Use ambient noise reduction' and move microphone input volume slider to the right)
 
-![sound](/assets/sound-300x219.jpg "sound")
+![sound](/assets/2009/recording-a-podcast-with-skype-on-mac-using-only-free-software/sound-300x219.jpg "sound")
 
 **Skype** &gt; Preferences &gt; Audio  
 - Audio output: Soundflower (2ch)  
 - Audio input: Soundflower (2ch)
 
-![audio](/assets/audio-300x107.jpg "audio")
+![audio](/assets/2009/recording-a-podcast-with-skype-on-mac-using-only-free-software/audio-300x107.jpg "audio")
 
 While configuring Skype for the first use, you should uncheck option that Skype automatically adjusts microphone volume and move the slider to the right, but I can not find that configuration wizard, even after reinstalling.
 
@@ -36,29 +36,29 @@ While configuring Skype for the first use, you should uncheck option that Skype 
 Input from: Build-in Microphone: Internal microphone  
 Output to: Soundflower (2ch)
 
-![linein](/assets/linein-300x106.jpg "linein")
+![linein](/assets/2009/recording-a-podcast-with-skype-on-mac-using-only-free-software/linein-300x106.jpg "linein")
 
 **GarageBand**  
 Audio output: Built-in Output  
 Audio Input: Soundflower (2ch)
 
-![audio\_midi](/assets/audio_midi-300x94.jpg "audio_midi")
+![audio\_midi](/assets/2009/recording-a-podcast-with-skype-on-mac-using-only-free-software/audio_midi-300x94.jpg "audio_midi")
 
 Create New Podcast Episode &gt; Male/Female Voice &gt; Monitor: On  
 Make sure you turn monitor "On", or you will not hear the other person speaking. I heard my voice with about one second delay, so the next time I will try "On with Feedback Protection" instead of "On" setting.
 
-![1band](/assets/1band-300x195.jpg "1band")
+![1band](/assets/2009/recording-a-podcast-with-skype-on-mac-using-only-free-software/1band-300x195.jpg "1band")
 
 **Audacity**  
 Output: Core Audio: Built-in Output  
 Input: Core Audio: Soundflower (2ch)
 
-![audacity](/assets/audacity-300x96.jpg "audacity")
+![audacity](/assets/2009/recording-a-podcast-with-skype-on-mac-using-only-free-software/audacity-300x96.jpg "audacity")
 
 Preferences &gt; Audio I/O &gt; Playthrough &gt; Hardware Playthrough: Play new track while recording it &gt; check  
 With software playthrough I heard my voice with about one second delay, but it was fine with hardware playthrough.
 
-![audacity-preferences](/assets/audacity-preferences-300x169.jpg "audacity-preferences")
+![audacity-preferences](/assets/2009/recording-a-podcast-with-skype-on-mac-using-only-free-software/audacity-preferences-300x169.jpg "audacity-preferences")
 
 Start Skype conversation and when you want to record, click ‘Pass Thru’ button in LineIn and click record button in GarageBand or Audacity.
 

@@ -2,7 +2,7 @@
 tags:  code featured javascript ruby testival scratch selenium youtube
 title: Selenium bindings in Scratch, visual programming language for kids
 ---
-![Scratch logo](/assets/Scratchcat2.png "Scratch logo")
+![Scratch logo](/assets/2017/selenium-scratch/Scratchcat2.png "Scratch logo")
 
 # Scratch
 
@@ -62,7 +62,7 @@ The basics are:
 
 After a bit of thinking about the problem and some research, I had the basics working. I have showed it to a few people and they said it was _easy_ to use, but also a lot of _fun_. Here it is. (Yellow boxes are comments.)
 
-[![Selenium Scratch](/assets/selenium-scratch.png "Selenium Scratch")](https://scratch.mit.edu/projects/148651313/)
+[![Selenium Scratch](/assets/2017/selenium-scratch/selenium-scratch.png "Selenium Scratch")](https://scratch.mit.edu/projects/148651313/)
 
 Only the basics, but it's running. You can run the script at Scratch site ([Selenium Scratch](https://scratch.mit.edu/projects/148651313/)) and inspect the code. (You will need Flash. Sorry about that.) The above script is optimized so it is easy to read, but it runs so fast that you do not see much. I have created another script ([Selenium Scratch Demo](https://scratch.mit.edu/projects/148654788/)) that is not so easy to read, but it runs slower, and the helpful Scratch cat is providing useful comments on what is happening. Here is a YouTube video, if you prefer that.
 

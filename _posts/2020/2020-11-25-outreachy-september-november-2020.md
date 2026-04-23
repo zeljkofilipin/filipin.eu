@@ -2,7 +2,7 @@
 tags:  mentor photo wikimedia
 title: Outreachy, September-November 2020
 ---
-![Outreachy](/assets/outreachy-december-march-2021.png "Outreachy")
+![Outreachy](/assets/2020/outreachy-december-march-2021.png "Outreachy")
 
 In [Google Summer of Code, June-August 2020](/gsoc-june-august-2020) I've said:
 

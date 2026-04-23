@@ -1,4 +1,4 @@
 ---
 name: facebook
 ---
-Contains a link to [Facebook](https://www.facebook.com/). 📘
+Contains an embedded post from [Facebook](https://www.facebook.com/). 📘

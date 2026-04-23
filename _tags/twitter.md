@@ -1,4 +1,4 @@
 ---
 name: twitter
 ---
-Contains a link to [Twitter](https://twitter.com/). 🐦
+Contains an embedded tweet from [Twitter](https://twitter.com/). 🐦

@@ -1,4 +1,4 @@
 ---
 name: drive
 ---
-Contains a link to [Google Drive](https://drive.google.com). 📁
+Contains an embedded document from [Google Drive](https://drive.google.com). 📁

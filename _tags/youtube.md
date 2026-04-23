@@ -1,4 +1,4 @@
 ---
 name: youtube
 ---
-Contains a link to [YouTube](https://www.youtube.com/). 📽
+Contains an embedded video from [YouTube](https://www.youtube.com/). 📽

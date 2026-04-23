@@ -1,4 +1,4 @@
 ---
 name: commons
 ---
-Contains a link to [Wikimedia Commons](https://commons.wikimedia.org). 🖼
+Contains an embedded image from [Wikimedia Commons](https://commons.wikimedia.org). 🖼

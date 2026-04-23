@@ -76,7 +76,7 @@ You might be one of those people that enjoy seeing the improvement. I'm definite
 
 If I'm reading the stats correctly, in the last year I've played about 1000 games and solved about 1000 puzzles. I've improved about 300 points in bullet (1-2 minutes/game), blitz (3-5 minutes/game) and rapid (10 minutes/game) and about 400 in daily (24 hours/move) and puzzles.
 
-![Stats](assets/chess-basics.jpg "Stats")
+![Stats](assets/2022/chess-basics/chess-basics.jpg "Stats")
 
 It isn't displayed on this screen, but you can also compare your rating to the rating of active players in the last 90 days.
 

@@ -2,7 +2,7 @@
 tags:  book book-club photo
 title: Lessons Learned in Software Testing by Cem Kaner, James Bach and Bret Pettichord (2022)
 ---
-![Lessons Learned in Software Testing](assets/lessons-learned-in-software-testing-2022/lessons-learned.jpg "Lessons Learned in Software Testing")
+![Lessons Learned in Software Testing](assets/2022/lessons-learned-in-software-testing-2022/lessons-learned.jpg "Lessons Learned in Software Testing")
 
 *Lessons Learned in Software Testing signed by Bret Pettichord.*
 
@@ -22,6 +22,6 @@ Technical books get obsolete very fast. Lessons Learned was written in 2002. For
 
 # Book Club
 
-![Book Club](assets/lessons-learned-in-software-testing-2022/book-club.png "Book Club")
+![Book Club](assets/2022/lessons-learned-in-software-testing-2022/book-club.png "Book Club")
 
 I was reading this book as part of a [book club](https://phabricator.wikimedia.org/T247665) at work. We pick a book and read it for a month or two, depending on how much it takes us to read it. At the end of each month we have a book club meeting discussing the book. We've read this book for a couple of months. For the second meeting I've invited one of the authors, Bret Pettichord, to join us. That was the best book club meeting we had so far. Bret shared a lot of stories with us. From how they wrote the book to some of his recent projects. We also got to ask a lot of questions.

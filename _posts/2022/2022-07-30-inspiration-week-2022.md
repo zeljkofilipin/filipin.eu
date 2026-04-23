@@ -32,7 +32,7 @@ Backing up is something I know is important. I think I have it set up so I don't
 
 # Duolingo
 
-![Duolingo](assets/inspiration-week-2022/duolingo.jpg "Duolingo")
+![Duolingo](assets/2022/inspiration-week-2022/duolingo.jpg "Duolingo")
 
 I learned German in high school, but I've never used it since. In 2020 I've decided to pick it up again using [Duolingo](https://www.duolingo.com). I've been pretty consistent with practicing it.
 
@@ -54,7 +54,7 @@ I've played the guitar since high school and drums since college. In 2018 I've s
 
 # Geocaching
 
-![Geocache](assets/inspiration-week-2022/geocache.jpg "Geocache")
+![Geocache](assets/2022/inspiration-week-2022/geocache.jpg "Geocache")
 
 I got introduced to [geocaching](https://www.geocaching.com) in 2019 at a conference. Since then I've managed to find more than 100 geocaches and I've hidden about 10. During *Inspiration Week* I've decided to take a longer bike ride to work one day and do some geocaching. During the bike ride I've replaced one of my caches that went missing, found a cache that I've looked for before but couldn't find it then, looked for a couple of caches but I didn't managed to find them, checked if a couple of caches are in place (one of them I own and one I just managed to be nearby). Finally, I've gathered data for a few multi caches.
 

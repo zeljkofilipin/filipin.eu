@@ -1,5 +1,5 @@
 ---
-tags:  book book-club testing photo
+tags:  book book-club photo testing
 title: Taking Testing Seriously by James Bach and Michael Bolton
 ---
 

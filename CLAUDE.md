@@ -79,7 +79,7 @@ Surveyed 2026-04-23. Items marked **broken** are likely already visible to reade
 
 ### Content / editorial
 - **Thin tags**: `blog` (2 posts), `chess`, `commons`, `scratch` (3 posts each), `linux`, `software` (4 posts each). Either write more in those areas or retire the tags.
-- **`_tags/TODO.md`**: leftover file in the tags directory, not a real tag.
+- **`_tags/TODO.md` / `tags: TODO`**: 86 posts are tagged `TODO` as a placeholder (tags were never decided). `_tags/TODO.md` exists to keep the tag-check script happy. These posts need real tags assigned.
 
 ### Structure
 - **No pagination on `blog.md`**: all 487 posts render on one page. Will get slower as the blog grows; consider adding Jekyll pagination.

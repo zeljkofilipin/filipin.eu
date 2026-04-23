@@ -1,5 +1,5 @@
 ---
-tags:  event organizer speaker video wikimedia youtube
+tags:  commons event organizer speaker video wikimedia youtube
 title: Browser Automation Workshops
 ---
 [<img src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Munich_-_Deutsches_Museum_-_07-0958.jpg/512px-Munich_-_Deutsches_Museum_-_07-0958.jpg" width="512" alt="Munich - Deutsches Museum - 07-0958" />](https://commons.wikimedia.org/wiki/File%3AMunich_-_Deutsches_Museum_-_07-0958.jpg "© Jorge Royan / http://www.royan.com.ar / CC-BY-SA-3.0, via Wikimedia Commons")

@@ -1,5 +1,5 @@
 ---
-tags:  code ruby
+tags:  code commons ruby
 title: One Does Not Simply Set Profile for Remote Chrome
 ---
 [<img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/21st_Amendment_Brewery_3.jpg/256px-21st_Amendment_Brewery_3.jpg" width="256" alt="21st Amendment Brewery 3" />](https://commons.wikimedia.org/wiki/File%3A21st_Amendment_Brewery_3.jpg "By Zeljko.filipin (Own work) [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons")

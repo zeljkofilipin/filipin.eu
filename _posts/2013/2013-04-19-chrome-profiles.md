@@ -1,5 +1,5 @@
 ---
-tags:  code ruby
+tags:  code commons ruby
 title: Chrome Profiles
 ---
 [<img src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Trees_in_bloom.jpg/512px-Trees_in_bloom.jpg" width="512" alt="Trees in bloom" />](https://commons.wikimedia.org/wiki/File%3ATrees_in_bloom.jpg "By Zeljko.filipin (Own work) [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons")

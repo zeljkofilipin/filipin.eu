@@ -1,5 +1,5 @@
 ---
-tags:  event organizer speaker video wikimedia youtube
+tags:  commons event organizer speaker video wikimedia youtube
 title: Browser Automation Workshop
 ---
 [<img src="//upload.wikimedia.org/wikipedia/commons/f/f1/Monkey-typing.jpg" width="512" alt="Monkey-typing" />](https://commons.wikimedia.org/wiki/File%3AMonkey-typing.jpg "By New York Zoological Society (Picture on Early Office Museum) [Public domain], via Wikimedia Commons")

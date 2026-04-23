@@ -2,7 +2,7 @@
 tags:  code ruby
 title: Enter Non-English Character in Text Field
 ---
-![google\_zeljko.PNG](/assets/google_zeljko.PNG)
+![google\_zeljko.PNG](/assets/2007/enter-non-english-character-in-text-field/google_zeljko.PNG)
 
 I use [Watir](http://watir.com) a lot. I wanted to set a text field to `željko`. I did not know it would hard. I tried this code.
 

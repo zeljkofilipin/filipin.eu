@@ -2,7 +2,7 @@
 tags:  book
 title: Everyday Scripting with Ruby by Brian Marick
 ---
-![bmsft\_small.jpg](/assets/bmsft_small.jpg "bmsft_small.jpg")
+![bmsft\_small.jpg](/assets/2007/bmsft_small.jpg "bmsft_small.jpg")
 
 I remember that I have heard at school something like this.
 

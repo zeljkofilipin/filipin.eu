@@ -2,7 +2,7 @@
 tags:  TODO
 title: I Do Not Want All My Internet Traffic to Go Over VPN
 ---
-![VPN](/assets/vpn.png)
+![VPN](/assets/2007/i-do-not-want-all-my-internet-traffic-to-go-over-vpn/vpn.png)
 
 Few days ago I created another virtual private network (VPN) connection at my machine. All of my Internet traffic was going over that connection. Because I am connected to a machine located in Switzerland, sites that recognize that were giving me pages translated to German. My German is not so good, so I wanted to disable all my traffic going over VPN. My colleague showed me how to do it a few months ago, but I forgot it. I have a really bad memory.
 

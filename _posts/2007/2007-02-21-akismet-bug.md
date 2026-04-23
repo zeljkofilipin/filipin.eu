@@ -2,7 +2,7 @@
 tags:  TODO
 title: Akismet Bug
 ---
-![Akismet Bug](/assets/askimet_t.png)
+![Akismet Bug](/assets/2007/akismet-bug/askimet_t.png)
 
 I started to get a lot of spam comments, and yesterday I installed [Askimet](http://akismet.com/). This morning, I found a bug in Askimet. Don't you just love to start a day with a bug? :)
 

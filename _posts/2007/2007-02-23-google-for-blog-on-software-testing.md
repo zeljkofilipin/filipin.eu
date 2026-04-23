@@ -14,4 +14,4 @@ I started playing with different search terms, and if you use [google.hr](http:/
 
 I have been changing the title of my blog from *Željko Filipin* to *Željko Filipin's Blog* to *Željko Filipin on Software Testing* and finally to *Željko Filipin’s Blog on Software Testing*. I think this title is the best description of this blog. And, it really helped being ranked so high.
 
-![google\_t.png](/assets/google_t.png)
+![google\_t.png](/assets/2007/google-for-blog-on-software-testing/google_t.png)

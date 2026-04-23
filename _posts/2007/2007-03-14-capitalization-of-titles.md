@@ -2,7 +2,7 @@
 tags:  TODO
 title: Capitalization of Titles
 ---
-![capitalization.png](/assets/capitalization.png "capitalization.png")
+![capitalization.png](/assets/2007/capitalization-of-titles/capitalization.png "capitalization.png")
 
 Another very useful feature of Microsoft Word is capitalization of titles. If you need a quick way to correctly capitalize your title, type
 

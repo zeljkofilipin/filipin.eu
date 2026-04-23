@@ -10,24 +10,24 @@ All you have to do is run Network Setup Wizard (start &gt; Control Panel &gt; Ne
 
 Here are screen shots from my installation.  
   
-![Network Setup Wizard](/assets/vmware-server-103-and-shared-folders/1.PNG "Network Setup Wizard")
+![Network Setup Wizard](/assets/2007/vmware-server-103-and-shared-folders/1.PNG "Network Setup Wizard")
 
-![Network Setup Wizard](/assets/vmware-server-103-and-shared-folders/2.PNG "Network Setup Wizard")
+![Network Setup Wizard](/assets/2007/vmware-server-103-and-shared-folders/2.PNG "Network Setup Wizard")
 
-![Network Setup Wizard](/assets/vmware-server-103-and-shared-folders/3.PNG "Network Setup Wizard")
+![Network Setup Wizard](/assets/2007/vmware-server-103-and-shared-folders/3.PNG "Network Setup Wizard")
 
-![Network Setup Wizard](/assets/vmware-server-103-and-shared-folders/4.PNG "Network Setup Wizard")
+![Network Setup Wizard](/assets/2007/vmware-server-103-and-shared-folders/4.PNG "Network Setup Wizard")
 
-![Network Setup Wizard](/assets/vmware-server-103-and-shared-folders/5.PNG "Network Setup Wizard")
+![Network Setup Wizard](/assets/2007/vmware-server-103-and-shared-folders/5.PNG "Network Setup Wizard")
 
-![Network Setup Wizard](/assets/vmware-server-103-and-shared-folders/6.PNG "Network Setup Wizard")
+![Network Setup Wizard](/assets/2007/vmware-server-103-and-shared-folders/6.PNG "Network Setup Wizard")
 
-![Network Setup Wizard](/assets/vmware-server-103-and-shared-folders/7.PNG "Network Setup Wizard")
+![Network Setup Wizard](/assets/2007/vmware-server-103-and-shared-folders/7.PNG "Network Setup Wizard")
 
-![Network Setup Wizard](/assets/vmware-server-103-and-shared-folders/8.PNG "Network Setup Wizard")
+![Network Setup Wizard](/assets/2007/vmware-server-103-and-shared-folders/8.PNG "Network Setup Wizard")
 
-![Network Setup Wizard](/assets/vmware-server-103-and-shared-folders/9.PNG "Network Setup Wizard")
+![Network Setup Wizard](/assets/2007/vmware-server-103-and-shared-folders/9.PNG "Network Setup Wizard")
 
-![Network Setup Wizard](/assets/vmware-server-103-and-shared-folders/10.PNG "Network Setup Wizard")
+![Network Setup Wizard](/assets/2007/vmware-server-103-and-shared-folders/10.PNG "Network Setup Wizard")
 
-![Network Setup Wizard](/assets/vmware-server-103-and-shared-folders/11.PNG "Network Setup Wizard")
+![Network Setup Wizard](/assets/2007/vmware-server-103-and-shared-folders/11.PNG "Network Setup Wizard")

@@ -2,7 +2,7 @@
 tags:  code
 title: First Steps in ASP.NET
 ---
-![asp.png](/assets/asp.png "asp.png")
+![asp.png](/assets/2007/first-steps-in-aspnet/asp.png "asp.png")
 
 My colleague is using [ASP.NET](http://msdn2.microsoft.com/en-us/asp.net/default.aspx). I decided to learn basics of it. After all, you have to [know your enemy](http://www.youtube.com/watch?v=wzkGHoOp3AQ). As it usually goes, pretty soon I got into trouble. [Internet Information Services](http://www.microsoft.com/WindowsServer2003/iis/default.mspx) (IIS 5.1) at my machine (Windows XP Professional, Service Pack 2) was processing server code of asp pages, but not of aspx. Internet Explorer would show HTML portion of aspx page, but server code was ignored. Firefox was showing asp pages, but for aspx pages I was getting "open with" pop-up.
 

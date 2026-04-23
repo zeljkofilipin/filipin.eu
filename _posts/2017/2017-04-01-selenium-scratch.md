@@ -1,5 +1,5 @@
 ---
-tags:  code featured javascript ruby scratch selenium testival youtube
+tags:  code featured javascript ruby scratch selenium testival video youtube
 title: Selenium bindings in Scratch, visual programming language for kids
 ---
 ![Scratch logo](/assets/2017/selenium-scratch/Scratchcat2.png "Scratch logo")

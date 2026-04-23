@@ -64,3 +64,22 @@ For any change that rewrites refs across many posts (asset reorgs, slug renames,
 Procedure: build into `/tmp/filipin-old` using the Docker command above, apply the change, build into `/tmp/filipin-new`, then `diff -rq /tmp/filipin-old /tmp/filipin-new`.
 
 Jekyll output contains timestamp lines (`article:published_time`, schema.org JSON-LD `dateModified`/`datePublished`) that reflect build time, so tag pages (`_site/tags/*.html`) and `feed.xml` always differ between two builds — ~38 spurious diffs per build. Filter them with `sed -E 's/20[0-9]{2}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}[+-][0-9]{2}:[0-9]{2}/TS/g'` on both sides before comparing. After filtering, the only differing files should be the posts you touched, and every differing line should contain the token you intended to change.
+
+## Improvement backlog
+
+Surveyed 2026-04-23. Items marked **broken** are likely already visible to readers.
+
+### Broken
+- **Old image references** (~37 posts, mostly 2005–2006 era): malformed image syntax from pre-Jekyll migration. Images are probably not rendering in those posts.
+- **Feed** (`/feed.xml`): verify that `jekyll-feed` is actually generating the feed. The gem is in the Gemfile but the agent could not confirm a `feed.xml` is being produced.
+
+### High-impact improvements
+- **No post descriptions**: 0 of 487 posts have a `description` field in front matter. Affects SEO and social preview cards (Open Graph). Start with the most-visited posts.
+- **Orphaned assets**: ~288 image files in `assets/` are never referenced by any post. Could be deleted to reduce repo size (verify before bulk delete).
+
+### Content / editorial
+- **Thin tags**: `blog` (2 posts), `chess`, `commons`, `scratch` (3 posts each), `linux`, `software` (4 posts each). Either write more in those areas or retire the tags.
+- **`_tags/TODO.md`**: leftover file in the tags directory, not a real tag.
+
+### Structure
+- **No pagination on `blog.md`**: all 487 posts render on one page. Will get slower as the blog grows; consider adding Jekyll pagination.

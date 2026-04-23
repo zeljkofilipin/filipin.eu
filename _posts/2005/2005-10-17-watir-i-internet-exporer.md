@@ -2,7 +2,7 @@
 tags:  hrvatski
 title: Watir i Internet Exporer
 ---
-![Đžogljavko pozira na svom omiljenom mjestu - ispred prozora sa greškom.](/assets/2005/watir-i-internet-exporer/1620333376.jpg)
+![Đžogljavko pozira na svom omiljenom mjestu - ispred prozora sa greškom.](/assets/2005/watir-i-internet-exporer.jpg)
 
 Napravim hrpu testova, dam ih mom izmišljenom prijatelju Đžogljavku da ih izvrti (za one koji su se tek sad uključili u naš program, Đžogljavko živi u mom računalu), pa popravim greške, pa dam popravljene testove Đžogljavku, pa napravim još testova, pa ih dam Đžogljavku, pa popravim greške... (čini mi se da sam se počeo ponavljati)
 

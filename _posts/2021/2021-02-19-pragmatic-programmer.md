@@ -2,7 +2,7 @@
 tags:  book photo
 title: Pragmatic Programmer by Andy Hunt and Dave Thomas
 ---
-![Pragmatic Programmer by Andy Hunt and Dave Thomas](/assets/2021/pragmatic-programmer/pragmatic-programmer.jpg)
+![Pragmatic Programmer by Andy Hunt and Dave Thomas](/assets/2021/pragmatic-programmer.jpg)
 
 I've heard good things about [Pragmatic Programmer](https://pragprog.com/titles/tpp20) from multiple sources. It has been on my to-buy list for years. It officially entered my Goodreads to-read list in October 2017. I've bought it in December 2019. I've started reading it in November and finished in December 2020.
 

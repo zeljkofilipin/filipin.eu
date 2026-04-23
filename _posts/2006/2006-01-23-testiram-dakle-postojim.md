@@ -50,4 +50,4 @@ Komentara se na kraju toliko namnožilo, pa su testerske izreke dobile i svoju [
 
 Za kraj, [James Bach](http://www.satisfice.com/) se toliko ponosi svojim poslom da ima tablicu za auto na kojoj piše kako zarađuje za život.
 
-![tester.jpg](/assets/2006/testiram-dakle-postojim/tester.jpg)
+![tester.jpg](/assets/2006/testiram-dakle-postojim.jpg)

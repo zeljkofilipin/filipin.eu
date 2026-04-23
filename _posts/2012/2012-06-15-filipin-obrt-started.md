@@ -2,7 +2,7 @@
 tags:  TODO
 title: Filipin, obrt za računalne djelatnosti, started
 ---
-![Random Photo: Zagreb, Croatia.](/assets/2012/filipin-obrt-started/balls-300x300.jpg "Random Photo: Zagreb, Croatia.")
+![Random Photo: Zagreb, Croatia.](/assets/2012/filipin-obrt-started.jpg "Random Photo: Zagreb, Croatia.")
 
 Random Photo: Zagreb, Croatia.
 

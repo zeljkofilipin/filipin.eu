@@ -2,7 +2,7 @@
 tags:  book featured photo
 title: The Passionate Programmer by Chad Fowler
 ---
-![The Passionate Programmer by Chad Fowler](assets/2020/passionate-programmer/passionate-programmer.jpg)
+![The Passionate Programmer by Chad Fowler](assets/2020/passionate-programmer.jpg)
 
 I bought *[The Passionate Programmer](https://pragprog.com/titles/cfcar2/the-passionate-programmer-2nd-edition/)* by Chad Fowler during December 2019 sale. It spent a lot of time in my to-read stack. I've finally read it in November 2020.
 

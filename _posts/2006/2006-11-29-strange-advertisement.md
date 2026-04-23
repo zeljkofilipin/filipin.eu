@@ -2,7 +2,7 @@
 tags:  TODO
 title: Strange Advertisement
 ---
-<img src="/assets/2006/strange-advertisement/msn.png" id="image69" alt="msn.png" />
+<img src="/assets/2006/strange-advertisement.png" id="image69" alt="msn.png" />
 
 I was very surprised today when I saw this advertisement in Windows Live Messenger 8 this morning. This looks to me like [Arabic alphabet](http://en.wikipedia.org/wiki/Arabic_alphabet), but since I can not read it, I really can not be sure. I wonder why Messenger thinks I can read Arabic? Maybe my Croatian preferences confused it?
 

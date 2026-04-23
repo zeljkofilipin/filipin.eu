@@ -18,7 +18,7 @@ After the talk, I took a look (and a few pictures) at their museum of old comput
 
 After the museum I joined the rest of the people in a bar where they were drinking beer, but I had to drink tea, because I had to drive for almost two hours to get home. We had a nice but short chat, because it was getting late and I had to head home.
 
-[Slides](/assets/2009/spletne-urice-106/watir-spletne-urice.pdf) are available.
+[Slides](/assets/2009/spletne-urice-106.pdf) are available.
 
 For my reference, these are links to Spletne Urice \#106 at [Spletne Urice](http://web.zen.si/archives/2009/03/spletne-urice-106-samodejno-testiranje-spletnih-aplikacij-watir/) and [Kiberpipa](http://www.kiberpipa.org/event/2009-mar-04/714/watir) sites.
 

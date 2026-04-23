@@ -2,7 +2,7 @@
 tags:  code hrvatski ruby
 title: Instaliraj Ruby on Rails na računalu koje nema pristup Internetu
 ---
-![Đžogljavko pored pruge (engl. rail).](/assets/2005/instaliraj-ruby-on-rails-na-racunalu-koje-nema-pristup-internetu/1620443415.jpg)
+![Đžogljavko pored pruge (engl. rail).](/assets/2005/instaliraj-ruby-on-rails-na-racunalu-koje-nema-pristup-internetu.jpg)
 
 Pisao sam o tome kako napraviti [Ruby on Rails](http://www.rubyonrails.org/) web aplikaciju.
 

@@ -2,7 +2,7 @@
 tags:  book
 title: Homebrewer's Guide to Watir 0.8.0
 ---
-<img src="/assets/2012/homebrewers-guide-to-watir-0-8-0/title_page-231x300.jpg" title="Homebrewer’s Guide to Watir" class="size-medium wp-image-622" width="231" height="300" alt="Homebrewer’s Guide to Watir" /> Homebrewer’s Guide to Watir
+<img src="/assets/2012/homebrewers-guide-to-watir-0-8-0.jpg" title="Homebrewer’s Guide to Watir" class="size-medium wp-image-622" width="231" height="300" alt="Homebrewer’s Guide to Watir" /> Homebrewer’s Guide to Watir
 
 After more than a year since the [Watir Book 0.7.1](/watir-book-0-7-1/) release I have good news. I have renamed the book to [Homebrewer's Guide to Watir](https://leanpub.com/watirbook) and released it at [Leanpub](https://leanpub.com). A big thank you to [Bret Pettichord](https://twitter.com/bpettichord) for the name. To mark the milestone, I have bumped the version to 0.8.0.
 

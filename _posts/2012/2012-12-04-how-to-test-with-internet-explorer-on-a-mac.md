@@ -2,7 +2,7 @@
 tags:  macos photo testing
 title: How to Test with Internet Explorer on a Mac
 ---
-![Random Photo: Globe, Utrecht, the Netherlands](/assets/2012/how-to-test-with-internet-explorer-on-a-mac/globe-300x300.jpg "Random Photo: Globe, Utrecht, the Netherlands") Random Photo: Globe, Utrecht, the Netherlands
+![Random Photo: Globe, Utrecht, the Netherlands](/assets/2012/how-to-test-with-internet-explorer-on-a-mac.jpg "Random Photo: Globe, Utrecht, the Netherlands") Random Photo: Globe, Utrecht, the Netherlands
 
 To my surprise, not everybody knows how to test with Internet Explorer on a Mac. After responding to [How do I run Internet Explorer using ruby mine on a mac](http://stackoverflow.com/q/13653913/17469) question at Stack Overflow, I have decided to create a blog post, mostly copy/pasting my answer.
 

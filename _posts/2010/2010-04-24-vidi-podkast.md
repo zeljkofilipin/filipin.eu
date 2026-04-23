@@ -4,7 +4,7 @@ title: Vidi Podkast
 ---
 Recently I have started a new podcast, Vidi Podkast. It is in Croatian and we are talking about hardware, software and Vidi magazine.
 
-![Vidi Podkast](/assets/2010/vidi-podkast/VidiPodkast-234x300.jpg "Vidi Podkast")
+![Vidi Podkast](/assets/2010/vidi-podkast.jpg "Vidi Podkast")
 
 Links
 

@@ -2,7 +2,7 @@
 tags:  photo watir
 title: page-object API should be more similar to watir API
 ---
-![Random photo: Rijeka, Croatia.](/assets/2012/page-object-api-should-be-more-similar-to-watir-api/cannon-300x300.jpg "Random photo: Rijeka, Croatia.")
+![Random photo: Rijeka, Croatia.](/assets/2012/page-object-api-should-be-more-similar-to-watir-api.jpg "Random photo: Rijeka, Croatia.")
 
 I have just created [issue 102](https://github.com/cheezy/page-object/issues/102) for [page-object gem](https://github.com/cheezy/page-object). After I wrote it, I thought it would be a good blog post too, so I am reposting it here. If you agree, or not, please comment at GitHub issue, not here.
 

@@ -2,7 +2,7 @@
 tags:  hrvatski
 title: Nova Watir lista
 ---
-![Đžogljavko u vodi do grla. Watir se izgovara kao water (što na engleskom znači voda).](/assets/2005/nova-watir-lista/1620337013.jpg)
+![Đžogljavko u vodi do grla. Watir se izgovara kao water (što na engleskom znači voda).](/assets/2005/nova-watir-lista.jpg)
 
 Kao što znaju već i krtice koje grickaju optičke kabele kojima podaci od mene putuju na Internet, svakodnevno se koristim [Watirom](http://wtr.rubyforge.org/). Naravno, član sam i dvije Watir liste. Na jednoj se piše o svim problemima koje ljudi susreću pri korištenju Watira. Druga lista su izvještaji kad se nešto doda u Watir kod.
 

@@ -2,7 +2,7 @@
 tags:  hrvatski
 title: Testiranje. Kako početi?
 ---
-![Moj kućni ljubimac Čarapko njuška po aplikaciji. Hranim ga samo testiranjem.](/assets/2005/testiranje-kako-poceti/1620313089.jpg)
+![Moj kućni ljubimac Čarapko njuška po aplikaciji. Hranim ga samo testiranjem.](/assets/2005/testiranje-kako-poceti.jpg)
 
 Sjećam se svojih prvih dana na ovom poslu. Testirao sam istu aplikaciju koju i sad testiram. Srećom, naslijedio sam popriličnu količinu testova (ali na žalost samo za tu aplikaciju).
 

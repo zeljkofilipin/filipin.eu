@@ -2,7 +2,7 @@
 tags:  hrvatski
 title: Jednostavnost
 ---
-![1615160739.jpg](/assets/2005/jednostavnost/1615160739.jpg)
+![1615160739.jpg](/assets/2005/jednostavnost.jpg)
 
 Od kad radim testiram, prošao sam nekoliko aplikacija, počeo programirati u [Ruby](http://www.ruby-lang.org/)-ju, testirati web aplikacije pomoću [Watir](http://watir.com/)-a, pročitao nekoliko knjiga o testiranju i hrpu blogova koje pišu testeri...
 

@@ -2,7 +2,7 @@
 tags:  hrvatski
 title: Našao sam grešku! Što sad?
 ---
-![Čarapko i ja smo poredali zadnjih deset grešaka koje smo ulovili i sad ih ponosno gledamo.](/assets/2005/nasao-sam-gresku-sto-sad/1620315173.jpg)
+![Čarapko i ja smo poredali zadnjih deset grešaka koje smo ulovili i sad ih ponosno gledamo.](/assets/2005/nasao-sam-gresku-sto-sad.jpg)
 
 Budiš se. Još jedno maglovito, prohladno jesenje jutro. Tvoj vjerni kućni ljubimac Čarapko ti već skače po krevetu. Gladan je. Da bi prehranio njega, ali i sebe, moraš opet u lov. Jer jedino što može utažiti njegovu i tvoju glad je meso tek ubijene greške.
 

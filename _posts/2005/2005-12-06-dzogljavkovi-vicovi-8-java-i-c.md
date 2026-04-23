@@ -2,7 +2,7 @@
 tags:  hrvatski
 title: "Đžogljavkovi vicovi (8): Java i C++"
 ---
-[![lost\_cat\_poster.jpg](/assets/2005/dzogljavkovi-vicovi-8-java-i-c/lost_cat_poster.jpg)](http://farm.tucows.com/blog/_archives/2005/12/2/1432056.html)
+[![lost\_cat\_poster.jpg](/assets/2005/dzogljavkovi-vicovi-8-java-i-c.jpg)](http://farm.tucows.com/blog/_archives/2005/12/2/1432056.html)
 
 Ne znam ništa o Javi. O C++ otprilike isto toliko. Ali našao sam jednu tako dobrrru [šalu](http://farm.tucows.com/blog/_archives/2005/12/2/1432056.html)...
 

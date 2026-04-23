@@ -2,7 +2,7 @@
 tags:  book
 title: Everyday Scripting with Ruby
 ---
-![es.png](/assets/2007/everyday-scripting-with-ruby-pdf/es.png "es.png")
+![es.png](/assets/2007/everyday-scripting-with-ruby-pdf.png "es.png")
 
 I was reviewer for [Everyday Scripting with Ruby For Teams, Testers, and You by Brian Marick](http://www.pragmaticprogrammer.com/titles/bmsft/). Over two months ago I received an e-mail from Pragmatic Programmers saying that if I send them my mailing address they would send me a free copy. I replied with my mailing address, but the book did not arrive.
 

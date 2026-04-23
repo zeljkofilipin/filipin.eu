@@ -2,7 +2,7 @@
 tags:  hrvatski
 title: Kako postati iskušivač (engl. tester)?
 ---
-![Krigla puna podataka. Samo čeka da iskušivač srkne iz nje.](/assets/2005/kako-postati-iskusivac-engl-tester/1615151499.jpg)
+![Krigla puna podataka. Samo čeka da iskušivač srkne iz nje.](/assets/2005/kako-postati-iskusivac-engl-tester.jpg)
 
 Prije nešto više od godinu dana, radio sam posao koji me baš i nije oduševljavao. Također, većina kolega su bili tipovi "lako ćemo, sutra ćemo". A ja sitničav do bola (da ne upotrijebim ime jednog nametnika, iz porodice uši, koji se prenosi spolnim putem, čije ime se koristi kako bi se opisalo sitničavce). I stvarno mi je bilo teško. Ne šalim se. Ali moraš zaradit za kruh i mlijeko (i koju pivu - o pivi malo kasnije u tekstu).
 

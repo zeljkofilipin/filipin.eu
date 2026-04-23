@@ -2,7 +2,7 @@
 tags:  hrvatski
 title: Detektivska priča
 ---
-![Veliki detektiv Đžogljavko sa svojim opasnim pištoljem, vjetrom u kosi i mrkim pogledom.](/assets/2005/detektivska-prica/1620387559.jpg)
+![Veliki detektiv Đžogljavko sa svojim opasnim pištoljem, vjetrom u kosi i mrkim pogledom.](/assets/2005/detektivska-prica.jpg)
 
 Jučer smo Đžogljavko i ja riješili težak slučaj. Bilo je tu puno akcije, intrige, alibija, motiva, nacrtanih pištolja, vjetra u kosi i mrkih pogleda (na slici).
 

@@ -27,7 +27,7 @@ For the last year:
 - How much change did happen for a repository? Simply put: more change can lead to more risk.
 - How many incidents is a repository connected to? We wanted to make sure we didn't miss any obvious problematic areas.
 
-![Coverage Change Incidents Stewards](/assets/2018/incident-documentation/Coverage_Change_Incidents_Stewards.png)
+![Coverage Change Incidents Stewards](/assets/2018/incident-documentation.png)
 
 # Does a Repository Have Stewards?
 

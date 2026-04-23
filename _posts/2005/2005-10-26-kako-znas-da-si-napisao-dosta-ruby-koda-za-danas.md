@@ -2,7 +2,7 @@
 tags:  code hrvatski ruby
 title: Kako znaš da si napisao dosta Ruby koda za danas?
 ---
-![Kad se počneš potpisivati sa end.](/assets/2005/kako-znas-da-si-napisao-dosta-ruby-koda-za-danas/1620349919.jpg)
+![Kad se počneš potpisivati sa end.](/assets/2005/kako-znas-da-si-napisao-dosta-ruby-koda-za-danas.jpg)
 
 Joj što volim [Ruby](http://www.ruby-lang.org/en/).
 

@@ -2,7 +2,7 @@
 tags:  book
 title: The Best Thank You Note from a Reader of My Watir Book
 ---
-[<img src="/assets/2011/the-best-thank-you-note-from-a-reader-of-my-watir-book/3811537169_00110ea8d4.jpg" width="500" height="333" alt="The book" />](http://www.flickr.com/photos/dheuts/3811537169/ "The book by Dave Heuts, on Flickr")  
+[<img src="/assets/2011/the-best-thank-you-note-from-a-reader-of-my-watir-book.jpg" width="500" height="333" alt="The book" />](http://www.flickr.com/photos/dheuts/3811537169/ "The book by Dave Heuts, on Flickr")  
 Feedback like this makes me want to spend even more of my time writing the [Watir Book](http://watir.com/book/) and giving it away for free\*.
 
 > Thanks for wasting a bunch of my time. Next time, before you publish something you might want to check that it works. I've spent 5 hours trying to get this shit to run and I can't get the dev kit (ruby dk.rb install) to install. A search indicates that I'm not the only one having this issue. WHat a BUSH operation: from Ruby to Watir to YOU.

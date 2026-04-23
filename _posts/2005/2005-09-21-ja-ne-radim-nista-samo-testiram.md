@@ -2,7 +2,7 @@
 tags:  hrvatski
 title: Ja ne radim ništa. Samo testiram.
 ---
-![Fedore, što je to testiranje? Ništa lakše Todore. Pođi za mnom.](/assets/2005/ja-ne-radim-nista-samo-testiram/1615150287.jpg)
+![Fedore, što je to testiranje? Ništa lakše Todore. Pođi za mnom.](/assets/2005/ja-ne-radim-nista-samo-testiram.jpg)
 
 Prije nekoliko dana (1.9.) bilo je godinu dana od kad zarađujem za život testirajući. Također, nedavno sam otkrio što je to RSS i počeo čitati blogove ljudi koji se bave testiranjem.
 

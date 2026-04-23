@@ -2,7 +2,7 @@
 tags:  book book-club photo
 title: Testing Computer Software by Cem Kaner, Jack Falk and Hung Q. Nguyen
 ---
-![Testing Computer Software](assets/2022/testing-computer-software/testing-computer-software.jpg "Testing Computer Software")
+![Testing Computer Software](assets/2022/testing-computer-software.jpg "Testing Computer Software")
 
 # Three sentence summary
 

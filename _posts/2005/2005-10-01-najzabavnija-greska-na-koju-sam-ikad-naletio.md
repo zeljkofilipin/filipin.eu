@@ -2,7 +2,7 @@
 tags:  hrvatski
 title: Najzabavnija greška na koju sam ikad naletio
 ---
-![Mythos. Grčka žuja. Jedan od dokumenata u radnom mjestu Krigla (za potrebe testa kopiran u radno mjesto Željko).](/assets/2005/najzabavnija-greska-na-koju-sam-ikad-naletio/1620308090.jpg)
+![Mythos. Grčka žuja. Jedan od dokumenata u radnom mjestu Krigla (za potrebe testa kopiran u radno mjesto Željko).](/assets/2005/najzabavnija-greska-na-koju-sam-ikad-naletio.jpg)
 
 Za jednu našu web aplikaciju smo radili novu funkcionalnost.
 

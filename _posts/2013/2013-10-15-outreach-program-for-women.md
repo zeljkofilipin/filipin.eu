@@ -2,7 +2,7 @@
 tags:  mentor wikimedia
 title: Outreach Program for Women
 ---
-<img src="/assets/2013/outreach-program-for-women/opw-cartoon-240x300.png" class="size-medium wp-image-1314" width="240" height="300" alt="OPW cartoon" />
+<img src="/assets/2013/outreach-program-for-women.png" class="size-medium wp-image-1314" width="240" height="300" alt="OPW cartoon" />
 
 *[Outreach Program for Women cartoon](https://wiki.gnome.org/OutreachProgramForWomen#Cartoon), [CC-BY-SA](http://creativecommons.org/licenses/by-sa/2.0/)*
 

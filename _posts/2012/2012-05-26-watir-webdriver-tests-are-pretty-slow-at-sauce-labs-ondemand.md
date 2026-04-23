@@ -2,7 +2,7 @@
 tags:  code ruby
 title: watir-webdriver Tests Are Pretty Slow at Sauce Labs OnDemand
 ---
-<p><img src="/assets/2012/watir-webdriver-tests-are-pretty-slow-at-sauce-labs-ondemand/blowball-300x300.jpg" alt="Random Croatian Countryside" title="Random Croatian Countryside" /></p>
+<p><img src="/assets/2012/watir-webdriver-tests-are-pretty-slow-at-sauce-labs-ondemand.jpg" alt="Random Croatian Countryside" title="Random Croatian Countryside" /></p>
 <p>That <a href="/watir-webdriver-and-sauce-labs-ondemand/">Sauce Labs OnDemand</a> thing is pretty nice, but I have noticed something strange. A test suite that takes about 20 minutes to run at my machine, takes 5 hours to run there! Uh-oh. Not what I have expected.</p>
 <p>After googling around, and I have found that you can speed up the tests by <a href="http://saucelabs.com/docs/ondemand/additional-config#performance">disabling video, screen shots and advisor</a>. So, I have decided to test how fast are the tests with default settings and with everything disabled.</p>
 <p>This simple script visits a few pages. In my test it visits 9 client sites. You can visit <a href="http://www.alexa.com/topsites">top 10 sites</a>, for example, if you want to run the test yourself.</p>

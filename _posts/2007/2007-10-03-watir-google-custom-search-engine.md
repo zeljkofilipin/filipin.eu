@@ -2,7 +2,7 @@
 tags:  TODO
 title: Watir Google Custom Search Engine
 ---
-![](/assets/2007/watir-google-custom-search-engine/cs.thumbnail.PNG)
+![](/assets/2007/watir-google-custom-search-engine.PNG)
 
 Watir general mailing list has moved a few times and that has complicated searching of archives. I have created [Watir Google Custom Search Engine](http://www.google.com/coop/cse?cx=007267089725385613265%3Agmydx5gtw6u) that "searches all Watir related mailing lists, forums and groups (and nothing else)." At least ones that I am familiar with. To be specific:
 

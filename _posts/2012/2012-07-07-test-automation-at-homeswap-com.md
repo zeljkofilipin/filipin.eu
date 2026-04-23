@@ -2,7 +2,7 @@
 tags:  event speaker testival video youtube
 title: Test automation at HomeSwap.com
 ---
-[<img src="/assets/2012/test-automation-at-homeswap-com/valbandon-300x300.jpg" title="Random Photo: Valbandon, Croatia" class="size-medium wp-image-123" width="300" height="300" alt="Random Photo: Valbandon, Croatia" />](http://instagram.com/p/MQK0Q3L8mh/) Random Photo: Valbandon, Croatia
+[<img src="/assets/2012/test-automation-at-homeswap-com.jpg" title="Random Photo: Valbandon, Croatia" class="size-medium wp-image-123" width="300" height="300" alt="Random Photo: Valbandon, Croatia" />](http://instagram.com/p/MQK0Q3L8mh/) Random Photo: Valbandon, Croatia
 
 I think I have created a really nice test automation solution for one of my clients, [HomeSwap.com](http://www.homeswap.com/). I have asked for permission to share the solution at a couple of local conferences. The solution if far from perfect, or done. There are still a lot of tests to be written, and the existing tests are running without failures only on Firefox. But I think the solution is good enough to be interesting to other people. The important thing here is that I am showing you real code, real data, nothing fake.
 

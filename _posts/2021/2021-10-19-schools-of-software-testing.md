@@ -8,7 +8,7 @@ A few years ago we had regular reading club meetings at work. I really liked it.
 
 I've started working from an office recently and I've found several interesting books there. I've read most of them, but a long time ago. I wanted to read them again. Reading with other people is always more fun, so I've decided to start the reading club again.
 
-![Books](/assets/2021/schools-of-software-testing/schools-of-software-testing.jpg "Books")
+![Books](/assets/2021/schools-of-software-testing.jpg "Books")
 
 I've thought hard about the order in which to read the books. People on my team are on several continents, so I've tried finding books that are available in ebook format. That should make it easier for everybody to get the book. I've also checked book ratings on Goodreads and Amazon. This [task](https://phabricator.wikimedia.org/T247665) lists the books in the order in which we plan to read them. Book prices and ratings are also included.
 

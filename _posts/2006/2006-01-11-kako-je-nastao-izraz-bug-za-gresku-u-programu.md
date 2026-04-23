@@ -2,7 +2,7 @@
 tags:  hrvatski
 title: Kako je nastao izraz "bug" za grešku u programu?
 ---
-[![1620546334.jpg](/assets/2006/kako-je-nastao-izraz-bug-za-gresku-u-programu/1620546334.jpg)](http://www.waterholes.com/~dennette/1996/hopper/bug.htm)
+[![1620546334.jpg](/assets/2006/kako-je-nastao-izraz-bug-za-gresku-u-programu.jpg)](http://www.waterholes.com/~dennette/1996/hopper/bug.htm)
 
 Jedne noći davne 1945. Grace Murray Hopper je sa svojim suradnicima radila sa djedom današnjih računala. Zvao se Mark I.
 

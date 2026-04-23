@@ -1,0 +1,7 @@
+---
+tags:  TODO
+title: Ruby Variables and Objects
+---
+Brian Marick wrote interesting article about variables and objects.
+
+> The key to avoiding misunderstanding is remembering that variables and objects are \*different kinds of things\*. The name of a thing is not the thing itself. This is best illustrated by pictures. I just drew some pictures that explain what was happening in your example. (I simplified to make it just one each, since the nested eaches don't have anything to do with the problem you had.) They are here: <http://www.testing.com/review-copies/variables.pdf> I'm rather pleased with them, plus I stayed up way too late to make them, so you all have to look at them.

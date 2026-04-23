@@ -1,0 +1,19 @@
+---
+tags:  hrvatski
+title: Watir i Internet Exporer
+---
+![Đžogljavko pozira na svom omiljenom mjestu - ispred prozora sa greškom.](/assets/2005/watir-i-internet-exporer/1620333376.jpg)
+
+Napravim hrpu testova, dam ih mom izmišljenom prijatelju Đžogljavku da ih izvrti (za one koji su se tek sad uključili u naš program, Đžogljavko živi u mom računalu), pa popravim greške, pa dam popravljene testove Đžogljavku, pa napravim još testova, pa ih dam Đžogljavku, pa popravim greške... (čini mi se da sam se počeo ponavljati)
+
+Za vrijeme dok Đžogljavko vrti testove, uživam čitajući blogove drugih testera (jer testovi znaju trajati, a već mi je dosadilo gledati stalno iste stvari na ekranu, ionako Đžogljavko sad brine da ne krene nešto krivo). Kad, vidi čuda, nešto krene krivo.
+
+Đžogljavko: Baš sam vrtio test "odgovori na diskusiju" i htio sam dodati prilog (kako si insistirao), ali ne mogu naći datoteku koju si rekao da priložim.  
+Ja: Hmmm... Ček sekundu.  
+Ja: (malo kasnije, nakon malo detektivskog posla) Stvarno, rekao sam ti da priložiš baš tu datoteku, ali sam je zaboravio napraviti.
+
+I tako napravim tu datoteku, kliknem OK u prozoru s greškom da više ne gledam Đžogljavka kako mi se smije, i vidim da je "Choose file" prozor još uvijek otvoren. Odaberem datoteku koju sam upravo napravio i skužim da je Watir u pozadini cijelo vrijeme čekao.
+
+Naime, Watir ne imitira preglednik kad testira web stranice, on stvarno otvori Internet Explorer (IE) i govori mu da klikće okolo i provjerava sadrže li otvorene stranice ono što bi trebale (na primjer neki tekst). Budući da IE prekida svaki posao kad ne može naći datoteku za prilog, tako je i Watir čekao sve dok je ja nisam ručno odabrao.
+
+Test se nakon toga nastavio i prošao je bez problema, tako da nisam morao više gledati Đžogljavkovo cerenje ispred poruke o grešci. Naravno, mogao sam i nastaviti čitati dogodovštine i razmišljanja kolega iz struke.

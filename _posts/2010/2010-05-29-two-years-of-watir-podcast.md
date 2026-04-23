@@ -1,0 +1,180 @@
+---
+tags:  podcast years
+title: Two Years of Watir Podcast
+---
+![Watir Podcast Logo](/assets/watir_podcast_logo.png "Watir Podcast Logo")
+
+## Numbers
+
+A few days ago it was 2 years since I published the first Watir Podcast.
+
+In this 2 years I have published 34 podcasts with people literally all over the world. Lately I am trying to produce a podcast a month, and I am trying to keep it about 30 minutes long. I have recorded podcasts as short as 5 minutes, but also longer than 70 minutes.
+
+[Google Analytics](http://www.google.com/analytics/) and [FeedBurner](http://feedburner.google.com/) say the numbers are (mostly) going up. FeedBurner says about 100 people is subscribed to the podcast feed lately.
+
+![Google Analytics](/assets/Google-Analytics-300x72.jpg "Google Analytics")
+
+![FeedBurner](/assets/FeedBurner-300x92.jpg "FeedBurner")
+
+The following table lists downloads since December 2009, when I started using [Podtrac](http://podtrac.com/). The first number is total downloads, the second number is unique downloads. Please notice \#26. :)
+
+I am glad to see that podcasts as old as 1 or even 2 years are still downloaded.
+
+<table border="1" margin="1em">
+<tr>
+<th>episode</th>
+<th>total/unique</th>
+</tr>
+<tr>
+<td>#34 Zhimin Zhan on TestWise</td>
+<td>70/57</td>
+</tr>
+<tr>
+<td>#33 Jake Dempsey and Brian Knorr on Watij and UISpec</td>
+<td>221/191</td>
+</tr>
+<tr>
+<td>#32 Brent Strange</td>
+<td>276/249</td>
+</tr>
+<tr>
+<td>#31 Jari Bakken and Simon Stewart on Watir 2.0, Selenium and WebDriver, Celerity and HtmlUnit</td>
+<td>379/331</td>
+</tr>
+<tr>
+<td>#30 Jim Knowlton on Using Watir for Exploratory Testing</td>
+<td>402/373</td>
+</tr>
+<tr>
+<td>#29 Bret Pettichord and Charley Baker on Past, Present and Future of Watir</td>
+<td>283/262</td>
+</tr>
+<tr>
+<td>#28 Tom Copeland on SafariWatir</td>
+<td>225/217</td>
+</tr>
+<tr>
+<td>#27 Angrez Singh on FireWatir</td>
+<td>199/188</td>
+</tr>
+<tr>
+<td>#26 Alister Scott on Watir.com</td>
+<td>1,408/448</td>
+</tr>
+<tr>
+<td>#25 Dave Hoover on SafariWatir and Software Craftsmanship</td>
+<td>206/186</td>
+</tr>
+<tr>
+<td>#24 MarekJ and Charley Baker</td>
+<td>167/166</td>
+</tr>
+<tr>
+<td>#23 Željko Filipin</td>
+<td>171/168</td>
+</tr>
+<tr>
+<td>#22 Bret Pettichord on WatirCraft</td>
+<td>168/165</td>
+</tr>
+<tr>
+<td>#21 Alister Scott on Watif</td>
+<td>158/156</td>
+</tr>
+<tr>
+<td>#20 Sai Venkatakrishnan</td>
+<td>164/154</td>
+</tr>
+<tr>
+<td>#19 Bret Pettichord on Git	</td>
+<td>143/137</td>
+</tr>
+<tr>
+<td>#18 Rick Hower on AWTA 2009</td>
+<td>129/127</td>
+</tr>
+<tr>
+<td>#17 Deniz Türkoglu on AWTA 2009</td>
+<td>137/132</td>
+</tr>
+<tr>
+<td>#16 MarekJ on AWTA 2009</td>
+<td>144/143</td>
+</tr>
+<tr>
+<td>#15 Lisa Crispin and Janet Gregory on AWTA 2009 and Agile Testing</td>
+<td>168/159</td>
+</tr>
+<tr>
+<td>#14 Steve Kim on AWTA 2009</td>
+<td>138/134</td>
+</tr>
+<tr>
+<td>#13 Alister Scott on AWTA 2009</td>
+<td>140/137</td>
+</tr>
+<tr>
+<td>#12 Bernie Miles and Stanislaw Wozniak on AWTA 2009 and Sponte</td>
+<td>125/118</td>
+</tr>
+<tr>
+<td>#11 Alan Baird on AWTA 2009</td>
+<td>120/118</td>
+</tr>
+<tr>
+<td>#10 Charley Baker on AWTA 2009</td>
+<td>131/125</td>
+</tr>
+<tr>
+<td>#9 Paul Rogers</td>
+<td>156/147</td>
+</tr>
+<tr>
+<td>#8 Alister Scott</td>
+<td>140/138</td>
+</tr>
+<tr>
+<td>#7 Bret Pettichord on FireWatir</td>
+<td>186/182</td>
+</tr>
+<tr>
+<td>#6 Tiffany Fodor</td>
+<td>155/154</td>
+</tr>
+<tr>
+<td>#5 Walter Kruse</td>
+<td>109/107</td>
+</tr>
+<tr>
+<td>#4 Jeroen van Menen on WatiN</td>
+<td>159/147</td>
+</tr>
+<tr>
+<td>#3 MarekJ</td>
+<td>159/154</td>
+</tr>
+<tr>
+<td>#2 Charley Baker</td>
+<td>124/121</td>
+</tr>
+<tr>
+<td>#1 Bret Pettichord on Watir</td>
+<td>170/164</td>
+</tr>
+</table>
+
+## Thank You
+
+After two years, what to say? It was a lot of fun, I hope it will not end soon.
+
+I would like to thank everybody that wanted to talk with me. I would probably stop recording podcast if I did not have a lot of help from Watir Podcast Team. A big thank you to all of you that co-hosted a podcast, contributed music and logo, worked on the web site, edited audio... I could not do it without you.
+
+I would like to thank [Bret Pettichord](http://pettichord.com/) for agreeing to record the first podcast, [Alan Baird](http://twitter.com/bluegrasscoder) that worked on the web site, and [Gregg Yows](http://www.yowsbrain.com/) that co-hosted a lot of times and contributed a lot of music.
+
+I would probably give up a long time ago if [Tiffany Fodor](http://tcfodor.wordpress.com/) did not offer to edit the audio and create show notes. Tiffany, thank you.
+
+Also, a bit thank you to every listener. Yes, you too. Well, if you were not listening, all this would not make a lot of sense.
+
+If you have some time, and you would like to contribute to the podcast, please let me know. I need help with finding guests, co-hosting, I am always looking for music that can be published under a Creative Commons licence... If you would like to take over Watir Podcast, let me know. I would help you with everything. I have other stuff to do, but if nobody is interested, I will not let the podcast die.
+
+I did not mention a lot of people by name, because this blog post would end up being too long. You know who you are. Yes, you. Thanks.

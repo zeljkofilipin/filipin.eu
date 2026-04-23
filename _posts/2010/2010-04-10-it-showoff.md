@@ -1,0 +1,19 @@
+---
+tags:  event facebook photo speaker
+title: IT Showoff, Zagreb, Croatia
+---
+Recently I was talking about [Watir](http://watir.com/) on [IT Showoff](http://www.itshowoff.com/) conference.
+
+**My slides:**
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/dEO5QA0RwCsxkJ" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/itshowoff/eljko-filipin-testing-showoff-it-showoff" title="Željko Filipin - Testing Showoff (IT Showoff)" target="_blank">Željko Filipin - Testing Showoff (IT Showoff)</a> </strong> from <strong><a href="//www.slideshare.net/itshowoff" target="_blank">IT Showoff</a></strong> </div> <div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/itshowoff">IT Showoff</a>.</div>
+
+**Video of my talk:**
+
+<iframe src="https://player.vimeo.com/video/10570368" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+[Željko Filipin - Web application testing Showoff](https://vimeo.com/10570368) from [IT showoff](https://vimeo.com/itshowoff) on [Vimeo](https://vimeo.com).
+
+**I took a photo or two:**
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10154146605987290.1073741885.735252289%26type%3D3&width=500" width="500" height="597" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>

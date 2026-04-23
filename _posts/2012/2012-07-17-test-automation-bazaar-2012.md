@@ -1,0 +1,27 @@
+---
+tags:  event facebook photo speaker testing
+title: Test Automation Bazaar 2012, Austin, Texas, USA
+---
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10154144807597290.1073741877.735252289%26type%3D3&width=500" width="500" height="597" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+Early this year I was planning trip to [Guadalajara](/guadalajara/) (Jalisco, Mexico). When I have put all the dates in my calendar, I have realized that my contract in Guadalajara ends about two weeks before [Test Automation Bazaar](http://watir.com/test-automation-bazaar/) in Austin (Texas, USA). It was just to complicated and too expensive for me to go from Mexico to Croatia, be there for a week, go to US and then back to Croatia after a week. Not to mention that a few weeks of constant jet lag are not something I was looking for.
+
+So, before I left for Mexico I have talked to [Bret](https://twitter.com/bpettichord) and he suggested to come to Austin after Mexico. Another problem was that it would be to expensive for me to be in a hotel for 3 weeks. So, Bret arranged for me to stay half of the time at [Marek](https://twitter.com/rubytester)'s house and the other part at [Alan](https://twitter.com/bluegrasscoder)'s house. The conference raised enough money, so after a week or so at Marek's house the conference payed for apartment that [Jari](https://twitter.com/jarib) and I shared for the next two weeks. (Jari was also in the US at the time and came early to Austin.)
+
+I really enjoyed at Marek's house that week. I would like to thank him and his family for the hospitality. I did not have the chance to spend a week with Alan and his family, since I have moved to hotel, but I really appreciate his offer too.
+
+Coming early to Austin proved to be a good decision. I was able to see how [SXSW](http://sxsw.com/) looks like (the bad part was that once I was waiting 4 hours for a cab), not to mention I got the last ticket for [The Austin Brew Bus](http://www.austinbrewbus.com/)! I will not get into a lot of beer talk here, but Austin is really a good place to live if you like beer. Not to mention that The Bazaar was the only conference that had The Beer Ambassador! (More about that later in the article.)
+
+Sharing apartment with Jari was fun, I would do it again. I hope I was not the roommate from nightmare. When the conference started, we had a few unofficial parties in our apartment. Beer, snacks and informal talks. It was a lot of fun.
+
+And yes, there was this conference thing, too. It was probably the best conference that I have been so far.
+
+It started with a workshop day, organized by [Tiffany](https://twitter.com/tcfodor). [Jeff](https://twitter.com/chzy) was leading the workshop focused on using page object pattern in test automation, with the help of his [page-object gem](https://github.com/cheezy/page-object). I was using my own implementation of page object pattern before that, but I really liked the features of his page-object gem. So, I have converted one project from my implementation to page-object and started another project with page-object gem from the start. There are few things that I would like to see changed or improved in the gem, but I like it so far. Jeff is really responsive, most of the stuff that I have asked for is already implemented.
+
+The main part of the conference were the next two days. Both days started with a few presentations, lunch, lightning talks and ended with open space. There were a lot of good talks. I really liked the format. At the beginning of the first day everybody stood up and said a few words about themselves and what they hope to get out of the conference, and at the end of the last we said what is our plan for the next week or so, using the knowledge gained at the conference. My plan was to be jet lagged. True story.
+
+I gave a few 5 minute lightning talks. One titled [Tools of the trade](https://github.com/watir/watir-bazaar/wiki/Tools) ([video](http://kondoot.com/videos/147d59fe636), fast forward to 46:00) about the tools I think are really useful but a lot of people do not know about. The other one was [... or I will kick your ass!](http://kondoot.com/videos/59e7002ccb5) (fast forward to 4:40). Since I did not have enough time to say everything that could lead to [ass kicking](http://kickurass.org/), I gave the [second part of the talk](http://kondoot.com/videos/51b851e57c5) later. I have also participated in open space discussion about the future of Watir documentation and I have lead Watir Podcast workshop.
+
+One of the best ideas at the conference was The Beer Ambassador. (There should never be another conference without The Beer Ambassador!) I think [Barry](https://twitter.com/barrypattonjr) gave that title to himself in a tweet, as a joke. But the joke caught up and he did a great job. After the conference, he made sure we were at a place with good food and beer. We usually started at [Black Star co-op](http://www.blackstar.coop/) (community owned beer). A really nice place. After the conference Barry organized a night out, showing us the best music and beer places in Austin.
+
+The Sunday after the conference Bret organized a bike ride around Austin. A few of us rented bikes, local people brought their bikes and we had a nice ride near the river.

@@ -4,11 +4,16 @@ title: watir-webdriver tests at TestingBot
 ---
 ![Random photo: Varaždin, Croatia.](/assets/2012/watir-webdriver-tests-at-testingbot.jpg "Random photo: Varaždin, Croatia.")
 *To make it explicit: I am not affiliated with [TestingBot](http://testingbot.com/) or [Sauce Labs](http://saucelabs.com/).*
-<p>A few days ago I wrote about [how to run watir-webdriver tests at Sauce Labs OnDemand](/watir-webdriver-and-sauce-labs-ondemand/). I have also noticed that [watir-webdriver tests are pretty slow at Sauce Labs OnDemand](watir-webdriver-tests-are-pretty-slow-at-sauce-labs-ondemand/).</p>
-<p>Jari Bakken [suggested to use net-http-persistent](https://twitter.com/jarib/status/206495033979961344) gem to speed things up. Jochen Delabie suggested I should try TestingBot. So, I have decided to try both.</p>
-<p>TestingBot is pretty much the same service as [Sauce Labs OnDemand](http://saucelabs.com/ondemand). There is also 200 minutes of free trial, and the prices are a bit lower than Sauce Labs OnDemand. If you have used Sauce Labs OnDemand, TestingBot will look familiar. If you have not used Sauce Labs OnDemand, read the last couple of articles I have wrote here.</p>
-<p>So, what you need to do to run your tests at TestingBot?</p>
-<p>If you already run tests at Sauce Labs OnDemand:</p>
+
+A few days ago I wrote about [how to run watir-webdriver tests at Sauce Labs OnDemand](/watir-webdriver-and-sauce-labs-ondemand/). I have also noticed that [watir-webdriver tests are pretty slow at Sauce Labs OnDemand](watir-webdriver-tests-are-pretty-slow-at-sauce-labs-ondemand/).
+
+Jari Bakken [suggested to use net-http-persistent](https://twitter.com/jarib/status/206495033979961344) gem to speed things up. Jochen Delabie suggested I should try TestingBot. So, I have decided to try both.
+
+TestingBot is pretty much the same service as [Sauce Labs OnDemand](http://saucelabs.com/ondemand). There is also 200 minutes of free trial, and the prices are a bit lower than Sauce Labs OnDemand. If you have used Sauce Labs OnDemand, TestingBot will look familiar. If you have not used Sauce Labs OnDemand, read the last couple of articles I have wrote here.
+
+So, what you need to do to run your tests at TestingBot?
+
+If you already run tests at Sauce Labs OnDemand:
 
 {% highlight ruby %}
 require "watir-webdriver"
@@ -37,7 +42,8 @@ browser = Watir::Browser.new(
 {% endhighlight %}
 
 Of course, replace `key` and `secret` with your credentials.
-<p>I have run pretty much the same script as in the previous post. The script opens the browser, goes to 9 sites and closes the browser. Actually, it does that with and without using net-http-persistent gem, on a local browser, at Sauce Labs OnDemand and at TestingBot.</p>
+
+I have run pretty much the same script as in the previous post. The script opens the browser, goes to 9 sites and closes the browser. Actually, it does that with and without using net-http-persistent gem, on a local browser, at Sauce Labs OnDemand and at TestingBot.
 
 watir-webdriver tests at TestingBot : local, sauce labs, testingbot
 
@@ -51,6 +57,9 @@ watir-webdriver tests at TestingBot : local, sauce labs, testingbot
 |testingbot|Windows 2008|firefox 11|TRUE                 |30 |33 |31 |31 |30 |30 |30 |31 |31 |31 |31     |31    |1        |30 |33 |4                                          |1.9                      |
 
 *(I could not figure out how to make the last two columns display rounded numbers.)*
-<p>What do the numbers say?</p>
-<p>net-http-persistent gem this time helped to reduce test run time up to 10%, but other tests showed up to 15% shorter times.</p>
-<p>TestingBot is still about 2 times slower than running a local browser, but Sauce Labs OnDemand is about 4 times slower. So, running tests at TestingBot is about 2 times faster than at Sauce Labs OnDemand.</p>
+
+What do the numbers say?
+
+net-http-persistent gem this time helped to reduce test run time up to 10%, but other tests showed up to 15% shorter times.
+
+TestingBot is still about 2 times slower than running a local browser, but Sauce Labs OnDemand is about 4 times slower. So, running tests at TestingBot is about 2 times faster than at Sauce Labs OnDemand.

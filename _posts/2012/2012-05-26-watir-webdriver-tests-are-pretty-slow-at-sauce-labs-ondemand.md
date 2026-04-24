@@ -3,9 +3,12 @@ tags:  code ruby
 title: watir-webdriver Tests Are Pretty Slow at Sauce Labs OnDemand
 ---
 ![Random Croatian Countryside](/assets/2012/watir-webdriver-tests-are-pretty-slow-at-sauce-labs-ondemand.jpg "Random Croatian Countryside")
-<p>That [Sauce Labs OnDemand](/watir-webdriver-and-sauce-labs-ondemand/) thing is pretty nice, but I have noticed something strange. A test suite that takes about 20 minutes to run at my machine, takes 5 hours to run there! Uh-oh. Not what I have expected.</p>
-<p>After googling around, and I have found that you can speed up the tests by [disabling video, screen shots and advisor](http://saucelabs.com/docs/ondemand/additional-config#performance). So, I have decided to test how fast are the tests with default settings and with everything disabled.</p>
-<p>This simple script visits a few pages. In my test it visits 9 client sites. You can visit [top 10 sites](http://www.alexa.com/topsites), for example, if you want to run the test yourself.</p>
+
+That [Sauce Labs OnDemand](/watir-webdriver-and-sauce-labs-ondemand/) thing is pretty nice, but I have noticed something strange. A test suite that takes about 20 minutes to run at my machine, takes 5 hours to run there! Uh-oh. Not what I have expected.
+
+After googling around, and I have found that you can speed up the tests by [disabling video, screen shots and advisor](http://saucelabs.com/docs/ondemand/additional-config#performance). So, I have decided to test how fast are the tests with default settings and with everything disabled.
+
+This simple script visits a few pages. In my test it visits 9 client sites. You can visit [top 10 sites](http://www.alexa.com/topsites), for example, if you want to run the test yourself.
 
 {% highlight ruby %}
 require "rubygems"
@@ -22,8 +25,9 @@ end
 browser.close
 {% endhighlight %}
 
-<p>Run the script 10 times (or more, if you have the time) to make the results at least a bit statistically significant. Measure the time it takes to run the script at your machine and at Sauce Labs OnDemand, with various operating system and browser combinations.</p>
-<p>I got this results.</p>
+Run the script 10 times (or more, if you have the time) to make the results at least a bit statistically significant. Measure the time it takes to run the script at your machine and at Sauce Labs OnDemand, with various operating system and browser combinations.
+
+I got this results.
 
 |location  |os          |browser   |screenshots video advisor|1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |average|median|deviation|min|max|
 |----------|------------|----------|-------------------------|---|---|---|---|---|---|---|---|---|---|-------|------|---------|---|---|
@@ -46,7 +50,8 @@ browser.close
 |          |            |          |FALSE                    |67 |58 |70 |58 |58 |61 |65 |64 |83 |57 |64     |63    |6        |57 |83 |
 
 The script that just opens the browser, visits 9 pages and closes the browser takes 14 seconds on average at my machine. Exactly the same script at Sauce Labs OnDemand takes on average 55-69 seconds with default settings, and 48-64 seconds with everything disabled. So, the script *is* a bit faster when everything is disabled, but unfortunately, just a bit.
-<p>The entire script is here:</p>
+
+The entire script is here:
 
 {% highlight ruby %}
 screenshots_videos_advisors = [true, false]
@@ -125,4 +130,5 @@ run_all_tests(screenshots_videos_advisors, platforms_browsers_versions)
 {% endhighlight %}
 
 You have to replace `username` and `api-key` with your username and API key.
-<p>The only solution I have found so far is to run the tests in parallel. Report coming soon.</p>
+
+The only solution I have found so far is to run the tests in parallel. Report coming soon.

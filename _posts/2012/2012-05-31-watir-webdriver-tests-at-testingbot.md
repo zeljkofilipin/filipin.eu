@@ -3,10 +3,10 @@ tags:  code ruby
 title: watir-webdriver tests at TestingBot
 ---
 ![Random photo: Varaždin, Croatia.](/assets/2012/watir-webdriver-tests-at-testingbot.jpg "Random photo: Varaždin, Croatia.")
-*To make it explicit: I am not affiliated with <a href="http://testingbot.com/">TestingBot</a> or <a href="http://saucelabs.com/">Sauce Labs</a>.*
-<p>A few days ago I wrote about <a href="/watir-webdriver-and-sauce-labs-ondemand/">how to run watir-webdriver tests at Sauce Labs OnDemand</a>. I have also noticed that <a href="watir-webdriver-tests-are-pretty-slow-at-sauce-labs-ondemand/">watir-webdriver tests are pretty slow at Sauce Labs OnDemand</a>.</p>
-<p>Jari Bakken <a href="https://twitter.com/jarib/status/206495033979961344">suggested to use net-http-persistent</a> gem to speed things up. Jochen Delabie suggested I should try TestingBot. So, I have decided to try both.</p>
-<p>TestingBot is pretty much the same service as <a href="http://saucelabs.com/ondemand">Sauce Labs OnDemand</a>. There is also 200 minutes of free trial, and the prices are a bit lower than Sauce Labs OnDemand. If you have used Sauce Labs OnDemand, TestingBot will look familiar. If you have not used Sauce Labs OnDemand, read the last couple of articles I have wrote here.</p>
+*To make it explicit: I am not affiliated with [TestingBot](http://testingbot.com/) or [Sauce Labs](http://saucelabs.com/).*
+<p>A few days ago I wrote about [how to run watir-webdriver tests at Sauce Labs OnDemand](/watir-webdriver-and-sauce-labs-ondemand/). I have also noticed that [watir-webdriver tests are pretty slow at Sauce Labs OnDemand](watir-webdriver-tests-are-pretty-slow-at-sauce-labs-ondemand/).</p>
+<p>Jari Bakken [suggested to use net-http-persistent](https://twitter.com/jarib/status/206495033979961344) gem to speed things up. Jochen Delabie suggested I should try TestingBot. So, I have decided to try both.</p>
+<p>TestingBot is pretty much the same service as [Sauce Labs OnDemand](http://saucelabs.com/ondemand). There is also 200 minutes of free trial, and the prices are a bit lower than Sauce Labs OnDemand. If you have used Sauce Labs OnDemand, TestingBot will look familiar. If you have not used Sauce Labs OnDemand, read the last couple of articles I have wrote here.</p>
 <p>So, what you need to do to run your tests at TestingBot?</p>
 <p>If you already run tests at Sauce Labs OnDemand:</p>
 
@@ -22,7 +22,7 @@ browser = Watir::Browser.new(
   :desired_capabilities => caps)
 {% endhighlight %}
 
-you only have to change `caps.version` and `:url`. Depending on the platform and browser, check if you have to change other settings too. (Supported operating systems: <a href="https://saucelabs.com/docs/ondemand/browsers/env/ruby/se2/mac">Sauce Labs OnDemand</a>, <a href="http://testingbot.com/support/getting-started/browsers.html">TestingBot</a>.)
+you only have to change `caps.version` and `:url`. Depending on the platform and browser, check if you have to change other settings too. (Supported operating systems: [Sauce Labs OnDemand](https://saucelabs.com/docs/ondemand/browsers/env/ruby/se2/mac), [TestingBot](http://testingbot.com/support/getting-started/browsers.html).)
 
 {% highlight ruby %}
 require "watir-webdriver"

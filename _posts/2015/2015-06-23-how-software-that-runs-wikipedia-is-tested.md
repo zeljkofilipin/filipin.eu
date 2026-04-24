@@ -6,7 +6,7 @@ This is a new and shiny version of my [How MediaWiki, software that runs Wikiped
 
 # Problems
 
-The previous version of this talk (and blog post) was centered around tools. I would mention a tool and then talk about the problems it solves. The night before I went to <a href="/selenium-conference-2013/">Selenium conference</a> I had an idea to center the talk about the problems, and then mention the tools.
+The previous version of this talk (and blog post) was centered around tools. I would mention a tool and then talk about the problems it solves. The night before I went to [Selenium conference](/selenium-conference-2013/) I had an idea to center the talk about the problems, and then mention the tools.
 
 What were the problems that we wanted to solve? Communication, maintainability, browser automation, browser/operating system/version combinatorial explosion, visibility/transparency, code reuse, speed, "Halp wanted!" and "Works at my machine!". Let me say a few works about each problem and how we solved it.
 
@@ -16,7 +16,7 @@ Anybody surprised that the biggest problem in a software project is communicatio
 
 *Solution*
 
-<a href="http://cukes.info/">Cucumber</a>. You can ask the people that know what needs to be tested to write examples in any natural language. When the test runs, Cucumber creates nice reports that anybody can read.
+[Cucumber](http://cukes.info/). You can ask the people that know what needs to be tested to write examples in any natural language. When the test runs, Cucumber creates nice reports that anybody can read.
 
 {% highlight gherkin %}
 Feature: Log in
@@ -36,7 +36,7 @@ Were you a part of test automation project that failed because the test code was
 
 *Solution*
 
-The <a href="https://code.google.com/p/selenium/wiki/PageObjects">Page Object pattern</a>. It is a simple solution. Every page in the application is represented by one class.
+The [Page Object pattern](https://code.google.com/p/selenium/wiki/PageObjects). It is a simple solution. Every page in the application is represented by one class.
 
 For the above example, this is how a login page could look like.
 
@@ -67,9 +67,9 @@ Given(/^I am logged in(?: as (\w+))?$/) do |user|
 end
 {% endhighlight %}
 
-Above code uses <a href="https://github.com/cheezy/page-object">page-object</a> Ruby gem.
+Above code uses [page-object](https://github.com/cheezy/page-object) Ruby gem.
 
-Could this simple pattern be so useful? It could. For more information take a look at <a href="https://leanpub.com/cucumber_and_cheese">Cucumber & Cheese</a> book.
+Could this simple pattern be so useful? It could. For more information take a look at [Cucumber & Cheese](https://leanpub.com/cucumber_and_cheese) book.
 
 # Browser automation
 
@@ -77,15 +77,15 @@ Once upon a time, browser automation was a hard problem. I think it is solved no
 
 *Solution*
 
-<a href="http://docs.seleniumhq.org/">Selenium</a>. To be more precise Selenium WebDriver. To be even more precise, we use <a href="http://rubygems.org/gems/selenium-webdriver">selenium-webdriver</a> Ruby gem.
+[Selenium](http://docs.seleniumhq.org/). To be more precise Selenium WebDriver. To be even more precise, we use [selenium-webdriver](http://rubygems.org/gems/selenium-webdriver) Ruby gem.
 
-# <a href="http://www.paulirish.com/wp-content/uploads/2011/09/browserlineupin20191.jpg">Browser/operating system/version combinatorial explosion</a>
+# [Browser/operating system/version combinatorial explosion](http://www.paulirish.com/wp-content/uploads/2011/09/browserlineupin20191.jpg)
 
 Do you know how many combinations of major browsers, operating systems and their versions you should test? Do you know how hard it is to maintain computers or virtual machines with all those combinations? Exactly.
 
 *Solution*
 
-<a href="https://saucelabs.com/docs/platforms">Sauce Labs</a>. They support everything we need, and more.
+[Sauce Labs](https://saucelabs.com/docs/platforms). They support everything we need, and more.
 
 # Visibility/transparency
 
@@ -95,9 +95,9 @@ We needed a way for our work to be visible to our coworkers, but also to anybody
 
 There are several solutions to the problem.
 
-Code is hosted in <a href="https://gerrit.wikimedia.org/">Gerrit</a> and there are <a href="https://github.com/wikimedia/">GitHub mirrors</a> for almost all repositories. Of course, everything is completely open. We also use Gerrit for code review. Almost every commit is reviewed by somebody else before it gets merged into master.
+Code is hosted in [Gerrit](https://gerrit.wikimedia.org/) and there are [GitHub mirrors](https://github.com/wikimedia/) for almost all repositories. Of course, everything is completely open. We also use Gerrit for code review. Almost every commit is reviewed by somebody else before it gets merged into master.
 
-<a href="https://lists.wikimedia.org/mailman/listinfo/qa">Mailing list</a>, <a href="https://phabricator.wikimedia.org/">bug tracker</a> and <a href="https://integration.wikimedia.org/ci/">continuous integration server</a> (Jenkins) is open. Anybody can see our email communication, bugs and Jenkins jobs. Every Jenkins job starts several Sauce Labs jobs. All of them are open too.
+[Mailing list](https://lists.wikimedia.org/mailman/listinfo/qa), [bug tracker](https://phabricator.wikimedia.org/) and [continuous integration server](https://integration.wikimedia.org/ci/) (Jenkins) is open. Anybody can see our email communication, bugs and Jenkins jobs. Every Jenkins job starts several Sauce Labs jobs. All of them are open too.
 
 # Code reuse
 
@@ -113,17 +113,17 @@ Did you notice that Selenium tests take a long time to run? I did too. We have t
 
 *Solution*
 
-We are not there yet. When the time comes, we will probably use <a href="https://github.com/grosser/parallel_tests">parallel_tests</a> Ruby gem.
+We are not there yet. When the time comes, we will probably use [parallel_tests](https://github.com/grosser/parallel_tests) Ruby gem.
 
-# <a href="http://cheezburger.com/911727360">Halp wanted!</a>
+# [Halp wanted!](http://cheezburger.com/911727360)
 
 Are you surprised that an open source project is looking for help? Surprisingly (at least to me) more people would like to write production code instead of test code. If you would like to be on the testing side, read on.
 
 *Solution*
 
-If you would like to get involved, the best way to get started is to join our <a href="https://lists.wikimedia.org/mailman/listinfo/qa">mailing list</a> and <a href="http://lists.wikimedia.org/pipermail/qa/2013-May/000003.html">introduce yoursef</a>. We have a lot of opportunities for volunteering or internships.
+If you would like to get involved, the best way to get started is to join our [mailing list](https://lists.wikimedia.org/mailman/listinfo/qa) and [introduce yoursef](http://lists.wikimedia.org/pipermail/qa/2013-May/000003.html). We have a lot of opportunities for volunteering or internships.
 
-# <a href="http://amachinefortheendoftheworld.blogspot.com/2013/09/a-cull-for-cause.html">Works at my machine!</a>
+# [Works at my machine!](http://amachinefortheendoftheworld.blogspot.com/2013/09/a-cull-for-cause.html)
 
 I have left an interesting problem for the end. How many times a day do you hear people say: "works at my machine"? I do not think I should go into a lot of detail explaining the problem. It should be familiar to anybody involved in software development. Sometimes software works on one machine but not on the other. Sometimes it is hard to tell why.
 
@@ -131,11 +131,11 @@ I have left an interesting problem for the end. How many times a day do you hear
 
 Since this is not a simple problem, we have several solutions for it.
 
-Jenkins is <a href="https://en.wikipedia.org/wiki/Single_Source_of_Truth">Single Source Of Truth</a>. It does not matter if it works on your machine. If it fails at Jenkins machine, you should fix it.
+Jenkins is [Single Source Of Truth](https://en.wikipedia.org/wiki/Single_Source_of_Truth). It does not matter if it works on your machine. If it fails at Jenkins machine, you should fix it.
 
-Are you surprised that a piece of open source software is not trivial to install and configure to work correctly? <a href="https://www.mediawiki.org/wiki/Mediawiki-Vagrant">Mediawiki-Vagrant</a> provides an easy way to install a basic MediaWiki installation in a virutal machine, but also provides a way to easily configure it in different ways, including complete setup for running Selenium tests.
+Are you surprised that a piece of open source software is not trivial to install and configure to work correctly? [Mediawiki-Vagrant](https://www.mediawiki.org/wiki/Mediawiki-Vagrant) provides an easy way to install a basic MediaWiki installation in a virutal machine, but also provides a way to easily configure it in different ways, including complete setup for running Selenium tests.
 
-The last piece of the puzzle is <a href="http://bundler.io/">Bundler</a>.
+The last piece of the puzzle is [Bundler](http://bundler.io/).
 
 Bundler uses a file called `Gemfile`, located at the root folder of the project. It defines which Ruby gems the project needs.
 

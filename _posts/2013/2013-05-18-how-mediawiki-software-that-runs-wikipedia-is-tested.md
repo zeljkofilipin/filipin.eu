@@ -4,22 +4,22 @@ title: How MediaWiki, software that runs Wikipedia, is tested
 ---
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.10154142127892290.1073741863.735252289%26type%3D3&width=500" width="500" height="518" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
-Yesterday I gave a talk titled *How MediaWiki, software that runs Wikipedia, is tested* at <a href="http://2013.dorscluc.org/en/">DORS/CLUC 2013</a> conference. The talk consisted of a few parts, each lasting a few minutes. The video of the talk (in Croatian) is available (I start at 32:25).
+Yesterday I gave a talk titled *How MediaWiki, software that runs Wikipedia, is tested* at [DORS/CLUC 2013](http://2013.dorscluc.org/en/) conference. The talk consisted of a few parts, each lasting a few minutes. The video of the talk (in Croatian) is available (I start at 32:25).
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/BFbtLJL5by4" frameborder="0" allowfullscreen></iframe>
 
 # Part One
 
-A few words about myself. I have showed this site and [DORS/CLUC 2013](/dors-cluc-2013) article (I was <a href="http://en.wikipedia.org/wiki/Liveblogging">liveblogging</a>).
+A few words about myself. I have showed this site and [DORS/CLUC 2013](/dors-cluc-2013) article (I was [liveblogging](http://en.wikipedia.org/wiki/Liveblogging)).
 
 # Part Two
 
-Short version of Quim Gil's *How to hack on Wikipedia* talk (sources: <a href="https://fosdem.org/2013/schedule/event/how_to_hack_on_wikipedia/">FOSDEM 2013</a>, <a href="http://www.mediawiki.org/wiki/Events/FOSDEM/2013_-_Lightning_-_Qgil">MediaWiki</a>).
+Short version of Quim Gil's *How to hack on Wikipedia* talk (sources: [FOSDEM 2013](https://fosdem.org/2013/schedule/event/how_to_hack_on_wikipedia/), [MediaWiki](http://www.mediawiki.org/wiki/Events/FOSDEM/2013_-_Lightning_-_Qgil)).
 
 # Part Three
 
-Short <a href="http://docs.seleniumhq.org/">Selenium</a> + <a href="http://www.ruby-lang.org/en/">Ruby</a> live coding demo. The example at the talk was slightly different.
-I have first opened <a href="http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page">a test site</a> manually, clicked `Print/export` link (sidebar at the left hand side) so `Download as PDF` link appears.
+Short [Selenium](http://docs.seleniumhq.org/) + [Ruby](http://www.ruby-lang.org/en/) live coding demo. The example at the talk was slightly different.
+I have first opened [a test site](http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page) manually, clicked `Print/export` link (sidebar at the left hand side) so `Download as PDF` link appears.
 
 ![Print/export](/assets/2013/how-mediawiki-software-that-runs-wikipedia-is-tested/pdf1.png)
 *Print/export*
@@ -35,13 +35,13 @@ I have then click `Download as PDF` link and showed that `Download the file` lin
 ![Download the file](/assets/2013/how-mediawiki-software-that-runs-wikipedia-is-tested/pdf4.png)
 *Download the file*
 
-Next we did the same with Selenium. I like <a href="http://en.wikipedia.org/wiki/Interactive_Ruby_Shell">irb</a> for live coding, so the first step is to open it.
+Next we did the same with Selenium. I like [irb](http://en.wikipedia.org/wiki/Interactive_Ruby_Shell) for live coding, so the first step is to open it.
 
 {% highlight shell %}
 $ irb
 {% endhighlight %}
 
-I like <a href="http://watir.com/">Watir</a> API better than the official <a href="https://code.google.com/p/selenium/wiki/RubyBindings">Selenium Ruby bindings</a> (<a href="http://rubygems.org/gems/selenium-webdriver">selenium-webdriver</a> gem) so the examples use <a href="http://watirwebdriver.com/">watir-webdriver</a> gem.
+I like [Watir](http://watir.com/) API better than the official [Selenium Ruby bindings](https://code.google.com/p/selenium/wiki/RubyBindings) ([selenium-webdriver](http://rubygems.org/gems/selenium-webdriver) gem) so the examples use [watir-webdriver](http://watirwebdriver.com/) gem.
 
 {% highlight ruby %}
 > require "watir-webdriver"
@@ -109,7 +109,7 @@ Now, do the same thing in Chrome, just because we can.
 {% endhighlight %}
 
 Please notice that except the line that opens the browser, everything else is the same.
-Just for fun, let's do the same thing in <a href="http://phantomjs.org/">PhantomJS</a>.
+Just for fun, let's do the same thing in [PhantomJS](http://phantomjs.org/).
 
 {% highlight ruby %}
 > browser = Watir::Browser.new :phantomjs
@@ -142,8 +142,8 @@ Before closing the browser, let's take a screenshot. Screenshot of a headless br
 ![PhantomJS](/assets/2013/how-mediawiki-software-that-runs-wikipedia-is-tested/phantomjs.png)
 *PhantomJS screenshot*
 
-It would be crazy to type this stuff all the time, so let's create a script that we can just run. I have executed <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature#L9-L12">Click on Download as PDF link</a> scenario.
-From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature">pdf_readonly.feature</a> file.
+It would be crazy to type this stuff all the time, so let's create a script that we can just run. I have executed [Click on Download as PDF link](https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature#L9-L12) scenario.
+From [pdf_readonly.feature](https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature) file.
 
 {% highlight gherkin %}
 Scenario: Click on Download as PDF link
@@ -178,22 +178,22 @@ The problem is that the test waits 15 seconds for `Download the file` link to ap
 
 # Part Four
 
-A short overview of the complete browser test automation solution that we have developed. The code is hosted at Gerrit (<a href="https://gerrit.wikimedia.org/r/#/admin/projects/qa/browsertests">qa/browsertests</a>) and there is GitHub mirror (<a href="https://github.com/wikimedia/qa-browsertests">wikimedia/qa-browsertests</a>).
-We use <a href="https://rvm.io/">RVM</a> to manage Ruby versions and <a href="https://rvm.io/gemsets/">gemsets</a>.
-<a href="https://github.com/wikimedia/qa-browsertests/blob/master/.ruby-version">.ruby-version</a> file.
+A short overview of the complete browser test automation solution that we have developed. The code is hosted at Gerrit ([qa/browsertests](https://gerrit.wikimedia.org/r/#/admin/projects/qa/browsertests)) and there is GitHub mirror ([wikimedia/qa-browsertests](https://github.com/wikimedia/qa-browsertests)).
+We use [RVM](https://rvm.io/) to manage Ruby versions and [gemsets](https://rvm.io/gemsets/).
+[.ruby-version](https://github.com/wikimedia/qa-browsertests/blob/master/.ruby-version) file.
 
 {% highlight ruby %}
 ruby-2.0.0-p0
 {% endhighlight %}
 
-<a href="https://github.com/wikimedia/qa-browsertests/blob/master/.ruby-gemset">.ruby-gemset</a> file.
+[.ruby-gemset](https://github.com/wikimedia/qa-browsertests/blob/master/.ruby-gemset) file.
 
 {% highlight ruby %}
 browsertests
 {% endhighlight %}
 
-We use <a href="http://gembundler.com/">Bundler</a> to manage project dependencies.
-<a href="https://github.com/wikimedia/qa-browsertests/blob/master/Gemfile">Gemfile</a> file.
+We use [Bundler](http://gembundler.com/) to manage project dependencies.
+[Gemfile](https://github.com/wikimedia/qa-browsertests/blob/master/Gemfile) file.
 
 {% highlight ruby %}
 source 'https://rubygems.org'
@@ -208,7 +208,7 @@ gem 'rspec-expectations'
 gem 'syntax'
 {% endhighlight %}
 
-From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/Gemfile.lock">Gemfile.lock</a> file.
+From [Gemfile.lock](https://github.com/wikimedia/qa-browsertests/blob/master/Gemfile.lock) file.
 
 {% highlight ruby %}
 GEM
@@ -241,9 +241,9 @@ rspec-expectations
 syntax
 {% endhighlight %}
 
-We use <a href="http://cukes.info/">Cucumber</a> (<a href="https://github.com/wikimedia/qa-browsertests/tree/master/features">features</a> folder) as a tool for communication between people that know what needs to be tested and people that know how to write browser test automation code. Cucumber is one of the really important tools in our toolchain.
-I have showed Cucumber code for <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature#L9-L12">Click on Download as PDF link</a> scenario.
-From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature">pdf_readonly.feature</a> file.
+We use [Cucumber](http://cukes.info/) ([features](https://github.com/wikimedia/qa-browsertests/tree/master/features) folder) as a tool for communication between people that know what needs to be tested and people that know how to write browser test automation code. Cucumber is one of the really important tools in our toolchain.
+I have showed Cucumber code for [Click on Download as PDF link](https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature#L9-L12) scenario.
+From [pdf_readonly.feature](https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature) file.
 
 {% highlight gherkin %}
 Scenario: Click on Download as PDF link
@@ -252,8 +252,8 @@ Scenario: Click on Download as PDF link
   Then Download the file link should be present
 {% endhighlight %}
 
-Then I showed how <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature#L10">Given I am at random page</a> step is <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/step_definitions/search_steps.rb#L1-L3">implemented</a>.
-From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/step_definitions/search_steps.rb">search_steps.rb</a> file.
+Then I showed how [Given I am at random page](https://github.com/wikimedia/qa-browsertests/blob/master/features/pdf_readonly.feature#L10) step is [implemented](https://github.com/wikimedia/qa-browsertests/blob/master/features/step_definitions/search_steps.rb#L1-L3).
+From [search_steps.rb](https://github.com/wikimedia/qa-browsertests/blob/master/features/step_definitions/search_steps.rb) file.
 
 {% highlight ruby %}
 Given /^I am at random page$/ do
@@ -261,8 +261,8 @@ Given /^I am at random page$/ do
 end
 {% endhighlight %}
 
-As you can see, the implementation is trivial. <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/pages/random_page.rb#L5">RandomPage</a> is also pretty simple.
-From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/pages/random_page.rb">random_page.rb</a> file.
+As you can see, the implementation is trivial. [RandomPage](https://github.com/wikimedia/qa-browsertests/blob/master/features/support/pages/random_page.rb#L5) is also pretty simple.
+From [random_page.rb](https://github.com/wikimedia/qa-browsertests/blob/master/features/support/pages/random_page.rb) file.
 
 {% highlight ruby %}
 class RandomPage
@@ -273,8 +273,8 @@ class RandomPage
 end
 {% endhighlight %}
 
-<a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/modules/url_module.rb">URL module</a> is simple too.
-<a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/modules/url_module.rb">url_module.rb</a> file.
+[URL module](https://github.com/wikimedia/qa-browsertests/blob/master/features/support/modules/url_module.rb) is simple too.
+[url_module.rb](https://github.com/wikimedia/qa-browsertests/blob/master/features/support/modules/url_module.rb) file.
 
 {% highlight ruby %}
 module URL
@@ -289,9 +289,9 @@ module URL
 end
 {% endhighlight %}
 
-I have explained that we use the <a href="https://code.google.com/p/selenium/wiki/PageObjects">Page Object pattern</a> and <a href="https://github.com/cheezy/page-object">page-object</a> gem. Page object pattern is another important tool. It allows us to write maintainable code.
+I have explained that we use the [Page Object pattern](https://code.google.com/p/selenium/wiki/PageObjects) and [page-object](https://github.com/cheezy/page-object) gem. Page object pattern is another important tool. It allows us to write maintainable code.
 A slightly more complicated step is `When I click on Download as PDF`.
-From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/step_definitions/pdf_steps.rb">pdf_steps.rb</a> file.
+From [pdf_steps.rb](https://github.com/wikimedia/qa-browsertests/blob/master/features/step_definitions/pdf_steps.rb) file.
 
 {% highlight ruby %}
 When(/^I click on Download as PDF$/) do
@@ -301,7 +301,7 @@ When(/^I click on Download as PDF$/) do
 end
 {% endhighlight %}
 
-From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/support/pages/random_page.rb">random_page.rb</a> file.
+From [random_page.rb](https://github.com/wikimedia/qa-browsertests/blob/master/features/support/pages/random_page.rb) file.
 
 {% highlight ruby %}
 class RandomPage
@@ -319,8 +319,8 @@ class RandomPage
 end
 {% endhighlight %}
 
-We use <a href="http://jenkins-ci.org/">Jenkins</a> <a href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a> server. It is also one of the important tools. Jenkins that runs our browser test automation is hosted by <a href="http://www.cloudbees.com/">CloudBees</a> at <a href="https://wmf.ci.cloudbees.com/">wmf.ci.cloudbees.com</a>.
-I have showed <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/">a job</a> that is sometimes failing because of the timeout problem that I have mentioned previously. I have showed a couple of nice Jenkins features, <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/test/?width=800&height=600">Test Result Trend</a> chart and <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/buildTimeTrend">Build Time Trend</a> chart.
+We use [Jenkins](http://jenkins-ci.org/) [continuous integration](http://en.wikipedia.org/wiki/Continuous_integration) server. It is also one of the important tools. Jenkins that runs our browser test automation is hosted by [CloudBees](http://www.cloudbees.com/) at [wmf.ci.cloudbees.com](https://wmf.ci.cloudbees.com/).
+I have showed [a job](https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/) that is sometimes failing because of the timeout problem that I have mentioned previously. I have showed a couple of nice Jenkins features, [Test Result Trend](https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/test/?width=800&height=600) chart and [Build Time Trend](https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/buildTimeTrend) chart.
 
 ![Test Result Trend](/assets/2013/how-mediawiki-software-that-runs-wikipedia-is-tested/trt.png)
 *Test Result Trend*
@@ -328,8 +328,8 @@ I have showed <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedi
 ![Build Time Trend](/assets/2013/how-mediawiki-software-that-runs-wikipedia-is-tested/btt.png)
 *Build Time Trend*
 
-Then I showed <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/56/">a build that failed</a> and <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/56/testReport/junit/(root)/PDF/Click_on_Download_as_PDF_link/">test results</a> saying `timed out after 15 seconds, waiting for {:text=>"Download the file", :tag_name=>"a"} to become present`.
-I have ended the talk with showing <a href="https://saucelabs.com/">Sauce Labs</a> (Selenium in the cloud) <a href="https://saucelabs.com/jobs/8ab15dcf1b1e40d4864a50d508b928a5">job</a> for the failed Jenkins job. Sauce Labs job has logs, screens shots and video of the entire test.
+Then I showed [a build that failed](https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/56/) and [test results](https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/56/testReport/junit/(root)/PDF/Click_on_Download_as_PDF_link/) saying `timed out after 15 seconds, waiting for {:text=>"Download the file", :tag_name=>"a"} to become present`.
+I have ended the talk with showing [Sauce Labs](https://saucelabs.com/) (Selenium in the cloud) [job](https://saucelabs.com/jobs/8ab15dcf1b1e40d4864a50d508b928a5) for the failed Jenkins job. Sauce Labs job has logs, screens shots and video of the entire test.
 
 # Part Five
 
@@ -341,8 +341,8 @@ At the next break I was handing out t-shirts, pens, stickers, badges and talking
 # Ideas for the next talk
 
 A few ideas came to my mind after the talk. It would be fun to show how to run the test on my machine but instead of running the browser there too, run the browser at Sauce Labs.
-For those interested in playing with the code themselves, show <a href="http://www.mediawiki.org/wiki/Mediawiki-Vagrant">MediaWiki-Vagrant</a> and <a href="https://github.com/wikimedia/mediawiki-vagrant/tree/master/puppet/modules/browsertests">puppet/modules/browsertests</a>, the complete environment in a virtual machine. Setting everything up is as easy as installing a couple of applications and cloning a repository.
-If you want to get involved, join <a href="https://lists.wikimedia.org/mailman/listinfo/qa">qa@lists.wikimedia.org</a> mailing list and <a href="http://lists.wikimedia.org/pipermail/qa/2013-May/000003.html">introduce</a> yourself.
+For those interested in playing with the code themselves, show [MediaWiki-Vagrant](http://www.mediawiki.org/wiki/Mediawiki-Vagrant) and [puppet/modules/browsertests](https://github.com/wikimedia/mediawiki-vagrant/tree/master/puppet/modules/browsertests), the complete environment in a virtual machine. Setting everything up is as easy as installing a couple of applications and cloning a repository.
+If you want to get involved, join [qa@lists.wikimedia.org](https://lists.wikimedia.org/mailman/listinfo/qa) mailing list and [introduce](http://lists.wikimedia.org/pipermail/qa/2013-May/000003.html) yourself.
 
 ![Vagrant](/assets/2013/how-mediawiki-software-that-runs-wikipedia-is-tested/vagrant-1024x640.png)
 *The screen shot shows a Mac desktop. On the right hand side you can see two Mac windows (Terminal, VirtualBox). On the left hand side you can see Firefox window forwarded from a Linux virtual machine. Magic.*

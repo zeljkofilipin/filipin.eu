@@ -6,8 +6,8 @@ title: "Ruby on Beers #2, Zagreb, Croatia"
 
 The second Ruby on Beers happened yesterday. About 15 of us appeared, much more than I expected.
 
-We were talking about <a href="http://heroku.com/">Heroku</a>, <a href="http://git.or.cz/">Git</a> and <a href="http://watir.com/">Watir</a>.
+We were talking about [Heroku](http://heroku.com/), [Git](http://git.or.cz/) and [Watir](http://watir.com/).
 
-We did not have the time to talk about <a href="http://unicode.org/">Unicode</a> and <a href="http://rspec.info/">RSpec</a>, so we will talk about it the next time. There was interest in talking about <a href="http://rubini.us/">Rubinius</a>.
+We did not have the time to talk about [Unicode](http://unicode.org/) and [RSpec](http://rspec.info/), so we will talk about it the next time. There was interest in talking about [Rubinius](http://rubini.us/).
 
 The next Ruby on Beers will probably happen at the same place (Multimedijalni institut, net.kulturni klub mama, Preradovićeva 18, Zagreb), at Saturday May 31st 2008 at 5 pm.

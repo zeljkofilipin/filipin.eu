@@ -80,9 +80,9 @@ Disabled super-linter validators are declared in `.github/workflows/linter.yml` 
 - One change per turn — apply the edit, run CI locally (`rake`), then hand it back for the user to commit. **Never make git commits yourself, under any circumstances.**
 - This repo is used on several machines. Anything worth remembering across sessions belongs in **this file** (CLAUDE.md), not in per-machine Claude memory — memory is local to one installation and will be invisible on the other machines.
 
-## Verifying mass rewrites
+## Verifying refactoring with a build diff
 
-For any change that rewrites refs across many posts (asset reorgs, slug renames, layout swaps), build the site before and after and diff the output — the diff must contain **only** the intended change. A find-and-replace can silently hit text it shouldn't (e.g. a `/assets/` in prose or a code block); the build diff is the ground-truth check, much stronger than browser spot-checks. Do this per commit, not batched.
+For any refactoring — especially changes that rewrite refs across many posts (asset reorgs, slug renames, layout swaps) — build the site before and after and diff the output — the diff must contain **only** the intended change. A find-and-replace can silently hit text it shouldn't (e.g. a `/assets/` in prose or a code block); the build diff is the ground-truth check, much stronger than browser spot-checks. Do this per commit, not batched.
 
 Procedure: build into `/tmp/filipin-old` using the Docker command above, apply the change, build into `/tmp/filipin-new`, then `diff -rq /tmp/filipin-old /tmp/filipin-new`.
 

@@ -37,11 +37,11 @@ puts Time.now - time
 
 Executed the script three times for each Ruby implementation. RubyInstaller the fastest, CRuby and JRuby were similar in speed, IronRuby was way slower.
 
-| Test Run | 1 | 2 | 3 |
-|----------|---|---|---|
-| CRuby | 2.594 | 2.109 | 2.11 |
-| JRuby | 3.0 | 2.016 | 2.0 |
-| IronRuby | 9.8125 | 7.796875 | 7.6875 |
+| Test Run      | 1       | 2        | 3        |
+| ------------- | ------- | -------- | -------- |
+| CRuby         | 2.594   | 2.109    | 2.11     |
+| JRuby         | 3.0     | 2.016    | 2.0      |
+| IronRuby      | 9.8125  | 7.796875 | 7.6875   |
 | RubyInstaller | 1.21875 | 1.203125 | 1.203125 |
 
 ## The Second Try
@@ -52,12 +52,12 @@ HIGHLIGHTPLACEHOLDER2ENDPLACEHOLDER
 
 Times were way shorter. RubyInstaller the fastest (can not get much faster that 0.0 seconds), CRuby and JRuby in the same order of magnitude, IronRuby order of magnitude slower. JRuby has surprisingly the same numbers every time.
 
-| Test Run | 1 | 2 | 3 |
-|----------|---|---|---|
-| CRuby | 0.015 | 0.016 | 0.0 |
-| JRuby | 0.047 | 0.047 | 0.047 |
-| IronRuby | 0.5 | 0.46875 | 0.484375 |
-| RubyInstaller | 0.0 | 0.0 | 0.0 |
+| Test Run      | 1     | 2       | 3        |
+| ------------- | ----- | ------- | -------- |
+| CRuby         | 0.015 | 0.016   | 0.0      |
+| JRuby         | 0.047 | 0.047   | 0.047    |
+| IronRuby      | 0.5   | 0.46875 | 0.484375 |
+| RubyInstaller | 0.0   | 0.0     | 0.0      |
 
 ## Benchmark
 
@@ -67,12 +67,12 @@ HIGHLIGHTPLACEHOLDER3ENDPLACEHOLDER
 
 This measurement said JRuby was the fastest, followed closely by RubyInstaller and CRuby, IronRuby again order of magnitude slower.
 
-| Test Run | user | system | total | real |
-|----------|------|--------|-------|------|
-| CRuby | 11.000000 | 0.657000 | 11.657000 | 13.485000 |
-| JRuby | 6.187000 | 0.000000 | 6.187000 | 6.187000 |
-| IronRuby | 69.984375 | 7.140625 | 77.125000 | 60.656250 |
-| RubyInstaller | 7.297000 | 0.766000 | 8.063000 | 9.953125 |
+| Test Run      | user      | system   | total     | real      |
+| ------------- | --------- | -------- | --------- | --------- |
+| CRuby         | 11.000000 | 0.657000 | 11.657000 | 13.485000 |
+| JRuby         | 6.187000  | 0.000000 | 6.187000  | 6.187000  |
+| IronRuby      | 69.984375 | 7.140625 | 77.125000 | 60.656250 |
+| RubyInstaller | 7.297000  | 0.766000 | 8.063000  | 9.953125  |
 
 ## Environment
 

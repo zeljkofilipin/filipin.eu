@@ -8,12 +8,12 @@ I found out something very useful in Microsoft Excel. There is feature called re
 
 Time for an example. I will not go into detail. I had a lot of data in one row, a few hundred cells (if I remember correctly, maybe even over thousand), and I wanted to move some cells to the right.
 
-| |
-|--|
-| dog |
-| cat |
+|          |
+|----------|
+| dog      |
+| cat      |
 | elephant |
-| ... |
+| ...      |
 
 I had to visually look at that data and some of it move to the right column. In this example, I would move elephant. (I leave it to you, dear reader, to figure out why.) I could cut elephant and paste it in the cell to the right. Let's count keyboard actions. (Remember, I had to do it a lot, so every keyboard or mouse click counts.)
 
@@ -23,12 +23,12 @@ I had to visually look at that data and some of it move to the right column. In 
 
 Three actions. Now table looks like this.
 
-| | |
-|--|--|
-| dog | |
-| cat | |
-| | elephant |
-| ... | ... |
+|     |          |
+|-----|----------|
+| dog |          |
+| cat |          |
+|     | elephant |
+| ... | ...      |
 
 I could get the same result with inserting cell and moving original cell to the right. Right click "elephant" cell, from context menu select Insert... &gt; Shift cells right &gt; OK. (I used mouse to do that, but there is also "right click" key on your keyboard. It is just to the right of "any" key. Just kidding. It is to the left of right "Ctrl" key on my keyboard. Really.) A lot of clicking. But, after you do it once, Excel remembers that you have just inserted cell and moved previous content to the right. And you can repeat that action on another cell with Ctrl+Y.
 

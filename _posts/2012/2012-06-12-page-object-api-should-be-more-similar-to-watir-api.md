@@ -12,20 +12,20 @@ I am pretty sure I am not the only one that has experience with watir API, and g
 
 Examples:
 
-| HTML | watir | page-object |
-|------|-------|-------------|
-| td | td | cell |
-| hidden | hidden | hidden_field |
-| img | img | image |
-| a | a | link |
-| li | li | list_item |
-| ol | ol | ordered_list |
-| p | p | paragraph |
-| input type="radio" | radio | radio_button |
-| select | select | select_list |
-| td | td | cell |
-| textarea | textarea | text_area |
-| ul | ul | unordered_list |
+| HTML               | watir    | page-object    |
+| ------------------ | -------- | -------------- |
+| td                 | td       | cell           |
+| hidden             | hidden   | hidden_field   |
+| img                | img      | image          |
+| a                  | a        | link           |
+| li                 | li       | list_item      |
+| ol                 | ol       | ordered_list   |
+| p                  | p        | paragraph      |
+| input type="radio" | radio    | radio_button   |
+| select             | select   | select_list    |
+| td                 | td       | cell           |
+| textarea           | textarea | text_area      |
+| ul                 | ul       | unordered_list |
 
 I am all for making the API human-friendly, that is what watir tried to do in the beginning. After a few years we have noticed that people are getting confused with the API that sometimes uses the same names as HTML, and sometimes does not.
 

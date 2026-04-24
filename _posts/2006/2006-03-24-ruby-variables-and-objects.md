@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO ruby
 title: Ruby Variables and Objects
 ---
 Brian Marick wrote interesting article about variables and objects.

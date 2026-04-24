@@ -1,5 +1,5 @@
 ---
-tags:  TODO watir
+tags:  TODO ruby watir
 title: Ruby, Watir and Internet Explorer on Linux
 ---
 The title tells it all.

@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO software
 title: ASP.NET - Install Everything You Need
 ---
 Recently [I started to play with ASP.NET](/first-steps-in-aspnet). I found [asp.net](http://www.asp.net/), The Official Microsoft ASP.NET 2.0 Site. The first thing you have to do is to install required software.

@@ -1,5 +1,5 @@
 ---
-tags:  TODO image
+tags:  TODO image software
 title: Internet Explorer 7 Bug
 ---
 ![ie.png](/assets/2007/internet-explorer-7-bug.png)

@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO software
 title: My Favourite Windows Media Player Bugs
 ---
 Brent Strange wrote (almost a month ago) that he noticed [a bug in Windows Media Player 10](http://qainsight.net/2006/10/25/Defect+Of+The+Day+Repeat+Songs+On+MSN+Radio.aspx). I also use it for listening to internet radio, so I tried to reproduce it (I have Windows Media Player 10 and 11). Successfully. Then I noticed another bug and left a comment at his post, but I like this bugs so much that I had to write a post about it.

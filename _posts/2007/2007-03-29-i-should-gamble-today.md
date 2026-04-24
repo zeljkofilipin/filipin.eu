@@ -1,5 +1,5 @@
 ---
-tags:  TODO image
+tags:  TODO image software
 title: I Should Gamble Today
 ---
 What is the chance of visiting a page that has a certificate that has expired nine minutes ago? :)

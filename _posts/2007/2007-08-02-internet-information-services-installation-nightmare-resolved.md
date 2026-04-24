@@ -1,5 +1,5 @@
 ---
-tags:  TODO image
+tags:  TODO image software
 title: Internet Information Services Installation Nightmare (Resolved)
 ---
 I just do not understand what happened. I tried to install Internet Information Services (IIS) but it kept complaining that it needs Windows XP Professional Service Pack 2 (SP2) CD. The first error message was "The file 'staxmem.dll' on Windows XP Professional Service Pack 2 CD is needed."

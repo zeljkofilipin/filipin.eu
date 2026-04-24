@@ -1,5 +1,5 @@
 ---
-tags:  TODO ruby
+tags:  TODO ruby software
 title: Ruby In Steel IDE
 ---
 I did not try it yet, but it sounds interesting.

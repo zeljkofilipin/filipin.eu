@@ -1,5 +1,5 @@
 ---
-tags:  TODO image
+tags:  TODO image software
 title: Network Connections Pop Up
 ---
 ![nc.PNG](/assets/2007/network-connections-pop-up/nc.PNG)

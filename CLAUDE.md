@@ -134,5 +134,19 @@ Surveyed 2026-04-23. Items marked **broken** are likely already visible to reade
 - **Dark/light mode toggle**: current `jekyll-theme-hacker` has no runtime toggle. Consider migrating to a theme that supports it — **Chirpy** (`jekyll-theme-chirpy`) is the strongest candidate: has a built-in toggle, works as `remote_theme` on GitHub Pages, and handles tags and reading time. Migration is non-trivial (different front matter conventions and layout structure).
 
 ### Tooling
-- **Markdown linting**: enable `VALIDATE_MARKDOWN` in super-linter (remove the `false` from both `linter.yml` and `Rakefile`). `.markdownlint.json` is already present and configured.
+- **Markdown linting**: enable `VALIDATE_MARKDOWN` in super-linter (remove the `false` from both `linter.yml` and `Rakefile`). `.markdownlint.json` is already present. Before enabling, first expand the config to disable false-positive rules, then fix remaining real errors one rule per commit (same approach as HTML cleanup).
+  - **Step 1 — disable false-positive rules** in `.markdownlint.json`: `MD041` (first-line-heading — posts start with body text, not headings), `MD022`/`MD018`/`MD023` (heading rules — fire on Ruby `#` comments inside `{% highlight %}` blocks, which markdownlint can't distinguish from headings), `MD024` (no-duplicate-heading — same heading in different posts/sections is fine).
+  - **Step 2 — fix real errors** (1184 total before disabling false positives; surveyed 2026-04-24), one rule per commit:
+    - MD060 table-column-style (472, all in one file — auto-fixable)
+    - MD010 no-hard-tabs (151 — auto-fixable)
+    - MD036 emphasis-as-heading (118 — bold used as heading substitute; needs manual review)
+    - MD034 bare-urls (64 — wrap in `<url>` or `[text](url)`)
+    - MD030 list-marker-space (62 — auto-fixable)
+    - MD047 single-trailing-newline (30 — auto-fixable)
+    - MD032 blanks-around-lists (22 — auto-fixable)
+    - MD039 no-space-in-links (13 — auto-fixable)
+    - MD038 no-space-in-code (9 — auto-fixable)
+    - MD011 no-reversed-links (8 — `(text)[url]` → `[text](url)`)
+    - MD045 no-alt-text (5 — add alt text to images)
+  - **Step 3 — enable** `VALIDATE_MARKDOWN` in `linter.yml` and `Rakefile`.
 - **Spellchecking (English + Croatian)**: add cspell as a separate CI step (`streetsidesoftware/cspell-action`) with English (default) and Croatian (`@cspell/dict-hr`) dictionaries. Extract the allowlist from `.vscode/settings.json` into a shared `cspell.config.json` at the repo root so VS Code and CI use the same config. Options to decide before implementing: (a) which files to check (`_posts/` only, or all `.md`); (b) how to handle front matter and Liquid/HTML blocks; (c) whether to also wire it into the `Rakefile` for local runs.

@@ -84,7 +84,7 @@ Converting remaining HTML to Markdown in `_posts/`, one tag type per commit. Cou
 - [x] `<em>` (3) → `*text*`
 - [x] `<br>` (2) → removed (one split into two paragraphs, one was stray inside a code block)
 - [x] `<a>` (225) → `[text](url)` where cleanly convertible
-- [ ] `<ul>`/`<li>` (27) → Markdown list syntax
+- [x] `<ul>`/`<li>` (27) → Markdown list syntax
 
 ### Not converting (keep as HTML)
 - `<iframe>` (280) — embedded YouTube/Facebook, no Markdown equivalent

@@ -1,5 +1,5 @@
 ---
-tags:  TODO image
+tags:  TODO blog image
 title: Who are you?
 ---
 You know all [about me](/about-me/). I would like to know just a bit about you. The only tool I have is statistics. But, we all know that there are three kinds of lies: [lies, damned lies, and statistics.](http://en.wikipedia.org/wiki/Lies,_damned_lies,_and_statistics)

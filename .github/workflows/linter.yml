@@ -53,6 +53,7 @@ jobs:
           VALIDATE_GITLEAKS: false # 1
           VALIDATE_HTML: false # 251
           VALIDATE_HTML_PRETTIER: false
+          VALIDATE_JSON_PRETTIER: false
           VALIDATE_JSCPD: false # 11
           VALIDATE_MARKDOWN: false # 135
           VALIDATE_MARKDOWN_PRETTIER: false

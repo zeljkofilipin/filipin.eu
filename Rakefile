@@ -14,6 +14,7 @@ task :super_linter do
     ' -e VALIDATE_GITLEAKS=false'\
     ' -e VALIDATE_HTML=false'\
     ' -e VALIDATE_HTML_PRETTIER=false'\
+    ' -e VALIDATE_JSON_PRETTIER=false'\
     ' -e VALIDATE_JSCPD=false'\
     ' -e VALIDATE_MARKDOWN=false'\
     ' -e VALIDATE_MARKDOWN_PRETTIER=false'\

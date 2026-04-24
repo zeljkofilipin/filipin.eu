@@ -73,6 +73,27 @@ Procedure: build into `/tmp/filipin-old` using the Docker command above, apply t
 
 Jekyll output contains timestamp lines (`article:published_time`, schema.org JSON-LD `dateModified`/`datePublished`) that reflect build time, so tag pages (`_site/tags/*.html`) and `feed.xml` always differ between two builds — ~38 spurious diffs per build. Filter them with `sed -E 's/20[0-9]{2}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}[+-][0-9]{2}:[0-9]{2}/TS/g'` on both sides before comparing. After filtering, the only differing files should be the posts you touched, and every differing line should contain the token you intended to change.
 
+## HTML to Markdown cleanup
+
+Converting remaining HTML to Markdown in `_posts/`, one tag type per commit. Counts are raw tag occurrences across all posts (surveyed 2026-04-24).
+
+### Todo (in order)
+- [ ] `<code>` (21) — inline code → `` `text` `` (skip occurrences inside HTML `<td>` cells)
+- [ ] `<blockquote>` (14) → `> text`
+- [ ] `<strong>` (6) → `**text**`
+- [ ] `<em>` (3) → `*text*`
+- [ ] `<br>` (2) → remove or blank line
+- [ ] `<a>` (225) → `[text](url)` where cleanly convertible
+- [ ] `<ul>`/`<li>` (27) → Markdown list syntax
+
+### Not converting (keep as HTML)
+- `<iframe>` (280) — embedded YouTube/Facebook, no Markdown equivalent
+- `<img>` (35) — already handled what's possible; remaining have width/height/class or Wikimedia Commons attribution
+- `<script>` (18) — social embed scripts
+- `<div>`/`<span>` (63) — usually wrapping iframes or complex layout
+- HTML tables — some posts use HTML tables intentionally
+- `<p>` (47) — remove opportunistically when rewriting surrounding content
+
 ## Improvement backlog
 
 Surveyed 2026-04-23. Items marked **broken** are likely already visible to readers.

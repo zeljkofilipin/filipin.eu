@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO watir
 title: Updating Watir User Guide (2)
 ---
 *(From [wtr-general](http://rubyforge.org/pipermail/wtr-general/2007-May/010754.html).)*

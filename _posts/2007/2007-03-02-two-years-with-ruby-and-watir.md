@@ -1,5 +1,5 @@
 ---
-tags:  TODO image years
+tags:  TODO image watir years
 title: Two Years with Ruby and Watir
 ---
 ![dw-974859.jpg](/assets/2007/two-years-with-ruby-and-watir.jpg "dw-974859.jpg")

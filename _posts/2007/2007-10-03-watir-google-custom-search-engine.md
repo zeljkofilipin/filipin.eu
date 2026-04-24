@@ -1,5 +1,5 @@
 ---
-tags:  TODO image
+tags:  TODO image watir
 title: Watir Google Custom Search Engine
 ---
 ![](/assets/2007/watir-google-custom-search-engine.PNG)

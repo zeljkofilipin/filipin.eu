@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO watir
 title: Watir 1.5.3 Released
 ---
 > Bug fixes and minor cleanup.

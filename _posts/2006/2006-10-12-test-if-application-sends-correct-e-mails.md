@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO watir
 title: Test If Application Sends Correct E-mails
 ---
 Interesting question appeared today at [wtr-general](http://www.mail-archive.com/wtr-general%40rubyforge.org/) mailing list.

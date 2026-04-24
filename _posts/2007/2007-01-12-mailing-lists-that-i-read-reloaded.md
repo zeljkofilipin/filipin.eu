@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO watir
 title: Mailing Lists That I Read Reloaded
 ---
 A few days ago I listed [mailing lists that I read](/mailing-lists-that-i-read/). I have obviously written it in a hurry, because I forgot a few.

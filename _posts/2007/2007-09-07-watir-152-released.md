@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO watir
 title: Watir 1.5.2 released
 ---
 I came back from a long vacation, and what a surprise. Watir 1.5.2 is out!

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<p class="view">by {{ page.author | default: site.author }}</p>
+
+{% assign words = content | number_of_words %}
+{% assign minutes = words | divided_by: 200 %}
+{% if minutes < 1 %}{% assign minutes = 1 %}{% endif %}
+<p><em>Estimated reading time is {{ minutes }} {% if minutes == 1 %}minute{% else %}minutes{% endif %}.</em></p>
+
+{{ content }}
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
+
+<h2>Feedback</h2>
+<p>Thank you for reading. If you want to stay in touch please use the <a href="/feed.xml">feed</a> or send me an <a href="mailto:zeljko@filipin.eu">email</a>.</p>

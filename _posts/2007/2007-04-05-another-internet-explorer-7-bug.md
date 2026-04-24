@@ -1,5 +1,5 @@
 ---
-tags:  TODO image software
+tags:  image software
 title: Another Internet Explorer 7 Bug
 ---
 Don't you just love bugs? :)

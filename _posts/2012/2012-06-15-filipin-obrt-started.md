@@ -1,5 +1,5 @@
 ---
-tags:  TODO image testing
+tags:  image testing
 title: Filipin, obrt za računalne djelatnosti, started
 ---
 ![Random Photo: Zagreb, Croatia.](/assets/2012/filipin-obrt-started.jpg "Random Photo: Zagreb, Croatia.")

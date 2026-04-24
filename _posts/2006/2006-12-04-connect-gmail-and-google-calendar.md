@@ -1,5 +1,5 @@
 ---
-tags:  TODO productivity
+tags:  productivity
 title: Connect Gmail and Google Calendar
 ---
 I just love Gmail.

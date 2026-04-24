@@ -1,5 +1,5 @@
 ---
-tags:  TODO watir
+tags:  watir
 title: Guidelines for Posting to Watir General Google Group
 ---
 The first draft.

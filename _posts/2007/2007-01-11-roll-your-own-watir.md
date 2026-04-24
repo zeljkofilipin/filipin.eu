@@ -1,5 +1,5 @@
 ---
-tags:  TODO watir
+tags:  watir
 title: Roll your own Watir
 ---
 [Watir 1.5.1.1136 was released](http://wiki.openqa.org/display/WTR/Development+Builds) yesterday, but FileField#set does not work. They have fixed it, but it is not released yet. But still, you can use all those shiny new Watir methods.

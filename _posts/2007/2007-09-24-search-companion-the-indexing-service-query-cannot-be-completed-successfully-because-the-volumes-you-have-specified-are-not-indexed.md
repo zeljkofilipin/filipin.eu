@@ -1,5 +1,5 @@
 ---
-tags:  TODO image software
+tags:  image software
 title: 'Search Companion: The Indexing Service query cannot be completed successfully because the volumes you have specified are not indexed.'
 ---
 ![sc.png](/assets/2007/search-companion-the-indexing-service-query-cannot-be-completed-successfully-because-the-volumes-you-have-specified-are-not-indexed.png)

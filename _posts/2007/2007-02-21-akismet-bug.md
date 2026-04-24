@@ -1,5 +1,5 @@
 ---
-tags:  TODO image software
+tags:  image software
 title: Akismet Bug
 ---
 ![Akismet Bug](/assets/2007/akismet-bug.png)

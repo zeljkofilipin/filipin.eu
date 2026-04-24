@@ -1,5 +1,5 @@
 ---
-tags:  TODO watir
+tags:  watir
 title: Watir and Pop Ups
 ---
 I am updating [Watir Tutorial](http://wiki.openqa.org/display/WTR/Tutorial) for a while now. It is still not done. At the moment, I am at the [Pop Ups](http://wiki.openqa.org/display/WTR/Pop+Ups) page. I have gathered data from [Jonathan Kohl's](http://www.kohl.ca/) excellent user guide, [Paul Rogers'](http://www.paulrogers.ca/) excellent pop ups article and [Watir FAQ](http://wiki.openqa.org/display/WTR/FAQ). I will continue to do that, but I need help.

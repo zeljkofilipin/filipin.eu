@@ -1,5 +1,5 @@
 ---
-tags:  TODO productivity
+tags:  productivity
 title: Google Reader
 ---
 Are you in search for good feed reader? I am. I just need something that will work with all feeds I find (not so trivial), that will import my feeds from another reader (who likes to add feeds by hand?) and that looks like e-mail client (do you also find that feeds are like e-mail?).

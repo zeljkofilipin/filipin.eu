@@ -1,5 +1,5 @@
 ---
-tags:  TODO testing watir
+tags:  testing watir
 title: Watir Support Sheriffs
 ---
 Recently I became [Watir community manager](http://watir.com/team/).

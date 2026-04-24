@@ -1,5 +1,5 @@
 ---
-tags:  TODO testing
+tags:  testing
 title: 'Testing E-mail: Introduction'
 ---
 Lately I have been testing e-mail functionality of one application. I will post my experience in two or three articles. This is the second one. Yesterday I blogged about [how to install SMTP server](/testing-e-mail-install-smtp-server/).

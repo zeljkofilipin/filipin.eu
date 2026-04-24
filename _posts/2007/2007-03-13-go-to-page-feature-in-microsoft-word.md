@@ -1,5 +1,5 @@
 ---
-tags:  TODO image productivity
+tags:  image productivity
 title: Go To Page Feature in Microsoft Word
 ---
 ![word.png](/assets/2007/go-to-page-feature-in-microsoft-word.png "word.png")

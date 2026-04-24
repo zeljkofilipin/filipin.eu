@@ -1,5 +1,5 @@
 ---
-tags:  TODO watir
+tags:  watir
 title: Watir Tutorial
 ---
 Woo hoo! Done! (For now.)

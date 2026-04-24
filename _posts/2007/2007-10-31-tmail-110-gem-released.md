@@ -1,5 +1,5 @@
 ---
-tags:  TODO image ruby
+tags:  image ruby
 title: TMail 1.1.0 Gem Released
 ---
 [![stamp-sm.jpg](/assets/2007/tmail-110-gem-released.jpg)](http://tmail.rubyforge.org/ "stamp-sm.jpg")

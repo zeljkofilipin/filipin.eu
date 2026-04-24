@@ -1,5 +1,5 @@
 ---
-tags:  TODO software
+tags:  software
 title: Treat Users With Respect
 ---
 Yesterday I blogged how [TortoiseSVN 1.4.1 Crashes](/tortoisesvn-141-crashes/). I could not just click "Send" button at error report window because I have recently [reinstalled windows](/tools/) and I did not have default e-mail client configured (I use Gmail only). As a tester, I know a value of error report, so I wanted to send it. Also, I really like TortoiseSVN so I wanted to contribute. Configuring Outlook Express to use Gmail servers took some time, but fortunately I have done it already, so I knew where to find [documentation](http://mail.google.com/support/bin/answer.py?ctx=%67mail&hl=en&answer=12103).

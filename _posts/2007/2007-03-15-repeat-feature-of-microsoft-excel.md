@@ -1,5 +1,5 @@
 ---
-tags:  TODO productivity
+tags:  productivity
 title: Repeat Feature of Microsoft Excel
 ---
 While I am in "tip mode"... :)

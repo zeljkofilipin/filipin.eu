@@ -1,5 +1,5 @@
 ---
-tags:  TODO testing
+tags:  testing
 title: How Testers Look Like?
 ---
 I read a few blogs. I monitor a few mailing lists. When I read a post, I like to know how that person looks like. I guess that I am one of those visual types. (My image is at every page of this blog.) And sometimes it is not an easy task to find it out. So, I found images of a few testers (not in any specific order):

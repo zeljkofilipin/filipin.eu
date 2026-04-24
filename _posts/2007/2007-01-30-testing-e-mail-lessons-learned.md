@@ -1,5 +1,5 @@
 ---
-tags:  TODO testing
+tags:  testing
 title: 'Testing E-mail: Lessons Learned'
 ---
 Lately I have been testing e-mail functionality of web application. This is the fourth post about that experience. Last week I wrote about [tools I use for e-mail testing](/testing-e-mail-tools/).

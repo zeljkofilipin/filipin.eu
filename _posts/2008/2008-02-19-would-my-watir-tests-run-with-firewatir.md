@@ -1,5 +1,5 @@
 ---
-tags:  TODO watir
+tags:  watir
 title: Would My Watir Tests Run With Firewatir?
 ---
 I saw this question at [watir-general](http://groups.google.com/group/watir-general/).

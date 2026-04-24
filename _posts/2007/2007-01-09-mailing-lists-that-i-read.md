@@ -1,5 +1,5 @@
 ---
-tags:  TODO testing watir
+tags:  testing watir
 title: Mailing Lists That I Read
 ---
 Alphabetically.

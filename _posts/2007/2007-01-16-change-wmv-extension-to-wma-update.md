@@ -1,5 +1,5 @@
 ---
-tags:  TODO productivity
+tags:  productivity
 title: Change wmv Extension to wma Update
 ---
 Yesterday I wrote:

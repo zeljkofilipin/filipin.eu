@@ -1,5 +1,5 @@
 ---
-tags:  TODO ruby software
+tags:  ruby software
 title: Arachno Ruby 0.7.6 for Windows Is Available
 ---
 New version of my favourite Ruby IDE is available. More information [here](http://www.ruby-ide.com/forum/showthread.php?p=2155).

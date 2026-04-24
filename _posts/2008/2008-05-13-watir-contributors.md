@@ -1,5 +1,5 @@
 ---
-tags:  TODO watir
+tags:  watir
 title: Watir Contributors
 ---
 We were thinking about creating a page with all Watir contributors, and today I had a good enough reason to finally create it.

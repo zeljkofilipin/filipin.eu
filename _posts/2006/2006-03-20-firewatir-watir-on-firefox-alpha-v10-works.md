@@ -1,5 +1,5 @@
 ---
-tags:  TODO watir
+tags:  watir
 title: FireWatir (WATiR on Firefox) Alpha v1.0 Works!
 ---
 I found the reason why FireWatir was [not working](/firewatir-watir-on-firefox-alpha-v10-released/) at my machine.

@@ -1,5 +1,5 @@
 ---
-tags:  TODO image software
+tags:  image software
 title: VMware Server 1.0.3 and Shared Folders
 ---
 I am using [VMware Server 1.0.3](http://www.vmware.com/download/server/) for my virtual machines. I really need shared folders feature, but I found at their site (can not find the link at the moment) that it is not included in VMware Server. I found out a simple solution to that problem. I am using file sharing feature that is included in Windows operating system.

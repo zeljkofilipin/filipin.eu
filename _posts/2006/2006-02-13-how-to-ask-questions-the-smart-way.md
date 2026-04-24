@@ -1,5 +1,5 @@
 ---
-tags:  TODO testing
+tags:  testing
 title: How To Ask Questions The Smart Way
 ---
 All of us using open source ([Ruby](http://www.ruby-lang.org/en/), [Watir](http://wtr.rubyforge.org/)...) (and not only us) should know [how to ask questions the smart way](http://www.catb.org/%7Eesr/faqs/smart-questions.html) (the way that you will get an answer).

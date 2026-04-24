@@ -1,5 +1,5 @@
 ---
-tags:  TODO watir
+tags:  watir
 title: Updating Watir User Guide
 ---
 Bret Pettichord has posted [The Plan for Watir](http://www.mail-archive.com/wtr-general%40rubyforge.org/msg08401.html) at wtr-general. If you are interested in future of Watir, you should read it. This is from that post.

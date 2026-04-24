@@ -1,5 +1,5 @@
 ---
-tags:  TODO productivity
+tags:  productivity
 title: Change wmv Extension to wma
 ---
 Did you know that if you have a file with wmv extension you can listen to it on your mp3 player? All you have to do is change it's extension to wma.

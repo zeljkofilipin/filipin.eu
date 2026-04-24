@@ -1,5 +1,5 @@
 ---
-tags:  TODO testing watir
+tags:  testing watir
 title: Mind Reading Does Not Work
 ---
 I wrote this post months ago, but I did not publish it because I felt it was not finished. The time has come. I have read [Jason Darling's](http://blogs.dovetailsoftware.com/blogs/jason_darling/default.aspx) post at [Watir General](http://groups.google.com/group/watir-general) titled Identifying problems and proposing solutions for the Watir community (I can not find that post at Watir General site at the moment). Great post. I would like to add a thought or two.

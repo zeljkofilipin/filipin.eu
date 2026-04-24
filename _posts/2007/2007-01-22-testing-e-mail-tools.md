@@ -1,5 +1,5 @@
 ---
-tags:  TODO testing
+tags:  testing
 title: 'Testing E-mail: Tools'
 ---
 Lately I have been testing e-mail functionality of one application. In the beginning I though that I would write two or three posts about that experience. Now I think there will be more, but not much more. I prefer more shorter articles that two or three longer ones. I am all about little steps, as you will shortly see.

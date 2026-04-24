@@ -1,5 +1,5 @@
 ---
-tags:  TODO productivity
+tags:  productivity
 title: How Much Time Do You Spend Learning?
 ---
 Some time ago, I used to work all the time. I just did not have time to learn anything new. Then I read a few articles and learned **a lot**. I saw that I just **have to** learn more. Then I used to learn so much that I did not have time to work.

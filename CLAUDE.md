@@ -138,7 +138,7 @@ Surveyed 2026-04-23. Items marked **broken** are likely already visible to reade
   - **Step 1 — disable false-positive rules** in `.markdownlint.json`: `MD041` (first-line-heading — posts start with body text, not headings), `MD022`/`MD018`/`MD023` (heading rules — fire on Ruby `#` comments inside `{% highlight %}` blocks, which markdownlint can't distinguish from headings), `MD024` (no-duplicate-heading — same heading in different posts/sections is fine).
   - **Step 2 — fix real errors** (1184 before / 1012 after disabling false positives; surveyed 2026-04-24), one rule per commit:
     - [x] MD060 table-column-style (472, all in one file) — disabled: rule conflicts with empty cells in data tables; no rendered difference
-    - [ ] MD010 no-hard-tabs (151 — auto-fixable)
+    - [x] MD010 no-hard-tabs (151) — disabled: tabs are inside `{% highlight %}` code blocks; replacing them changes rendered indentation in code samples
     - [ ] MD036 emphasis-as-heading (118 — bold used as heading substitute; needs manual review)
     - [ ] MD034 bare-urls (64 — wrap in `<url>` or `[text](url)`)
     - [ ] MD030 list-marker-space (62 — auto-fixable)

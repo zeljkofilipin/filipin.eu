@@ -46,6 +46,13 @@ Disabled super-linter validators are declared in `.github/workflows/linter.yml` 
 - `assets/` — images and other static files referenced by posts. Organized by year and post: `assets/<year>/<post-slug>/<file>` when a post has multiple assets, or `assets/<year>/<post-slug>.<ext>` when it has exactly one. Assets shared across posts within the same year live at `assets/<year>/` root; cross-year shared assets live under the earliest year that references them. Site-wide assets (homepage logo, author photo) stay at `assets/` root.
 - `permalink: /:title` in `_config.yml` means post URLs are `/<slug-from-title>` not date-based. Changing a post's title will change its URL and break inbound links.
 
+## Tag conventions
+
+- Tags in the `tags:` front matter field are kept **alphabetically sorted**.
+- **Embed-only tags** — add these only when the post actually embeds the content (iframe, `<video>`, etc.), not merely links to it: `commons`, `drive`, `facebook`, `strava`, `twitter`, `video`, `youtube`.
+- `image` — add when a post contains any visual (screenshot, photo, logo), whether via markdown `![]()` or HTML `<img>`. Formerly called `photo`.
+- Run `script/check-tags` (or `rake`) to verify every tag used in a post has a matching `_tags/<tag>.md`.
+
 ## Spelling
 
 `.vscode/settings.json` carries a large `cSpell.words` allowlist of names and domain terms (people, places, tools). When adding posts that mention new proper nouns, add them there to keep the VS Code spellchecker quiet.
@@ -78,8 +85,7 @@ Surveyed 2026-04-23. Items marked **broken** are likely already visible to reade
 - **Orphaned assets**: ~288 image files in `assets/` are never referenced by any post. Could be deleted to reduce repo size (verify before bulk delete).
 
 ### Content / editorial
-- **Thin tags**: `blog` (2 posts), `chess`, `commons`, `scratch` (3 posts each), `linux`, `software` (4 posts each). Either write more in those areas or retire the tags.
-- **`_tags/TODO.md` / `tags: TODO`**: 86 posts are tagged `TODO` as a placeholder (tags were never decided). `_tags/TODO.md` exists to keep the tag-check script happy. These posts need real tags assigned.
+- **Thin tags**: `chess`, `commons`, `scratch` (handful of posts each). Either write more in those areas or retire the tags.
 
 ### Structure
 - **No pagination on `blog.md`**: all 487 posts render on one page. Will get slower as the blog grows; consider adding Jekyll pagination.

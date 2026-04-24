@@ -37,7 +37,3 @@ Probably the best thing would be to take the commercial course with instructors 
 ## Future
 
 Software testing is only tangentially related to what I do on most days. (I develop and maintain a test automation framework. Most days it's just a lot of JavaScript.) I was participating in the book club since I was in the team that mostly did testing. Now that I'm in a team that's mostly doing infrastructure, I'll likely organize another book club, but with a different topic.
-
-## Feedback
-
-Thank you for reading. If you want to stay in touch please use the [feed](feed.xml) or send me an [email](mailto:zeljko@filipin.eu).

@@ -116,7 +116,3 @@ I'll have to double check, but it looks like popular highlights are not the same
 > Methodology is what you think should happen; process is what actually happens. (Page 43, 20+ highlighters)
 
 > Without tacit knowledge, you can't solve hard problems; without explicit knowledge, you can't talk about them. (Page 48, 10+ highlighters)
-
-## Feedback
-
-Thank you for reading. If you want to stay in touch please use the [feed](https://filipin.eu/feed.xml) or send me an [email](mailto:zeljko@filipin.eu).

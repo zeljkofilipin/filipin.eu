@@ -73,7 +73,3 @@ The topics were varied.
   * Closing bugs. This one was controversial.
 
 It was pretty good and engaged discussion between the moderator, panelists and the audience.
-
-## Feedback
-
-Thank you for reading. If you want to stay in touch please use the [feed](feed.xml) or send me an [email](mailto:zeljko@filipin.eu).

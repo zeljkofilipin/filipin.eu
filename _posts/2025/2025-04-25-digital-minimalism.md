@@ -141,7 +141,3 @@ Finally some good news. As addicting as technology is, it's not as bad as some f
 > (Chapter 7, Join the Attention Resistance, page 215.)
 
 In case you didn't understand how multinational companies make money while you spend hours looking at a screen. This is how.
-
-## Feedback
-
-Thank you for reading. If you want to stay in touch please use the [feed](feed.xml) or send me an [email](mailto:zeljko@filipin.eu).

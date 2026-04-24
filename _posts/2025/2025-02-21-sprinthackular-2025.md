@@ -19,7 +19,3 @@ We made some improvements to the tool. We have added support for many extensions
 ## Conclusion
 
 Sprinthackular was a lot of fun. I wish we had sprints like that regularly. I would not complain if that was the majority of our work. I really enjoy focused work on just one thing in a small motivated team.
-
-## Feedback
-
-Thank you for reading. If you want to stay in touch please use the [feed](feed.xml) or send me an [email](mailto:zeljko@filipin.eu).

@@ -34,7 +34,3 @@ Long story short, we're still working on it. I might just be bad at explaining w
 ## Conclusion
 
 I recently had a chat about ChatGPT with one of my colleagues. To paraphrase him: "Why are you surprised it failed? It's like asking for navigation directions from a dictionary."
-
-## Feedback
-
-Thank you for reading. If you want to stay in touch please use the [feed](feed.xml) or send me an [email](mailto:zeljko@filipin.eu).

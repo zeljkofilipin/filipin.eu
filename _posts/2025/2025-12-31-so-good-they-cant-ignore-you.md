@@ -154,7 +154,3 @@ I have not realized, until recently, how motivated I am when I have a hard goal 
 > (Page 154\. 3k+ highlighters.)
 
 I am amongst "the daydreamers and the timid" in several things that are important to me. I am amongst a few that are "confidently taking action" in a few things that are important to me.
-
-## Feedback
-
-Thank you for reading. If you want to stay in touch please use the [feed](feed.xml) or send me an [email](mailto:zeljko@filipin.eu).

@@ -27,7 +27,3 @@ A funny thing happened after I landed. The company gave us Uber vouchers to get 
 The more I think about it, the stranger it sounds that Uber was happy to order me a car (seven minutes away\!) that will take me from Croatia to Spain. It's about a seventeen hour drive and crosses multiple countries.
 
 ![Uber](assets/2025/mediawiki-and-developer-experience-offsite-2024.jpg "Uber")
-
-## Feedback
-
-Thank you for reading. If you want to stay in touch please use the [feed](feed.xml) or send me an [email](mailto:zeljko@filipin.eu).

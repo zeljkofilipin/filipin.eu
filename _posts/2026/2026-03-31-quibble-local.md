@@ -100,7 +100,3 @@ I keep adding features and refactoring the code. Let me know if you find it usef
 I took this project as an opportunity to try [Claude Code](https://claude.com/product/claude-code). I wanted the project to have minimal dependencies ([Bash](https://en.wikipedia.org/wiki/Bash_\(Unix_shell\)), [Git](https://en.wikipedia.org/wiki/Git), [Docker](https://en.wikipedia.org/wiki/Docker_\(software\))). There was no chance I was going to write a project in Bash. For various reasons.
 
 It is an interesting experience. I'm impressed that a tool can write code that does what I say. Most of the time.  I'm not impressed with the quality of the code, or the architecture. Since this is just an experiment, I'm fine with the code as is. If this becomes anything more, I would rewrite it in a language I know better.
-
-## Feedback
-
-Thank you for reading. If you want to stay in touch please use the [feed](https://filipin.eu/feed.xml) or send me an [email](mailto:zeljko@filipin.eu).

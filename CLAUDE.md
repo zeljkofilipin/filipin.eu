@@ -58,6 +58,21 @@ Disabled super-linter validators are declared in `.github/workflows/linter.yml` 
 
 `.vscode/settings.json` carries a large `cSpell.words` allowlist of names and domain terms (people, places, tools). When adding posts that mention new proper nouns, add them there to keep the VS Code spellchecker quiet.
 
+## Languages
+
+### File formats
+
+- **Markdown** (~529 files — `_posts/`, `_tags/`, top-level pages): super-linter validators `VALIDATE_MARKDOWN` (markdownlint) and `VALIDATE_MARKDOWN_PRETTIER` — both **disabled**
+- **YAML** (2 files — `_config.yml`, `.github/workflows/linter.yml`): super-linter validator `VALIDATE_YAML` — **enabled**
+- **HTML** (2 files — `_layouts/post.html`, `_layouts/tag.html`): super-linter validators `VALIDATE_HTML` and `VALIDATE_HTML_PRETTIER` — both **disabled**
+- **JSON** (4 files — `.markdownlint.json`, `.vscode/settings.json`, `.claude/settings.local.json`, `.devcontainer/devcontainer.json`): super-linter validator `VALIDATE_JSON` — **enabled**
+- **Ruby** (3 files — `Gemfile`, `Rakefile`, `script/check-tags`): super-linter validator `VALIDATE_RUBY` — **disabled**
+
+### Natural languages (blog content)
+
+- **English** — majority of posts; super-linter has `VALIDATE_NATURAL_LANGUAGE` (textlint) and `VALIDATE_SPELL_CODESPELL` (codespell) — both **disabled**; neither supports Croatian anyway
+- **Croatian** — minority of posts; no super-linter validator; see spellchecking item in Tooling backlog
+
 ## Working style
 
 - Keep changes small — each change should be scoped so it can stand on its own as a single commit.

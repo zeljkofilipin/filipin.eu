@@ -35,35 +35,13 @@ puts Time.now - time
 
 I have executed the script three times for each Ruby implementation. It looks to me that CRuby and JRuby are similar in speed, and IronRuby is way slower.
 
-<table border="1">
-<tbody>
-<tr>
-<th>Test Run</th>
-<th>CRuby</th>
-<th>JRuby</th>
-<th>IronRuby</th>
-</tr>
-<tr>
-<td>1</td>
-<td>2.594</td>
-<td>3.0</td>
-<td>9.8125</td>
-</tr>
-<tr>
-<td>2</td>
-<td>2.109</td>
-<td>2.016</td>
-<td>7.796875</td>
-</tr>
-<tr>
-<td>3</td>
-<td>2.11</td>
-<td>2.0</td>
-<td>7.6875</td>
-</tr>
-</tbody>
-</table> <table>
-<h2>Environment</h2>
+| Test Run | CRuby | JRuby | IronRuby |
+|----------|-------|-------|----------|
+| 1 | 2.594 | 3.0 | 9.8125 |
+| 2 | 2.109 | 2.016 | 7.796875 |
+| 3 | 2.11 | 2.0 | 7.6875 |
+
+## Environment
 Tests were run in VMware Fusion 2.0.6 virtual machine, 512 MB RAM, Microsoft Windows Sever 2003 R2 (Standard Edition, Service pack 2).
 
 Host machine is MacBook Pro, 2.4 GHz Intel Core 2 Duo, Mac OS X 10.6.2, 4 GB RAM.

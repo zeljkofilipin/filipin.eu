@@ -29,24 +29,11 @@ Dec 19 00:06:46 cdn postfix/qmgr[11196]: 0E5B82B8EE4: from=<cqpygzdq=5wtz5664=us
 
 Every line in log file has four parts. Let's inspect the first line in log in detail.
 
-<table border="1px">
-<tr>
-<td>date and time</td>
-<td><code>Dec 19 00:06:46</code></td>
-</tr>
-<tr>
-<td>host name</td>
-<td><code>cdn</code></td>
-</tr>
-<tr>
-<td>Postfix component ID</td>
-<td><code>postfix/qmgr[11196]:</code></td>
-</tr>
-<tr>
-<td>message</td>
-<td><code>051452B98BB: from=&lt;19=zrnapvcy=user=example.net@example.com&gt;, size=290769, nrcpt=1 (queue active)</code></td>
-</tr>
-</table>
+| date and time | `Dec 19 00:06:46` |
+|---|---|
+| host name | `cdn` |
+| Postfix component ID | `postfix/qmgr[11196]:` |
+| message | `051452B98BB: from=<19=zrnapvcy=user=example.net@example.com>, size=290769, nrcpt=1 (queue active)` |
 
 We are only interested in message, and it is freeform.
 
@@ -173,24 +160,11 @@ $ grep 419122B8FC8 log | grep relay= | cut -d "=" -f3 | cut -d "[" -f1
 
 Now we have all data we need.
 
-<table border="1px">
-<tr>
-<td>VERP</td>
-<td>vyx1psnf=qf3kay0g=user=example.net@example.com</td>
-</tr>
-<tr>
-<td>message-id</td>
-<td>a64ea1f30f964980a4c27593daaa9a8e@example.com</td>
-</tr>
-<tr>
-<td>Postfix ID</td>
-<td>419122B8FC8</td>
-</tr>
-<tr>
-<td>relay</td>
-<td>127.0.0.1</td>
-</tr>
-</table>
+| VERP | vyx1psnf=qf3kay0g=user=example.net@example.com |
+|---|---|
+| message-id | a64ea1f30f964980a4c27593daaa9a8e@example.com |
+| Postfix ID | 419122B8FC8 |
+| relay | 127.0.0.1 |
 
 How many times do message-id and VERP appear in the file?
 
@@ -228,32 +202,13 @@ So, 419122B8FC8 used relay 127.0.0.1 (localhost) and 8D2632B8F9A used relay exam
 
 We have more data now, and everything looks fine so far.
 
-<table border="1px">
-<tr>
-<td>VERP</td>
-<td>vyx1psnf=qf3kay0g=user=example.net@example.com</td>
-</tr>
-<tr>
-<td>message-id</td>
-<td>a64ea1f30f964980a4c27593daaa9a8e@example.com</td>
-</tr>
-<tr>
-<td>Postfix ID 1</td>
-<td>419122B8FC8</td>
-</tr>
-<tr>
-<td>relay 1</td>
-<td>127.0.0.1</td>
-</tr>
-<tr>
-<td>Postfix ID 2</td>
-<td>8D2632B8F9A</td>
-</tr>
-<tr>
-<td>relay 2</td>
-<td>example.net</td>
-</tr>
-</table>
+| VERP | vyx1psnf=qf3kay0g=user=example.net@example.com |
+|---|---|
+| message-id | a64ea1f30f964980a4c27593daaa9a8e@example.com |
+| Postfix ID 1 | 419122B8FC8 |
+| relay 1 | 127.0.0.1 |
+| Postfix ID 2 | 8D2632B8F9A |
+| relay 2 | example.net |
 
 Now, let's finally inspect the whole file and find out if any mail is sent multiple times. There are more than one way to do it. A couple of them are:
 

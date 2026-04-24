@@ -37,129 +37,42 @@ puts Time.now - time
 
 Executed the script three times for each Ruby implementation. RubyInstaller the fastest, CRuby and JRuby were similar in speed, IronRuby was way slower.
 
-<table border="1">
-<tbody>
-<tr>
-<th>Test Run</th>
-<th>1</th>
-<th>2</th>
-<th>3</th>
-</tr>
-<tr>
-<th>CRuby</th>
-<td>2.594</td>
-<td>2.109</td>
-<td>2.11</td>
-</tr>
-<tr>
-<th>JRuby</th>
-<td>3.0</td>
-<td>2.016</td>
-<td>2.0</td>
-</tr>
-<tr>
-<th>IronRuby</th>
-<td>9.8125</td>
-<td>7.796875</td>
-<td>7.6875</td>
-</tr>
-<tr>
-<th>RubyInstaller</th>
-<td>1.21875</td>
-<td>1.203125</td>
-<td>1.203125</td>
-</tr>
-</tbody>
-</table> <table>
+| Test Run | 1 | 2 | 3 |
+|----------|---|---|---|
+| CRuby | 2.594 | 2.109 | 2.11 |
+| JRuby | 3.0 | 2.016 | 2.0 |
+| IronRuby | 9.8125 | 7.796875 | 7.6875 |
+| RubyInstaller | 1.21875 | 1.203125 | 1.203125 |
 
-<h2>The Second Try</h2>
+## The Second Try
 
 Since both Mikel and Jimmy said `require` could take the majority of the time, and I was not really interested in measuring that, I excluded it from the measurement.
 
 HIGHLIGHTPLACEHOLDER2ENDPLACEHOLDER
 
 Times were way shorter. RubyInstaller the fastest (can not get much faster that 0.0 seconds), CRuby and JRuby in the same order of magnitude, IronRuby order of magnitude slower. JRuby has surprisingly the same numbers every time.
-<table border="1">
-<tbody>
-<tr>
-<th>Test Run</th>
-<th>1</th>
-<th>2</th>
-<th>3</th>
-</tr>
-<tr>
-<th>CRuby</th>
-<td>0.015</td>
-<td>0.016</td>
-<td>0.0</td>
-</tr>
-<tr>
-<th>JRuby</th>
-<td>0.047</td>
-<td>0.047</td>
-<td>0.047</td>
-</tr>
-<tr>
-<th>IronRuby</th>
-<td>0.5</td>
-<td>0.46875</td>
-<td>0.484375</td>
-</tr>
-<tr>
-<th>RubyInstaller</th>
-<td>0.0</td>
-<td>0.0</td>
-<td>0.0</td>
-</tr>
-</tbody>
-</table> <table>
 
-<h2>Benchmark</h2>
+| Test Run | 1 | 2 | 3 |
+|----------|---|---|---|
+| CRuby | 0.015 | 0.016 | 0.0 |
+| JRuby | 0.047 | 0.047 | 0.047 |
+| IronRuby | 0.5 | 0.46875 | 0.484375 |
+| RubyInstaller | 0.0 | 0.0 | 0.0 |
+
+## Benchmark
 
 Mikel and Jimmy have suggested that I should use [benchmark.rb](http://ruby-doc.org/stdlib/libdoc/benchmark/rdoc/index.html), so I took a look. I have slightly modified the script. This time the file was read 1000 times.
 
 HIGHLIGHTPLACEHOLDER3ENDPLACEHOLDER
 
 This measurement said JRuby was the fastest, followed closely by RubyInstaller and CRuby, IronRuby again order of magnitude slower.
-<table border="1">
-<tbody>
-<tr>
-<th>Test Run</th>
-<th>user</th>
-<th>system</th>
-<th>total</th>
-<th>real</th>
-</tr>
-<tr>
-<th>CRuby</th>
-<td>11.000000</td>
-<td>0.657000</td>
-<td>11.657000</td>
-<td>13.485000</td>
-</tr>
-<tr>
-<th>JRuby</th>
-<td>6.187000</td>
-<td>0.000000</td>
-<td>6.187000</td>
-<td>6.187000</td>
-</tr>
-<tr>
-<th>IronRuby</th>
-<td>69.984375</td>
-<td>7.140625</td>
-<td>77.125000</td>
-<td>60.656250</td>
-</tr>
-<tr>
-<th>RubyInstaller</th>
-<td>7.297000</td>
-<td>0.766000</td>
-<td>8.063000</td>
-<td>9.953125</td>
-</tr>
-</tbody>
-</table>
+
+| Test Run | user | system | total | real |
+|----------|------|--------|-------|------|
+| CRuby | 11.000000 | 0.657000 | 11.657000 | 13.485000 |
+| JRuby | 6.187000 | 0.000000 | 6.187000 | 6.187000 |
+| IronRuby | 69.984375 | 7.140625 | 77.125000 | 60.656250 |
+| RubyInstaller | 7.297000 | 0.766000 | 8.063000 | 9.953125 |
 
 ## Environment
 

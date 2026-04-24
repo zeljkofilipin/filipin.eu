@@ -12,73 +12,20 @@ I am pretty sure I am not the only one that has experience with watir API, and g
 
 Examples:
 
-<table border="1">
-<tr>
-<th>HTML</th>
-<th>watir</th>
-<th>page-object</th>
-</tr>
-<tr>
-<td>td</td>
-<td>td</td>
-<td>cell</td>
-</tr>
-<tr>
-<td>hidden</td>
-<td>hidden</td>
-<td>hidden_field</td>
-</tr>
-<tr>
-<td>img</td>
-<td>img</td>
-<td>image</td>
-</tr>
-<tr>
-<td>a</td>
-<td>a</td>
-<td>link</td>
-</tr>
-<tr>
-<td>li</td>
-<td>li</td>
-<td>list_item</td>
-</tr>
-<tr>
-<td>ol</td>
-<td>ol</td>
-<td>ordered_list</td>
-</tr>
-<tr>
-<td>p</td>
-<td>p</td>
-<td>paragraph</td>
-</tr>
-<tr>
-<td>input type="radio"</td>
-<td>radio</td>
-<td>radio_button</td>
-</tr>
-<tr>
-<td>select</td>
-<td>select</td>
-<td>select_list</td>
-</tr>
-<tr>
-<td>td</td>
-<td>td</td>
-<td>cell</td>
-</tr>
-<tr>
-<td>textarea</td>
-<td>textarea</td>
-<td>text_area</td>
-</tr>
-<tr>
-<td>ul</td>
-<td>ul</td>
-<td>unordered_list</td>
-</tr>
-</table>
+| HTML | watir | page-object |
+|------|-------|-------------|
+| td | td | cell |
+| hidden | hidden | hidden_field |
+| img | img | image |
+| a | a | link |
+| li | li | list_item |
+| ol | ol | ordered_list |
+| p | p | paragraph |
+| input type="radio" | radio | radio_button |
+| select | select | select_list |
+| td | td | cell |
+| textarea | textarea | text_area |
+| ul | ul | unordered_list |
 
 I am all for making the API human-friendly, that is what watir tried to do in the beginning. After a few years we have noticed that people are getting confused with the API that sometimes uses the same names as HTML, and sometimes does not.
 

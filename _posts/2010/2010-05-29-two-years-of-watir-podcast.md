@@ -20,148 +20,42 @@ The following table lists downloads since December 2009, when I started using [P
 
 I am glad to see that podcasts as old as 1 or even 2 years are still downloaded.
 
-<table border="1" margin="1em">
-<tr>
-<th>episode</th>
-<th>total/unique</th>
-</tr>
-<tr>
-<td>#34 Zhimin Zhan on TestWise</td>
-<td>70/57</td>
-</tr>
-<tr>
-<td>#33 Jake Dempsey and Brian Knorr on Watij and UISpec</td>
-<td>221/191</td>
-</tr>
-<tr>
-<td>#32 Brent Strange</td>
-<td>276/249</td>
-</tr>
-<tr>
-<td>#31 Jari Bakken and Simon Stewart on Watir 2.0, Selenium and WebDriver, Celerity and HtmlUnit</td>
-<td>379/331</td>
-</tr>
-<tr>
-<td>#30 Jim Knowlton on Using Watir for Exploratory Testing</td>
-<td>402/373</td>
-</tr>
-<tr>
-<td>#29 Bret Pettichord and Charley Baker on Past, Present and Future of Watir</td>
-<td>283/262</td>
-</tr>
-<tr>
-<td>#28 Tom Copeland on SafariWatir</td>
-<td>225/217</td>
-</tr>
-<tr>
-<td>#27 Angrez Singh on FireWatir</td>
-<td>199/188</td>
-</tr>
-<tr>
-<td>#26 Alister Scott on Watir.com</td>
-<td>1,408/448</td>
-</tr>
-<tr>
-<td>#25 Dave Hoover on SafariWatir and Software Craftsmanship</td>
-<td>206/186</td>
-</tr>
-<tr>
-<td>#24 MarekJ and Charley Baker</td>
-<td>167/166</td>
-</tr>
-<tr>
-<td>#23 Željko Filipin</td>
-<td>171/168</td>
-</tr>
-<tr>
-<td>#22 Bret Pettichord on WatirCraft</td>
-<td>168/165</td>
-</tr>
-<tr>
-<td>#21 Alister Scott on Watif</td>
-<td>158/156</td>
-</tr>
-<tr>
-<td>#20 Sai Venkatakrishnan</td>
-<td>164/154</td>
-</tr>
-<tr>
-<td>#19 Bret Pettichord on Git	</td>
-<td>143/137</td>
-</tr>
-<tr>
-<td>#18 Rick Hower on AWTA 2009</td>
-<td>129/127</td>
-</tr>
-<tr>
-<td>#17 Deniz Türkoglu on AWTA 2009</td>
-<td>137/132</td>
-</tr>
-<tr>
-<td>#16 MarekJ on AWTA 2009</td>
-<td>144/143</td>
-</tr>
-<tr>
-<td>#15 Lisa Crispin and Janet Gregory on AWTA 2009 and Agile Testing</td>
-<td>168/159</td>
-</tr>
-<tr>
-<td>#14 Steve Kim on AWTA 2009</td>
-<td>138/134</td>
-</tr>
-<tr>
-<td>#13 Alister Scott on AWTA 2009</td>
-<td>140/137</td>
-</tr>
-<tr>
-<td>#12 Bernie Miles and Stanislaw Wozniak on AWTA 2009 and Sponte</td>
-<td>125/118</td>
-</tr>
-<tr>
-<td>#11 Alan Baird on AWTA 2009</td>
-<td>120/118</td>
-</tr>
-<tr>
-<td>#10 Charley Baker on AWTA 2009</td>
-<td>131/125</td>
-</tr>
-<tr>
-<td>#9 Paul Rogers</td>
-<td>156/147</td>
-</tr>
-<tr>
-<td>#8 Alister Scott</td>
-<td>140/138</td>
-</tr>
-<tr>
-<td>#7 Bret Pettichord on FireWatir</td>
-<td>186/182</td>
-</tr>
-<tr>
-<td>#6 Tiffany Fodor</td>
-<td>155/154</td>
-</tr>
-<tr>
-<td>#5 Walter Kruse</td>
-<td>109/107</td>
-</tr>
-<tr>
-<td>#4 Jeroen van Menen on WatiN</td>
-<td>159/147</td>
-</tr>
-<tr>
-<td>#3 MarekJ</td>
-<td>159/154</td>
-</tr>
-<tr>
-<td>#2 Charley Baker</td>
-<td>124/121</td>
-</tr>
-<tr>
-<td>#1 Bret Pettichord on Watir</td>
-<td>170/164</td>
-</tr>
-</table>
+| episode | total/unique |
+|---------|-------------|
+| #34 Zhimin Zhan on TestWise | 70/57 |
+| #33 Jake Dempsey and Brian Knorr on Watij and UISpec | 221/191 |
+| #32 Brent Strange | 276/249 |
+| #31 Jari Bakken and Simon Stewart on Watir 2.0, Selenium and WebDriver, Celerity and HtmlUnit | 379/331 |
+| #30 Jim Knowlton on Using Watir for Exploratory Testing | 402/373 |
+| #29 Bret Pettichord and Charley Baker on Past, Present and Future of Watir | 283/262 |
+| #28 Tom Copeland on SafariWatir | 225/217 |
+| #27 Angrez Singh on FireWatir | 199/188 |
+| #26 Alister Scott on Watir.com | 1,408/448 |
+| #25 Dave Hoover on SafariWatir and Software Craftsmanship | 206/186 |
+| #24 MarekJ and Charley Baker | 167/166 |
+| #23 Željko Filipin | 171/168 |
+| #22 Bret Pettichord on WatirCraft | 168/165 |
+| #21 Alister Scott on Watif | 158/156 |
+| #20 Sai Venkatakrishnan | 164/154 |
+| #19 Bret Pettichord on Git | 143/137 |
+| #18 Rick Hower on AWTA 2009 | 129/127 |
+| #17 Deniz Türkoglu on AWTA 2009 | 137/132 |
+| #16 MarekJ on AWTA 2009 | 144/143 |
+| #15 Lisa Crispin and Janet Gregory on AWTA 2009 and Agile Testing | 168/159 |
+| #14 Steve Kim on AWTA 2009 | 138/134 |
+| #13 Alister Scott on AWTA 2009 | 140/137 |
+| #12 Bernie Miles and Stanislaw Wozniak on AWTA 2009 and Sponte | 125/118 |
+| #11 Alan Baird on AWTA 2009 | 120/118 |
+| #10 Charley Baker on AWTA 2009 | 131/125 |
+| #9 Paul Rogers | 156/147 |
+| #8 Alister Scott | 140/138 |
+| #7 Bret Pettichord on FireWatir | 186/182 |
+| #6 Tiffany Fodor | 155/154 |
+| #5 Walter Kruse | 109/107 |
+| #4 Jeroen van Menen on WatiN | 159/147 |
+| #3 MarekJ | 159/154 |
+| #2 Charley Baker | 124/121 |
+| #1 Bret Pettichord on Watir | 170/164 |
 
 ## Thank You
 

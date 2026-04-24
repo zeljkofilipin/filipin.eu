@@ -62,7 +62,7 @@ Disabled super-linter validators are declared in `.github/workflows/linter.yml` 
 
 - Keep changes small — each change should be scoped so it can stand on its own as a single commit.
 - No Ruby or Node on the host. Run linters and ad-hoc scripts via `docker run --rm -v "$PWD:/w" -w /w ruby:3.3 …` or the equivalent `node:20` image. Super-linter runs via the pinned image in the `Rakefile`.
-- One change per turn — apply the edit, run CI locally (Jekyll build + `ruby script/check-tags`), then hand it back for the user to commit. **Never make git commits yourself, under any circumstances.**
+- One change per turn — apply the edit, run CI locally (`rake`), then hand it back for the user to commit. **Never make git commits yourself, under any circumstances.**
 - This repo is used on several machines. Anything worth remembering across sessions belongs in **this file** (CLAUDE.md), not in per-machine Claude memory — memory is local to one installation and will be invisible on the other machines.
 
 ## Verifying mass rewrites
@@ -103,7 +103,7 @@ Surveyed 2026-04-23. Items marked **broken** are likely already visible to reade
 
 ### Broken
 - **Old image references** (~37 posts, mostly 2005–2006 era): malformed image syntax from pre-Jekyll migration. Images are probably not rendering in those posts.
-- **Feed** (`/feed.xml`): verify that `jekyll-feed` is actually generating the feed. The gem is in the Gemfile but the agent could not confirm a `feed.xml` is being produced.
+- ~~**Feed** (`/feed.xml`)~~: verified working; fixed double-slash URLs by removing trailing slash from `url` in `_config.yml`.
 - **Missing code blocks** (`HIGHLIGHTPLACEHOLDER`): `_posts/2009/2009-12-24-ruby-mail-on-cruby-jruby-and-ironruby.md` and `_posts/2010/2010-01-05-ruby-mail-and-benchmark-rb-on-cruby-jruby-ironruby-and-rubyinstaller.md` contain `HIGHLIGHTPLACEHOLDER2ENDPLACEHOLDER` / `HIGHLIGHTPLACEHOLDER3ENDPLACEHOLDER` strings where code blocks should be. Present since the first commit — original content must be recovered from the live blog or another source.
 
 ### High-impact improvements
@@ -117,3 +117,7 @@ Surveyed 2026-04-23. Items marked **broken** are likely already visible to reade
 ### Structure
 - **No pagination on `blog.md`**: all 487 posts render on one page. Will get slower as the blog grows; consider adding Jekyll pagination.
 - **Dark/light mode toggle**: current `jekyll-theme-hacker` has no runtime toggle. Consider migrating to a theme that supports it — **Chirpy** (`jekyll-theme-chirpy`) is the strongest candidate: has a built-in toggle, works as `remote_theme` on GitHub Pages, and handles tags and reading time. Migration is non-trivial (different front matter conventions and layout structure).
+
+### Tooling
+- **Markdown linting**: enable `VALIDATE_MARKDOWN` in super-linter (remove the `false` from both `linter.yml` and `Rakefile`). `.markdownlint.json` is already present and configured.
+- **Spellchecking (English + Croatian)**: add cspell as a separate CI step (`streetsidesoftware/cspell-action`) with English (default) and Croatian (`@cspell/dict-hr`) dictionaries. Extract the allowlist from `.vscode/settings.json` into a shared `cspell.config.json` at the repo root so VS Code and CI use the same config. Options to decide before implementing: (a) which files to check (`_posts/` only, or all `.md`); (b) how to handle front matter and Liquid/HTML blocks; (c) whether to also wire it into the `Rakefile` for local runs.

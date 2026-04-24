@@ -3,8 +3,6 @@ tags:  code wikimedia
 title: 'Quibble Local: Yet Another MediaWiki Local Development Environment'
 ---
 
-*Estimated reading time is 3-4 minutes.*
-
 ## MediaWiki Local Development Environments
 
 At work, I have to set up [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki) on my machine frequently. Setting up [MediaWiki Core](https://www.mediawiki.org/wiki/Core) is not a big problem. The problem is when you want to install an [extension](https://www.mediawiki.org/wiki/Manual:Extensions) or a [skin](https://www.mediawiki.org/wiki/Manual:Skins). Some extensions and some skins are easy to install and set up. Some are very complicated. Guess which ones I have to install most of the time.

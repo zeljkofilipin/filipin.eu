@@ -2,8 +2,6 @@
 tags:  image software wikimedia
 title: MediaWiki Quickstart by Monte Hurd
 ---
-*Estimated reading time is 2 minutes.*
-
 It's rare that I write about a piece of software written by a coworker. [MediaWiki Quickstart](https://gitlab.wikimedia.org/repos/test-platform/mediawiki-quickstart) is so useful that it deserves a post.
 
 Monte started the project in [2021](https://gitlab.wikimedia.org/repos/test-platform/mediawiki-quickstart/-/commit/268cf40b867266a93da1f08e3bb7b7d5d8a9a58c) and wrote the vast majority of the code. According to [contributor analytics](https://gitlab.wikimedia.org/repos/test-platform/mediawiki-quickstart/-/graphs/main?ref_type=heads) he created more than 800 commits. (I'm in the second place with just above 50 commits. The third is Peter Hedenskog with more than 10 commits.)

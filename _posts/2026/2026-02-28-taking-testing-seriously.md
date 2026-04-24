@@ -3,8 +3,6 @@ tags:  book book-club image testing
 title: Taking Testing Seriously by James Bach and Michael Bolton
 ---
 
-*Estimated reading time is 5-6 minutes.*
-
 ![Taking Testing Seriously by James Bach and Michael Bolton](assets/2026/taking-testing-seriously.jpg "Taking Testing Seriously by James Bach and Michael Bolton")
 
 ## Draft

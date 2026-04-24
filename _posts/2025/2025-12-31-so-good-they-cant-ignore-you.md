@@ -2,8 +2,6 @@
 tags:  book image productivity
 title: So Good They Can't Ignore You by Cal Newport
 ---
-*Estimated reading time is 5 minutes.*
-
 ![So Good They Can't Ignore You by Cal Newport](assets/2025/so-good-they-cant-ignore-you.jpg "So Good They Can't Ignore You by Cal Newport")
 
 ## Introduction

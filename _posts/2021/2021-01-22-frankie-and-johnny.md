@@ -1,5 +1,5 @@
 ---
-tags:  facebook featured image video youtube
+tags:  facebook featured image macos video youtube
 title: Frankie and Johnny
 ---
 # Instruments

@@ -2,18 +2,18 @@
 tags:  testing
 title: Bug That Has Lived Two Years and a Day
 ---
-<span lang="EN-GB">A few weeks ago, my colleague resolved a case that was opened for two years and one day. It was minor bug (priority 4), but that does not matter. Our application has changed so much in that two years that, of course, it was not reproducible. But that does not matter, either.</span>
+A few weeks ago, my colleague resolved a case that was opened for two years and one day. It was minor bug (priority 4), but that does not matter. Our application has changed so much in that two years that, of course, it was not reproducible. But that does not matter, either.
 
-<span lang="EN-GB">What matters is - that bug was open for over a two years.</span>
+What matters is - that bug was open for over a two years.
 
-<span lang="EN-GB">At that time, I just have read Joel Spolsky's [The Joel Test: 12 Steps to Better Code](http://joelonsoftware.com/articles/fog0000000043.html). There is question: "Do you fix bugs before writing new code?" No. To be honest, we did not have a feature freeze for a while.</span>
+At that time, I just have read Joel Spolsky's [The Joel Test: 12 Steps to Better Code](http://joelonsoftware.com/articles/fog0000000043.html). There is question: "Do you fix bugs before writing new code?" No. To be honest, we did not have a feature freeze for a while.
 
-<span lang="EN-GB">Isn't it demotivating to know that bug that you have reported would not be looked at for a while. When will it be resolved? Better not to think about it. I pointed that to my developer, and he promised that he would do his best. </span>
+Isn't it demotivating to know that bug that you have reported would not be looked at for a while. When will it be resolved? Better not to think about it. I pointed that to my developer, and he promised that he would do his best.
 
-<span lang="EN-GB">Since then, he was closing many bugs. Just this morning, he said that he has resolved all bugs with priorities 1, 2 and 3 (showstopper, critical and major). I immediately checked our bug tracking software (all testers *know* that developers cannot be trusted :)). Then, I have built the latest version of our application and verified that all bugs are resolved.</span>
+Since then, he was closing many bugs. Just this morning, he said that he has resolved all bugs with priorities 1, 2 and 3 (showstopper, critical and major). I immediately checked our bug tracking software (all testers *know* that developers cannot be trusted :)). Then, I have built the latest version of our application and verified that all bugs are resolved.
 
-<span lang="EN-GB">There are still over one hundred open bugs, but they are all minor and trivial (priorities 4 and 5). I think that we did not have this situation since I started working here. Over two years.</span>
+There are still over one hundred open bugs, but they are all minor and trivial (priorities 4 and 5). I think that we did not have this situation since I started working here. Over two years.
 
-<span lang="EN-GB">I have a strange feeling now. I am so motivated to find new bugs. I have noticed some strange behaviour in our application, but I did not have time to look into it. Until know.</span>
+I have a strange feeling now. I am so motivated to find new bugs. I have noticed some strange behaviour in our application, but I did not have time to look into it. Until know.
 
-<span lang="EN-GB">There is *always* one more bug[\*](http://www.catb.org/jargon/html/L/Lubarskys-Law-of-Cybernetic-Entomology.html).</span>
+There is *always* one more bug[\*](http://www.catb.org/jargon/html/L/Lubarskys-Law-of-Cybernetic-Entomology.html).

@@ -75,7 +75,7 @@ Jekyll output contains timestamp lines (`article:published_time`, schema.org JSO
 
 ## HTML to Markdown cleanup
 
-Converting remaining HTML to Markdown in `_posts/`, one tag type per commit. Counts are raw tag occurrences across all posts (surveyed 2026-04-24).
+Converting remaining HTML to Markdown in `_posts/`, one tag type per commit — all affected files for that tag in a single commit, not one file per commit. Counts are raw tag occurrences across all posts (surveyed 2026-04-24).
 
 ### Todo (in order)
 - [x] `<code>` (21) — inline code → `` `text` `` (skip occurrences inside HTML `<td>` cells)
@@ -86,7 +86,7 @@ Converting remaining HTML to Markdown in `_posts/`, one tag type per commit. Cou
 - [x] `<a>` (225) → `[text](url)` where cleanly convertible
 - [x] `<ul>`/`<li>` (27) → Markdown list syntax
 - [x] HTML tables (~10 tables in 6 posts) → Markdown pipe tables: `2009/ruby-mail-on-cruby-jruby-and-ironruby.md` (1), `2010/ruby-mail-and-benchmark-rb-on-cruby-jruby-ironruby-and-rubyinstaller.md` (3), `2012/page-object-api-should-be-more-similar-to-watir-api.md` (1), `2010/postfix-logs-bash.md` (2, have `<code>` in cells), `2010/two-years-of-watir-podcast.md` (1), `2007/repeat-feature-of-microsoft-excel.md` (2)
-- [ ] `<span>` (~15 occurrences in ~7 posts, 2006–2008 era) — Blogger export artifacts (`lang="EN-GB"`, `class="entry-author-name"`, etc.); strip tags, keep content
+- [x] `<span>` (~15 occurrences in ~7 posts, 2006–2008 era) — Blogger export artifacts (`lang="EN-GB"`, `class="entry-author-name"`, etc.); strip tags, keep content
 - [ ] `<h4>` (2 occurrences) → `####`: `2007/extend-watir.md`, `2007/find-element-by-xpath.md`
 - [ ] Removable `<div>` (2 cases): watermark comment in `2024/podcasts-in-2024.md` line 67; example HTML divs in `2012/watir-nokogiri.md` lines 17–20 (move into `{% highlight html %}` block)
 

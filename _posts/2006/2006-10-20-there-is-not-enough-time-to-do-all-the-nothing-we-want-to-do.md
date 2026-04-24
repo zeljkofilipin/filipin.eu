@@ -12,6 +12,6 @@ Then I joined [testingReflections](http://www.testingreflections.com/blog/3071) 
 
 Finally I found [WordPress](http://wordpress.org/) blogging software, bought a domain, a friend of mine had some hosting he was currently not using, and here I am.
 
-Today I was pleasantly surprised when I saw that <span class="entry-author-name">Brent </span>Strange [pointed](http://qainsight.net/2006/10/20/Software+Is+Like+Sausage.aspx) to my blog. Thanks Bret. Blogging takes time, but I think it makes sense if it is "adding value". Although it never crossed my mind that Ruby and Watir are "the dark side". :)
+Today I was pleasantly surprised when I saw that Brent Strange [pointed](http://qainsight.net/2006/10/20/Software+Is+Like+Sausage.aspx) to my blog. Thanks Bret. Blogging takes time, but I think it makes sense if it is "adding value". Although it never crossed my mind that Ruby and Watir are "the dark side". :)
 
 Why this title? I want to write about lots of interesting things, but I do have to do some real work. By the way, [Bill Watterson](http://www.brainyquote.com/quotes/quotes/b/billwatter163166.html) said "There is not enough time to do all the nothing we want to do." (via Gmail Web Clips).

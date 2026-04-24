@@ -87,8 +87,8 @@ Converting remaining HTML to Markdown in `_posts/`, one tag type per commit — 
 - [x] `<ul>`/`<li>` (27) → Markdown list syntax
 - [x] HTML tables (~10 tables in 6 posts) → Markdown pipe tables: `2009/ruby-mail-on-cruby-jruby-and-ironruby.md` (1), `2010/ruby-mail-and-benchmark-rb-on-cruby-jruby-ironruby-and-rubyinstaller.md` (3), `2012/page-object-api-should-be-more-similar-to-watir-api.md` (1), `2010/postfix-logs-bash.md` (2, have `<code>` in cells), `2010/two-years-of-watir-podcast.md` (1), `2007/repeat-feature-of-microsoft-excel.md` (2)
 - [x] `<span>` (~15 occurrences in ~7 posts, 2006–2008 era) — Blogger export artifacts (`lang="EN-GB"`, `class="entry-author-name"`, etc.); strip tags, keep content
-- [ ] `<h4>` (2 occurrences) → `####`: `2007/extend-watir.md`, `2007/find-element-by-xpath.md`
-- [ ] Removable `<div>` (2 cases): watermark comment in `2024/podcasts-in-2024.md` line 67; example HTML divs in `2012/watir-nokogiri.md` lines 17–20 (move into `{% highlight html %}` block)
+- [x] `<h4>` (2 occurrences) — both are inside `{% highlight html %}` code blocks in `2007/extend-watir.md` and `2007/find-element-by-xpath.md`; no conversion needed
+- [x] Removable `<div>` (2 cases): watermark comment in `2024/podcasts-in-2024.md` removed; `2012/watir-nokogiri.md` divs were already inside `{% highlight html %}` block
 
 ### Not converting (keep as HTML)
 - `<iframe>` (280) — embedded YouTube/Facebook, no Markdown equivalent

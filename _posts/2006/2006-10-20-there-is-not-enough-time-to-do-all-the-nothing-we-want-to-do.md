@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO productivity
 title: There is not enough time to do all the nothing we want to do.
 ---
 I noticed that I am writing mostly about tools that I use. Well, I guess it makes sense. I think that tools make you efficient. Not only tools for testing, but also good e-mail client, good feed reader...

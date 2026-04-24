@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO productivity
 title: The Way I Like My Windows
 ---
 I created this reminder the last time I reinstalled Windows XP but it never got out of drafts. Since Windows XP Service Pack 3 will be out soon, I will need this again.

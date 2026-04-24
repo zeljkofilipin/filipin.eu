@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO productivity
 title: Google Toolbar for Firefox
 ---
 I just love Google Toolbar for Firefox. One of the best features is spelling checker for English. I am not a native speaker, so that feature is very useful to me. All you have to do is click a button and Firefox checks all text in web forms. Try it!

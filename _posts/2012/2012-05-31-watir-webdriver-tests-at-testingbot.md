@@ -3,7 +3,7 @@ tags:  code ruby
 title: watir-webdriver tests at TestingBot
 ---
 ![Random photo: Varaždin, Croatia.](/assets/2012/watir-webdriver-tests-at-testingbot.jpg "Random photo: Varaždin, Croatia.")
-<p><em>To make it explicit: I am not affiliated with <a href="http://testingbot.com/">TestingBot</a> or <a href="http://saucelabs.com/">Sauce Labs</a>.</em></p>
+*To make it explicit: I am not affiliated with <a href="http://testingbot.com/">TestingBot</a> or <a href="http://saucelabs.com/">Sauce Labs</a>.*
 <p>A few days ago I wrote about <a href="/watir-webdriver-and-sauce-labs-ondemand/">how to run watir-webdriver tests at Sauce Labs OnDemand</a>. I have also noticed that <a href="watir-webdriver-tests-are-pretty-slow-at-sauce-labs-ondemand/">watir-webdriver tests are pretty slow at Sauce Labs OnDemand</a>.</p>
 <p>Jari Bakken <a href="https://twitter.com/jarib/status/206495033979961344">suggested to use net-http-persistent</a> gem to speed things up. Jochen Delabie suggested I should try TestingBot. So, I have decided to try both.</p>
 <p>TestingBot is pretty much the same service as <a href="http://saucelabs.com/ondemand">Sauce Labs OnDemand</a>. There is also 200 minutes of free trial, and the prices are a bit lower than Sauce Labs OnDemand. If you have used Sauce Labs OnDemand, TestingBot will look familiar. If you have not used Sauce Labs OnDemand, read the last couple of articles I have wrote here.</p>
@@ -50,7 +50,7 @@ watir-webdriver tests at TestingBot : local, sauce labs, testingbot
 |testingbot|Windows 2008|firefox 11|FALSE                |31 |35 |31 |33 |30 |33 |31 |32 |31 |33 |32     |32    |1        |30 |35 |                                           |1.8                      |
 |testingbot|Windows 2008|firefox 11|TRUE                 |30 |33 |31 |31 |30 |30 |30 |31 |31 |31 |31     |31    |1        |30 |33 |4                                          |1.9                      |
 
-<p><em>(I could not figure out how to make the last two columns display rounded numbers.)</em></p>
+*(I could not figure out how to make the last two columns display rounded numbers.)*
 <p>What do the numbers say?</p>
 <p>net-http-persistent gem this time helped to reduce test run time up to 10%, but other tests showed up to 15% shorter times.</p>
 <p>TestingBot is still about 2 times slower than running a local browser, but Sauce Labs OnDemand is about 4 times slower. So, running tests at TestingBot is about 2 times faster than at Sauce Labs OnDemand.</p>

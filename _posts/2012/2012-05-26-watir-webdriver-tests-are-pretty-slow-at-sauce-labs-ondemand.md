@@ -45,7 +45,7 @@ browser.close
 |          |            |chrome    |TRUE                     |88 |61 |60 |90 |63 |59 |84 |61 |60 |63 |69     |62    |11       |59 |90 |
 |          |            |          |FALSE                    |67 |58 |70 |58 |58 |61 |65 |64 |83 |57 |64     |63    |6        |57 |83 |
 
-<p>The script that just opens the browser, visits 9 pages and closes the browser takes 14 seconds on average at my machine. Exactly the same script at Sauce Labs OnDemand takes on average 55-69 seconds with default settings, and 48-64 seconds with everything disabled. So, the script <em>is</em> a bit faster when everything is disabled, but unfortunately, just a bit.</p>
+The script that just opens the browser, visits 9 pages and closes the browser takes 14 seconds on average at my machine. Exactly the same script at Sauce Labs OnDemand takes on average 55-69 seconds with default settings, and 48-64 seconds with everything disabled. So, the script *is* a bit faster when everything is disabled, but unfortunately, just a bit.
 <p>The entire script is here:</p>
 
 {% highlight ruby %}

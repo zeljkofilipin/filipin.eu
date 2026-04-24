@@ -79,9 +79,9 @@ Converting remaining HTML to Markdown in `_posts/`, one tag type per commit. Cou
 
 ### Todo (in order)
 - [x] `<code>` (21) — inline code → `` `text` `` (skip occurrences inside HTML `<td>` cells)
-- [ ] `<blockquote>` (14) → `> text`
-- [ ] `<strong>` (6) → `**text**`
-- [ ] `<em>` (3) → `*text*`
+- [x] `<blockquote>` (14) — all are Twitter tweet embeds, not content; keep as HTML
+- [x] `<strong>` (6) — all inside SlideShare embed HTML; keep as HTML
+- [x] `<em>` (3) → `*text*`
 - [ ] `<br>` (2) → remove or blank line
 - [ ] `<a>` (225) → `[text](url)` where cleanly convertible
 - [ ] `<ul>`/`<li>` (27) → Markdown list syntax

@@ -85,6 +85,7 @@ Surveyed 2026-04-23. Items marked **broken** are likely already visible to reade
 - **Orphaned assets**: ~288 image files in `assets/` are never referenced by any post. Could be deleted to reduce repo size (verify before bulk delete).
 
 ### Content / editorial
+- **`_tags/TODO.md`**: no post uses the `TODO` tag anymore — this file can be deleted.
 - **Thin tags**: `chess`, `commons`, `scratch` (handful of posts each). Either write more in those areas or retire the tags.
 
 ### Structure

@@ -11,7 +11,7 @@
   "postCreateCommand": "bash -c 'set -e; install -d -m 0755 /etc/apt/keyrings; curl -fsSL https://downloads.claude.ai/keys/claude-code.asc -o /etc/apt/keyrings/claude-code.asc; echo \"deb [signed-by=/etc/apt/keyrings/claude-code.asc] https://downloads.claude.ai/claude-code/apt/stable stable main\" > /etc/apt/sources.list.d/claude-code.list; apt-get update; apt-get install -y claude-code; git config --global --add safe.directory /workspace; ruby -e \"require \\\"json\\\"; path = File.expand_path(\\\"~/.claude/settings.json\\\"); data = File.exist?(path) ? JSON.parse(File.read(path)) : {}; (data[\\\"permissions\\\"] ||= {})[\\\"defaultMode\\\"] = \\\"bypassPermissions\\\"; File.write(path, JSON.pretty_generate(data))\"'",
   "customizations": {
     "vscode": {
-      "extensions": ["Shopify.ruby-lsp"]
+      "extensions": ["Shopify.ruby-lsp", "streetsidesoftware.code-spell-checker", "davidanson.vscode-markdownlint"]
     }
   }
 }

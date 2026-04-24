@@ -116,3 +116,4 @@ Surveyed 2026-04-23. Items marked **broken** are likely already visible to reade
 
 ### Structure
 - **No pagination on `blog.md`**: all 487 posts render on one page. Will get slower as the blog grows; consider adding Jekyll pagination.
+- **Dark/light mode toggle**: current `jekyll-theme-hacker` has no runtime toggle. Consider migrating to a theme that supports it — **Chirpy** (`jekyll-theme-chirpy`) is the strongest candidate: has a built-in toggle, works as `remote_theme` on GitHub Pages, and handles tags and reading time. Migration is non-trivial (different front matter conventions and layout structure).

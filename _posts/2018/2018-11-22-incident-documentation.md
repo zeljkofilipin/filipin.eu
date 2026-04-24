@@ -37,19 +37,19 @@ This was relatively simple task. The best source of information is [Developers/M
 
 This was also easy. [Selenium/Node.js](https://www.mediawiki.org/wiki/Selenium/Node.js) page has list of repositories that have tests in Node.js. I already had all repositories with Node.js and Ruby tests on my machine, so a quick search for `webdriverio` (Node.js) and `mediawiki_selenium` (Ruby) found all the tests. In order to be really sure I've found all repositories with tests, I've [cloned all repositories from Gerrit](https://github.com/zeljkofilipin/gerrit).
 
-```
+{% highlight shell %}
 $ ack --json webdriverio
 extensions/Echo/package.json
 27:        "webdriverio": "4.12.0"
 ...
-```
+{% endhighlight %}
 
-```
+{% highlight shell %}
 $ ack --type-add=lock:ext:lock --lock mediawiki_selenium
 skins/MinervaNeue/Gemfile.lock
 42:    mediawiki_selenium (1.7.3)
 ...
-```
+{% endhighlight %}
 
 To make extra sure I have not missed any repositories, I've used MediaWiki code search ([mediawiki_selenium](https://codesearch.wmflabs.org/search/?q=mediawiki_selenium), [webdriverio ](https://codesearch.wmflabs.org/search/?q=webdriverio)) and GitHub search ([org:wikimedia extension:lock mediawiki_selenium](https://github.com/search?q=org%3Awikimedia+extension%3Alock+mediawiki_selenium), [org:wikimedia extension:json webdriverio](https://github.com/search?q=org%3Awikimedia+extension%3Ajson+webdriverio)).
 

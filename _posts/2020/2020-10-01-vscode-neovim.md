@@ -22,9 +22,9 @@ Installing VSCode is simple, download the installer from the site.
 
 Installing Neovim should also be simple. I've installed it on a Mac using [Homebrew](https://brew.sh/) and all I needed to do was:
 
-```shell
+{% highlight shell %}
 brew install --HEAD neovim
-```
+{% endhighlight %}
 
 `--HEAD` part is important. It will install version 0.5. If you don't use `--HEAD` you will get version 0.4. vscode-neovim needs version 0.5.
 

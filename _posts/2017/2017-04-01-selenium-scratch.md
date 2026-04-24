@@ -22,7 +22,7 @@ So, how does a simple Selenium test look like? The following code examples are f
 
 [Ruby Bindings](https://github.com/SeleniumHQ/selenium/wiki/Ruby-Bindings)
 
-```ruby
+{% highlight ruby %}
 require "selenium-webdriver" # require Selenium bindings
 
 driver = Selenium::WebDriver.for :firefox # open Firefox
@@ -35,11 +35,11 @@ element.submit # submit the element
 puts driver.title # output page title
 
 driver.quit # close Firefox
-```
+{% endhighlight %}
 
 [JavaScript Bindings](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs)
 
-```javascript
+{% highlight javascript %}
 const {Builder, By, until} = require('selenium-webdriver'); // require Selenium bindings
 
 let driver = new Builder()
@@ -51,7 +51,7 @@ driver.findElement(By.name('q')).sendKeys('webdriver'); // send text to element 
 driver.findElement(By.name('btnG')).click(); // click element with name btnG
 driver.wait(until.titleIs('webdriver - Google Search'), 1000); // wait until page title matches the string
 driver.quit(); // close Firefox
-```
+{% endhighlight %}
 
 The basics are:
 - opening and closing a browser,

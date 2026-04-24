@@ -139,7 +139,7 @@ Surveyed 2026-04-23. Items marked **broken** are likely already visible to reade
   - **Step 2 — fix real errors** (1184 before / 1012 after disabling false positives; surveyed 2026-04-24), one rule per commit:
     - [x] MD060 table-column-style (472, all in one file) — disabled: rule conflicts with empty cells in data tables; no rendered difference
     - [x] MD010 no-hard-tabs (151) — disabled: tabs are inside `{% highlight %}` code blocks; replacing them changes rendered indentation in code samples
-    - [ ] MD036 emphasis-as-heading (118 — bold used as heading substitute; needs manual review)
+    - [x] MD036 emphasis-as-heading (118) — `**bold**` standalone lines → `##`; italic book quotes → `>` blockquotes; italic asides suppressed with `markdownlint-disable-next-line`
     - [ ] MD034 bare-urls (64 — wrap in `<url>` or `[text](url)`)
     - [ ] MD030 list-marker-space (62 — auto-fixable)
     - [ ] MD047 single-trailing-newline (30 — auto-fixable)

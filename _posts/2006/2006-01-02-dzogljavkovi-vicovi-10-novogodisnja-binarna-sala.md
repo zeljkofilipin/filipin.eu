@@ -6,4 +6,4 @@ title: "Đžogljavkovi vicovi (10): novogodišnja binarna šala"
 
 Na svijetu postoji 10 vrsta ljudi. Oni koji znaju binarni sustav i oni koji ga ne znaju.
 
-**Sretan Božić i (n)ova godina! :)**
+## Sretan Božić i (n)ova godina! :)

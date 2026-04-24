@@ -14,34 +14,34 @@ I am always struggling with notes, but I think I am slowly improving. While I wa
 
 I will mention a few lessons by name and write a few sentences about it. I have written down numbers of 17 lessons, but I do not have the time to write about all of them, so I will pick just a few.
 
-**From chapter 8: Managing the Testing Project**
+## From chapter 8: Managing the Testing Project
 
-*189: There is no right ratio of testers to other developers*
+### 189: There is no right ratio of testers to other developers
 
 I have often heard people talking about tester/developer ratio. It is just a number. It means different things in different contexts.
 
-**From chapter 10: Your Career in Software Testing**
+## From chapter 10: Your Career in Software Testing
 
-*251: Conferences are for conferring*
+### 251: Conferences are for conferring
 
 If you follow my blog, you have surely noticed that I try to attend as many local and international conferences and meetups as possible. I have learned a lot of stuff in official parts of the conference, and met a lot of nice people in unofficial parts, mostly over a beer.
 
-*252: Lots of other companies are as screwed up as yours*
+### 252: Lots of other companies are as screwed up as yours
 
 Literally today in an e-mail exchange a colleague said "there is a lot of chaos in my company". My reply was that, from my experience, CDD (chaos driven development) is the most popular software development methodology. You can officially call it whatever you like.
 
-*266: Learn Perl*
+### 266: Learn Perl
 
 The choice of this lesson could be strange having in mind that for the last few years I earn my living by writing Ruby, but the point of the lesson was not to learn Perl, but any scripting language. I could not agree more. When you learn a scripting language you gain [superpowers](http://xkcd.com/208/) that you did not even know about. True story.
 
-*269: Improve your writing skills*
+### 269: Improve your writing skills
 
 In case it is not obvious, I am doing it right now. Please note that I am also doing it in a foreign language. Not an easy thing, trust me.
 
-*270: Improve your public speaking skills*
+### 270: Improve your public speaking skills
 
 I am often speaking at local and international conferences and meetups. I have had pretty bad talks, but also pretty good ones. I like to think I am improving.
 
-*272: If you can get a black belt in only two weeks, avoid fights*
+### 272: If you can get a black belt in only two weeks, avoid fights
 
 This lesson is about certifications. If you can get a certification after learning a few days or weeks, do not be surprised if nobody values it. There is a reason people go to school for years.

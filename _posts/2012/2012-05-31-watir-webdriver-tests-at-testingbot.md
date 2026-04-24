@@ -56,6 +56,7 @@ watir-webdriver tests at TestingBot : local, sauce labs, testingbot
 |testingbot|Windows 2008|firefox 11|FALSE                |31 |35 |31 |33 |30 |33 |31 |32 |31 |33 |32     |32    |1        |30 |35 |                                           |1.8                      |
 |testingbot|Windows 2008|firefox 11|TRUE                 |30 |33 |31 |31 |30 |30 |30 |31 |31 |31 |31     |31    |1        |30 |33 |4                                          |1.9                      |
 
+<!-- markdownlint-disable-next-line MD036 -->
 *(I could not figure out how to make the last two columns display rounded numbers.)*
 
 What do the numbers say?

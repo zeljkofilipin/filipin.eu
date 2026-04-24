@@ -2,7 +2,7 @@
 tags:  image podcast
 title: How to Find, Listen, Record, Edit and Publish a Podcast
 ---
-**What-cast?**
+## What-cast?
 
 [Podcast](http://en.wikipedia.org/wiki/Podcast) is a file with audio or video content, distributed over the internet. The name comes from iPod and broadcast.
 
@@ -10,7 +10,7 @@ Podcast is a radio show recorded as an audio file, usually mp3. If you record a 
 
 Of course, if you have the equipment, the will and really really really lot of time, besides the audio, you can also record video. Video recording and editing is a lot more complicated and time consuming when compared to audio, and I will focus only on audio podcasts.
 
-**Where do they live?**
+## Where do they live?
 
 ![store](/assets/store-300x213.jpg "store")
 
@@ -30,7 +30,7 @@ If you know there is a podcast, but you can not find it in iTunes Store, you can
 
 If you do not see podcasts in iTunes Store, check if you are in United States store (there is a flag in the bottom right part of the screen, click it). Unfortunately, some stores, including Croatia, do not have podcasts.
 
-**Listen**
+## Listen
 
 ![ipods](/assets/ipods-300x156.png "ipods")
 
@@ -40,7 +40,7 @@ Podcast is just an audio (or video) file, so you can play it on any device that 
 
 You can copy files downloaded with iTunes (or acquired some other way) to your portable media player. Copying podcasts from iTunes to iPod is really easy. Follow the instructions that came with the device.
 
-**Record**
+## Record
 
 Of course, like every true geek, it is not enough just to enjoy a technology, you have to try it yourself. How to create a podcast? There is a few things you should know, but it is not complicated procedure.
 
@@ -62,7 +62,7 @@ If you can hear yourself, but it is not loud enough, play with sound settings of
 
 If you do not hear anything, Audacity probably is not recording from the microphone. Check the settings if input device is set to microphone.
 
-**Edit**
+## Edit
 
 In most cases, after the recording you do not have to edit the podcast a lot. You can even publish it just as it is recorded. I always at least listen to every podcast before I publish it. I mostly record conversations over Skype and more often that not the delay between question and answer is a few seconds longer that with in person conversation. That is really noticeable if the other person is on another continent. I cut such long pauses. Cutting is the action that you will be performing most of the time. If you say something stupid, cough, telephone rings or if you record a sound that you do not want in the podcast, find it and delete it. If you do not like a part of podcast, you can delete a few minutes. There is no limit. You can delete it all.
 
@@ -92,7 +92,7 @@ Wav and aiff files are not compressed and hence are large. They should be compre
 
 After your the first podcast is in mp3 file, you are done with editing. Listen to it and enjoy the fruits of your labor.
 
-**Publish**
+## Publish
 
 Recorded podcast will not get you fame and fortune if it is located only on your computer. You must publish it on internet. If you speak HTML like you have lived there, skip this chapter. If you need help, continue reading.
 
@@ -116,6 +116,6 @@ The easiest way to manage files at S3 is with Firefox add-on [S3Fox](https://add
 
 After you have set up the web site and created the first post with a podcast, you still do not have any listeners. You can use your usual way of getting audience. Post a link to the podcast site at your blog, or one of the social networking sites that you use, or at a forum that is related to the content of the podcast... You should submit the podcast to a podcast directory. The biggest one is [iTunes Store](https://phobos.apple.com/WebObjects/MZFinance.woa/wa/publishPodcast).
 
-**Conclusion**
+## Conclusion
 
 Now you know what is podcast, how to find and listen to them, and how to record, edit and publish them. I hope this podcast will help spread the word, both how to listen and how to create them. If you want to find more information on podcasts, I am sure you will not have a lot of trouble with that.

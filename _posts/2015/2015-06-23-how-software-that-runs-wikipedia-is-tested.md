@@ -14,7 +14,7 @@ What were the problems that we wanted to solve? Communication, maintainability, 
 
 Anybody surprised that the biggest problem in a software project is communication? Exactly. It is hard to know what to test, it is hard to let other people know what is tested and what is the result.
 
-*Solution*
+## Solution
 
 [Cucumber](http://cukes.info/). You can ask the people that know what needs to be tested to write examples in any natural language. When the test runs, Cucumber creates nice reports that anybody can read.
 
@@ -34,7 +34,7 @@ Feature: Log in
 
 Were you a part of test automation project that failed because the test code was not maintainable? Exactly. Test code is like any other code, you have to make sure it easy to maintain.
 
-*Solution*
+## Solution
 
 The [Page Object pattern](https://code.google.com/p/selenium/wiki/PageObjects). It is a simple solution. Every page in the application is represented by one class.
 
@@ -75,7 +75,7 @@ Could this simple pattern be so useful? It could. For more information take a lo
 
 Once upon a time, browser automation was a hard problem. I think it is solved now. There are plenty of open source and commercial tools that automate all major browsers on all major operating systems. Even mobile browsers and native applications.
 
-*Solution*
+## Solution
 
 [Selenium](http://docs.seleniumhq.org/). To be more precise Selenium WebDriver. To be even more precise, we use [selenium-webdriver](http://rubygems.org/gems/selenium-webdriver) Ruby gem.
 
@@ -83,7 +83,7 @@ Once upon a time, browser automation was a hard problem. I think it is solved no
 
 Do you know how many combinations of major browsers, operating systems and their versions you should test? Do you know how hard it is to maintain computers or virtual machines with all those combinations? Exactly.
 
-*Solution*
+## Solution
 
 [Sauce Labs](https://saucelabs.com/docs/platforms). They support everything we need, and more.
 
@@ -91,7 +91,7 @@ Do you know how many combinations of major browsers, operating systems and their
 
 We needed a way for our work to be visible to our coworkers, but also to anybody else. Yes, anybody.
 
-*Solution*
+## Solution
 
 There are several solutions to the problem.
 
@@ -103,7 +103,7 @@ Code is hosted in [Gerrit](https://gerrit.wikimedia.org/) and there are [GitHub 
 
 MediaWiki consists of core and extensions, a usual practice. Every extension has a separate Git repository. Several extensions have Selenium tests and there was code that was copy/pasted from one repository to the other. There has to be a better way, right?
 
-*Solution*
+## Solution
 
 We have created [mediawiki_selenium](https://rubygems.org/gems/mediawiki_selenium) and [mediawiki_api](https://rubygems.org/gems/mediawiki_api) Ruby gems.
 
@@ -111,7 +111,7 @@ We have created [mediawiki_selenium](https://rubygems.org/gems/mediawiki_seleniu
 
 Did you notice that Selenium tests take a long time to run? I did too. We have tried to speed up the test using several optimizations, but they are still slow. The only way to really speed them up is to run them in parallel. I had good results with it on several projects.
 
-*Solution*
+## Solution
 
 We are not there yet. When the time comes, we will probably use [parallel_tests](https://github.com/grosser/parallel_tests) Ruby gem.
 
@@ -119,7 +119,7 @@ We are not there yet. When the time comes, we will probably use [parallel_tests]
 
 Are you surprised that an open source project is looking for help? Surprisingly (at least to me) more people would like to write production code instead of test code. If you would like to be on the testing side, read on.
 
-*Solution*
+## Solution
 
 If you would like to get involved, the best way to get started is to join our [mailing list](https://lists.wikimedia.org/mailman/listinfo/qa) and [introduce yoursef](http://lists.wikimedia.org/pipermail/qa/2013-May/000003.html). We have a lot of opportunities for volunteering or internships.
 
@@ -127,7 +127,7 @@ If you would like to get involved, the best way to get started is to join our [m
 
 I have left an interesting problem for the end. How many times a day do you hear people say: "works at my machine"? I do not think I should go into a lot of detail explaining the problem. It should be familiar to anybody involved in software development. Sometimes software works on one machine but not on the other. Sometimes it is hard to tell why.
 
-*Solution*
+## Solution
 
 Since this is not a simple problem, we have several solutions for it.
 

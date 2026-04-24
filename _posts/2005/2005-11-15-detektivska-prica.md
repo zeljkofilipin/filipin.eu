@@ -8,6 +8,7 @@ Jučer smo Đžogljavko i ja riješili težak slučaj. Bilo je tu puno akcije, i
 
 Testiram jednu lijepu aplikaciju. Svakim danom je sve ljepša. Dodaju se nove funkcionalnosti, poboljšavaju stare, čisti se kod, testira se sve u šesnaest... Dodao sam nekoliko novih testova za dokumente. Isprobao svakog od njih pojedinačno. Sve lijepo radi. Pustio ih sve skupa. Javi mi grešku "nešto se sprčkalo u bazi". Lijepo. Znači svaki test prolazi pojedinačno, ali neka kombinacija uzrokuje grešku. Bacim oko na testove.
 
+<!-- markdownlint-disable-next-line MD036 -->
 *(Neću objašnjavati u detalje testova. Bitno je to da se stvari odvijaju u nečemu zvanom zajednica, koja je moderirana. Moderirana znači da većinu stvari koje član napravi mora odobriti moderator. Moderator mi je ružna riječ pa ću ga zvati gazda.)*
 
 **član**: dodaj dokument

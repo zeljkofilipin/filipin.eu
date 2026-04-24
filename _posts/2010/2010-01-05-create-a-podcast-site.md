@@ -2,17 +2,17 @@
 tags:  image podcast
 title: Create a Podcast Site
 ---
-**Introduction**
+## Introduction
 
 For more than a year I had a half finished blog post on how to create a podcast site. I never had the time to finish and publish it. Recently I had to create a podcast site and now is the chance to finish it. If I do not do it now, I probably never will.
 
 I have already blogged [on podcasts and podcasting](/how-to-find-listen-record-edit-and-publish-a-podcast/) and I just mentioned creating a site. Now I want to get into detail.
 
-**Hosting**
+## Hosting
 
 You can host the podcast at [blogger.com](http://blogger.com/) or [wordpress.com](http://wordpress.com/) but I would recommend a cheap shared hosting. It gives you way more flexibility. You can host [wordpress.org](http://wordpress.org/) based site on almost any cheap shared hosting.
 
-**Domain**
+## Domain
 
 Pick a domain. Make it short and relevant to the topic of the podcast. Please do not use www in front of the domain. Also, dashes in domain name are so 2009. I would recommend com domains. For example, a good name for a podcast on Watir is Watir Podcast. It is trivial to create a domain from such name: watirpodcast.com. Both the name of the site and the name of the domain make it clear what is the topic of the podcast.
 
@@ -26,7 +26,7 @@ To create a subdomain, log in to cPanel (or whatever software you get with hosti
 
 ![subdomain](/assets/2010/create-a-podcast-site/subdomain-300x199.jpg "subdomain")
 
-**Install WordPress**
+## Install WordPress
 
 cPanel has Fantastico script that makes installing WordPress trivial. Go to `Software/Services > Fantastico De Luxe > Blogs > WordPress > New Installation` and finish the wizard.
 
@@ -40,7 +40,7 @@ Go to [testertested.testingpodcast.com](http://testertested.testingpodcast.com/)
 
 ![testertested](/assets/2010/create-a-podcast-site/testertested-300x239.jpg "testertested")
 
-**Theme**
+## Theme
 
 The site is up, but there is still some work to be done. Please, change the theme. Log in and go to `Appearance > Add New Themes`.
 
@@ -54,7 +54,7 @@ Much better.
 
 You can configure the theme at `Appearance > Atahualpa Theme Options`. I do not have any design talent, so I tend not to mess with the theme.
 
-**Configure WordPress**
+## Configure WordPress
 
 There are a few tweaks to WordPress that you should do.
 
@@ -68,7 +68,7 @@ At `Settings > Permalinks` I set `Common settings > Custom Structure` to `/%post
 
 At `Settings > Miscellaneous` I uncheck `Organize my uploads into month- and year-based folders`.
 
-**Plugins**
+## Plugins
 
 There a few plugins that you just have to have.
 
@@ -88,23 +88,23 @@ Go to `Settings > FeedBurner` and enter `http://feeds.feedburner.com/TestingStor
 
 I think we are done with plugins for now.
 
-**Podtrac**
+## Podtrac
 
 You will need a good statistics on podcast downloads. Create [Podtrac](http://www.podtrac.com/) account (click `Podcasters`). Log in, click link `Register a New Podcast >>>` and finish the wizard.
 
-**Links**
+## Links
 
 Everything is set up, but there is no content. Delete all default links at `Links > Edit`. Add link to your blog or site.
 
-**Pages**
+## Pages
 
 You probably need only one page: About. Add your image and short description of the site there.
 
-**Users**
+## Users
 
 Create new users at `Users > Add New` if you are not the only one editing the site.
 
-**Posts**
+## Posts
 
 Rename the default `Uncategorized` category to `Podcast` at `Posts > Categories`. Make sure you change both `Category Name` and `Category Slug` settings.
 
@@ -118,7 +118,7 @@ Click `Add Media File` button at the bottom of the page. Paste URL of the podcas
 
 Click button `Publish`.
 
-**iTunes**
+## iTunes
 
 You should submit the podcast to a directory. I would highly recommend to at least [submit podcast to the iTunes Store.](https://phobos.apple.com/WebObjects/MZFinance.woa/wa/publishPodcast) Requires iTunes application to be installed and launched. Also requires logging in to iTunes Store.
 
@@ -126,7 +126,7 @@ You should submit the podcast to a directory. I would highly recommend to at lea
 
 ![itunes2](/assets/2010/create-a-podcast-site/itunes2-300x182.jpg "itunes2")
 
-**podPress**
+## podPress
 
 A few final tweaks to podPress.
 
@@ -136,6 +136,6 @@ Enter podcast title, description and feed at the same page. Also, add an image a
 
 Go to `podPress > General Settings` and select `Enable PodTrac Statistics`.
 
-**The End**
+## The End
 
 I think it is all for now. Feel free to comment. Please let me know if I missed something that should be done, or if I am doing something wrong.

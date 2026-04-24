@@ -12,4 +12,5 @@ Od tada su koristili izraz "bug" za bilo koji problem koji bi imali s računalom
 
 Na slici je spomenuti moljac zalijepljen trakom u njenu bilježnicu ([izvorni tekst](http://www.waterholes.com/%7Edennette/1996/hopper/bug.htm)).
 
+<!-- markdownlint-disable-next-line MD036 -->
 *(hvala Josipu Knezoviću)*

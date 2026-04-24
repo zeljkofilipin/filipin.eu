@@ -8,7 +8,7 @@ title: Test Like You Do Not Need the Money
 
 What happened in the last five years? Am I smarter? Or just older? Let's find out.
 
-**Personal**
+## Personal
 
 ![snorkel](/assets/2009/test-like-you-do-not-need-the-money/snorkel.JPG "snorkel")
 
@@ -16,7 +16,7 @@ In the last five years I have upgraded LifeOS™ from 26.0 to 31.0, upgraded Gir
 
 > Smarter vs. Older - 0:1
 
-**Professional**
+## Professional
 
 ![zoo](/assets/2009/test-like-you-do-not-need-the-money/zoo.jpg "zoo")
 
@@ -28,7 +28,7 @@ I still think software is lots of fun, and I live in code as much as I can. But,
 
 > Smarter vs. Older - 1:1
 
-**Programming Languages**
+## Programming Languages
 
 ![fire](/assets/2009/test-like-you-do-not-need-the-money/fire.jpg "fire")
 
@@ -37,7 +37,7 @@ I have picked up some [Ruby](http://www.ruby-lang.org/en/) and [Watir](http://wa
 
 > Smarter vs. Older - 2:1
 
-**Web**
+## Web
 
 ![web](/assets/2009/test-like-you-do-not-need-the-money/web.JPG "web")
 
@@ -46,13 +46,13 @@ Today, I am all over the place. (I even have a place where I try to [aggregate](
 
 > Smarter vs. Older - 3:1
 
-**Watir**
+## Watir
 
 ![sea](/assets/2009/test-like-you-do-not-need-the-money/sea.jpg "sea")
 
 I already mentioned [Watir](http://watir.com/), a tool that I use almost every day, and it makes my life much easier. [Big portion](/category/software/watir/) of this site is dedicated to it. I like it so much I talk about [it](/smoke-on-the-watir/) [to](/ruby-on-beers-2/) [anybody](/barcamp-zagreb-2009/) [that](/spletne-urice-106/) [would](/webindustrija-2009/) [listen](/dorscluc-2009/). I even [flew across the ocean](/awta-2009/) to meet with people that like Watir.
 
-**Conclusion**
+## Conclusion
 
 It really takes a lot of time to write a blog post. No wonder I do not write so much.
 

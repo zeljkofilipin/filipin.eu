@@ -14,7 +14,7 @@ Mapu možete prenijeti usb-om, spržiti (engl. burn) na cd, sažeti (engl. compr
 
 Problem se pojavio kad sam htio pokrenuti Ruby on Rails aplikaciju na računalu koje nema pristup Internetu. Dugo sam se s tim mučio, i sad kad sam našao rješenje, što drugo nego ga objaviti. :)
 
-**Na svom računalu**
+## Na svom računalu
 
 Napravi `C:\install` (možeš odabrati i manje štrebersko ime). Tu češ natrpati sve što ti treba:
 
@@ -31,11 +31,11 @@ Napravi `C:\install` (možeš odabrati i manje štrebersko ime). Tu češ natrpa
 11. [actionwebservice-0.9.4.gem](http://rubyforge.org/frs/download.php/7586/actionwebservice-0.9.4.gem)
 12. mapu u kojoj se nalazi tvoja aplikacija (`C:\rails\blog`)
 
-**Prebacivanje**
+## Prebacivanje
 
 Prebaci `C:\install` sa svog računala u `C:\install` na željenom računalu koristeći svoj omiljeni način (usb, cd, e-pošta...).
 
-**Na drugom računalu**
+## Na drugom računalu
 
 1.  instaliraj ruby
     1.  dvaput klikni na `C:\install\ruby182-15.exe`

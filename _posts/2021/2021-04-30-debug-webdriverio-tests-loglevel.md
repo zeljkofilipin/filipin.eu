@@ -40,7 +40,7 @@ exports.config = {
 
 # Run Selenium tests
 
-{% highlight text %}
+{% highlight shell %}
 npm run selenium-test
 {% endhighlight %}
 

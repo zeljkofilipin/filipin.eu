@@ -6,7 +6,7 @@ I use Watir to test web applications.
 
 At application under test, after user is created I need to get her or his database id. I use it later to check if script is at the right page. For example, view user page url is
 
-{% highlight http %}
+{% highlight plaintext %}
 http://{application_under_test}/ViewUser.aspx?m={user_database_id}
 {% endhighlight %}
 

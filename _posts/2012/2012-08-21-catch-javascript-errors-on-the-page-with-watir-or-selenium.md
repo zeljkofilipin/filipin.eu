@@ -1,5 +1,5 @@
 ---
-tags:  code ruby
+tags:  code image ruby
 title: Catch JavaScript Errors on the Page with Watir or Selenium
 ---
 ![Javascript Error](/assets/2012/catch-javascript-errors-on-the-page-with-watir-or-selenium.png)

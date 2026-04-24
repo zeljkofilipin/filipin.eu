@@ -1,5 +1,5 @@
 ---
-tags:  podcast years
+tags:  image podcast years
 title: Two Years of Watir Podcast
 ---
 ![Watir Podcast Logo](/assets/2010/two-years-of-watir-podcast/watir_podcast_logo.png "Watir Podcast Logo")

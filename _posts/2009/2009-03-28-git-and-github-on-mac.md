@@ -1,5 +1,5 @@
 ---
-tags:  code macos ruby
+tags:  code image macos ruby
 title: Git and Github on Mac
 ---
 Once upon a time, there was a tester. He knew his way around [Ruby](http://www.ruby-lang.org/en/), [Watir](http://watir.com/), [SVN](http://subversion.tigris.org/), [Terminal](http://en.wikipedia.org/wiki/Apple_Terminal) and stuff like that. He heard people talk about [Git](http://git-scm.com/), and he decided to try it. But Git was strange. He was playing with it a bit, but did not have much luck with setting it up, so he decided to leave it for later.

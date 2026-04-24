@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: "Đžogljavkovi vicovi (8): Java i C++"
 ---
 [![lost\_cat\_poster.jpg](/assets/2005/dzogljavkovi-vicovi-8-java-i-c.jpg)](http://farm.tucows.com/blog/_archives/2005/12/2/1432056.html)

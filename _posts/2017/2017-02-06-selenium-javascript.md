@@ -1,5 +1,5 @@
 ---
-tags:  code event featured javascript organizer selenium speaker testing testival
+tags:  code event featured image javascript organizer selenium speaker testing testival
 title: Selenium + JavaScript = 😕🤔😳
 ---
 I gave a talk based on this post at [Testival Meetup #27](/testival-27), [JavaScript Zagreb Meetup #33](/javascript-zagreb-meetup-33) and [Infinum JS Talks #8](/infinum-js-talks-8). It's about Selenium packages 📦 in JavaScript.

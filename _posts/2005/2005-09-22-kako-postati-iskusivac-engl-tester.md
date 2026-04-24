@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: Kako postati iskušivač (engl. tester)?
 ---
 ![Krigla puna podataka. Samo čeka da iskušivač srkne iz nje.](/assets/2005/kako-postati-iskusivac-engl-tester.jpg)

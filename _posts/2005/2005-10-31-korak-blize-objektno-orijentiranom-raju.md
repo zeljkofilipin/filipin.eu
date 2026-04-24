@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: Korak bliže objektno orijentiranom raju
 ---
 ![Sveti Đžogljavko, zaštitnik testera.](/assets/2005/1620375911.jpg)

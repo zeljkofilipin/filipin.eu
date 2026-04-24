@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO image
 title: Pop Ups and Watir
 ---
 ![](/assets/2007/pop-ups-and-watir.jpg)

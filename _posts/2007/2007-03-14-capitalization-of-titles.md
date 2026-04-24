@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO image
 title: Capitalization of Titles
 ---
 ![capitalization.png](/assets/2007/capitalization-of-titles.png "capitalization.png")

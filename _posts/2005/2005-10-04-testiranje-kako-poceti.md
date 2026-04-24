@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: Testiranje. Kako početi?
 ---
 ![Moj kućni ljubimac Čarapko njuška po aplikaciji. Hranim ga samo testiranjem.](/assets/2005/testiranje-kako-poceti.jpg)

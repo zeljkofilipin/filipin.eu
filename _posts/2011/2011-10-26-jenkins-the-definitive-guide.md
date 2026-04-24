@@ -1,5 +1,5 @@
 ---
-tags:  book
+tags:  book image
 title: Jenkins The Definitive Guide by John Ferguson Smart
 ---
 ![Jenkins: The Definitive Guide](/assets/2011/jenkins-the-definitive-guide.png "Jenkins: The Definitive Guide")

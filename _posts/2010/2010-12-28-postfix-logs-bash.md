@@ -1,5 +1,5 @@
 ---
-tags:  code
+tags:  code image
 title: 'Postfix Logs: Bash'
 ---
 ![Random Croatian countryside \#1](/assets/2010/postfix-logs-bash/P6040019-300x224.jpg "Random Croatian countryside #1")

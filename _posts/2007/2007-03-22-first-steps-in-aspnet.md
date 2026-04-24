@@ -1,5 +1,5 @@
 ---
-tags:  code
+tags:  code image
 title: First Steps in ASP.NET
 ---
 ![asp.png](/assets/2007/first-steps-in-aspnet.png "asp.png")

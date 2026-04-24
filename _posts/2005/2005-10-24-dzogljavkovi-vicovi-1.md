@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: "Đžogljavkovi vicovi (1)"
 ---
 ![Đžogljavko se uvijek od srca smije svojim vicevima.](/assets/2005/dzogljavkovi-vicovi-1.jpg)

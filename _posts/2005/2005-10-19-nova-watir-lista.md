@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: Nova Watir lista
 ---
 ![Đžogljavko u vodi do grla. Watir se izgovara kao water (što na engleskom znači voda).](/assets/2005/nova-watir-lista.jpg)

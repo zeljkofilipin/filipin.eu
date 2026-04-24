@@ -1,5 +1,5 @@
 ---
-tags:  code hrvatski ruby
+tags:  code hrvatski image ruby
 title: Nadomak objektno orijentiranom raju
 ---
 ![Sveti Đžogljavko, zaštitnik testera.](/assets/2005/1620375911.jpg)

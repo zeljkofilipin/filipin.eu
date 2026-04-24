@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO image
 title: I Do Not Want All My Internet Traffic to Go Over VPN
 ---
 ![VPN](/assets/2007/i-do-not-want-all-my-internet-traffic-to-go-over-vpn.png)

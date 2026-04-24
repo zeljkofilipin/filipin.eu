@@ -1,5 +1,5 @@
 ---
-tags:  code event organizer speaker video wikimedia youtube
+tags:  code event image organizer speaker video wikimedia youtube
 title: Increase the Backlog!
 ---
 In [October last year](/wikimedia-foundation/) I have started working at [Wikimedia Foundation](http://wikimediafoundation.org/). Never heard about it? Let me throw some marketing talk at you. This is the foundation's *vision statement*:

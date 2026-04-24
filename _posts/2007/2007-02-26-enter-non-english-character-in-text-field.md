@@ -1,5 +1,5 @@
 ---
-tags:  code ruby
+tags:  code image ruby
 title: Enter Non-English Character in Text Field
 ---
 ![google\_zeljko.PNG](/assets/2007/enter-non-english-character-in-text-field.PNG)

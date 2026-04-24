@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: Najzabavnija greška na koju sam ikad naletio
 ---
 ![Mythos. Grčka žuja. Jedan od dokumenata u radnom mjestu Krigla (za potrebe testa kopiran u radno mjesto Željko).](/assets/2005/najzabavnija-greska-na-koju-sam-ikad-naletio.jpg)

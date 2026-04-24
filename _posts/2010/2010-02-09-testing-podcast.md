@@ -1,5 +1,5 @@
 ---
-tags:  podcast
+tags:  image podcast
 title: Testing Podcast
 ---
 ![Testing Podcast](/assets/2010/testing-podcast.jpg "Testing Podcast")

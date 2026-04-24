@@ -1,5 +1,5 @@
 ---
-tags:  book
+tags:  book image
 title: Pride and Paradev by Alister Scott
 ---
 ![Pride and Paradev](/assets/2013/pride-and-paradev.jpeg) Pride and Paradev

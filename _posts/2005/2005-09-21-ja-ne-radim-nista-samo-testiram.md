@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: Ja ne radim ništa. Samo testiram.
 ---
 ![Fedore, što je to testiranje? Ništa lakše Todore. Pođi za mnom.](/assets/2005/ja-ne-radim-nista-samo-testiram.jpg)

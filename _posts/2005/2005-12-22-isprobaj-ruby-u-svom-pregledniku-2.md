@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: isprobaj ruby! (u svom pregledniku) (2)
 ---
 [![1620480529.jpg](/assets/2005/1620480529.jpg)](http://tryruby.sophrinix.com/)

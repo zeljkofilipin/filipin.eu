@@ -1,5 +1,5 @@
 ---
-tags:  event testing
+tags:  event image testing
 title: Infinum Talks, Zagreb, Croatia
 ---
 *Estimated reading time is 5-7 minutes.*

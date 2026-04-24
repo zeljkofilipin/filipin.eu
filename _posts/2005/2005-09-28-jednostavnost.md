@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: Jednostavnost
 ---
 ![1615160739.jpg](/assets/2005/jednostavnost.jpg)

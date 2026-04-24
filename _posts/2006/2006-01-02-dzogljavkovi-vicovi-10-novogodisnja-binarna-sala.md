@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: "Đžogljavkovi vicovi (10): novogodišnja binarna šala"
 ---
 [![1620513190.jpg](/assets/2006/dzogljavkovi-vicovi-10-novogodisnja-binarna-sala.jpg)](http://www.fotozine.org/index.php?knjiga=galerije&poglavlje=544&list=1258)

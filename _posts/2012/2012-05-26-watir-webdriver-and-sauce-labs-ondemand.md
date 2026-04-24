@@ -1,5 +1,5 @@
 ---
-tags:  code ruby
+tags:  code image ruby
 title: watir-webdriver and Sauce Labs OnDemand
 ---
 ![Bug Hunter's Journal](/assets/2012/watir-webdriver-and-sauce-labs-ondemand/bug_hunter-300x300.jpg "Bug Hunter's Journal")

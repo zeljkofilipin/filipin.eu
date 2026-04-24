@@ -1,5 +1,5 @@
 ---
-tags:  code ruby
+tags:  code image ruby
 title: watir-nokogiri
 ---
 ![Random Croatian Countryside](/assets/2012/watir-nokogiri.jpg)

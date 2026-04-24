@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: Našao sam grešku! Što sad?
 ---
 ![Čarapko i ja smo poredali zadnjih deset grešaka koje smo ulovili i sad ih ponosno gledamo.](/assets/2005/nasao-sam-gresku-sto-sad.jpg)

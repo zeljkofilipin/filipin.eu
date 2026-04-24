@@ -1,5 +1,5 @@
 ---
-tags:  code ruby
+tags:  code image ruby
 title: How to Scroll Internet Explorer with Watir
 ---
 This is another gem from Watir General Google group.

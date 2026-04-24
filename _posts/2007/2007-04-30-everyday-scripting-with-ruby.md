@@ -1,5 +1,5 @@
 ---
-tags:  book
+tags:  book image
 title: Everyday Scripting with Ruby by Brian Marick
 ---
 ![bmsft\_small.jpg](/assets/2007/bmsft_small.jpg "bmsft_small.jpg")

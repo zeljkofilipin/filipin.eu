@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: Detektivska priča
 ---
 ![Veliki detektiv Đžogljavko sa svojim opasnim pištoljem, vjetrom u kosi i mrkim pogledom.](/assets/2005/detektivska-prica.jpg)

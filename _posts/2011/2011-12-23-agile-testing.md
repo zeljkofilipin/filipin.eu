@@ -1,5 +1,5 @@
 ---
-tags:  book
+tags:  book image
 title: Agile Testing by Lisa Crispin and Janet Gregory
 ---
 ![Agile Testing: The Book](/assets/2011/agile-testing.jpg "Agile Testing: The Book")

@@ -1,5 +1,5 @@
 ---
-tags:  macos podcast
+tags:  image macos podcast
 title: Recording a Podcast with Skype on Mac Using Only Free Software
 ---
 I have a small podcast on [Watir](http://wtr.rubyforge.org/) called Watir Podcast.

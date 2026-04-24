@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: Watir i Internet Exporer
 ---
 ![Đžogljavko pozira na svom omiljenom mjestu - ispred prozora sa greškom.](/assets/2005/watir-i-internet-exporer.jpg)

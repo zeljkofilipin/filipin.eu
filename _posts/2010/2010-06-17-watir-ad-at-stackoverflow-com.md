@@ -1,5 +1,5 @@
 ---
-tags:  code ruby
+tags:  code image ruby
 title: Watir ad at stackoverflow.com
 ---
 [![watir-so-2-1](/assets/2010/watir-ad-at-stackoverflow-com.jpg "watir-so-2-1")](http://meta.stackoverflow.com/questions/53346/open-source-advertising-sidebar-2h-2010/53544#53544)

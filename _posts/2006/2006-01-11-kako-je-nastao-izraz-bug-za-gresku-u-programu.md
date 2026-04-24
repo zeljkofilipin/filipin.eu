@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: Kako je nastao izraz "bug" za grešku u programu?
 ---
 [![1620546334.jpg](/assets/2006/kako-je-nastao-izraz-bug-za-gresku-u-programu.jpg)](http://www.waterholes.com/~dennette/1996/hopper/bug.htm)

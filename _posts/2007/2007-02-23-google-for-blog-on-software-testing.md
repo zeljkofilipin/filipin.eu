@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO image
 title: Google for "Blog on Software Testing"
 ---
 Yesterday I had a [Gmail](http://mail.google.com/) chat with [Rosie Sherry](http://www.rosiesherry.com/blog/). I found her blog because she has a [link to my blog](http://www.rosiesherry.com/softwaretesting/show/%C5%BDeljko+Filipin). I just wanted to know how she found my blog. She was not sure if she found it on Google or she followed a link from another blog.

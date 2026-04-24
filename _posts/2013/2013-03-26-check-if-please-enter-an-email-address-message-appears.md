@@ -1,5 +1,5 @@
 ---
-tags:  code
+tags:  code image
 title: Check if "Please enter an email address" message appears
 ---
 ![Golden Gate Bridge](/assets/2013/check-if-please-enter-an-email-address-message-appears.jpg)

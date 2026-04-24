@@ -1,5 +1,5 @@
 ---
-tags:  hrvatski
+tags:  hrvatski image
 title: Testiram, dakle postojim
 ---
 Rajachockalingam je [naveo](http://www.testingreflections.com/node/view/3155) nekoliko svojih omiljenih testerskih izreka. Možete ih ispisati na naljepnice i zalijepiti za svoj auto (bicikl, majicu, šalicu...). Prevest ću samo neke.

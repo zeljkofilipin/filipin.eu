@@ -1,5 +1,5 @@
 ---
-tags:  podcast
+tags:  image podcast
 title: How to Find, Listen, Record, Edit and Publish a Podcast
 ---
 **What-cast?**

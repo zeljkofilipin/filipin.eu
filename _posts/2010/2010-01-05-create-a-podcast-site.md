@@ -1,5 +1,5 @@
 ---
-tags:  podcast
+tags:  image podcast
 title: Create a Podcast Site
 ---
 **Introduction**

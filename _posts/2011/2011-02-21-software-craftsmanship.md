@@ -1,5 +1,5 @@
 ---
-tags:  book
+tags:  book image
 title: Software craftsmanship by Pete McBreen
 ---
 [![Software craftsmanship](/assets/2011/software-craftsmanship.jpg "Software craftsmanship")](http://www.pearsonhighered.com/educator/product/Software-Craftsmanship-The-New-Imperative/9780201733860.page)

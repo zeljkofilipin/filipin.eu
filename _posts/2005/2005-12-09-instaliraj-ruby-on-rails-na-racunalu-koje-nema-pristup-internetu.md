@@ -1,5 +1,5 @@
 ---
-tags:  code hrvatski ruby
+tags:  code hrvatski image ruby
 title: Instaliraj Ruby on Rails na računalu koje nema pristup Internetu
 ---
 ![Đžogljavko pored pruge (engl. rail).](/assets/2005/instaliraj-ruby-on-rails-na-racunalu-koje-nema-pristup-internetu.jpg)

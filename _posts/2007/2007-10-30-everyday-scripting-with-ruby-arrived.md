@@ -1,5 +1,5 @@
 ---
-tags:  book
+tags:  book image
 title: Everyday Scripting with Ruby Arrived
 ---
 ![pa300022.JPG](/assets/2007/bmsft_small.jpg)

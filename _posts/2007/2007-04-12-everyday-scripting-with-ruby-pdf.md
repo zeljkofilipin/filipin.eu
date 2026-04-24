@@ -1,5 +1,5 @@
 ---
-tags:  book
+tags:  book image
 title: Everyday Scripting with Ruby
 ---
 ![es.png](/assets/2007/everyday-scripting-with-ruby-pdf.png "es.png")

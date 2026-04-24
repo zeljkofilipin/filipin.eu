@@ -2,5 +2,10 @@
   "default": true,
   "line-length": false,
   "no-inline-html": false,
-  "single-h1": false
+  "single-h1": false,
+  "first-line-heading": false,
+  "blanks-around-headings": false,
+  "no-missing-space-atx": false,
+  "heading-start-left": false,
+  "no-duplicate-heading": false
 }

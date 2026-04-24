@@ -69,6 +69,12 @@ collections:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+exclude:
+  - CLAUDE.md
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/

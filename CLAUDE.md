@@ -137,7 +137,7 @@ Surveyed 2026-04-23. Items marked **broken** are likely already visible to reade
 - **Markdown linting**: enable `VALIDATE_MARKDOWN` in super-linter (remove the `false` from both `linter.yml` and `Rakefile`). `.markdownlint.json` is already present. Before enabling, first expand the config to disable false-positive rules, then fix remaining real errors one rule per commit (same approach as HTML cleanup).
   - **Step 1 — disable false-positive rules** in `.markdownlint.json`: `MD041` (first-line-heading — posts start with body text, not headings), `MD022`/`MD018`/`MD023` (heading rules — fire on Ruby `#` comments inside `{% highlight %}` blocks, which markdownlint can't distinguish from headings), `MD024` (no-duplicate-heading — same heading in different posts/sections is fine).
   - **Step 2 — fix real errors** (1184 before / 1012 after disabling false positives; surveyed 2026-04-24), one rule per commit:
-    - [ ] MD060 table-column-style (472, all in one file — auto-fixable)
+    - [x] MD060 table-column-style (472, all in one file) — disabled: rule conflicts with empty cells in data tables; no rendered difference
     - [ ] MD010 no-hard-tabs (151 — auto-fixable)
     - [ ] MD036 emphasis-as-heading (118 — bold used as heading substitute; needs manual review)
     - [ ] MD034 bare-urls (64 — wrap in `<url>` or `[text](url)`)

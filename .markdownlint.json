@@ -7,5 +7,6 @@
   "blanks-around-headings": false,
   "no-missing-space-atx": false,
   "heading-start-left": false,
-  "no-duplicate-heading": false
+  "no-duplicate-heading": false,
+  "table-column-style": false
 }

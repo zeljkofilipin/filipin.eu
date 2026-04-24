@@ -9,5 +9,6 @@
   "heading-start-left": false,
   "no-duplicate-heading": false,
   "table-column-style": false,
-  "no-hard-tabs": false
+  "no-hard-tabs": false,
+  "no-bare-urls": false
 }

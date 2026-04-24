@@ -22,7 +22,7 @@ Please notice how readable `user.js` is. You can immediately see that the point 
 
 [tests/selenium/specs/user.js](https://gerrit.wikimedia.org/g/mediawiki/core/%2B/refs/heads/master/tests/selenium/specs/user.js)
 
-{% highlight js %}
+{% highlight javascript %}
 'use strict';
 
 const assert = require( 'assert' );
@@ -45,7 +45,7 @@ Please notice that `createaccount.page.js` has two major sections. In the first 
 
 [tests/selenium/pageobjects/createaccount.page.js](https://gerrit.wikimedia.org/g/mediawiki/core/%2B/refs/heads/master/tests/selenium/pageobjects/createaccount.page.js)
 
-{% highlight js %}
+{% highlight javascript %}
 'use strict';
 
 const Page = require( 'wdio-mediawiki/Page' );
@@ -79,7 +79,7 @@ Let's compare that to a solution without page object pattern. Code is available 
 
 [tests/selenium/specs/user.js](https://gerrit.wikimedia.org/g/mediawiki/core/%2B/refs/heads/master/tests/selenium/specs/user.js)
 
-{% highlight js %}
+{% highlight javascript %}
 'use strict';
 
 const assert = require( 'assert' );

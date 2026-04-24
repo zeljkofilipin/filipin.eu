@@ -27,11 +27,11 @@ This tip works if you're targeting:
 
 Change `logLevel` in `tests/selenium/wdio.conf.js` from the default `error` to `info`.
 
-{% highlight text %}
+{% highlight plaintext %}
 tests/selenium/wdio.conf.js
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 exports.config = {
  // Level of logging verbosity: trace | debug | info | warn | error | silent
  logLevel: 'info'
@@ -46,7 +46,7 @@ npm run selenium-test
 
 Output will contain a lot of useful debugging information.
 
-{% highlight text %}
+{% highlight plaintext %}
 [0-5] 2021-04-01T15:03:41.952Z INFO devtools: COMMAND deleteAllCookies()
 [0-5] 2021-04-01T15:03:41.965Z INFO devtools: RESULT null
 

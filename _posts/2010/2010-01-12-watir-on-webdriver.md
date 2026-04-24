@@ -71,7 +71,7 @@ sudo ruby setup.rb
 Install watir-webdriver:
 
 {% highlight shell %}
-sudo gem1.8 install watir-webdriver<br />
+sudo gem1.8 install watir-webdriver
 {% endhighlight %}
 
 ### Fedora

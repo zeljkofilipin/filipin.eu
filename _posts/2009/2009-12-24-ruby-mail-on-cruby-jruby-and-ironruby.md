@@ -64,8 +64,9 @@ I have executed the script three times for each Ruby implementation. It looks to
 </tbody>
 </table> <table>
 <h2>Environment</h2>
-<p>Tests were run in VMware Fusion 2.0.6 virtual machine, 512 MB RAM, Microsoft Windows Sever 2003 R2 (Standard Edition, Service pack 2).<br />
-Host machine is MacBook Pro, 2.4 GHz Intel Core 2 Duo, Mac OS X 10.6.2, 4 GB RAM.</p>
+Tests were run in VMware Fusion 2.0.6 virtual machine, 512 MB RAM, Microsoft Windows Sever 2003 R2 (Standard Edition, Service pack 2).
+
+Host machine is MacBook Pro, 2.4 GHz Intel Core 2 Duo, Mac OS X 10.6.2, 4 GB RAM.
 
 HIGHLIGHTPLACEHOLDER2ENDPLACEHOLDER
 

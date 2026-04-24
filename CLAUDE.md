@@ -141,7 +141,7 @@ Surveyed 2026-04-23. Items marked **broken** are likely already visible to reade
     - [x] MD010 no-hard-tabs (151) — disabled: tabs are inside `{% highlight %}` code blocks; replacing them changes rendered indentation in code samples
     - [x] MD036 emphasis-as-heading (118) — `**bold**` standalone lines → `##`; italic book quotes → `>` blockquotes; italic asides suppressed with `markdownlint-disable-next-line`
     - [x] MD034 bare-urls (64) — disabled: 39 of 64 are inside `{% highlight %}` blocks (false positives); remaining 25 real prose cases need case-by-case judgment (`<url>` vs backticks vs `[text](url)`) — worth fixing separately per post
-    - [ ] MD030 list-marker-space (62 — auto-fixable)
+    - [x] MD030 list-marker-space (62) — auto-fixed prose; 3 code-block false positives in `rubocop.md` suppressed with `markdownlint-disable`
     - [ ] MD047 single-trailing-newline (30 — auto-fixable)
     - [ ] MD028 no-blanks-blockquote (24 — blank lines inside `>` blockquotes)
     - [ ] MD032 blanks-around-lists (22 — auto-fixable)

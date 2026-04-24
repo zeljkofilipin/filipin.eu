@@ -21,25 +21,25 @@ Svi testovi pretpostavljaju da je korisnik prijavljen u aplikaciju i da se nalaz
 - naslov: napravi korisnika
 - koraci:
 
-1.  klikni link "napravi korisnika"
-2.  popuni podatke, samo obavezna polja, označena \* (zvjezdicom)
-3.  klikni dugme "nastavi"
-4.  postavi ovlasti pristupa za pojedine zajednice
-5.  klikni dugme "spremi"
+1. klikni link "napravi korisnika"
+2. popuni podatke, samo obavezna polja, označena \* (zvjezdicom)
+3. klikni dugme "nastavi"
+4. postavi ovlasti pristupa za pojedine zajednice
+5. klikni dugme "spremi"
 
 - ulazni podaci:
 
-1.  titula
-2.  ime
-3.  prezime
-4.  država
-5.  e-pošta
-6.  korisničko ime
-7.  lozinka
-8.  ponovi lozinku
-9.  ovlasti pristupa za pojedine zajednice
+1. titula
+2. ime
+3. prezime
+4. država
+5. e-pošta
+6. korisničko ime
+7. lozinka
+8. ponovi lozinku
+9. ovlasti pristupa za pojedine zajednice
 
 - očekivani rezultati
 
-1.  povratna informacija da je korisnik napravljen
-2.  korisnik je napravljen
+1. povratna informacija da je korisnik napravljen
+2. korisnik je napravljen

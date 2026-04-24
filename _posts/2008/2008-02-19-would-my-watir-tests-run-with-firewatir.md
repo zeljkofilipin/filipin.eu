@@ -6,10 +6,10 @@ I saw this question at [watir-general](http://groups.google.com/group/watir-gene
 
 Short story is, there is no simple solution at the moment. I am just porting my tests from Watir to Firewatir and I have noticed two major differences:
 
-1.  Firewatir does not see page text the same way as Watir does:
+1. Firewatir does not see page text the same way as Watir does:
     - Watir would see "logged in as name".
     - Firewatir would see "logged in as\n\nname".
-2.  Firefox sees relative urls in links, while Internet Explorer sees apsolute paths:
+2. Firefox sees relative urls in links, while Internet Explorer sees apsolute paths:
     - Watir would see "page.htm".
     - Firewatir would see "domain.com/page.htm".
 

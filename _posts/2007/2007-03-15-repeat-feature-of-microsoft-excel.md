@@ -17,9 +17,9 @@ Time for an example. I will not go into detail. I had a lot of data in one row, 
 
 I had to visually look at that data and some of it move to the right column. In this example, I would move elephant. (I leave it to you, dear reader, to figure out why.) I could cut elephant and paste it in the cell to the right. Let's count keyboard actions. (Remember, I had to do it a lot, so every keyboard or mouse click counts.)
 
-1.  Ctrl+X
-2.  Right Cursor
-3.  Ctrl+V
+1. Ctrl+X
+2. Right Cursor
+3. Ctrl+V
 
 Three actions. Now table looks like this.
 

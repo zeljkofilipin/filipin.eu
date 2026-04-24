@@ -12,10 +12,10 @@ From [Installing a Gem from the latest development source](http://wiki.openqa.or
 
 > Once TortoiseSVN is installed, checkout the source:
 >
-> 1.  Create a folder to checkout into, this will be the *watir\_install\_dir*
-> 2.  Right click on *watir\_install\_dir*, from the context menu select *SVN Checkout...*
-> 3.  In the dialog box enter <http://svn.openqa.org/svn/watir/trunk/watir> for the url
-> 4.  Hit *Ok*, Watir source should now download into the *watir\_install\_dir*
+> 1. Create a folder to checkout into, this will be the *watir\_install\_dir*
+> 2. Right click on *watir\_install\_dir*, from the context menu select *SVN Checkout...*
+> 3. In the dialog box enter <http://svn.openqa.org/svn/watir/trunk/watir> for the url
+> 4. Hit *Ok*, Watir source should now download into the *watir\_install\_dir*
 >
 > Now that you have your own local copy of the source, you can create your own gem and install it into your local ruby gems directory. Open a command line, navigate to *watir\_install\_dir* and type the following:
 >

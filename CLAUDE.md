@@ -62,7 +62,7 @@ Disabled super-linter validators are declared in `.github/workflows/linter.yml` 
 
 - Keep changes small — each change should be scoped so it can stand on its own as a single commit.
 - No Ruby or Node on the host. Run linters and ad-hoc scripts via `docker run --rm -v "$PWD:/w" -w /w ruby:3.3 …` or the equivalent `node:20` image. Super-linter runs via the pinned image in the `Rakefile`.
-- One change per turn — apply the edit, hand it back for the user to commit, then wait before the next change. **Never make git commits yourself, under any circumstances.**
+- One change per turn — apply the edit, run CI locally (Jekyll build + `ruby script/check-tags`), then hand it back for the user to commit. **Never make git commits yourself, under any circumstances.**
 - This repo is used on several machines. Anything worth remembering across sessions belongs in **this file** (CLAUDE.md), not in per-machine Claude memory — memory is local to one installation and will be invisible on the other machines.
 
 ## Verifying mass rewrites

@@ -78,7 +78,7 @@ Since both Mikel and Jimmy said `require` could take the majority of the time, a
 
 HIGHLIGHTPLACEHOLDER2ENDPLACEHOLDER
 
-<p>Times were way shorter. RubyInstaller the fastest (can not get much faster that 0.0 seconds), CRuby and JRuby in the same order of magnitude, IronRuby order of magnitude slower. JRuby has surprisingly the same numbers every time.</p>
+Times were way shorter. RubyInstaller the fastest (can not get much faster that 0.0 seconds), CRuby and JRuby in the same order of magnitude, IronRuby order of magnitude slower. JRuby has surprisingly the same numbers every time.
 <table border="1">
 <tbody>
 <tr>
@@ -116,11 +116,11 @@ HIGHLIGHTPLACEHOLDER2ENDPLACEHOLDER
 
 <h2>Benchmark</h2>
 
-<p>Mikel and Jimmy have suggested that I should use <a href="http://ruby-doc.org/stdlib/libdoc/benchmark/rdoc/index.html">benchmark.rb</a>, so I took a look. I have slightly modified the script. This time the file was read 1000 times.</p>
+Mikel and Jimmy have suggested that I should use [benchmark.rb](http://ruby-doc.org/stdlib/libdoc/benchmark/rdoc/index.html), so I took a look. I have slightly modified the script. This time the file was read 1000 times.
 
 HIGHLIGHTPLACEHOLDER3ENDPLACEHOLDER
 
-<p>This measurement said JRuby was the fastest, followed closely by RubyInstaller and CRuby, IronRuby again order of magnitude slower.</p>
+This measurement said JRuby was the fastest, followed closely by RubyInstaller and CRuby, IronRuby again order of magnitude slower.
 <table border="1">
 <tbody>
 <tr>

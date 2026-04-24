@@ -70,4 +70,4 @@ Host machine is MacBook Pro, 2.4 GHz Intel Core 2 Duo, Mac OS X 10.6.2, 4 GB RAM
 
 HIGHLIGHTPLACEHOLDER2ENDPLACEHOLDER
 
-<p>Mail version 1.3.4 on all platforms.</table>
+Mail version 1.3.4 on all platforms.

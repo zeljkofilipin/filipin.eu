@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO image software
 title: Strange Advertisement
 ---
 <img src="/assets/2006/strange-advertisement.png" id="image69" alt="msn.png" />

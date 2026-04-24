@@ -78,7 +78,7 @@ Jekyll output contains timestamp lines (`article:published_time`, schema.org JSO
 Converting remaining HTML to Markdown in `_posts/`, one tag type per commit. Counts are raw tag occurrences across all posts (surveyed 2026-04-24).
 
 ### Todo (in order)
-- [ ] `<code>` (21) — inline code → `` `text` `` (skip occurrences inside HTML `<td>` cells)
+- [x] `<code>` (21) — inline code → `` `text` `` (skip occurrences inside HTML `<td>` cells)
 - [ ] `<blockquote>` (14) → `> text`
 - [ ] `<strong>` (6) → `**text**`
 - [ ] `<em>` (3) → `*text*`

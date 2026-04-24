@@ -124,5 +124,5 @@ end
 run_all_tests(screenshots_videos_advisors, platforms_browsers_versions)
 {% endhighlight %}
 
-<p>You have to replace <code>username</code> and <code>api-key</code> with your username and API key.</p>
+You have to replace `username` and `api-key` with your username and API key.
 <p>The only solution I have found so far is to run the tests in parallel. Report coming soon.</p>

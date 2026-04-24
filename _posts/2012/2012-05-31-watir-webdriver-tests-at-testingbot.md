@@ -22,7 +22,7 @@ browser = Watir::Browser.new(
   :desired_capabilities => caps)
 {% endhighlight %}
 
-<p>you only have to change <code>caps.version</code> and <code>:url</code>. Depending on the platform and browser, check if you have to change other settings too. (Supported operating systems: <a href="https://saucelabs.com/docs/ondemand/browsers/env/ruby/se2/mac">Sauce Labs OnDemand</a>, <a href="http://testingbot.com/support/getting-started/browsers.html">TestingBot</a>.)</p>
+you only have to change `caps.version` and `:url`. Depending on the platform and browser, check if you have to change other settings too. (Supported operating systems: <a href="https://saucelabs.com/docs/ondemand/browsers/env/ruby/se2/mac">Sauce Labs OnDemand</a>, <a href="http://testingbot.com/support/getting-started/browsers.html">TestingBot</a>.)
 
 {% highlight ruby %}
 require "watir-webdriver"
@@ -36,7 +36,7 @@ browser = Watir::Browser.new(
   :desired_capabilities => caps)
 {% endhighlight %}
 
-<p>Of course, replace <code>key</code> and <code>secret</code> with your credentials.</p>
+Of course, replace `key` and `secret` with your credentials.
 <p>I have run pretty much the same script as in the previous post. The script opens the browser, goes to 9 sites and closes the browser. Actually, it does that with and without using net-http-persistent gem, on a local browser, at Sauce Labs OnDemand and at TestingBot.</p>
 
 watir-webdriver tests at TestingBot : local, sauce labs, testingbot

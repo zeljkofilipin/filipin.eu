@@ -74,7 +74,7 @@ Executed the script three times for each Ruby implementation. RubyInstaller the 
 
 <h2>The Second Try</h2>
 
-<p>Since both Mikel and Jimmy said <code>require</code> could take the majority of the time, and I was not really interested in measuring that, I excluded it from the measurement. </p>
+Since both Mikel and Jimmy said `require` could take the majority of the time, and I was not really interested in measuring that, I excluded it from the measurement.
 
 HIGHLIGHTPLACEHOLDER2ENDPLACEHOLDER
 

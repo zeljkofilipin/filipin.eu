@@ -19,7 +19,7 @@ Short version of Quim Gil's *How to hack on Wikipedia* talk (sources: <a href="h
 # Part Three
 
 Short <a href="http://docs.seleniumhq.org/">Selenium</a> + <a href="http://www.ruby-lang.org/en/">Ruby</a> live coding demo. The example at the talk was slightly different.
-I have first opened <a href="http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page">a test site</a> manually, clicked <code>Print/export</code> link (sidebar at the left hand side) so <code>Download as PDF</code> link appears.
+I have first opened <a href="http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page">a test site</a> manually, clicked `Print/export` link (sidebar at the left hand side) so `Download as PDF` link appears.
 
 ![Print/export](/assets/2013/how-mediawiki-software-that-runs-wikipedia-is-tested/pdf1.png)
 *Print/export*
@@ -27,7 +27,7 @@ I have first opened <a href="http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page
 ![Download as PDF](/assets/2013/how-mediawiki-software-that-runs-wikipedia-is-tested/pdf2.png)
 *Download as PDF*
 
-I have then click <code>Download as PDF</code> link and showed that <code>Download the file</code> link should appear (after a while) at the page that opens.
+I have then click `Download as PDF` link and showed that `Download the file` link should appear (after a while) at the page that opens.
 
 ![Please wait while the document is being generated.](/assets/2013/how-mediawiki-software-that-runs-wikipedia-is-tested/pdf3.png)
 *Please wait while the document is being generated.*
@@ -62,7 +62,7 @@ Go to the test site.
 => "http://en.wikipedia.beta.wmflabs.org/wiki/Main_Page"
 {% endhighlight %}
 
-Click <code>Print/export</code> and <code>Download as PDF</code> links.
+Click `Print/export` and `Download as PDF` links.
 
 {% highlight ruby %}
 > browser.a(text: "Print/export").click
@@ -72,7 +72,7 @@ Click <code>Print/export</code> and <code>Download as PDF</code> links.
 => []
 {% endhighlight %}
 
-Check if <code>Download the file</code> link appeared.
+Check if `Download the file` link appeared.
 
 {% highlight ruby %}
 > browser.a(text: "Download the file").exists?
@@ -174,7 +174,7 @@ cucumber features/pdf_readonly.feature:9 # Scenario: Click on Download as PDF li
 0m48.241s
 {% endhighlight %}
 
-The problem is that the test waits 15 seconds for <code>Download the file</code> link to appear, and sometimes it takes longer. This time it took longer and the test failed.
+The problem is that the test waits 15 seconds for `Download the file` link to appear, and sometimes it takes longer. This time it took longer and the test failed.
 
 # Part Four
 
@@ -290,7 +290,7 @@ end
 {% endhighlight %}
 
 I have explained that we use the <a href="https://code.google.com/p/selenium/wiki/PageObjects">Page Object pattern</a> and <a href="https://github.com/cheezy/page-object">page-object</a> gem. Page object pattern is another important tool. It allows us to write maintainable code.
-A slightly more complicated step is <code>When I click on Download as PDF</code>.
+A slightly more complicated step is `When I click on Download as PDF`.
 From <a href="https://github.com/wikimedia/qa-browsertests/blob/master/features/step_definitions/pdf_steps.rb">pdf_steps.rb</a> file.
 
 {% highlight ruby %}
@@ -328,7 +328,7 @@ I have showed <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedi
 ![Build Time Trend](/assets/2013/how-mediawiki-software-that-runs-wikipedia-is-tested/btt.png)
 *Build Time Trend*
 
-Then I showed <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/56/">a build that failed</a> and <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/56/testReport/junit/(root)/PDF/Click_on_Download_as_PDF_link/">test results</a> saying <code>timed out after 15 seconds, waiting for {:text=>"Download the file", :tag_name=>"a"} to become present</code>.
+Then I showed <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/56/">a build that failed</a> and <a href="https://wmf.ci.cloudbees.com/job/browsertests-en.wikipedia.org-linux-chrome/56/testReport/junit/(root)/PDF/Click_on_Download_as_PDF_link/">test results</a> saying `timed out after 15 seconds, waiting for {:text=>"Download the file", :tag_name=>"a"} to become present`.
 I have ended the talk with showing <a href="https://saucelabs.com/">Sauce Labs</a> (Selenium in the cloud) <a href="https://saucelabs.com/jobs/8ab15dcf1b1e40d4864a50d508b928a5">job</a> for the failed Jenkins job. Sauce Labs job has logs, screens shots and video of the entire test.
 
 # Part Five

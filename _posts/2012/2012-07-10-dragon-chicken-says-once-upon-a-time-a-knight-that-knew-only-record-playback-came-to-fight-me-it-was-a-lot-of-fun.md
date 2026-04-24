@@ -1,5 +1,5 @@
 ---
-tags:  photo selenium watir
+tags:  image selenium watir
 title: 'Dragon Chicken says: "Once upon a time a knight that knew only record-playback came to fight me. It was a lot of fun."'
 ---
 ![Random Photo: Rijeka, Croatia](/assets/2012/dragon-chicken-says-once-upon-a-time-a-knight-that-knew-only-record-playback-came-to-fight-me-it-was-a-lot-of-fun.jpg "Random Photo: Rijeka, Croatia") Dragon Chicken. Based on a true story. (Rijeka, Croatia.)

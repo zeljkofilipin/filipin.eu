@@ -1,5 +1,5 @@
 ---
-tags:  photo
+tags:  image
 title: Generate an image using ChatGPT
 ---
 *Estimated reading time is 2-3 minutes.*

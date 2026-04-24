@@ -1,5 +1,5 @@
 ---
-tags:  book book-club photo
+tags:  book book-club image
 title: Exploratory Software Testing by James A. Whittaker
 ---
 ![Exploratory Software Testing](assets/2022/exploratory-software-testing.png "Exploratory Software Testing")

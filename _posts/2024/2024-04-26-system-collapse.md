@@ -1,5 +1,5 @@
 ---
-tags:  book book-club photo
+tags:  book book-club image
 title: System Collapse by Martha Wells
 ---
 ## Introduction

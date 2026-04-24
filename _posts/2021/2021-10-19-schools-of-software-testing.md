@@ -1,5 +1,5 @@
 ---
-tags:  photo testing wikimedia
+tags:  image testing wikimedia
 title: Schools of Software Testing
 ---
 # Reading Club

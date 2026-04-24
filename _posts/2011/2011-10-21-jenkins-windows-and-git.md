@@ -1,5 +1,5 @@
 ---
-tags:  photo software
+tags:  image software
 title: Jenkins, Windows and Git
 ---
 ![jenkins logo](/assets/2011/jenkins-windows-and-git.png "jenkins logo")

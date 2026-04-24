@@ -1,5 +1,5 @@
 ---
-tags:  book photo productivity
+tags:  book image productivity
 title: The Time-Block Planner by Cal Newport
 ---
 

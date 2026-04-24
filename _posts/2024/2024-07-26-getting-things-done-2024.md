@@ -1,5 +1,5 @@
 ---
-tags:  book photo productivity
+tags:  book image productivity
 title: Getting Things Done by David Allen
 ---
 ![Getting Things Done by David Allen](assets/2024/getting-things-done.jpg "Getting Things Done by David Allen")

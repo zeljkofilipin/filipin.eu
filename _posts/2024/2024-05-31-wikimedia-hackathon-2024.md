@@ -1,5 +1,5 @@
 ---
-tags:  commons event photo wikimedia
+tags:  commons event image wikimedia
 title: Wikimedia Hackathon 2024, Tallinn, Estonia
 ---
 <a title="Fuzheado, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Wikimedia_Hackathon_2024_-_Group_photo,_360_cam.jpg"><img width="512" alt="Wikimedia Hackathon 2024 - Group photo, 360 cam" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Wikimedia_Hackathon_2024_-_Group_photo%2C_360_cam.jpg/512px-Wikimedia_Hackathon_2024_-_Group_photo%2C_360_cam.jpg?20240504111113"></a>

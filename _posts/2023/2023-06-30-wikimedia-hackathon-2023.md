@@ -1,5 +1,5 @@
 ---
-tags:  commons event photo wikimedia
+tags:  commons event image wikimedia
 title: Wikimedia Hackathon 2023, Athens, Greece
 ---
 <a title="Fuzheado, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Wmhack-2023-group-flat-vertical-1x1-18mpixels.jpg"><img width="512" alt="Wmhack-2023-group-flat-vertical-1x1-18mpixels" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Wmhack-2023-group-flat-vertical-1x1-18mpixels.jpg/512px-Wmhack-2023-group-flat-vertical-1x1-18mpixels.jpg"></a>

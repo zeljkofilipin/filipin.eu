@@ -1,5 +1,5 @@
 ---
-tags:  code commons photo
+tags:  code commons image
 title: Page object pattern
 ---
 <a title="Muséum de Toulouse

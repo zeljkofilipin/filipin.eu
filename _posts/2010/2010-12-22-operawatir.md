@@ -1,5 +1,5 @@
 ---
-tags:  photo watir
+tags:  image watir
 title: OperaWatir
 ---
 [![Sydney Opera House](/assets/2010/operawatir.jpg "Sydney Opera House")](http://www.flickr.com/photos/globetravelers/3553892349/)

@@ -1,5 +1,5 @@
 ---
-tags:  book photo
+tags:  book image
 title: Pragmatic Programmer by Andy Hunt and Dave Thomas
 ---
 ![Pragmatic Programmer by Andy Hunt and Dave Thomas](/assets/2021/pragmatic-programmer.jpg)

@@ -1,5 +1,5 @@
 ---
-tags:  event photo wikimedia
+tags:  event image wikimedia
 title: MediaWiki Platform and Developers Experience Offsite 2024, Barcelona, Spain
 ---
 *Estimated reading time is 3-4 minutes.*

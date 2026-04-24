@@ -1,5 +1,5 @@
 ---
-tags:  photo watir
+tags:  image watir
 title: Watir site at stackexchange.com
 ---
 [![Watir site at stackexchange.com](/assets/2010/watir-site-at-stackexchange-com.jpg "Watir site at stackexchange.com")](http://area51.stackexchange.com/proposals/6738/watir?referrer=cBxk1oncaoo1)

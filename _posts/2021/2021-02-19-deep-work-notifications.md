@@ -1,5 +1,5 @@
 ---
-tags:  featured photo productivity
+tags:  featured image productivity
 title: 'Deep Work: Disable All Notifications'
 ---
 # Distractions

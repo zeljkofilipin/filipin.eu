@@ -1,5 +1,5 @@
 ---
-tags:  event facebook photo
+tags:  event facebook image
 title: WebCamp Ljubljana 2016, Ljubljana, Slovenia
 ---
 # WebCamp, Ljubljana, Slovenia

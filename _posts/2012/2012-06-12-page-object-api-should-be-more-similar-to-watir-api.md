@@ -1,5 +1,5 @@
 ---
-tags:  photo watir
+tags:  image watir
 title: page-object API should be more similar to watir API
 ---
 ![Random photo: Rijeka, Croatia.](/assets/2012/page-object-api-should-be-more-similar-to-watir-api.jpg "Random photo: Rijeka, Croatia.")

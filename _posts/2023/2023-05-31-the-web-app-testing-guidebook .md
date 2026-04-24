@@ -1,5 +1,5 @@
 ---
-tags:  book photo
+tags:  book image
 title: The Web App Testing Guidebook by Kevin Lamping
 ---
 # Three sentence summary

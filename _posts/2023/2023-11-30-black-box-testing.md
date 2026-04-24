@@ -1,5 +1,5 @@
 ---
-tags:  book book-club photo
+tags:  book book-club image
 title: Black Box Testing by Boris Beizer
 ---
 ![Black Box Testing by Boris Beizer](assets/2023/black-box-testing.jpeg "Black Box Testing by Boris Beizer")

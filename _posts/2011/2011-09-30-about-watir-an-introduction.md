@@ -1,5 +1,5 @@
 ---
-tags:  photo watir
+tags:  image watir
 title: About Watir – An Introduction
 ---
 [<img src="/assets/2011/about-watir-an-introduction.jpg" width="500" height="212" alt="Testing Planet Emblem " />](http://www.flickr.com/photos/softwaretestingclub/4830570110/ "Testing Planet Emblem  by Software Testing Club, on Flickr")

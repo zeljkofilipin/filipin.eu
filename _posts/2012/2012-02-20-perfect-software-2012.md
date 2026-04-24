@@ -1,5 +1,5 @@
 ---
-tags:  book photo
+tags:  book image
 title: Perfect Software by Gerald M. Weinberg (2012)
 ---
 [![Perfect Software And Other Illusions About Testing](/assets/2012/perfect-software-2012.jpg "Perfect Software And Other Illusions About Testing")](http://www.dorsethouse.com/books/perf.html)

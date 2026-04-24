@@ -1,5 +1,5 @@
 ---
-tags:  macos photo
+tags:  image macos
 title: macOS Lockdown Mode
 ---
 # Security 🧀

@@ -1,5 +1,5 @@
 ---
-tags:  code photo selenium wikimedia
+tags:  code image selenium wikimedia
 title: 'Debug WebdriverIO Tests: logLevel'
 ---
 ![Debug WebdriverIO Tests: logLevel](/assets/2021/debug-webdriverio-tests-loglevel.png "Debug WebdriverIO Tests: logLevel")

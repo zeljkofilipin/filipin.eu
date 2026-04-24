@@ -1,5 +1,5 @@
 ---
-tags:  chess photo
+tags:  chess image
 title: Learning Chess in 2021
 ---
 ## The Queen's Gambit

@@ -1,5 +1,5 @@
 ---
-tags:  event facebook photo speaker video
+tags:  event facebook image speaker video
 title: IT Showoff, Zagreb, Croatia
 ---
 Recently I was talking about [Watir](http://watir.com/) on [IT Showoff](http://www.itshowoff.com/) conference.

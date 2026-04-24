@@ -1,5 +1,5 @@
 ---
-tags:  book book-club photo
+tags:  book book-club image
 title: Perfect Software by Gerald M. Weinberg (2021)
 ---
 ![Perfect Software by Gerald M. Weinberg](/assets/2021/perfect-software-2021.jpg)

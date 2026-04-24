@@ -1,5 +1,5 @@
 ---
-tags:  macos photo testing
+tags:  image macos testing
 title: How to Test with Internet Explorer on a Mac
 ---
 ![Random Photo: Globe, Utrecht, the Netherlands](/assets/2012/how-to-test-with-internet-explorer-on-a-mac.jpg "Random Photo: Globe, Utrecht, the Netherlands") Random Photo: Globe, Utrecht, the Netherlands

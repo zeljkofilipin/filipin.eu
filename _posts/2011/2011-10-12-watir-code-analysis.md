@@ -1,5 +1,5 @@
 ---
-tags:  photo watir
+tags:  image watir
 title: Watir Code Analysis
 ---
 I have read [Commit Volume and Commit Highlights](https://www.ohloh.net/blog/Commit_Volume_and_Commit_Highlights) blog post from the [Ohloh Blog](https://www.ohloh.net/blog).

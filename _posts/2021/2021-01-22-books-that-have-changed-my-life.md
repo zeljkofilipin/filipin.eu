@@ -1,5 +1,5 @@
 ---
-tags:  book featured photo productivity
+tags:  book featured image productivity
 title: Books That Have Changed My Life
 ---
 I read a lot of books. These are my stats according to Goodreads.

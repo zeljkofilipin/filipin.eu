@@ -1,5 +1,5 @@
 ---
-tags:  photo selenium
+tags:  image selenium
 title: Funny Selenium iOS driver bug
 ---
 <img src="/assets/2013/funny-selenium-ios-driver-bug.png" class="size-full wp-image-737" width="373" height="721" alt="Funny Selenium iOS driver bug" />Funny Selenium iOS driver bug

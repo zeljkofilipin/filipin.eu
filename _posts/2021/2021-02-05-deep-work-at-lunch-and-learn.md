@@ -1,5 +1,5 @@
 ---
-tags:  book event photo productivity speaker
+tags:  book event image productivity speaker
 title: Deep Work at Lunch and learn
 ---
 ![Deep Work](/assets/2021/deep-work.jpg "Deep Work")

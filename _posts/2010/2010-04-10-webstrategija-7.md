@@ -1,5 +1,5 @@
 ---
-tags:  event facebook photo speaker
+tags:  event facebook image speaker
 title: Web::Strategija 7, Zagreb, Croatia
 ---
 Recently I was talking about [Watir](http://watir.com/) on [Web::Strategija 7](http://webstrategija.com/07) conference.

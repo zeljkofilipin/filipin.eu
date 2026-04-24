@@ -1,5 +1,5 @@
 ---
-tags:  event photo wikimedia
+tags:  event image wikimedia
 title: Inspiration Week 2022
 ---
 # Introduction

@@ -1,5 +1,5 @@
 ---
-tags:  book book-club photo
+tags:  book book-club image
 title: An Introduction to General Systems Thinking by Gerald M. Weinberg
 ---
 ![An Introduction to General Systems Thinking](assets/2023/an-introduction-to-general-systems-thinking.png "An Introduction to General Systems Thinking")

@@ -1,5 +1,5 @@
 ---
-tags:  book photo productivity
+tags:  book image productivity
 title: Digital Minimalism by Cal Newport
 ---
 *Estimated reading time is 9-12 minutes.*

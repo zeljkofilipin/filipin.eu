@@ -1,5 +1,5 @@
 ---
-tags:  photo software wikimedia
+tags:  image software wikimedia
 title: MediaWiki Quickstart by Monte Hurd
 ---
 *Estimated reading time is 2 minutes.*

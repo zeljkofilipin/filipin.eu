@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO testing
 title: I’m Gonna Be a Rapid Tester Someday
 ---
 One comment says it all:

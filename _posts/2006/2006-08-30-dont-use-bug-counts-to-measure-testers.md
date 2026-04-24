@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO testing
 title: Don’t Use Bug Counts to Measure Testers
 ---
 I have just read a short article, [Don’t Use Bug Counts to Measure Testers](http://www.kaner.com/pdfs/bugcount.pdf) by [Cem Kaner](http://www.kaner.com/).

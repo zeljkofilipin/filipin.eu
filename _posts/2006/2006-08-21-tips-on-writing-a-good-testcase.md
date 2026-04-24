@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO testing
 title: Tips on Writing a Good TestCase
 ---
 From [wiki.mozilla.org](http://wiki.mozilla.org/Calendar:QA_TestCase_Writing_Day#Tips_on_Writing_a_Good_TestCase)

@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO testing
 title: Bug Severity Scale
 ---
 From time to time I have to forward our bug severity scale to a customer responsible for reporting bugs.

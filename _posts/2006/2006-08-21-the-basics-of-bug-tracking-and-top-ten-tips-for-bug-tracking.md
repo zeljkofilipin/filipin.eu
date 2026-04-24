@@ -1,5 +1,5 @@
 ---
-tags:  TODO
+tags:  TODO testing
 title: The Basics of Bug Tracking and Top Ten Tips for Bug Tracking
 ---
 I have been recommending this articles from [FogBugz Online Documentation](http://www.fogcreek.com/FogBugz/docs/50/index.html) to our customers (to improve their bug reporting skills):

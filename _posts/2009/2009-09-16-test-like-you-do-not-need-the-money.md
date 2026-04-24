@@ -1,5 +1,5 @@
 ---
-tags:  TODO image
+tags:  TODO image testing
 title: Test Like You Do Not Need the Money
 ---
 [![5](/assets/5.jpg "5")](http://www.flickr.com/photos/21518596@N00/2295547909)

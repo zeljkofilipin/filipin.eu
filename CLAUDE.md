@@ -101,6 +101,7 @@ Surveyed 2026-04-23. Items marked **broken** are likely already visible to reade
 ### Broken
 - **Old image references** (~37 posts, mostly 2005–2006 era): malformed image syntax from pre-Jekyll migration. Images are probably not rendering in those posts.
 - **Feed** (`/feed.xml`): verify that `jekyll-feed` is actually generating the feed. The gem is in the Gemfile but the agent could not confirm a `feed.xml` is being produced.
+- **Missing code blocks** (`HIGHLIGHTPLACEHOLDER`): `_posts/2009/2009-12-24-ruby-mail-on-cruby-jruby-and-ironruby.md` and `_posts/2010/2010-01-05-ruby-mail-and-benchmark-rb-on-cruby-jruby-ironruby-and-rubyinstaller.md` contain `HIGHLIGHTPLACEHOLDER2ENDPLACEHOLDER` / `HIGHLIGHTPLACEHOLDER3ENDPLACEHOLDER` strings where code blocks should be. Present since the first commit — original content must be recovered from the live blog or another source.
 
 ### High-impact improvements
 - **No post descriptions**: 0 of 487 posts have a `description` field in front matter. Affects SEO and social preview cards (Open Graph). Start with the most-visited posts.
